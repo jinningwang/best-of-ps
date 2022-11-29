@@ -1,11 +1,11 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
-    best-of-ps
+    Best-of Open Source Libraries for Power System Analysis
     <br>
 </h1>
 
 <p align="center">
-    <strong>🏆&nbsp; A ranked list of awesome projects. Updated weekly.</strong>
+    <strong>🏆&nbsp; A ranked list of awesome projects for power system analysis. Updated weekly.</strong>
 </p>
 
 <p align="center">
