@@ -25,11 +25,11 @@ labels:
   - label: "vis"
     description: "Visualization"
 # LTB
-  - label: "CURENT LTB"
+  - label: "ltb"
     image: "https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico"
     description: "CURENT Large-scale Testbed projects"
 # CURENT
-  - label: "CURENT"
+  - label: "curent"
     image: "https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico"
     description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
 # Langauage
@@ -44,7 +44,7 @@ projects:
 # Dynamic
   - name: LTB andes
     github_id: cuihantao/andes
-    labels: ["dynamic", "LTB", "python"]
+    labels: ["dynamic", "python", "ltb", "curent"]
     category: dynamic
     pypi_id: andes
     conda_id: andes
@@ -159,7 +159,7 @@ projects:
     license: BSD-3
   - name: Large-scale Testbed (LTB)
     github_id: CURENT/ltb2
-    labels: ["dynamic", "LTB", "python"]
+    labels: ["dynamic", "python", "ltb", "curent"]
     category: cosim
 #     pypi_id: helics
 #     conda_id: helics
@@ -169,7 +169,7 @@ projects:
 # Others
   - name: LTB DiME
     github_id: CURENT/dime
-    labels: ["LTB", "msg"]
+    labels: ["msg", "ltb", "curent"]
     category: cosim
 #     pypi_id: helics
 #     conda_id: helics
@@ -178,7 +178,7 @@ projects:
     license: GPL-3.0
   - name: LTB AGVis
     github_id: CURENT/agvis
-    labels: ["LTB", "vis"]
+    labels: ["vis", "ltb", "curent"]
     category: cosim
 #     pypi_id: helics
 #     conda_id: helics
