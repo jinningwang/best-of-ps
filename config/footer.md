@@ -3,7 +3,7 @@
 
 ## Related Resources
 
-- [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
+- [**Papers With Code**](https://paperswithcode.com): Discover ML papers, code, and evaluation tables.
 
 ## Contribution
 
