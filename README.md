@@ -41,6 +41,8 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 - ⏱️&nbsp; Last update timestamp on package manager
 - 📥&nbsp; Download count from package manager
 - 📦&nbsp; Number of dependent projects
+- <img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13">&nbsp; CURENT Large-scale Testbed projects
+- <img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13">&nbsp; CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks
 - <img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Power system analysis projects written in Python
 - <img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13">&nbsp; Power system analysis projects written in Python
 
@@ -50,7 +52,7 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://docs.andes.app/en/stable/">LTB andes</a></b> (🥇19 ·  ⭐ 130) - Power system dynamics simulation with symbolic.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://docs.andes.app/en/stable/">LTB andes</a></b> (🥇19 ·  ⭐ 130) - Power system dynamics simulation with symbolic.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/cuihantao/andes) (👨‍💻 16 · 🔀 60 · 📦 6 · 📋 44 - 9% open · ⏱️ 18.11.2022):
 
@@ -155,7 +157,7 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://precice.org/">precice</a></b> (🥇23 ·  ⭐ 480 · ➕) - Partitioned multi-physics simulations. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://precice.org/">precice</a></b> (🥇23 ·  ⭐ 480) - Partitioned multi-physics simulations. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/precice/precice) (👨‍💻 46 · 🔀 130 · 📥 13K · 📋 620 - 24% open · ⏱️ 28.11.2022):
 
@@ -174,9 +176,9 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 <details><summary>Show 4 hidden projects...</summary>
 
 - <b><a href="https://helics.org/tools/">HELICS</a></b> (🥈22 ·  ⭐ 83) - Large-scale Infrastructure Co-Simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://agvis.readthedocs.io/en/latest/">LTB AGVis</a></b> (🥉8) - Another Grid Visualizer, visualization program for CURENT Large-.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
-- <b><a href="https://ltbdime.readthedocs.io/en/latest/">LTB DiME</a></b> (🥉7) - Distributed Messaging Environment for CURENT Large-scale Testbed. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
-- <b><a href="https://github.com/CURENT/ltb2">Large-scale Testbed (LTB)</a></b> (🥉5 ·  ⭐ 1) - CURENT LTB. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://agvis.readthedocs.io/en/latest/">LTB AGVis</a></b> (🥉8) - Another Grid Visualizer, visualization program for CURENT.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://ltbdime.readthedocs.io/en/latest/">LTB DiME</a></b> (🥉6 ·  ⭐ 1 · 📉) - Distributed Messaging Environment for CURENT Large-.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/CURENT/ltb2">Large-scale Testbed (LTB)</a></b> (🥉5 ·  ⭐ 2) - CURENT LTB. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
 </details>
 
 ---
