@@ -25,9 +25,13 @@ labels:
   - label: "vis"
     description: "Visualization"
 # LTB
-  - label: "LTB"
-#     image: "https://www.python.org/static/favicon.ico"
-    description: "Large-scale Testbed projects"
+  - label: "CURENT LTB"
+    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico"
+    description: "CURENT Large-scale Testbed projects"
+# CURENT
+  - label: "CURENT"
+    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico"
+    description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
 # Langauage
   - label: "python"
     image: "https://www.python.org/static/favicon.ico"
