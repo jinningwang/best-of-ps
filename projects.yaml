@@ -1,6 +1,7 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+
 categories:
   - category: "dynamic"
     title: "Power System Dynamic Analysis"
@@ -10,6 +11,7 @@ categories:
     title: "Gas Network Analysis"
   - category: "cosim"
     title: "Infrastructure for Co-Simulation"
+
 labels:
 # Function
   - label: "dynamic"
@@ -33,6 +35,7 @@ labels:
   - label: "julia"
     image: "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico"
     description: "Power system analysis projects written in Python"
+
 projects:
 # Dynamic
   - name: LTB andes
@@ -50,7 +53,34 @@ projects:
     category: dynamic
     description: Dynamic Power System simulations
     license: BSD-3
-# Power Flow Analysis
+  - name: STEPS
+    github_id: changgang/steps
+    labels: ["dynamic"]
+    category: dynamic
+#     pypi_id: andes
+#     conda_id: andes
+    homepage: https://github.com/changgang/steps/wiki/
+    description: Balanced large-scale AC-DC hybrid power system analysis
+    license: MIT
+# Steady State
+  - name: GridCal
+    github_id: SanPen/GridCal
+    labels: ["steady-state", "python"]
+    category: steady-state
+    pypi_id: GridCal
+#     conda_id: GridCal
+    homepage: https://www.advancedgridinsights.com/gridcal
+    description: Cross-platform power systems software
+    license: LGPL-3.0
+  - name: PyPSA
+    github_id: PyPSA/PyPSA
+    labels: ["steady-state", "python"]
+    category: steady-state
+    pypi_id: pypsa
+    conda_id: pypsa
+    homepage: https://pypsa.readthedocs.io/en/latest/
+    description: Simulating and optimising modern power and energy systems
+    license: MIT
   - name: matpower
     github_id: MATPOWER/matpower
     labels: ["steady-state"]
@@ -77,6 +107,24 @@ projects:
     homepage: rwl.github.io/PYPOWER/api/
     description: Port of MATPOWER to Python
     license: BSD
+  - name: GridPath
+    github_id: blue-marble/gridpath
+    labels: ["steady-state", "python"]
+    category: steady-state
+#     pypi_id: gridpath
+#     conda_id: gridpath
+    homepage: https://gridpath.readthedocs.io/en/latest/?badge=latest
+    description: Power system planning and operations
+    license: Apache-2
+  - name: PyPowSyBl
+    github_id: powsybl/pypowsybl
+    labels: ["steady-state", "python"]
+    category: steady-state
+    pypi_id: pypowsybl
+#     conda_id: pypowsybl
+    homepage: https://pypowsybl.readthedocs.io/en/latest/?badge=latest
+    description: Power grid modelling and simulation
+    license: MPL-2.0
 # Gas Network Analysis
   - name: pandapipes
     github_id: e2nIEE/pandapipes
