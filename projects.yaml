@@ -4,11 +4,11 @@ configuration:
 
 categories:
   - category: "dynamic"
-    title: "Power System Dynamic Analysis"
+    title: "Power System Dynamic Simulation"
   - category: "steady-state"
-    title: "Power System Steady State Analysis"
+    title: "Power System Steady State Simulation"
   - category: "gasnet"
-    title: "Gas Network Analysis"
+    title: "Gas Network Simulation"
   - category: "cosim"
     title: "Infrastructure for Co-Simulation"
 
@@ -135,6 +135,15 @@ projects:
     description: A pipeflow calculation tool
     license: BSD-3
 # CoSim
+  - name: precice
+    github_id: precice/precice
+    labels: ["multi-energy"]
+    category: cosim
+    pypi_id: pyprecice
+    conda_id: pyprecice
+    homepage: https://precice.org/
+    description: Partitioned multi-physics simulations
+    license: LGPL-3.0
   - name: HELICS
     github_id: GMLC-TDC/HELICS
     labels: ["dynamic", "steady-state", "multi-energy", "python", "julia"]
@@ -157,7 +166,7 @@ projects:
   - name: LTB DiME
     github_id: CURENT/dime
     labels: ["LTB", "msg"]
-    category:
+    category: cosim
 #     pypi_id: helics
 #     conda_id: helics
     homepage: https://ltbdime.readthedocs.io/en/latest/
@@ -166,7 +175,7 @@ projects:
   - name: LTB AGVis
     github_id: CURENT/agvis
     labels: ["LTB", "vis"]
-    category:
+    category: cosim
 #     pypi_id: helics
 #     conda_id: helics
     homepage: https://agvis.readthedocs.io/en/latest/
