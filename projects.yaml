@@ -35,20 +35,20 @@ labels:
     description: "Power system analysis projects written in Python"
 projects:
 # Dynamic
-  - name: andes
+  - name: LTB andes
     github_id: cuihantao/andes
     labels: ["dynamic", "LTB", "python"]
     category: dynamic
     pypi_id: andes
     conda_id: andes
     homepage: https://docs.andes.app/en/stable/
-    description: Python toolbox / library for power system transient dynamics simulation with symbolic modeling and numerical analysis
+    description: Power system dynamics simulation with symbolic modeling and numerical analysis
     license: GPL-3.0
   - name: PowerSimulationsDynamics
     github_id: NREL-SIIP/PowerSimulationsDynamics.jl
     labels: ["dynamic", "julia"]
     category: dynamic
-    description: Julia package to run Dynamic Power System simulations. Part of the Scalable Integrated Infrastructure Planning Initiative at the National Renewable Energy Lab.
+    description: Dynamic Power System simulations
     license: BSD-3
 # Power Flow Analysis
   - name: matpower
@@ -57,7 +57,7 @@ projects:
     category: steady-state
     pypi_id: matpower
     homepage: https://matpower.org/
-    description: MATPOWER – steady state power flow simulation and optimization for MATLAB and Octave
+    description: Steady state power flow simulation
     license: BSD-3
   - name: pandapower
     github_id: e2nIEE/pandapower
@@ -66,7 +66,7 @@ projects:
     pypi_id: pandapower
     conda_id: pandapower
     homepage: https://www.pandapower.org/
-    description: An easy to use open source tool for power system modeling, analysis and optimization with a high degree of automation
+    description: Convenient Power System Modelling and Analysis
     license: BSD-3
   - name: PYPOWER
     github_id: rwl/PYPOWER
@@ -84,7 +84,7 @@ projects:
     category: gasnet
     pypi_id: pandapipes
     homepage: https://www.pandapipes.org/
-    description: An easy to use open source tool for fluid system modeling, analysis and optimization with a high degree of automation
+    description: A pipeflow calculation tool
     license: BSD-3
 # CoSim
   - name: HELICS
@@ -94,16 +94,16 @@ projects:
     pypi_id: helics
     conda_id: helics
     homepage: https://helics.org/tools/
-    description: Hierarchical Engine for Large-scale Infrastructure Co-Simulation (HELICS)
+    description: Large-scale Infrastructure Co-Simulation
     license: BSD-3
-  - name: Large-scale Testbed
+  - name: Large-scale Testbed (LTB)
     github_id: CURENT/ltb2
     labels: ["dynamic", "LTB", "python"]
     category: cosim
 #     pypi_id: helics
 #     conda_id: helics
 #     homepage: https://helics.org/tools/
-    description: A tightly integrated, closed-loop platform for rapid prototyping of power systems
+    description: CURENT LTB
     license: GPL-3.0
 # Others
   - name: LTB DiME
