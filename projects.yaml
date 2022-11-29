@@ -1,19 +1,126 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
-
 categories:
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
-
+  - category: "dynamic"
+    title: "Power System Dynamic Analysis"
+  - category: "steady-state"
+    title: "Power System Steady State Analysis"
+  - category: "gasnet"
+    title: "Gas Network Analysis"
+  - category: "cosim"
+    title: "Infrastructure for Co-Simulation"
 labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
-
+# Function
+  - label: "dynamic"
+    description: "Power system dynamic analysis related projects"
+  - label: "steady-state"
+    description: "Power system steady state analysis related projects"
+  - label: "multi-energy"
+    description: "Multi energy system analysis projects"
+  - label: "msg"
+    description: "Messaging Environment"
+  - label: "vis"
+    description: "Visualization"
+# LTB
+  - label: "LTB"
+#     image: "https://www.python.org/static/favicon.ico"
+    description: "Large-scale Testbed projects"
+# Langauage
+  - label: "python"
+    image: "https://www.python.org/static/favicon.ico"
+    description: "Power system analysis projects written in Python"
+  - label: "julia"
+    image: "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico"
+    description: "Power system analysis projects written in Python"
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+# Dynamic
+  - name: andes
+    github_id: cuihantao/andes
+    labels: ["dynamic", "LTB", "python"]
+    category: dynamic
+    pypi_id: andes
+    conda_id: andes
+    homepage: https://docs.andes.app/en/stable/
+    description: Python toolbox / library for power system transient dynamics simulation with symbolic modeling and numerical analysis
+    license: GPL-3.0
+  - name: PowerSimulationsDynamics
+    github_id: NREL-SIIP/PowerSimulationsDynamics.jl
+    labels: ["dynamic", "julia"]
+    category: dynamic
+    description: Julia package to run Dynamic Power System simulations. Part of the Scalable Integrated Infrastructure Planning Initiative at the National Renewable Energy Lab.
+    license: BSD-3
+# Power Flow Analysis
+  - name: matpower
+    github_id: MATPOWER/matpower
+    labels: ["steady-state"]
+    category: steady-state
+    pypi_id: matpower
+    homepage: https://matpower.org/
+    description: MATPOWER – steady state power flow simulation and optimization for MATLAB and Octave
+    license: BSD-3
+  - name: pandapower
+    github_id: e2nIEE/pandapower
+    labels: ["steady-state", "python"]
+    category: steady-state
+    pypi_id: pandapower
+    conda_id: pandapower
+    homepage: https://www.pandapower.org/
+    description: An easy to use open source tool for power system modeling, analysis and optimization with a high degree of automation
+    license: BSD-3
+  - name: PYPOWER
+    github_id: rwl/PYPOWER
+    labels: ["steady-state", "python"]
+    category: steady-state
+    pypi_id: PYPOWER
+    conda_id: pypower
+    homepage: rwl.github.io/PYPOWER/api/
+    description: Port of MATPOWER to Python
+    license: BSD
+# Gas Network Analysis
+  - name: pandapipes
+    github_id: e2nIEE/pandapipes
+    labels: ["steady-state", "python"]
+    category: gasnet
+    pypi_id: pandapipes
+    homepage: https://www.pandapipes.org/
+    description: An easy to use open source tool for fluid system modeling, analysis and optimization with a high degree of automation
+    license: BSD-3
+# CoSim
+  - name: HELICS
+    github_id: GMLC-TDC/HELICS
+    labels: ["dynamic", "steady-state", "multi-energy", "python", "julia"]
+    category: cosim
+    pypi_id: helics
+    conda_id: helics
+    homepage: https://helics.org/tools/
+    description: Hierarchical Engine for Large-scale Infrastructure Co-Simulation (HELICS)
+    license: BSD-3
+  - name: Large-scale Testbed
+    github_id: CURENT/ltb2
+    labels: ["dynamic", "LTB", "python"]
+    category: cosim
+#     pypi_id: helics
+#     conda_id: helics
+#     homepage: https://helics.org/tools/
+    description: A tightly integrated, closed-loop platform for rapid prototyping of power systems
+    license: GPL-3.0
+# Others
+  - name: LTB DiME
+    github_id: CURENT/dime
+    labels: ["LTB", "msg"]
+    category:
+#     pypi_id: helics
+#     conda_id: helics
+    homepage: https://ltbdime.readthedocs.io/en/latest/
+    description: Distributed Messaging Environment for CURENT Large-scale Testbed
+    license: GPL-3.0
+  - name: LTB AGVis
+    github_id: CURENT/agvis
+    labels: ["LTB", "vis"]
+    category:
+#     pypi_id: helics
+#     conda_id: helics
+    homepage: https://agvis.readthedocs.io/en/latest/
+    description: Another Grid Visualizer, visualization program for CURENT Large-scale Testbed
+    license: GPL-3.0
