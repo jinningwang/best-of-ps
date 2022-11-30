@@ -124,32 +124,12 @@ _Power System Steady State Simulation_
 	docker pull matpower/matpower
 	```
 </details>
-<details><summary><b><a href="https://www.nrel.gov/analysis/siip.html">PowerSimulations</a></b> (🥈20 ·  ⭐ 180 · ➕) - Optimization Simulation and Modeling of Power.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://www.nrel.gov/analysis/siip.html">PowerSimulations</a></b> (🥈20 ·  ⭐ 180) - Optimization Simulation and Modeling of Power Systems;.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/NREL-SIIP/PowerSimulations.jl) (👨‍💻 28 · 🔀 42 · 📋 220 - 7% open · ⏱️ 09.11.2022):
 
 	```
 	git clone https://github.com/nrel-siip/powersimulations.jl
-	```
-</details>
-<details><summary><b><a href="rwl.github.io/PYPOWER/api/">PYPOWER</a></b> (🥉19 ·  ⭐ 250) - Port of MATPOWER to Python. <code><a href="https://tldrlegal.com/search?q=BSD">❗️BSD</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/rwl/PYPOWER) (👨‍💻 18 · 🔀 88 · 📦 70 · 📋 35 - 68% open · ⏱️ 24.06.2022):
-
-	```
-	git clone https://github.com/rwl/PYPOWER
-	```
-- [PyPi](https://pypi.org/project/PYPOWER) (📥 2.5K / month):
-	```
-	pip install PYPOWER
-	```
-- [Conda](https://anaconda.org/anaconda/pypower):
-	```
-	conda install -c anaconda pypower
-	```
-- [Docker Hub](https://hub.docker.com/r/hwanghust/pypower) (📥 16 · ⏱️ 19.05.2019):
-	```
-	docker pull hwanghust/pypower
 	```
 </details>
 <details><summary><b><a href="https://www.gridpath.io/">GridPath</a></b> (🥉17 ·  ⭐ 63) - Power system planning and operations. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
@@ -159,6 +139,10 @@ _Power System Steady State Simulation_
 	```
 	git clone https://github.com/blue-marble/gridpath
 	```
+</details>
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="rwl.github.io/PYPOWER/api/">PYPOWER</a></b> (🥉19 ·  ⭐ 250) - Port of MATPOWER to Python. <code><a href="https://tldrlegal.com/search?q=BSD">❗️BSD</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
 
@@ -282,7 +266,7 @@ _Gas Network Simulation_
 
 _Geographical Visualization for Power Grid_
 
-<details><summary><b><a href="https://www.nrel.gov/analysis/siip.html">PowerGraphics</a></b> (🥇12 ·  ⭐ 19 · ➕) - Visualization Program for PowerSimulations; Part of the.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://www.nrel.gov/analysis/siip.html">PowerGraphics</a></b> (🥇12 ·  ⭐ 19) - Visualization Program for PowerSimulations; Part of the SIIP.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/NREL-SIIP/PowerGraphics.jl) (👨‍💻 9 · 🔀 8 · 📋 29 - 31% open · ⏱️ 17.11.2022):
 
