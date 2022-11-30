@@ -43,7 +43,7 @@ projects:
     category: dynamic
 #     pypi_id: andes
 #     conda_id: andes
-#     homepage: https://docs.andes.app/en/stable/
+    homepage: https://build.openmodelica.org/Documentation/PowerSystems.html
     description: Modelica 3rd party library for electrical power systems
     license: Modelica License 2
   - name: OpenHybridSim
