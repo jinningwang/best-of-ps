@@ -17,18 +17,21 @@ categories:
     title: "Machine/Reinforcement Learning"
   - category: "data"
     title: "Power System Data"
-  - category: "cosim"
-    title: "Co-Simulation"
+  - category: "escosim"
+    title: "Co-Simulation Platform for Energy System"
     subtitle: "Infrastructure for Co-Simulation"
   - category: "gasnet"
     title: "Gas"
     subtitle: "Gas Network Simulation"
   - category: "vis"
     title: "Visualization"
-    subtitle: "Geographical Visualization for Power Grid"
+    subtitle: "Visualization for Power Grid"
   - category: "msg"
     title: "Messaging"
     subtitle: "Messaging Environment for Distributed Computation"
+  - category: "phycosim"
+    title: "Co-Simulation Platform for Other Physical System"
+    subtitle: "Infrastructure for Co-Simulation"
 
 labels:
 # Langauage
@@ -52,6 +55,14 @@ labels:
 
 projects:
 # Dynamic
+  - name: TSAT
+    category: dynamic
+#     labels:
+#     github_id:
+    homepage: https://www.dsatools.com
+    docs_url: https://www.dsatools.com/tsat/
+    license: https://www.dsatools.com/dsatools-software-license-agreement/
+    description: Electromechanical Time-domain Simulation; Part of DSA Tools
   - name: LTB andes
     category: dynamic
     labels: ["python", "jupyter", "ltb", "curent"]
@@ -84,7 +95,7 @@ projects:
 #     docs_url:
     license: BSD-3
     description: Power system Electromagnetic Transient-Transient Stability hybrid simulation
-  - name: PowerSimulationsDynamics
+  - name: PowerSimulationsDynamics.jl
     category: dynamic
     labels: ["julia"]
     github_id: NREL-SIIP/PowerSimulationsDynamics.jl
@@ -103,7 +114,39 @@ projects:
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
 # Steady State
-  - name: PowerSimulations
+  - name: VSAT
+    category: steady-state
+#     labels:
+#     github_id:
+    homepage: https://www.dsatools.com
+    docs_url: https://www.dsatools.com/vsat/
+    license: https://www.dsatools.com/dsatools-software-license-agreement/
+    description: Voltage Security Assessment using powerflow-based steady-state methods; Part of DSA Tools
+  - name: PSAT
+    category: steady-state
+#     labels:
+#     github_id:
+    homepage: https://www.dsatools.com
+    docs_url: https://www.dsatools.com/psat/
+    license: https://www.dsatools.com/dsatools-software-license-agreement/
+    description: Powerflow Analysis; Part of DSA Tools
+  - name: EGRET
+    category: steady-state
+    labels: ["python"]
+    github_id: grid-parity-exchange/Egret
+#     homepage:
+#     docs_url:
+    license: BSD
+    description: Tools for Power Systems Optimization Modeling
+  - name: PowerModels.jl
+    category: steady-state
+    labels: ["julia"]
+    github_id: lanl-ansi/PowerModels.jl
+#     homepage:
+    docs_url: https://lanl-ansi.github.io/PowerModels.jl/stable/
+    license: BSD
+    description: Power Network Optimization
+  - name: PowerSimulations.jl
     category: steady-state
     labels: ["julia"]
     github_id: nrel-siip/powersimulations.jl
@@ -233,29 +276,18 @@ projects:
 #     docs_url:
     license: GPL-3
     description: ANDES RL Environment for OpenAI Gym
-# CoSim
-  - name: precice
-    category: cosim
-#     labels:
-    github_id: precice/precice
-    pypi_id: pyprecice
-    conda_id: pyprecice
-    dockerhub_id: precice/precice
-    homepage: https://precice.org/
-    docs_url: https://precice.org/docs.html
-    license: LGPL-3.0
-    description: Partitioned multi-physics simulations
+# ESCoSim
   - name: HELICS
     github_id: GMLC-TDC/HELICS
     labels: ["python", "julia"]
-    category: cosim
+    category: escosim
     pypi_id: helics
     conda_id: helics
     homepage: https://helics.org/tools/
     description: Large-scale Infrastructure Co-Simulation
     license: BSD-3
   - name: Large-scale Testbed (LTB)
-    category: cosim
+    category: escosim
     labels: ["python", "ltb", "curent"]
     github_id: CURENT/ltb2
 #     pypi_id:
@@ -295,7 +327,7 @@ projects:
 #     homepage:
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: Visualization Program for LTB; Part of CURENT LTB
+    description: Geographical Visualization of Power Grid; Part of CURENT LTB
   - name: PowerGraphics
     category: vis
     labels: ["julia"]
@@ -306,3 +338,26 @@ projects:
     docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
     license: BSD-3
     description: Visualization Program for PowerSimulations; Part of the SIIP at NREL
+# PHYCoSim
+  - name: OpenModelica
+    category: phycosim
+#     labels:
+    github_id: OpenModelica/OpenModelica
+#     pypi_id: pyprecice
+#     conda_id: pyprecice
+    dockerhub_id: openmodelica/openmodelica
+    homepage: https://openmodelica.org
+    docs_url: https://openmodelica.org/useresresources/userdocumentation
+    license: https://modelica.org/licenses/ModelicaLicense2/
+    description: Modelica-based modeling and simulation environment
+  - name: precice
+    category: phycosim
+#     labels:
+    github_id: precice/precice
+    pypi_id: pyprecice
+    conda_id: pyprecice
+    dockerhub_id: precice/precice
+    homepage: https://precice.org/
+    docs_url: https://precice.org/docs.html
+    license: LGPL-3.0
+    description: Partitioned multi-physics simulations
