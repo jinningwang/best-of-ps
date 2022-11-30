@@ -9,14 +9,14 @@ categories:
     title: "Power System Steady State Simulation"
   - category: "ops"
     title: "Optimization solver"
+  - category: "mrl"
+    title: "Machine Learning/Reinforcement Learning"
   - category: "data"
     title: "Power System Data Analysis"
   - category: "cosim"
     title: "Infrastructure for Co-Simulation"
   - category: "gasnet"
     title: "Gas Network Simulation"
-  - category: "mrl"
-    title: "Machine Learning/Reinforcement Learning"
   - category: "vis"
     title: "Visualization"
   - category: "msg"
@@ -146,7 +146,7 @@ projects:
     homepage: https://pypowsybl.readthedocs.io/en/latest/?badge=latest
     description: Power grid modelling and simulation
     license: MPL-2.0
-# Optimization solver
+# Optimizer
   - name: Ipopt
     github_id: coin-or/Ipopt
 #     labels: ["python"]
@@ -180,6 +180,15 @@ projects:
     description: Cross-Domain Data Hub with Electricity Market, Coronavirus Case, Mobility and Satellite Data in U.S.
     license: MIT
 # Machine/Reinforcement Learning
+  - name: Grid2Op
+    github_id: rte-france/Grid2Op
+    labels: ["python"]
+    category: mrl
+    pypi_id: Grid2Op
+#     conda_id: andes
+    homepage: https://l2rpn.chalearn.org/
+    description: a testbed platform to model sequential decision making in power systems.
+    license: MPL-2.0
   - name: andes_gym
     github_id: cuihantao/andes_gym
     labels: ["python", "ltb", "curent"]
