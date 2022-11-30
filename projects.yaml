@@ -7,23 +7,29 @@ configuration:
 
 categories:
   - category: "dynamic"
-    title: "Power System Dynamic Simulation"
+    title: "Dynamic"
+    subtitle: "Power System Dynamic Simulation."
   - category: "steady-state"
-    title: "Power System Steady State Simulation"
+    title: "Steady State"
+    subtitle: "Power System Steady State Simulation"
   - category: "ops"
-    title: "Optimization solver"
+    title: "Optimizer"
   - category: "mrl"
-    title: "Machine Learning/Reinforcement Learning"
+    title: "Machine/Reinforcement Learning"
   - category: "data"
-    title: "Power System Data Analysis"
+    title: "Power System Data"
   - category: "cosim"
-    title: "Infrastructure for Co-Simulation"
+    title: "Co-Simulation"
+    subtitle: "Infrastructure for Co-Simulation"
   - category: "gasnet"
-    title: "Gas Network Simulation"
+    title: "Gas"
+    subtitle: "Gas Network Simulation"
   - category: "vis"
     title: "Visualization"
+    subtitle: "Geographical Visualization for Power Grid"
   - category: "msg"
     title: "Messaging"
+    subtitle: "Messaging Environment for Distributed Computation"
 
 labels:
 # LTB
@@ -41,9 +47,23 @@ labels:
   - label: "julia"
     image: "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico"
     description: "Power system analysis projects written in Python"
+  - label: "jupyter"
+    image: "https://git.io/JLy1E"
+    description: "Jupyter related project"
 
 projects:
 # Dynamic
+  - name: LTB andes
+    category: dynamic
+    labels: ["python", "jupyter", "ltb", "curent"]
+    github_id: cuihantao/andes
+    pypi_id: andes
+    conda_id: andes
+    dockerhub_id: cuihantao/andes
+    homepage:
+    docs_url: https://docs.andes.app/en/stable/
+    license: GPL-3
+    description: Transient Stability Simulator with Hybrid Symbolic-Numeric Framework; Part of CURENT LTB
   - name: PowerSystems
     category: dynamic
     labels:
@@ -51,168 +71,181 @@ projects:
     pypi_id:
     conda_id:
     dockerhub_id:
-    license: https://modelica.org/licenses/ModelicaLicense2/
-    description: Modelica 3rd party library for electrical power systems
     homepage:
     docs_url: https://build.openmodelica.org/Documentation/PowerSystems.html
+    license: https://modelica.org/licenses/ModelicaLicense2/
+    description: Modelica 3rd party library for electrical power systems
   - name: OpenHybridSim
     category: dynamic
     labels:
     github_id: OpenHybridSim/OpenHybridSim-code
     pypi_id:
     conda_id:
-#     homepage: https://docs.andes.app/en/stable/
+    homepage:
+    docs_url:
+    license: BSD-3
     description: Power system Electromagnetic Transient-Transient Stability hybrid simulation
-    license: BSD-3
-  - name: LTB andes
-    github_id: cuihantao/andes
-    labels: ["python", "ltb", "curent"]
-    category: dynamic
-    pypi_id: andes
-    conda_id: andes
-    homepage: https://docs.andes.app/en/stable/
-    description: Power system Transient Stability simulation with symbolic modeling and numerical analysis
-    license: GPL-3.0
   - name: PowerSimulationsDynamics
-    github_id: NREL-SIIP/PowerSimulationsDynamics.jl
+    category: dynamic
     labels: ["julia"]
-    category: dynamic
-    description: Dynamic Power System simulations
+    github_id: NREL-SIIP/PowerSimulationsDynamics.jl
+    homepage: https://www.nrel.gov/analysis/siip.html
+    docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
     license: BSD-3
+    description: Dynamic Power System simulations; Part of the SIIP at NREL
   - name: STEPS
-    github_id: changgang/steps
-#     labels: ["dynamic"]
     category: dynamic
-#     pypi_id: andes
-#     conda_id: andes
-    homepage: https://github.com/changgang/steps/wiki/
-    description: Balanced large-scale AC-DC hybrid power system analysis
+    labels:
+    github_id: changgang/steps
+    pypi_id:
+    conda_id:
+    homepage:
+    docs_url: https://github.com/changgang/steps/wiki/
     license: MIT
+    description: Balanced large-scale AC-DC hybrid power system analysis
 # Steady State
+  - name: PowerSimulations
+    category: steady-state
+    labels: ["julia"]
+    github_id: nrel-siip/powersimulations.jl
+    homepage: https://www.nrel.gov/analysis/siip.html
+    docs_url: https://nrel-siip.github.io/PowerSimulations.jl/latest/
+    license: BSD-3
+    description: Optimization Simulation and Modeling of Power Systems; Part of the SIIP at NREL
   - name: GridCal
+    category: steady-state
+    labels: ["python"]
     github_id: SanPen/GridCal
-    labels: ["python"]
-    category: steady-state
     pypi_id: GridCal
-#     conda_id: GridCal
+    conda_id:
     homepage: https://www.advancedgridinsights.com/gridcal
+    docs_url: https://gridcal.readthedocs.io/en/latest/?badge=latest
+    license: LGPL-3
     description: Cross-platform power systems software
-    license: LGPL-3.0
   - name: PyPSA
-    github_id: PyPSA/PyPSA
-    labels: ["python"]
     category: steady-state
+    labels: ["python"]
+    github_id: PyPSA/PyPSA
     pypi_id: pypsa
     conda_id: pypsa
-    homepage: https://pypsa.readthedocs.io/en/latest/
-    description: Simulating and optimising modern power and energy systems
+    dockerhub_id: nimfetrisa/pypsa-eur
+    homepage:
+    docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
+    description: Simulating and optimising modern power and energy systems
   - name: matpower
-    github_id: MATPOWER/matpower
-#     labels: ["steady-state"]
     category: steady-state
+    labels:
+    github_id: MATPOWER/matpower
     pypi_id: matpower
+    dockerhub_id: matpower/matpower
     homepage: https://matpower.org/
-    description: Steady state power flow simulation
+    docs_url: https://matpower.org/doc/
     license: BSD-3
+    description: Steady state power flow simulation
   - name: pandapower
     github_id: e2nIEE/pandapower
     labels: ["python"]
     category: steady-state
     pypi_id: pandapower
     conda_id: pandapower
+    dockerhub_id: pauldepraz/pandapowerapi
     homepage: https://www.pandapower.org/
-    description: Convenient Power System Modelling and Analysis
+    docs_url: https://pandapower.readthedocs.io/en/latest/
     license: BSD-3
+    description: Convenient Power System Modelling and Analysis
   - name: PYPOWER
-    github_id: rwl/PYPOWER
-    labels: ["python"]
     category: steady-state
+    labels: ["python"]
+    github_id: rwl/PYPOWER
     pypi_id: PYPOWER
     conda_id: pypower
+    dockerhub_id: hwanghust/pypower
     homepage: rwl.github.io/PYPOWER/api/
-    description: Port of MATPOWER to Python
+    docs_url: http://rwl.github.io/PYPOWER/index.html
     license: BSD
+    description: Port of MATPOWER to Python
   - name: GridPath
+    category: steady-state
+    labels: ["python"]
     github_id: blue-marble/gridpath
-    labels: ["python"]
-    category: steady-state
-#     pypi_id: gridpath
-#     conda_id: gridpath
-    homepage: https://gridpath.readthedocs.io/en/latest/?badge=latest
-    description: Power system planning and operations
+    pypi_id:
+    conda_id:
+    homepage: https://www.gridpath.io/
+    docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
     license: Apache-2
-  - name: PyPowSyBl
-    github_id: powsybl/pypowsybl
-    labels: ["python"]
-    category: steady-state
-    pypi_id: pypowsybl
-#     conda_id: pypowsybl
-    homepage: https://pypowsybl.readthedocs.io/en/latest/?badge=latest
-    description: Power grid modelling and simulation
-    license: MPL-2.0
+    description: Power system planning and operations
 # Optimizer
   - name: Ipopt
-    github_id: coin-or/Ipopt
-#     labels: ["python"]
     category: ops
+    labels: ["python"]
+    github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: ipopt
-    homepage: https://coin-or.github.io/Ipopt/
-    description: COIN-OR Interior Point Optimizer
+    homepage:
+    docs_url: https://coin-or.github.io/Ipopt/
     license: EPL-2.0
+    description: COIN-OR Interior Point Optimizer
   - name: HiGHS
     github_id: ERGO-Code/HiGHS
-#     labels: ["python"]
+    labels: ["python"]
     category: ops
     pypi_id: scikit-highs
-#     conda_id: pypowsybl
+    conda_id:
     homepage: https://highs.dev/
-    description: High performance serial and parallel solver for large scale sparse linear optimization problems
+    docs_url: https://ergo-code.github.io/HiGHS/
     license: MIT
+    description: High performance serial and parallel solver for large scale sparse linear optimization problems
 # Data
   - name: Data on Energy
+    category: data
+    labels: ["python"]
+    resource: True
     github_id: owid/energy-data
-    labels: ["python"]
-    category: data
     homepage: https://ourworldindata.org/energy
-    description: Data on energy by Our World in Data
     license: CC-BY
+    description: Data on energy by Our World in Data
   - name: COVID-EMDA
-    github_id: tamu-engineering-research/COVID-EMDA
-    labels: ["python"]
     category: data
-    description: Cross-Domain Data Hub with Electricity Market, Coronavirus Case, Mobility and Satellite Data in U.S.
+    labels: ["python"]
+    resource: True
+    github_id: tamu-engineering-research/COVID-EMDA
     license: MIT
+    description: Cross-Domain Data Hub with Electricity Market, Coronavirus Case, Mobility and Satellite Data in USA
 # Machine/Reinforcement Learning
   - name: Grid2Op
     github_id: rte-france/Grid2Op
-    labels: ["python"]
+    labels: ["python", "jupyter"]
     category: mrl
     pypi_id: Grid2Op
-#     conda_id: andes
+    conda_id:
+    dockerhub_id: bdonnot/grid2op
     homepage: https://l2rpn.chalearn.org/
-    description: a testbed platform to model sequential decision making in power systems.
+    docs_url: https://grid2op.readthedocs.io/en/latest/
     license: MPL-2.0
+    description: A testbed platform to model sequential decision making in power systems
   - name: andes_gym
-    github_id: cuihantao/andes_gym
-    labels: ["python", "ltb", "curent"]
     category: mrl
-#     pypi_id: andes
-#     conda_id: andes
-#     homepage: https://docs.andes.app/en/stable/
+    labels: ["python", "curent"]
+    github_id: cuihantao/andes_gym
+    pypi_id: andes
+    conda_id: andes
+    homepage:
+    docs_url:
+    license: GPL-3
     description: ANDES RL Environment for OpenAI Gym
-    license: GPL-3.0
 # CoSim
   - name: precice
-    github_id: precice/precice
-#     labels: ["multi-energy"]
     category: cosim
+    labels:
+    github_id: precice/precice
     pypi_id: pyprecice
     conda_id: pyprecice
+    dockerhub_id: precice/precice
     homepage: https://precice.org/
-    description: Partitioned multi-physics simulations
+    docs_url: https://precice.org/docs.html
     license: LGPL-3.0
+    description: Partitioned multi-physics simulations
   - name: HELICS
     github_id: GMLC-TDC/HELICS
     labels: ["python", "julia"]
@@ -223,40 +256,53 @@ projects:
     description: Large-scale Infrastructure Co-Simulation
     license: BSD-3
   - name: Large-scale Testbed (LTB)
-    github_id: CURENT/ltb2
-    labels: ["python", "ltb", "curent"]
     category: cosim
-#     pypi_id: helics
-#     conda_id: helics
-#     homepage: https://helics.org/tools/
-    description: CURENT LTB
+    labels: ["python", "ltb", "curent"]
+    github_id: CURENT/ltb2
+    pypi_id:
+    conda_id:
+    homepage:
     license: GPL-3.0
+    description: CURENT Large-scale Testbed
 # Gas Network Analysis
   - name: pandapipes
-    github_id: e2nIEE/pandapipes
-    labels: ["python"]
     category: gasnet
+    labels: ["python"]
+    github_id: e2nIEE/pandapipes
     pypi_id: pandapipes
     homepage: https://www.pandapipes.org/
-    description: A pipeflow calculation tool
+    docs_url: https://jkpandapipes.readthedocs.io/en/latest/
     license: BSD-3
+    description: A pipeflow calculation tool
 # MSG
   - name: LTB DiME
-    github_id: CURENT/dime
-    labels: ["ltb", "curent"]
     category: msg
-#     pypi_id: helics
-#     conda_id: helics
-    homepage: https://ltbdime.readthedocs.io/en/latest/
-    description: Distributed Messaging Environment for CURENT Large-scale Testbed
+    labels: ["ltb", "curent"]
+    github_id: CURENT/dime
+    pypi_id:
+    conda_id:
+    homepage:
+    docs_url: https://ltbdime.readthedocs.io/en/latest/
     license: GPL-3.0
+    description: Distributed Messaging Environment for LTB; Part of CURENT LTB
 # VIS
   - name: LTB AGVis
     github_id: CURENT/agvis
-    labels: ["ltb", "curent"]
     category: vis
-#     pypi_id: helics
-#     conda_id: helics
-    homepage: https://agvis.readthedocs.io/en/latest/
-    description: Another Grid Visualizer, visualization program for CURENT Large-scale Testbed
+    labels: ["ltb", "curent"]
+    pypi_id:
+    conda_id:
+    homepage: 
+    docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
+    description: Visualization Program for LTB; Part of CURENT LTB
+  - name: PowerGraphics
+    category: vis
+    labels: ["julia"]
+    github_id: nrel-siip/powergraphics.jl
+    pypi_id:
+    conda_id:
+    homepage: https://www.nrel.gov/analysis/siip.html
+    docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
+    license: BSD-3
+    description: Visualization Program for PowerSimulations; Part of the SIIP at NREL
