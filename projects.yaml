@@ -9,6 +9,8 @@ categories:
     title: "Power System Steady State Simulation"
   - category: "gasnet"
     title: "Gas Network Simulation"
+  - category: "mrl"
+    title: "Machine Learning/Reinforcement Learning"
   - category: "vis"
     title: "Visualization"
   - category: "msg"
@@ -17,13 +19,6 @@ categories:
     title: "Infrastructure for Co-Simulation"
 
 labels:
-# Function
-  - label: "dynamic"
-    description: "Power system dynamic analysis related projects"
-  - label: "steady-state"
-    description: "Power system steady state analysis related projects"
-  - label: "multi-energy"
-    description: "Multi energy system analysis projects"
 # LTB
   - label: "ltb"
     image: "https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico"
@@ -42,24 +37,42 @@ labels:
 
 projects:
 # Dynamic
+  - name: PowerSystems
+    github_id: modelica-3rdparty/PowerSystems
+#     labels: ["dynamic"]
+    category: dynamic
+#     pypi_id: andes
+#     conda_id: andes
+#     homepage: https://docs.andes.app/en/stable/
+    description: Modelica 3rd party library for electrical power systems
+    license: Modelica License 2
+  - name: OpenHybridSim
+    github_id: OpenHybridSim/OpenHybridSim-code
+#     labels: ["dynamic"]
+    category: dynamic
+#     pypi_id: andes
+#     conda_id: andes
+#     homepage: https://docs.andes.app/en/stable/
+    description: Power system Electromagnetic Transient-Transient Stability hybrid simulation
+    license: BSD-3
   - name: LTB andes
     github_id: cuihantao/andes
-    labels: ["dynamic", "python", "ltb", "curent"]
+    labels: ["python", "ltb", "curent"]
     category: dynamic
     pypi_id: andes
     conda_id: andes
     homepage: https://docs.andes.app/en/stable/
-    description: Power system dynamics simulation with symbolic modeling and numerical analysis
+    description: Power system Transient Stability simulation with symbolic modeling and numerical analysis
     license: GPL-3.0
   - name: PowerSimulationsDynamics
     github_id: NREL-SIIP/PowerSimulationsDynamics.jl
-    labels: ["dynamic", "julia"]
+    labels: ["julia"]
     category: dynamic
     description: Dynamic Power System simulations
     license: BSD-3
   - name: STEPS
     github_id: changgang/steps
-    labels: ["dynamic"]
+#     labels: ["dynamic"]
     category: dynamic
 #     pypi_id: andes
 #     conda_id: andes
@@ -69,7 +82,7 @@ projects:
 # Steady State
   - name: GridCal
     github_id: SanPen/GridCal
-    labels: ["steady-state", "python"]
+    labels: ["python"]
     category: steady-state
     pypi_id: GridCal
 #     conda_id: GridCal
@@ -78,7 +91,7 @@ projects:
     license: LGPL-3.0
   - name: PyPSA
     github_id: PyPSA/PyPSA
-    labels: ["steady-state", "python"]
+    labels: ["python"]
     category: steady-state
     pypi_id: pypsa
     conda_id: pypsa
@@ -87,7 +100,7 @@ projects:
     license: MIT
   - name: matpower
     github_id: MATPOWER/matpower
-    labels: ["steady-state"]
+#     labels: ["steady-state"]
     category: steady-state
     pypi_id: matpower
     homepage: https://matpower.org/
@@ -95,7 +108,7 @@ projects:
     license: BSD-3
   - name: pandapower
     github_id: e2nIEE/pandapower
-    labels: ["steady-state", "python"]
+    labels: ["python"]
     category: steady-state
     pypi_id: pandapower
     conda_id: pandapower
@@ -104,7 +117,7 @@ projects:
     license: BSD-3
   - name: PYPOWER
     github_id: rwl/PYPOWER
-    labels: ["steady-state", "python"]
+    labels: ["python"]
     category: steady-state
     pypi_id: PYPOWER
     conda_id: pypower
@@ -113,7 +126,7 @@ projects:
     license: BSD
   - name: GridPath
     github_id: blue-marble/gridpath
-    labels: ["steady-state", "python"]
+    labels: ["python"]
     category: steady-state
 #     pypi_id: gridpath
 #     conda_id: gridpath
@@ -122,7 +135,7 @@ projects:
     license: Apache-2
   - name: PyPowSyBl
     github_id: powsybl/pypowsybl
-    labels: ["steady-state", "python"]
+    labels: ["python"]
     category: steady-state
     pypi_id: pypowsybl
 #     conda_id: pypowsybl
@@ -132,7 +145,7 @@ projects:
 # Gas Network Analysis
   - name: pandapipes
     github_id: e2nIEE/pandapipes
-    labels: ["steady-state", "python"]
+    labels: ["python"]
     category: gasnet
     pypi_id: pandapipes
     homepage: https://www.pandapipes.org/
@@ -141,7 +154,7 @@ projects:
 # CoSim
   - name: precice
     github_id: precice/precice
-    labels: ["multi-energy"]
+#     labels: ["multi-energy"]
     category: cosim
     pypi_id: pyprecice
     conda_id: pyprecice
@@ -150,7 +163,7 @@ projects:
     license: LGPL-3.0
   - name: HELICS
     github_id: GMLC-TDC/HELICS
-    labels: ["dynamic", "steady-state", "multi-energy", "python", "julia"]
+    labels: ["python", "julia"]
     category: cosim
     pypi_id: helics
     conda_id: helics
@@ -159,12 +172,22 @@ projects:
     license: BSD-3
   - name: Large-scale Testbed (LTB)
     github_id: CURENT/ltb2
-    labels: ["dynamic", "python", "ltb", "curent"]
+    labels: ["python", "ltb", "curent"]
     category: cosim
 #     pypi_id: helics
 #     conda_id: helics
 #     homepage: https://helics.org/tools/
     description: CURENT LTB
+    license: GPL-3.0
+# Machine/Reinforcement Learning
+  - name: andes_gym
+    github_id: cuihantao/andes_gym
+    labels: ["python", "ltb", "curent"]
+    category: mrl
+#     pypi_id: andes
+#     conda_id: andes
+#     homepage: https://docs.andes.app/en/stable/
+    description: ANDES RL Environment for OpenAI Gym
     license: GPL-3.0
 # MSG
   - name: LTB DiME
@@ -176,6 +199,7 @@ projects:
     homepage: https://ltbdime.readthedocs.io/en/latest/
     description: Distributed Messaging Environment for CURENT Large-scale Testbed
     license: GPL-3.0
+# VIS
   - name: LTB AGVis
     github_id: CURENT/agvis
     labels: ["ltb", "curent"]
