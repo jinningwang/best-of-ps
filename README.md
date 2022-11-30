@@ -10,21 +10,24 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-16-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-19-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/jinningwang/best-of-ps/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/jinningwang/best-of-ps?color=green&label=updated"></a>
 </p>
 
-This curated list contains 16 awesome open-source projects with a total of 3.1K stars grouped into 4 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jinningwang/best-of-ps/issues/new/choose), submit a [pull request](https://github.com/jinningwang/best-of-ps/pulls), or directly edit the [projects.yaml](https://github.com/jinningwang/best-of-ps/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 19 awesome open-source projects with a total of 3.2K stars grouped into 7 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jinningwang/best-of-ps/issues/new/choose), submit a [pull request](https://github.com/jinningwang/best-of-ps/pulls), or directly edit the [projects.yaml](https://github.com/jinningwang/best-of-ps/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
 ## Contents
 
-- [Power System Dynamic Simulation](#power-system-dynamic-simulation) _3 projects_
+- [Power System Dynamic Simulation](#power-system-dynamic-simulation) _5 projects_
 - [Power System Steady State Simulation](#power-system-steady-state-simulation) _7 projects_
 - [Gas Network Simulation](#gas-network-simulation) _1 projects_
-- [Infrastructure for Co-Simulation](#infrastructure-for-co-simulation) _5 projects_
+- [Machine Learning/Reinforcement Learning](#machine-learningreinforcement-learning) _1 projects_
+- [Visualization](#visualization) _1 projects_
+- [Messaging](#messaging) _1 projects_
+- [Infrastructure for Co-Simulation](#infrastructure-for-co-simulation) _3 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -52,14 +55,14 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://docs.andes.app/en/stable/">LTB andes</a></b> (🥇19 ·  ⭐ 130) - Power system dynamics simulation with symbolic.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://docs.andes.app/en/stable/">LTB andes</a></b> (🥇19 ·  ⭐ 130) - Power system Transient Stability simulation with.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/cuihantao/andes) (👨‍💻 16 · 🔀 60 · 📦 6 · 📋 44 - 9% open · ⏱️ 18.11.2022):
 
 	```
 	git clone https://github.com/cuihantao/andes
 	```
-- [PyPi](https://pypi.org/project/andes) (📥 330 / month):
+- [PyPi](https://pypi.org/project/andes) (📥 290 / month):
 	```
 	pip install andes
 	```
@@ -68,10 +71,12 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 	conda install -c anaconda andes
 	```
 </details>
-<details><summary>Show 2 hidden projects...</summary>
+<details><summary>Show 4 hidden projects...</summary>
 
-- <b><a href="https://github.com/NREL-SIIP/PowerSimulationsDynamics.jl">PowerSimulationsDynamics</a></b> (🥉17 ·  ⭐ 99) - Dynamic Power System simulations. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/NREL-SIIP/PowerSimulationsDynamics.jl">PowerSimulationsDynamics</a></b> (🥈17 ·  ⭐ 99) - Dynamic Power System simulations. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/modelica-3rdparty/PowerSystems">PowerSystems</a></b> (🥉14 ·  ⭐ 47 · ➕) - Modelica 3rd party library for electrical power.. <code><a href="https://tldrlegal.com/search?q=Modelica%20License%202">❗️Modelica License 2</a></code>
 - <b><a href="https://github.com/changgang/steps/wiki/">STEPS</a></b> (🥉9 ·  ⭐ 26 · 💤) - Balanced large-scale AC-DC hybrid power system analysis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/OpenHybridSim/OpenHybridSim-code">OpenHybridSim</a></b> (🥉6 ·  ⭐ 7 · 💀) - Power system Electromagnetic Transient-Transient Stability.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 </details>
 <br>
 
@@ -97,12 +102,12 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 </details>
 <details><summary><b><a href="https://pypsa.readthedocs.io/en/latest/">PyPSA</a></b> (🥈30 ·  ⭐ 750) - Simulating and optimising modern power and energy systems. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/PyPSA/PyPSA) (👨‍💻 51 · 🔀 310 · 📦 75 · 📋 220 - 24% open · ⏱️ 29.11.2022):
+- [GitHub](https://github.com/PyPSA/PyPSA) (👨‍💻 51 · 🔀 310 · 📦 75 · 📋 220 - 25% open · ⏱️ 29.11.2022):
 
 	```
 	git clone https://github.com/PyPSA/PyPSA
 	```
-- [PyPi](https://pypi.org/project/pypsa) (📥 2.8K / month):
+- [PyPi](https://pypi.org/project/pypsa) (📥 3K / month):
 	```
 	pip install pypsa
 	```
@@ -111,7 +116,7 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 	conda install -c anaconda pypsa
 	```
 </details>
-<details><summary><b><a href="https://www.advancedgridinsights.com/gridcal">GridCal</a></b> (🥈21 ·  ⭐ 300) - Cross-platform power systems software. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://www.advancedgridinsights.com/gridcal">GridCal</a></b> (🥈20 ·  ⭐ 300 · 📉) - Cross-platform power systems software. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/SanPen/GridCal) (👨‍💻 27 · 🔀 70 · 📥 23 · 📦 2 · ⏱️ 13.10.2022):
 
@@ -123,14 +128,14 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 	pip install GridCal
 	```
 </details>
-<details><summary><b><a href="https://matpower.org/">matpower</a></b> (🥉20 ·  ⭐ 280) - Steady state power flow simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://matpower.org/">matpower</a></b> (🥈20 ·  ⭐ 280) - Steady state power flow simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/MATPOWER/matpower) (👨‍💻 12 · 🔀 120 · 📥 140K · 📋 120 - 8% open · ⏱️ 23.11.2022):
 
 	```
 	git clone https://github.com/MATPOWER/matpower
 	```
-- [PyPi](https://pypi.org/project/matpower) (📥 89 / month):
+- [PyPi](https://pypi.org/project/matpower) (📥 93 / month):
 	```
 	pip install matpower
 	```
@@ -153,6 +158,36 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 </details>
 <br>
 
+## Machine Learning/Reinforcement Learning
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://github.com/cuihantao/andes_gym">andes_gym</a></b> (🥇4 ·  ⭐ 7 · 💤) - ANDES RL Environment for OpenAI Gym. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Visualization
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://agvis.readthedocs.io/en/latest/">LTB AGVis</a></b> (🥇8) - Another Grid Visualizer, visualization program for CURENT Large-.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Messaging
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://ltbdime.readthedocs.io/en/latest/">LTB DiME</a></b> (🥇6 ·  ⭐ 1) - Distributed Messaging Environment for CURENT Large-scale.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
 ## Infrastructure for Co-Simulation
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
@@ -164,7 +199,7 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 	```
 	git clone https://github.com/precice/precice
 	```
-- [PyPi](https://pypi.org/project/pyprecice) (📥 230 / month):
+- [PyPi](https://pypi.org/project/pyprecice) (📥 210 / month):
 	```
 	pip install pyprecice
 	```
@@ -173,11 +208,9 @@ This curated list contains 16 awesome open-source projects with a total of 3.1K 
 	conda install -c anaconda pyprecice
 	```
 </details>
-<details><summary>Show 4 hidden projects...</summary>
+<details><summary>Show 2 hidden projects...</summary>
 
-- <b><a href="https://helics.org/tools/">HELICS</a></b> (🥈22 ·  ⭐ 83) - Large-scale Infrastructure Co-Simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://agvis.readthedocs.io/en/latest/">LTB AGVis</a></b> (🥉8) - Another Grid Visualizer, visualization program for CURENT.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://ltbdime.readthedocs.io/en/latest/">LTB DiME</a></b> (🥉6 ·  ⭐ 1) - Distributed Messaging Environment for CURENT Large-.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://helics.org/tools/">HELICS</a></b> (🥉22 ·  ⭐ 83) - Large-scale Infrastructure Co-Simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/CURENT/ltb2">Large-scale Testbed (LTB)</a></b> (🥉5 ·  ⭐ 2) - CURENT LTB. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
 </details>
 
