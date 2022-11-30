@@ -1,8 +1,8 @@
 ---
-name: "🏷 Add or update a category"
+name: "\U0001F3F7 Add or update a category"
 about: Do you like to suggest a new project category or update an existing one?
 title: ''
-labels: 'category'
+labels: category
 assignees: ''
 
 ---

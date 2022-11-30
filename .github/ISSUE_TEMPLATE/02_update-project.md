@@ -1,8 +1,9 @@
 ---
 name: "✏️ Update a project"
-about: Do you have changes for a project, e.g. missing package manager, wrong license or category?
+about: Do you have changes for a project, e.g. missing package manager, wrong license
+  or category?
 title: 'Update project: '
-labels: 'update-project'
+labels: update-project
 assignees: ''
 
 ---

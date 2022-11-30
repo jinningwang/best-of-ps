@@ -1,8 +1,9 @@
 ---
-name: "📦 Suggest a project"
-about: "Do you like to suggest a project that hasn't been added to this best-of list yet?"
+name: "\U0001F4E6 Suggest a project"
+about: Do you like to suggest a project that hasn't been added to this best-of list
+  yet?
 title: 'Add project: '
-labels: 'add-project'
+labels: add-project
 assignees: ''
 
 ---
