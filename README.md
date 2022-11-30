@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-19-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-23-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/jinningwang/best-of-ps/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/jinningwang/best-of-ps?color=green&label=updated"></a>
 </p>
 
-This curated list contains 19 awesome open-source projects with a total of 3.2K stars grouped into 7 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jinningwang/best-of-ps/issues/new/choose), submit a [pull request](https://github.com/jinningwang/best-of-ps/pulls), or directly edit the [projects.yaml](https://github.com/jinningwang/best-of-ps/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 23 awesome open-source projects with a total of 4.7K stars grouped into 9 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jinningwang/best-of-ps/issues/new/choose), submit a [pull request](https://github.com/jinningwang/best-of-ps/pulls), or directly edit the [projects.yaml](https://github.com/jinningwang/best-of-ps/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -28,6 +28,8 @@ This curated list contains 19 awesome open-source projects with a total of 3.2K 
 - [Visualization](#visualization) _1 projects_
 - [Messaging](#messaging) _1 projects_
 - [Infrastructure for Co-Simulation](#infrastructure-for-co-simulation) _3 projects_
+- [Power System Data Analysis](#power-system-data-analysis) _2 projects_
+- [Optimization solver](#optimization-solver) _2 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -74,7 +76,7 @@ This curated list contains 19 awesome open-source projects with a total of 3.2K 
 <details><summary>Show 4 hidden projects...</summary>
 
 - <b><a href="https://github.com/NREL-SIIP/PowerSimulationsDynamics.jl">PowerSimulationsDynamics</a></b> (🥈17 ·  ⭐ 99) - Dynamic Power System simulations. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/modelica-3rdparty/PowerSystems">PowerSystems</a></b> (🥉14 ·  ⭐ 47 · ➕) - Modelica 3rd party library for electrical power.. <code><a href="https://tldrlegal.com/search?q=Modelica%20License%202">❗️Modelica License 2</a></code>
+- <b><a href="https://build.openmodelica.org/Documentation/PowerSystems.html">PowerSystems</a></b> (🥉14 ·  ⭐ 47) - Modelica 3rd party library for electrical power.. <code><a href="https://tldrlegal.com/search?q=Modelica%20License%202">❗️Modelica License 2</a></code>
 - <b><a href="https://github.com/changgang/steps/wiki/">STEPS</a></b> (🥉9 ·  ⭐ 26 · 💤) - Balanced large-scale AC-DC hybrid power system analysis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/OpenHybridSim/OpenHybridSim-code">OpenHybridSim</a></b> (🥉6 ·  ⭐ 7 · 💀) - Power system Electromagnetic Transient-Transient Stability.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 </details>
@@ -102,7 +104,7 @@ This curated list contains 19 awesome open-source projects with a total of 3.2K 
 </details>
 <details><summary><b><a href="https://pypsa.readthedocs.io/en/latest/">PyPSA</a></b> (🥈30 ·  ⭐ 750) - Simulating and optimising modern power and energy systems. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/PyPSA/PyPSA) (👨‍💻 51 · 🔀 310 · 📦 75 · 📋 220 - 25% open · ⏱️ 29.11.2022):
+- [GitHub](https://github.com/PyPSA/PyPSA) (👨‍💻 52 · 🔀 310 · 📦 75 · 📋 220 - 24% open · ⏱️ 30.11.2022):
 
 	```
 	git clone https://github.com/PyPSA/PyPSA
@@ -116,7 +118,7 @@ This curated list contains 19 awesome open-source projects with a total of 3.2K 
 	conda install -c anaconda pypsa
 	```
 </details>
-<details><summary><b><a href="https://www.advancedgridinsights.com/gridcal">GridCal</a></b> (🥈20 ·  ⭐ 300 · 📉) - Cross-platform power systems software. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://www.advancedgridinsights.com/gridcal">GridCal</a></b> (🥈20 ·  ⭐ 300) - Cross-platform power systems software. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/SanPen/GridCal) (👨‍💻 27 · 🔀 70 · 📥 23 · 📦 2 · ⏱️ 13.10.2022):
 
@@ -212,6 +214,51 @@ This curated list contains 19 awesome open-source projects with a total of 3.2K 
 
 - <b><a href="https://helics.org/tools/">HELICS</a></b> (🥉22 ·  ⭐ 83) - Large-scale Infrastructure Co-Simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/CURENT/ltb2">Large-scale Testbed (LTB)</a></b> (🥉5 ·  ⭐ 2) - CURENT LTB. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Power System Data Analysis
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 2 hidden projects...</summary>
+
+- <b><a href="https://ourworldindata.org/energy">Data on Energy</a></b> (🥇10 ·  ⭐ 140 · ➕) - Data on energy by Our World in Data. <code><a href="https://tldrlegal.com/search?q=CC-BY">❗️CC-BY</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/tamu-engineering-research/COVID-EMDA">COVID-EMDA</a></b> (🥉9 ·  ⭐ 53 · ➕) - Cross-Domain Data Hub with Electricity Market, Coronavirus.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Optimization solver
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary><b><a href="https://coin-or.github.io/Ipopt/">Ipopt</a></b> (🥇23 ·  ⭐ 930 · ➕) - COIN-OR Interior Point Optimizer. <code><a href="http://bit.ly/2M0xmjV">EPL-2.0</a></code></summary>
+
+- [GitHub](https://github.com/coin-or/Ipopt) (👨‍💻 22 · 🔀 200 · 📥 5.8K · 📋 500 - 0% open · ⏱️ 22.11.2022):
+
+	```
+	git clone https://github.com/coin-or/Ipopt
+	```
+- [PyPi](https://pypi.org/project/ipopt) (📥 3.1K / month):
+	```
+	pip install ipopt
+	```
+- [Conda](https://anaconda.org/anaconda/ipopt):
+	```
+	conda install -c anaconda ipopt
+	```
+</details>
+<details><summary><b><a href="https://highs.dev/">HiGHS</a></b> (🥇23 ·  ⭐ 420 · ➕) - High performance serial and parallel solver for large scale sparse.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/ERGO-Code/HiGHS) (👨‍💻 44 · 🔀 86 · 📦 5 · 📋 330 - 14% open · ⏱️ 29.11.2022):
+
+	```
+	git clone https://github.com/ERGO-Code/HiGHS
+	```
+- [PyPi](https://pypi.org/project/scikit-highs) (📥 17 / month):
+	```
+	pip install scikit-highs
+	```
 </details>
 
 ---
