@@ -1,6 +1,6 @@
 configuration:
-  min_stars: 0
-  min_projectrank: 0
+  min_stars: 1
+  min_projectrank: 1
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
 
@@ -31,14 +31,6 @@ categories:
     subtitle: "Messaging Environment for Distributed Computation"
 
 labels:
-# LTB
-  - label: "ltb"
-    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico"
-    description: "CURENT Large-scale Testbed projects"
-# CURENT
-  - label: "curent"
-    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico"
-    description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
 # Langauage
   - label: "python"
     image: "https://www.python.org/static/favicon.ico"
@@ -47,8 +39,16 @@ labels:
     image: "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico"
     description: "Power system analysis projects written in Python"
   - label: "jupyter"
-    image: "https://git.io/JLy1E"
+    image: "https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico"
     description: "Jupyter related project"
+# LTB
+  - label: "ltb"
+    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico"
+    description: "CURENT Large-scale Testbed projects"
+# CURENT
+  - label: "curent"
+    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico"
+    description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
 
 projects:
 # Dynamic
