@@ -17,6 +17,8 @@ categories:
     title: "Messaging"
   - category: "cosim"
     title: "Infrastructure for Co-Simulation"
+  - category: "data"
+    title: "Power System Data Analysis"
 
 labels:
 # LTB
@@ -142,15 +144,26 @@ projects:
     homepage: https://pypowsybl.readthedocs.io/en/latest/?badge=latest
     description: Power grid modelling and simulation
     license: MPL-2.0
-# Gas Network Analysis
-  - name: pandapipes
-    github_id: e2nIEE/pandapipes
+# Data
+  - name: PyPowSyBl
+    github_id: tamu-engineering-research/COVID-EMDA
     labels: ["python"]
-    category: gasnet
-    pypi_id: pandapipes
-    homepage: https://www.pandapipes.org/
-    description: A pipeflow calculation tool
-    license: BSD-3
+    category: data
+#     pypi_id: pypowsybl
+#     conda_id: pypowsybl
+#     homepage: https://pypowsybl.readthedocs.io/en/latest/?badge=latest
+    description: Cross-Domain Data Hub with Electricity Market, Coronavirus Case, Mobility and Satellite Data in U.S.
+    license: MIT
+# Machine/Reinforcement Learning
+  - name: andes_gym
+    github_id: cuihantao/andes_gym
+    labels: ["python", "ltb", "curent"]
+    category: mrl
+#     pypi_id: andes
+#     conda_id: andes
+#     homepage: https://docs.andes.app/en/stable/
+    description: ANDES RL Environment for OpenAI Gym
+    license: GPL-3.0
 # CoSim
   - name: precice
     github_id: precice/precice
@@ -179,16 +192,15 @@ projects:
 #     homepage: https://helics.org/tools/
     description: CURENT LTB
     license: GPL-3.0
-# Machine/Reinforcement Learning
-  - name: andes_gym
-    github_id: cuihantao/andes_gym
-    labels: ["python", "ltb", "curent"]
-    category: mrl
-#     pypi_id: andes
-#     conda_id: andes
-#     homepage: https://docs.andes.app/en/stable/
-    description: ANDES RL Environment for OpenAI Gym
-    license: GPL-3.0
+# Gas Network Analysis
+  - name: pandapipes
+    github_id: e2nIEE/pandapipes
+    labels: ["python"]
+    category: gasnet
+    pypi_id: pandapipes
+    homepage: https://www.pandapipes.org/
+    description: A pipeflow calculation tool
+    license: BSD-3
 # MSG
   - name: LTB DiME
     github_id: CURENT/dime
