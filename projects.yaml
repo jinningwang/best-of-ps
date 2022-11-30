@@ -3,7 +3,6 @@ configuration:
   min_projectrank: 0
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
-  allowed_licenses: ["all"]
 
 categories:
   - category: "dynamic"
@@ -287,12 +286,12 @@ projects:
     description: Distributed Messaging Environment for LTB; Part of CURENT LTB
 # VIS
   - name: LTB AGVis
-    github_id: CURENT/agvis
     category: vis
     labels: ["ltb", "curent"]
+    github_id: CURENT/agvis
     pypi_id:
     conda_id:
-    homepage: 
+    homepage:
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
     description: Visualization Program for LTB; Part of CURENT LTB
