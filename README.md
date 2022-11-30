@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-23-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-24-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/jinningwang/best-of-ps/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/jinningwang/best-of-ps?color=green&label=updated"></a>
 </p>
 
-This curated list contains 23 awesome open-source projects with a total of 4.7K stars grouped into 9 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jinningwang/best-of-ps/issues/new/choose), submit a [pull request](https://github.com/jinningwang/best-of-ps/pulls), or directly edit the [projects.yaml](https://github.com/jinningwang/best-of-ps/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 24 awesome open-source projects with a total of 4.9K stars grouped into 9 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jinningwang/best-of-ps/issues/new/choose), submit a [pull request](https://github.com/jinningwang/best-of-ps/pulls), or directly edit the [projects.yaml](https://github.com/jinningwang/best-of-ps/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -23,13 +23,13 @@ This curated list contains 23 awesome open-source projects with a total of 4.7K 
 
 - [Power System Dynamic Simulation](#power-system-dynamic-simulation) _5 projects_
 - [Power System Steady State Simulation](#power-system-steady-state-simulation) _7 projects_
+- [Optimization solver](#optimization-solver) _2 projects_
+- [Machine Learning/Reinforcement Learning](#machine-learningreinforcement-learning) _2 projects_
+- [Power System Data Analysis](#power-system-data-analysis) _2 projects_
+- [Infrastructure for Co-Simulation](#infrastructure-for-co-simulation) _3 projects_
 - [Gas Network Simulation](#gas-network-simulation) _1 projects_
-- [Machine Learning/Reinforcement Learning](#machine-learningreinforcement-learning) _1 projects_
 - [Visualization](#visualization) _1 projects_
 - [Messaging](#messaging) _1 projects_
-- [Infrastructure for Co-Simulation](#infrastructure-for-co-simulation) _3 projects_
-- [Power System Data Analysis](#power-system-data-analysis) _2 projects_
-- [Optimization solver](#optimization-solver) _2 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -150,84 +150,6 @@ This curated list contains 23 awesome open-source projects with a total of 4.7K 
 </details>
 <br>
 
-## Gas Network Simulation
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary>Show 1 hidden projects...</summary>
-
-- <b><a href="https://www.pandapipes.org/">pandapipes</a></b> (🥇21 ·  ⭐ 65) - A pipeflow calculation tool. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
-</details>
-<br>
-
-## Machine Learning/Reinforcement Learning
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary>Show 1 hidden projects...</summary>
-
-- <b><a href="https://github.com/cuihantao/andes_gym">andes_gym</a></b> (🥇4 ·  ⭐ 7 · 💤) - ANDES RL Environment for OpenAI Gym. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
-</details>
-<br>
-
-## Visualization
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary>Show 1 hidden projects...</summary>
-
-- <b><a href="https://agvis.readthedocs.io/en/latest/">LTB AGVis</a></b> (🥇8) - Another Grid Visualizer, visualization program for CURENT Large-.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
-</details>
-<br>
-
-## Messaging
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary>Show 1 hidden projects...</summary>
-
-- <b><a href="https://ltbdime.readthedocs.io/en/latest/">LTB DiME</a></b> (🥇6 ·  ⭐ 1) - Distributed Messaging Environment for CURENT Large-scale.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
-</details>
-<br>
-
-## Infrastructure for Co-Simulation
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary><b><a href="https://precice.org/">precice</a></b> (🥇23 ·  ⭐ 480) - Partitioned multi-physics simulations. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
-
-- [GitHub](https://github.com/precice/precice) (👨‍💻 46 · 🔀 130 · 📥 13K · 📋 620 - 24% open · ⏱️ 28.11.2022):
-
-	```
-	git clone https://github.com/precice/precice
-	```
-- [PyPi](https://pypi.org/project/pyprecice) (📥 210 / month):
-	```
-	pip install pyprecice
-	```
-- [Conda](https://anaconda.org/anaconda/pyprecice):
-	```
-	conda install -c anaconda pyprecice
-	```
-</details>
-<details><summary>Show 2 hidden projects...</summary>
-
-- <b><a href="https://helics.org/tools/">HELICS</a></b> (🥉22 ·  ⭐ 83) - Large-scale Infrastructure Co-Simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/CURENT/ltb2">Large-scale Testbed (LTB)</a></b> (🥉5 ·  ⭐ 2) - CURENT LTB. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
-</details>
-<br>
-
-## Power System Data Analysis
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary>Show 2 hidden projects...</summary>
-
-- <b><a href="https://ourworldindata.org/energy">Data on Energy</a></b> (🥇10 ·  ⭐ 140) - Data on energy by Our World in Data. <code><a href="https://tldrlegal.com/search?q=CC-BY">❗️CC-BY</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/tamu-engineering-research/COVID-EMDA">COVID-EMDA</a></b> (🥉9 ·  ⭐ 53) - Cross-Domain Data Hub with Electricity Market, Coronavirus Case,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
-</details>
-<br>
-
 ## Optimization solver
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
@@ -259,6 +181,96 @@ This curated list contains 23 awesome open-source projects with a total of 4.7K 
 	```
 	pip install scikit-highs
 	```
+</details>
+<br>
+
+## Machine Learning/Reinforcement Learning
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary><b><a href="https://l2rpn.chalearn.org/">Grid2Op</a></b> (🥇20 ·  ⭐ 190 · ➕) - a testbed platform to model sequential decision making in.. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/rte-france/Grid2Op) (👨‍💻 21 · 🔀 82 · 📋 230 - 19% open · ⏱️ 05.07.2022):
+
+	```
+	git clone https://github.com/rte-france/Grid2Op
+	```
+- [PyPi](https://pypi.org/project/Grid2Op) (📥 460 / month):
+	```
+	pip install Grid2Op
+	```
+</details>
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://github.com/cuihantao/andes_gym">andes_gym</a></b> (🥉4 ·  ⭐ 7 · 💤) - ANDES RL Environment for OpenAI Gym. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Power System Data Analysis
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 2 hidden projects...</summary>
+
+- <b><a href="https://ourworldindata.org/energy">Data on Energy</a></b> (🥇10 ·  ⭐ 140) - Data on energy by Our World in Data. <code><a href="https://tldrlegal.com/search?q=CC-BY">❗️CC-BY</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/tamu-engineering-research/COVID-EMDA">COVID-EMDA</a></b> (🥉9 ·  ⭐ 53) - Cross-Domain Data Hub with Electricity Market, Coronavirus Case,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Infrastructure for Co-Simulation
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary><b><a href="https://precice.org/">precice</a></b> (🥇23 ·  ⭐ 480) - Partitioned multi-physics simulations. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/precice/precice) (👨‍💻 46 · 🔀 130 · 📥 13K · 📋 620 - 24% open · ⏱️ 28.11.2022):
+
+	```
+	git clone https://github.com/precice/precice
+	```
+- [PyPi](https://pypi.org/project/pyprecice) (📥 210 / month):
+	```
+	pip install pyprecice
+	```
+- [Conda](https://anaconda.org/anaconda/pyprecice):
+	```
+	conda install -c anaconda pyprecice
+	```
+</details>
+<details><summary>Show 2 hidden projects...</summary>
+
+- <b><a href="https://helics.org/tools/">HELICS</a></b> (🥉22 ·  ⭐ 83) - Large-scale Infrastructure Co-Simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/CURENT/ltb2">Large-scale Testbed (LTB)</a></b> (🥉5 ·  ⭐ 2) - CURENT LTB. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Gas Network Simulation
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://www.pandapipes.org/">pandapipes</a></b> (🥇21 ·  ⭐ 65) - A pipeflow calculation tool. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Visualization
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://agvis.readthedocs.io/en/latest/">LTB AGVis</a></b> (🥇8) - Another Grid Visualizer, visualization program for CURENT Large-.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+</details>
+<br>
+
+## Messaging
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://ltbdime.readthedocs.io/en/latest/">LTB DiME</a></b> (🥇6 ·  ⭐ 1) - Distributed Messaging Environment for CURENT Large-scale.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
 </details>
 
 ---
