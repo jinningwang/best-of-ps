@@ -9,6 +9,10 @@ categories:
     title: "Power System Steady State Simulation"
   - category: "gasnet"
     title: "Gas Network Simulation"
+  - category: "vis"
+    title: "Visualization"
+  - category: "msg"
+    title: "Messaging"
   - category: "cosim"
     title: "Infrastructure for Co-Simulation"
 
@@ -20,10 +24,6 @@ labels:
     description: "Power system steady state analysis related projects"
   - label: "multi-energy"
     description: "Multi energy system analysis projects"
-  - label: "msg"
-    description: "Messaging Environment"
-  - label: "vis"
-    description: "Visualization"
 # LTB
   - label: "ltb"
     image: "https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico"
@@ -166,11 +166,11 @@ projects:
 #     homepage: https://helics.org/tools/
     description: CURENT LTB
     license: GPL-3.0
-# Others
+# MSG
   - name: LTB DiME
     github_id: CURENT/dime
-    labels: ["msg", "ltb", "curent"]
-    category: cosim
+    labels: ["ltb", "curent"]
+    category: msg
 #     pypi_id: helics
 #     conda_id: helics
     homepage: https://ltbdime.readthedocs.io/en/latest/
@@ -178,8 +178,8 @@ projects:
     license: GPL-3.0
   - name: LTB AGVis
     github_id: CURENT/agvis
-    labels: ["vis", "ltb", "curent"]
-    category: cosim
+    labels: ["ltb", "curent"]
+    category: vis
 #     pypi_id: helics
 #     conda_id: helics
     homepage: https://agvis.readthedocs.io/en/latest/
