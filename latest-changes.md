@@ -1,14 +1,9 @@
-## 📉 Trending Down
-
-_Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
-
-- <b><a href="https://www.advancedgridinsights.com/gridcal">GridCal</a></b> (🥈20 ·  ⭐ 300 · 📉) - Cross-platform power systems software. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
-
 ## ➕ Added Projects
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/modelica-3rdparty/PowerSystems">PowerSystems</a></b> (🥉14 ·  ⭐ 47 · ➕) - Modelica 3rd party library for electrical power.. <code><a href="https://tldrlegal.com/search?q=Modelica%20License%202">❗️Modelica License 2</a></code>
-- <b><a href="https://github.com/OpenHybridSim/OpenHybridSim-code">OpenHybridSim</a></b> (🥉6 ·  ⭐ 7 · 💀) - Power system Electromagnetic Transient-Transient Stability.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/cuihantao/andes_gym">andes_gym</a></b> (🥇4 ·  ⭐ 7 · 💤) - ANDES RL Environment for OpenAI Gym. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://coin-or.github.io/Ipopt/">Ipopt</a></b> (🥇23 ·  ⭐ 930 · ➕) - COIN-OR Interior Point Optimizer. <code><a href="http://bit.ly/2M0xmjV">EPL-2.0</a></code>
+- <b><a href="https://highs.dev/">HiGHS</a></b> (🥇23 ·  ⭐ 420 · ➕) - High performance serial and parallel solver for large scale sparse.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://ourworldindata.org/energy">Data on Energy</a></b> (🥇10 ·  ⭐ 140 · ➕) - Data on energy by Our World in Data. <code><a href="https://tldrlegal.com/search?q=CC-BY">❗️CC-BY</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/tamu-engineering-research/COVID-EMDA">COVID-EMDA</a></b> (🥉9 ·  ⭐ 53 · ➕) - Cross-Domain Data Hub with Electricity Market, Coronavirus.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code>
 
