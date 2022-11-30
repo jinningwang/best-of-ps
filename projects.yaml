@@ -1,6 +1,9 @@
 configuration:
+  min_stars: 0
+  min_projectrank: 0
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  allowed_licenses: ["all"]
 
 categories:
   - category: "dynamic"
@@ -42,20 +45,22 @@ labels:
 projects:
 # Dynamic
   - name: PowerSystems
+    category: dynamic
+    labels:
     github_id: modelica-3rdparty/PowerSystems
-#     labels: ["dynamic"]
-    category: dynamic
-#     pypi_id: andes
-#     conda_id: andes
-    homepage: https://build.openmodelica.org/Documentation/PowerSystems.html
+    pypi_id:
+    conda_id:
+    dockerhub_id:
+    license: https://modelica.org/licenses/ModelicaLicense2/
     description: Modelica 3rd party library for electrical power systems
-    license: Modelica License 2
+    homepage:
+    docs_url: https://build.openmodelica.org/Documentation/PowerSystems.html
   - name: OpenHybridSim
-    github_id: OpenHybridSim/OpenHybridSim-code
-#     labels: ["dynamic"]
     category: dynamic
-#     pypi_id: andes
-#     conda_id: andes
+    labels:
+    github_id: OpenHybridSim/OpenHybridSim-code
+    pypi_id:
+    conda_id:
 #     homepage: https://docs.andes.app/en/stable/
     description: Power system Electromagnetic Transient-Transient Stability hybrid simulation
     license: BSD-3
