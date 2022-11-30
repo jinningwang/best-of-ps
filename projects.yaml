@@ -19,6 +19,8 @@ categories:
     title: "Infrastructure for Co-Simulation"
   - category: "data"
     title: "Power System Data Analysis"
+  - category: "ops"
+    title: "Optimization solver"
 
 labels:
 # LTB
@@ -144,14 +146,37 @@ projects:
     homepage: https://pypowsybl.readthedocs.io/en/latest/?badge=latest
     description: Power grid modelling and simulation
     license: MPL-2.0
+# Optimization solver
+  - name: Ipopt
+    github_id: coin-or/Ipopt
+#     labels: ["python"]
+    category: ops
+    pypi_id: ipopt
+    conda_id: ipopt
+    homepage: https://coin-or.github.io/Ipopt/
+    description: COIN-OR Interior Point Optimizer
+    license: EPL-2.0
+  - name: HiGHS
+    github_id: ERGO-Code/HiGHS
+#     labels: ["python"]
+    category: ops
+    pypi_id: scikit-highs
+#     conda_id: pypowsybl
+    homepage: https://highs.dev/
+    description: High performance serial and parallel solver for large scale sparse linear optimization problems
+    license: MIT
 # Data
-  - name: PyPowSyBl
+  - name: Data on Energy
+    github_id: owid/energy-data
+    labels: ["python"]
+    category: data
+    homepage: https://ourworldindata.org/energy
+    description: Data on energy by Our World in Data
+    license: CC-BY
+  - name: COVID-EMDA
     github_id: tamu-engineering-research/COVID-EMDA
     labels: ["python"]
     category: data
-#     pypi_id: pypowsybl
-#     conda_id: pypowsybl
-#     homepage: https://pypowsybl.readthedocs.io/en/latest/?badge=latest
     description: Cross-Domain Data Hub with Electricity Market, Coronavirus Case, Mobility and Satellite Data in U.S.
     license: MIT
 # Machine/Reinforcement Learning
