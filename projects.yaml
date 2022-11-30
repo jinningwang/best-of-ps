@@ -7,6 +7,12 @@ categories:
     title: "Power System Dynamic Simulation"
   - category: "steady-state"
     title: "Power System Steady State Simulation"
+  - category: "ops"
+    title: "Optimization solver"
+  - category: "data"
+    title: "Power System Data Analysis"
+  - category: "cosim"
+    title: "Infrastructure for Co-Simulation"
   - category: "gasnet"
     title: "Gas Network Simulation"
   - category: "mrl"
@@ -15,12 +21,6 @@ categories:
     title: "Visualization"
   - category: "msg"
     title: "Messaging"
-  - category: "cosim"
-    title: "Infrastructure for Co-Simulation"
-  - category: "data"
-    title: "Power System Data Analysis"
-  - category: "ops"
-    title: "Optimization solver"
 
 labels:
 # LTB
