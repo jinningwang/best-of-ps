@@ -1,8 +1,12 @@
 
 ---
-## Related Resources
+## Limitations
 
 - [**Project Quality Score**](https://github.com/best-of-lists/best-of-generator#project-quality-score): **This calculation is just chosen by experience. There is no scientific proof that this really reflects the quality of a project.**
+- **Project Data Collection**: The data collection is incomplete for the projects not hosted in GitHub, PyPi, Conda, GitLab. 
+
+## Related Resources
+
 - [**Papers With Code**](https://paperswithcode.com): Discover ML papers, code, and evaluation tables.
 
 ## Contribution
