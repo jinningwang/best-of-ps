@@ -15,11 +15,10 @@ categories:
     title: "Optimizer"
   - category: "mrl"
     title: "Machine/Reinforcement Learning"
-  - category: "data"
-    title: "Power System Data"
-  - category: "escosim"
-    title: "Co-Simulation Platform for Energy System"
-    subtitle: "Infrastructure for Co-Simulation"
+  - category: "cosimps"
+    title: "Power System Co-Simulation"
+  - category: "cosimf"
+    title: "Co-Simulation Framework"
   - category: "gasnet"
     title: "Gas"
     subtitle: "Gas Network Simulation"
@@ -29,9 +28,8 @@ categories:
   - category: "msg"
     title: "Messaging"
     subtitle: "Messaging Environment for Distributed Computation"
-  - category: "phycosim"
-    title: "Co-Simulation Platform for Other Physical System"
-    subtitle: "Infrastructure for Co-Simulation"
+  - category: "data"
+    title: "Power System Data"
 
 labels:
 # Langauage
@@ -276,18 +274,9 @@ projects:
 #     docs_url:
     license: GPL-3
     description: ANDES RL Environment for OpenAI Gym
-# ESCoSim
-  - name: HELICS
-    github_id: GMLC-TDC/HELICS
-    labels: ["python", "julia"]
-    category: escosim
-    pypi_id: helics
-    conda_id: helics
-    homepage: https://helics.org/tools/
-    description: Large-scale Infrastructure Co-Simulation
-    license: BSD-3
+# CoSim for PS
   - name: Large-scale Testbed (LTB)
-    category: escosim
+    category: cosimps
     labels: ["python", "ltb", "curent"]
     github_id: CURENT/ltb2
 #     pypi_id:
@@ -295,7 +284,39 @@ projects:
 #     homepage:
 #     docs_url:
     license: GPL-3.0
-    description: CURENT Large-scale Testbed
+    description: Large-scale Testbed, with SELF-DEVELOPED Simulation Engine
+# CoSim Framework
+  - name: OpenModelica
+    category: cosimf
+#     labels:
+    github_id: OpenModelica/OpenModelica
+#     pypi_id: pyprecice
+#     conda_id: pyprecice
+    dockerhub_id: openmodelica/openmodelica
+    homepage: https://openmodelica.org
+    docs_url: https://openmodelica.org/useresresources/userdocumentation
+    license: https://modelica.org/licenses/ModelicaLicense2/
+    description: Modelica-based modeling and simulation environment
+  - name: precice
+    category: cosimf
+#     labels:
+    github_id: precice/precice
+    pypi_id: pyprecice
+    conda_id: pyprecice
+    dockerhub_id: precice/precice
+    homepage: https://precice.org/
+    docs_url: https://precice.org/docs.html
+    license: LGPL-3.0
+    description: Partitioned multi-physics simulations
+  - name: HELICS
+    github_id: GMLC-TDC/HELICS
+    labels: ["python", "julia"]
+    category: escosim
+    pypi_id: helics
+    conda_id: helics
+    homepage: https://helics.org/tools/
+    description: Framework to Integrate Simulators Designed for Separate TDC Domains
+    license: BSD-3
 # Gas Network Analysis
   - name: pandapipes
     category: gasnet
@@ -338,26 +359,3 @@ projects:
     docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
     license: BSD-3
     description: Visualization Program for PowerSimulations; Part of the SIIP at NREL
-# PHYCoSim
-  - name: OpenModelica
-    category: phycosim
-#     labels:
-    github_id: OpenModelica/OpenModelica
-#     pypi_id: pyprecice
-#     conda_id: pyprecice
-    dockerhub_id: openmodelica/openmodelica
-    homepage: https://openmodelica.org
-    docs_url: https://openmodelica.org/useresresources/userdocumentation
-    license: https://modelica.org/licenses/ModelicaLicense2/
-    description: Modelica-based modeling and simulation environment
-  - name: precice
-    category: phycosim
-#     labels:
-    github_id: precice/precice
-    pypi_id: pyprecice
-    conda_id: pyprecice
-    dockerhub_id: precice/precice
-    homepage: https://precice.org/
-    docs_url: https://precice.org/docs.html
-    license: LGPL-3.0
-    description: Partitioned multi-physics simulations
