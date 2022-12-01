@@ -2,8 +2,10 @@
 ---
 ## Limitations
 
-- [**Project Popularity Score**](https://github.com/best-of-lists/best-of-generator#project-quality-score): This calculation is just chosen by **EXPERIENCE**. The source template calls it as "Project Quality Score", however, I revised it as "Popularity". There is **NO** scientific proof that this really reflects the **QUALITY** of a project.
-- **Project Data Collection**: The data collection is incomplete for the projects not hosted in GitHub, PyPi, Conda, GitLab. 
+- **Project Data Collection**: The data collection is incomplete for the projects that are not majorly hosted in GitHub.
+- [**Project Popularity Score**](https://github.com/best-of-lists/best-of-generator#project-quality-score): The source template calls it as ***Quality***, however, I rename it as ***Popularity***. 
+  > This calculation is just chosen by ***EXPERIENCE***. There is ***NO*** scientific proof that this really reflects the ***QUALITY*** of a project. 
+
 
 ## Related Resources
 
