@@ -286,6 +286,15 @@ projects:
     license: GPL-3.0
     description: Large-scale Testbed, with SELF-DEVELOPED Simulation Engine
 # CoSim Framework
+  - name: HELICS
+    github_id: GMLC-TDC/HELICS
+    labels: ["python", "julia"]
+    category: cosimf
+    pypi_id: helics
+    conda_id: helics
+    homepage: https://helics.org/tools/
+    description: Framework to Integrate Simulators Designed for Separate TDC Domains
+    license: BSD-3
   - name: OpenModelica
     category: cosimf
 #     labels:
@@ -308,15 +317,6 @@ projects:
     docs_url: https://precice.org/docs.html
     license: LGPL-3.0
     description: Partitioned multi-physics simulations
-  - name: HELICS
-    github_id: GMLC-TDC/HELICS
-    labels: ["python", "julia"]
-    category: escosim
-    pypi_id: helics
-    conda_id: helics
-    homepage: https://helics.org/tools/
-    description: Framework to Integrate Simulators Designed for Separate TDC Domains
-    license: BSD-3
 # Gas Network Analysis
   - name: pandapipes
     category: gasnet
