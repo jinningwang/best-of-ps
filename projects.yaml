@@ -113,6 +113,16 @@ projects:
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
 # Steady State
+  - name: py-dss-interface
+    category: steady-state
+    labels: ["python"]
+    github_id: PauloRadatz/py_dss_interface
+    pypi_id: py-dss-interface
+#     dockerhub_id: 
+#     homepage:
+    docs_url: https://py-dss-interface.readthedocs.io/en/latest/
+    license: MIT
+    description: Providing access to OpenDSS direct dll version of OpenDSS
   - name: VSAT
     category: steady-state
 #     labels:
