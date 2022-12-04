@@ -16,10 +16,13 @@ categories:
     title: "Optimizer"
   - category: "mrl"
     title: "Machine/Reinforcement Learning"
+    subtitle: "AI Power Grid Agent"
   - category: "cosimps"
     title: "Power System Co-Simulation"
+    subtitle: "Power System Co-Simulation Platform with Integrated Engines"
   - category: "cosimf"
     title: "Co-Simulation Framework"
+    subtitle: "Co-Simulation Framework to Integrate Multiple Simulators"
   - category: "gasnet"
     title: "Gas"
     subtitle: "Gas Network Simulation"
@@ -31,6 +34,7 @@ categories:
     subtitle: "Messaging Environment for Distributed Computation"
   - category: "data"
     title: "Power System Data"
+    subtitle: "Power System Data Resources and Tools"
 
 labels:
 # Langauage
