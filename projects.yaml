@@ -71,14 +71,6 @@ projects:
     docs_url: https://docs.andes.app/en/stable/
     license: GPL-3
     description: Transient Stability Simulator with Hybrid Symbolic-Numeric Framework; Part of CURENT LTB
-  - name: TSAT
-    category: dynamic
-#     labels:
-#     github_id:
-    homepage: https://www.dsatools.com
-    docs_url: https://www.dsatools.com/tsat/
-    license: https://www.dsatools.com/dsatools-software-license-agreement/
-    description: Electromechanical Time-domain Simulation; Part of DSA Tools
   - name: PowerSystems
     category: dynamic
 #     labels:
@@ -188,33 +180,6 @@ projects:
     docs_url: http://rwl.github.io/PYPOWER/index.html
     license: BSD
     description: Port of MATPOWER to Python
-# --- SS: others ---
-  - name: py-dss-interface
-    category: steady-state
-    labels: ["python"]
-    github_id: PauloRadatz/py_dss_interface
-    pypi_id: py-dss-interface
-#     dockerhub_id: 
-#     homepage:
-    docs_url: https://py-dss-interface.readthedocs.io/en/latest/
-    license: MIT
-    description: Providing access to OpenDSS direct dll version of OpenDSS
-  - name: VSAT
-    category: steady-state
-#     labels:
-#     github_id:
-    homepage: https://www.dsatools.com
-    docs_url: https://www.dsatools.com/vsat/
-    license: https://www.dsatools.com/dsatools-software-license-agreement/
-    description: Voltage Security Assessment using powerflow-based steady-state methods; Part of DSA Tools
-  - name: PSAT
-    category: steady-state
-#     labels:
-#     github_id:
-    homepage: https://www.dsatools.com
-    docs_url: https://www.dsatools.com/psat/
-    license: https://www.dsatools.com/dsatools-software-license-agreement/
-    description: Powerflow Analysis; Part of DSA Tools
   - name: EGRET
     category: steady-state
     labels: ["python"]
@@ -259,6 +224,30 @@ projects:
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
     license: Apache-2
     description: Power system planning and operations
+
+# --- SS: distribution ---
+  - name: Power Grid Model
+    category: steady-state
+    labels: ["python"]
+    github_id: alliander-opensource/power-grid-model
+    pypi_id: power-grid-model
+#     dockerhub_id: 
+#     homepage:
+    docs_url: https://power-grid-model.readthedocs.io/en/stable/
+    license: MPL-2.0
+    description: Steady-state distribution power system analysis
+  - name: py-dss-interface
+    category: steady-state
+    labels: ["python"]
+    github_id: PauloRadatz/py_dss_interface
+    pypi_id: py-dss-interface
+#     dockerhub_id: 
+#     homepage:
+    docs_url: https://py-dss-interface.readthedocs.io/en/latest/
+    license: MIT
+    description: Providing access to OpenDSS direct dll version of OpenDSS
+
+# --- SS: others ---
 
 # --- Optimizer ---
   - name: Ipopt
