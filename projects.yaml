@@ -71,14 +71,6 @@ projects:
     docs_url: https://docs.andes.app/en/stable/
     license: GPL-3
     description: Transient Stability Simulator with Hybrid Symbolic-Numeric Framework; Part of CURENT LTB
-  - name: TSAT
-    category: dynamic
-#     labels:
-#     github_id:
-    homepage: https://www.dsatools.com
-    docs_url: https://www.dsatools.com/tsat/
-    license: https://www.dsatools.com/dsatools-software-license-agreement/
-    description: Electromechanical Time-domain Simulation; Part of DSA Tools
   - name: PowerSystems
     category: dynamic
 #     labels:
@@ -256,22 +248,6 @@ projects:
     description: Providing access to OpenDSS direct dll version of OpenDSS
 
 # --- SS: others ---
-  - name: VSAT
-    category: steady-state
-#     labels:
-#     github_id:
-    homepage: https://www.dsatools.com
-    docs_url: https://www.dsatools.com/vsat/
-    license: https://www.dsatools.com/dsatools-software-license-agreement/
-    description: Voltage Security Assessment using powerflow-based steady-state methods; Part of DSA Tools
-  - name: PSAT
-    category: steady-state
-#     labels:
-#     github_id:
-    homepage: https://www.dsatools.com
-    docs_url: https://www.dsatools.com/psat/
-    license: https://www.dsatools.com/dsatools-software-license-agreement/
-    description: Powerflow Analysis; Part of DSA Tools
 
 # --- Optimizer ---
   - name: Ipopt
