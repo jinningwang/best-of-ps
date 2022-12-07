@@ -12,6 +12,9 @@ categories:
   - category: "steady-state"
     title: "Steady State"
     subtitle: "Power System Steady State Simulation"
+  - category: "intf"
+    title: "Interface"
+    subtitle: "Interface to other tools"
   - category: "ops"
     title: "Optimizer"
   - category: "mrl"
@@ -236,8 +239,12 @@ projects:
     docs_url: https://power-grid-model.readthedocs.io/en/stable/
     license: MPL-2.0
     description: Steady-state distribution power system analysis
+
+# --- SS: others ---
+
+# --- Interface ---
   - name: py-dss-interface
-    category: steady-state
+    category: intf
     labels: ["python"]
     github_id: PauloRadatz/py_dss_interface
     pypi_id: py-dss-interface
@@ -245,9 +252,17 @@ projects:
 #     homepage:
     docs_url: https://py-dss-interface.readthedocs.io/en/latest/
     license: MIT
-    description: Providing access to OpenDSS direct dll version of OpenDSS
-
-# --- SS: others ---
+    description: Python interface to OpenDSS
+  - name: Easy SimAuto
+    category: intf
+    labels: ["python"]
+    github_id: mzy2240/ESA
+    pypi_id: esa
+#     dockerhub_id: 
+#     homepage:
+    docs_url: https://mzy2240.github.io/ESA/html/index.html
+    license: Apache-2.0
+    description: Python interface to PowerWorld
 
 # --- Optimizer ---
   - name: Ipopt
