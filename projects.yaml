@@ -297,7 +297,7 @@ projects:
     homepage: https://pypsa.org
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
-    description: https://powerplantmatching.readthedocs.io/en/latest/
+    description: Set of tools to combine multiple power plant databases
   - name: Atlite
     category: data
     labels: ["python"]
