@@ -532,7 +532,7 @@ _Power System Data Resources and Tools_
 	conda install -c anaconda atlite
 	```
 </details>
-<details><summary><b><a href="https://pypsa.org">powerplantmatching</a></b> (🥉19 ·  ⭐ 93 · ➕) - https://powerplantmatching.readthedocs.io/en/latest/. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://pypsa.org">powerplantmatching</a></b> (🥉19 ·  ⭐ 93 · ➕) - Set of tools to combine multiple power plant databases. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/PyPSA/powerplantmatching) (👨‍💻 15 · 🔀 35 · 📥 36 · 📦 12 · 📋 54 - 22% open · ⏱️ 01.12.2022):
 
