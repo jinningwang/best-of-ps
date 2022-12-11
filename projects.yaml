@@ -38,6 +38,9 @@ categories:
   - category: "data"
     title: "Power System Data"
     subtitle: "Power System Data Resources and Tools"
+  - category: "pe"
+    title: "Power Electronics"
+    subtitle: "Power System Data Resources and Tools"
 
 labels:
 # Langauage
@@ -479,3 +482,35 @@ projects:
     docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
     license: BSD-3
     description: Visualization for PowerSimulations; Part of the SIIP at NREL
+
+# --- Power Electronics ---
+  - name: skidl
+    category: pe
+    labels: ["python"]
+    github_id: devbisme/skidl
+    pypi_id: skidl
+    conda_id: skidl
+    # homepage:
+    docs_url: https://devbisme.github.io/skidl/
+    license: MIT
+    description: Module to Design Electronic Circuits
+  - name: PySpice
+    category: pe
+    labels: ["python"]
+    github_id: PySpice-org/PySpice
+    pypi_id: PySpice
+    conda_id: pyspice
+    # homepage:
+    docs_url: https://pyspice.fabrice-salvaire.fr/releases/v1.5/
+    license: GPL-3.0
+    description: Interface Python to Ngspice and Xyce
+  - name: GSEIM
+    category: pe
+    labels: ["python"]
+    github_id: gseim/gseim
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    docs_url: https://gseim.github.io/build/html/index.html
+    license: GPL-3.0
+    description: Interface Python to Ngspice and Xyce
