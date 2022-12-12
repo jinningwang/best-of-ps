@@ -252,6 +252,16 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- SS: others ---
+  - name: LightSim2Grid
+    category: steady-state
+    labels: ["python"]
+    github_id: BDonnot/lightsim2grid/
+    pypi_id: LightSim2Grid
+    dockerhub_id: bdonnot/lightsim2grid
+    homepage: https://l2rpn.chalearn.org/
+    docs_url: https://lightsim2grid.readthedocs.io/en/latest/
+    license: MPL-2.0
+    description: A fast backend for the Grid2Op
 
 # --- Interface ---
 # --- Interface: OpenDSS ---
