@@ -12,6 +12,12 @@ categories:
   - category: "steady-state"
     title: "Steady State"
     subtitle: "Power System Steady State Simulation"
+  - category: "cosimps"
+    title: "Power System Co-Simulation"
+    subtitle: "Power System Co-Simulation Platform with Integrated Engines"
+  - category: "cosimf"
+    title: "Co-Simulation Framework"
+    subtitle: "Co-Simulation Framework to Integrate Multiple Simulators"
   - category: "intf"
     title: "Interface"
     subtitle: "Interface to other tools"
@@ -20,12 +26,9 @@ categories:
   - category: "mrl"
     title: "Machine/Reinforcement Learning"
     subtitle: "AI Power Grid Agent"
-  - category: "cosimps"
-    title: "Power System Co-Simulation"
-    subtitle: "Power System Co-Simulation Platform with Integrated Engines"
-  - category: "cosimf"
-    title: "Co-Simulation Framework"
-    subtitle: "Co-Simulation Framework to Integrate Multiple Simulators"
+  - category: "cosime"
+    title: "Co-Simulation Environment"
+    subtitle: "Co-Simulation Environment for Modeling and Simulation"
   - category: "gasnet"
     title: "Gas"
     subtitle: "Gas Network Simulation"
@@ -425,8 +428,10 @@ projects:
     homepage: https://helics.org/tools/
     description: Framework to Integrate Simulators
     license: BSD-3
+
+# --- CoSim Environment ---
   - name: OpenModelica
-    category: cosimf
+    category: cosime
     # labels:
     github_id: OpenModelica/OpenModelica
     # pypi_id:
@@ -437,7 +442,7 @@ projects:
     license: https://modelica.org/licenses/ModelicaLicense2/
     description: Modelica-based environment for modeling and simulation
   - name: precice
-    category: cosimf
+    category: cosime
     # labels:
     github_id: precice/precice
     pypi_id: pyprecice
@@ -446,7 +451,7 @@ projects:
     homepage: https://precice.org/
     docs_url: https://precice.org/docs.html
     license: LGPL-3.0
-    description: Partitioned multi-physics simulations
+    description: Precise Code Interaction Coupling Environment
 
 # --- Gas Network ---
   - name: pandapipes
@@ -514,6 +519,26 @@ projects:
     docs_url: https://pyspice.fabrice-salvaire.fr/releases/v1.5/
     license: GPL-3.0
     description: Interface Python to Ngspice and Xyce
+  - name: NGSPICE
+    category: pe
+    # labels:
+    github_id: ngspice/ngspice
+    # pypi_id:
+    # conda_id:
+    homepage: http://ngspice.sourceforge.net
+    docs_url: https://ngspice.sourceforge.io/docs.html
+    license: BSD
+    description: Electric and Electronic Circuits Simulator
+  - name: Xyce
+    category: pe
+    # labels:
+    github_id: Xyce/Xyce
+    # pypi_id:
+    # conda_id:
+    homepage: https://xyce.sandia.gov
+    docs_url: https://xyce.sandia.gov/documentation-tutorials/
+    license: GPL-3.0
+    description: Analog Circuit Simulator
   - name: GSEIM
     category: pe
     labels: ["python"]
