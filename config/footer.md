@@ -1,11 +1,26 @@
-
 ---
 ## Limitations
 
 - **Project Data Collection**: The data collection is incomplete for the projects that are not majorly hosted in GitHub.
-- [**Project Popularity Score**](https://github.com/best-of-lists/best-of-generator#project-quality-score): The source template calls it as ***Quality***, however, I rename it as ***Popularity***. 
-  > This calculation is just chosen by ***EXPERIENCE***. There is ***NO*** scientific proof that this really reflects the ***QUALITY*** of a project. 
-
+- **Project Popularity Score**: This calculation is just chosen by ***EXPERIENCE***. There is ***NO*** scientific proof that this really reflects the ***QUALITY*** of a project. 
+- Has homepage link & description: `+ 1`
+- Has an existing GitHub repository: `+ 1`
+- Has a license: `+ 1`
+- Has a commonly used license (e.g. MIT): `+ 1`
+- Has multiple releases: `+ 1`
+- Has stable releases based on semantic version: `+ 1`
+- Has a release that is less than 6 months old: `+ 1`
+- Repo was update in the last 3 months: `+ 1`
+- Is older than 6 months: `+ 1`
+- Metrics from GitHub & package mangers:
+  - Number of stars: `+ log(COUNT / 2)`
+  - Number of contributors: `+ log(COUNT / 2) - 1`
+  - Number of commits: `+ log(COUNT / 2) - 1`
+  - Number of forks: `+ log(COUNT / 2)`
+  - Number of monthly downloads: `+ log(COUNT / 2) - 1`
+  - Number of dependent projects: `+ log(COUNT / 1.5)`
+  - Number of watchers: `+ log(COUNT / 2) - 1`
+  - Number of closed issues: `+ log(COUNT / 2) - 1`
 
 ## Related Resources
 
@@ -25,3 +40,4 @@ For more information on how to add or update projects, please read the [contribu
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+---
