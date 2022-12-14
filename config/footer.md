@@ -1,7 +1,7 @@
----
 
 
 ---
+
 ## Project Popularity Score
 
 - Has homepage link & description: `+ 1`
@@ -45,3 +45,5 @@ If you like to contribute to or share suggestions regarding the project metadata
 For more information on how to add or update projects, please read the [contribution guidelines](https://github.com/jinningwang/best-of-ps/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/jinningwang/best-of-ps/blob/main/.github/CODE_OF_CONDUCT.md).
 
 ## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
