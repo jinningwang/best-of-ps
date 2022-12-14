@@ -1,8 +1,6 @@
 ---
-## Limitations
+## Project Popularity Score
 
-- **Project Data Collection**: The data collection is incomplete for the projects that are not majorly hosted in GitHub.
-- **Project Popularity Score**: This calculation is just chosen by ***EXPERIENCE***. There is ***NO*** scientific proof that this really reflects the ***QUALITY*** of a project. 
 - Has homepage link & description: `+ 1`
 - Has an existing GitHub repository: `+ 1`
 - Has a license: `+ 1`
@@ -21,6 +19,12 @@
   - Number of dependent projects: `+ log(COUNT / 1.5)`
   - Number of watchers: `+ log(COUNT / 2) - 1`
   - Number of closed issues: `+ log(COUNT / 2) - 1`
+
+**NOTE**: This calculation is just chosen by ***EXPERIENCE***. There is ***NO*** scientific proof that this really reflects the ***QUALITY*** of a project. 
+
+## Project Data Collection
+
+The data collection can be deficient for the projects that are not majorly hosted in GitHub.
 
 ## Related Resources
 
