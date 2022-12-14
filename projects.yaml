@@ -22,7 +22,9 @@ categories:
     title: "Interface"
     subtitle: "Interface to other tools"
   - category: "ops"
-    title: "Optimizer"
+    title: "Optimization Solver"
+  - category: "opl"
+    title: "Optimization Modeling Language"
   - category: "mrl"
     title: "Machine/Reinforcement Learning"
     subtitle: "AI Power Grid Agent"
@@ -332,7 +334,30 @@ projects:
     homepage: https://highs.dev/
     docs_url: https://ergo-code.github.io/HiGHS/
     license: MIT
-    description: High performance serial and parallel solver for large scale sparse linear optimization problems
+    description: Large-scale Sparse Linear Problem Optimizer 
+
+# --- Optimization Language ---
+  - name: Pyomo
+    github_id: Pyomo/pyomo
+    labels: ["python", "jupyter"]
+    category: opl
+    pypi_id: Pyomo
+    conda_id: pyomo
+    homepage: https://www.pyomo.org
+    docs_url: https://pyomo.readthedocs.io/en/stable/
+    license: BSD-3
+    description: Python-based Optimization Modeling Language
+  - name: JuMP
+    github_id: jump-dev/JuMP.jl
+    labels: ["julia", "jupyter"]
+    category: opl
+    # pypi_id:
+    # conda_id:
+    homepage: https://jump.dev
+    docs_url: https://jump.dev/JuMP.jl/stable/
+    license: MPL-2.0
+    description: Julia-based Optimization Modeling Language
+
 
 # --- Data Source ---
   - name: powerplantmatching
@@ -416,7 +441,7 @@ projects:
     # homepage:
     # docs_url:
     license: GPL-3.0
-    description: Large-scale Testbed, with SELF-DEVELOPED Engine
+    description: CURENT Large-scale Testbed, with Self-Developed Engine
 
 # --- CoSim Framework ---
   - name: HELICS
@@ -462,7 +487,16 @@ projects:
     homepage: https://www.pandapipes.org/
     docs_url: https://jkpandapipes.readthedocs.io/en/latest/
     license: BSD-3
-    description: A pipeflow calculation tool
+    description: Pipeflow Calculation Tool
+  - name: GasModels.jl
+    category: gasnet
+    labels: ["julia"]
+    github_id: lanl-ansi/GasModels.jl
+    # pypi_id:
+    # homepage:
+    docs_url: https://lanl-ansi.github.io/GasModels.jl/latest/
+    license: BSD-3
+    description: Gas Network Optimization
 
 # --- MSG ---
   - name: LTB DiME
