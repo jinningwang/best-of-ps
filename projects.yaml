@@ -12,20 +12,25 @@ categories:
   - category: "steady-state"
     title: "Steady State"
     subtitle: "Power System Steady State Simulation"
-  - category: "intf"
-    title: "Interface"
-    subtitle: "Interface to other tools"
-  - category: "ops"
-    title: "Optimizer"
-  - category: "mrl"
-    title: "Machine/Reinforcement Learning"
-    subtitle: "AI Power Grid Agent"
   - category: "cosimps"
     title: "Power System Co-Simulation"
     subtitle: "Power System Co-Simulation Platform with Integrated Engines"
   - category: "cosimf"
     title: "Co-Simulation Framework"
     subtitle: "Co-Simulation Framework to Integrate Multiple Simulators"
+  - category: "intf"
+    title: "Interface"
+    subtitle: "Interface to other tools"
+  - category: "ops"
+    title: "Optimization Solver"
+  - category: "opl"
+    title: "Optimization Modeling Language"
+  - category: "mrl"
+    title: "Machine/Reinforcement Learning"
+    subtitle: "AI Power Grid Agent"
+  - category: "cosime"
+    title: "Co-Simulation Environment"
+    subtitle: "Co-Simulation Environment for Modeling and Simulation"
   - category: "gasnet"
     title: "Gas"
     subtitle: "Gas Network Simulation"
@@ -37,6 +42,9 @@ categories:
     subtitle: "Messaging Environment for Distributed Computation"
   - category: "data"
     title: "Power System Data"
+    subtitle: "Power System Data Resources and Tools"
+  - category: "pe"
+    title: "Power Electronics"
     subtitle: "Power System Data Resources and Tools"
 
 labels:
@@ -57,9 +65,6 @@ labels:
   - label: "curent"
     image: "https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico"
     description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
-  - label: "PyPSA"
-    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico"
-    description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
 
 projects:
 # --- Dynamic ---
@@ -70,18 +75,29 @@ projects:
     pypi_id: andes
     conda_id: andes
     dockerhub_id: cuihantao/andes
-#     homepage:
+    # homepage:
     docs_url: https://docs.andes.app/en/stable/
     license: GPL-3
-    description: Transient Stability Simulator with Hybrid Symbolic-Numeric Framework; Part of CURENT LTB
+    description: Transient Stability Simulator; Part of CURENT LTB
+  - name: OpenIPSL
+    category: dynamic
+    # labels:
+    github_id: OpenIPSL/OpenIPSL
+    pypi_id:
+    conda_id:
+    dockerhub_id:
+    # homepage:
+    docs_url: https://doc.openipsl.org
+    license: BSD-3
+    description: A library of power system models written with Modelica
   - name: PowerSystems
     category: dynamic
-#     labels:
+    # labels:
     github_id: modelica-3rdparty/PowerSystems
-#     pypi_id:
-#     conda_id:
-#     dockerhub_id:
-#     homepage:
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
     docs_url: https://build.openmodelica.org/Documentation/PowerSystems.html
     license: https://modelica.org/licenses/ModelicaLicense2/
     description: Modelica 3rd party library for electrical power systems
@@ -94,7 +110,7 @@ projects:
 #     homepage:
 #     docs_url:
     license: BSD-3
-    description: Power system Electromagnetic Transient-Transient Stability hybrid simulation
+    description: Power system EMT-TS hybrid simulation
   - name: PowerSimulationsDynamics.jl
     category: dynamic
     labels: ["julia"]
@@ -105,11 +121,11 @@ projects:
     description: Dynamic Power System simulations; Part of the SIIP at NREL
   - name: STEPS
     category: dynamic
-#     labels:
+    # labels:
     github_id: changgang/steps
-#     pypi_id:
-#     conda_id:
-#     homepage:
+    # pypi_id:
+    # conda_id:
+    # homepage:
     docs_url: https://github.com/changgang/steps/wiki/
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
@@ -126,7 +142,7 @@ projects:
     homepage: https://pypsa.org
     docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
-    description: Simulating and optimising modern power and energy systems
+    description: Simulating and optimising power and energy systems
   - name: PyPSA-Eur
     category: steady-state
     labels: ["python"]
@@ -137,7 +153,7 @@ projects:
     homepage: https://pypsa.org
     docs_url: https://pypsa-eur.readthedocs.io/en/latest/?badge=latest
     license: MIT
-    description: Open Optimisation Model of the European Transmission System
+    description: Optimisation Model of the European Transmission System
   - name: PyPSA-Eur-Sec
     category: steady-state
     labels: ["python"]
@@ -148,12 +164,12 @@ projects:
     homepage: https://pypsa.org
     docs_url: https://pypsa-eur-sec.readthedocs.io/en/latest/?badge=latest
     license: MIT
-    description: Sector-Coupled Open Optimisation Model of the European Energy System
+    description: Sector-Coupled Optimisation Model of the European Energy System
 
 # --- SS: matpower series ---
   - name: matpower
     category: steady-state
-#     labels:
+    # labels:
     github_id: MATPOWER/matpower
     pypi_id: matpower
     dockerhub_id: matpower/matpower
@@ -187,15 +203,15 @@ projects:
     category: steady-state
     labels: ["python"]
     github_id: grid-parity-exchange/Egret
-#     homepage:
-#     docs_url:
+    # homepage:
+    # docs_url:
     license: BSD
     description: Tools for Power Systems Optimization Modeling
   - name: PowerModels.jl
     category: steady-state
     labels: ["julia"]
     github_id: lanl-ansi/PowerModels.jl
-#     homepage:
+    # homepage:
     docs_url: https://lanl-ansi.github.io/PowerModels.jl/stable/
     license: BSD
     description: Power Network Optimization
@@ -206,13 +222,13 @@ projects:
     homepage: https://www.nrel.gov/analysis/siip.html
     docs_url: https://nrel-siip.github.io/PowerSimulations.jl/latest/
     license: BSD-3
-    description: Optimization Simulation and Modeling of Power Systems; Part of the SIIP at NREL
+    description: Optimization of Power Systems; Part of the SIIP at NREL
   - name: GridCal
     category: steady-state
     labels: ["python"]
     github_id: SanPen/GridCal
     pypi_id: GridCal
-#     conda_id:
+    # conda_id:
     homepage: https://www.advancedgridinsights.com/gridcal
     docs_url: https://gridcal.readthedocs.io/en/latest/?badge=latest
     license: LGPL-3
@@ -221,8 +237,8 @@ projects:
     category: steady-state
     labels: ["python"]
     github_id: blue-marble/gridpath
-#     pypi_id:
-#     conda_id:
+    # pypi_id:
+    # conda_id:
     homepage: https://www.gridpath.io/
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
     license: Apache-2
@@ -234,32 +250,66 @@ projects:
     labels: ["python"]
     github_id: alliander-opensource/power-grid-model
     pypi_id: power-grid-model
-#     dockerhub_id: 
-#     homepage:
+    # dockerhub_id: 
+    # homepage:
     docs_url: https://power-grid-model.readthedocs.io/en/stable/
     license: MPL-2.0
     description: Steady-state distribution power system analysis
 
 # --- SS: others ---
+  - name: LightSim2Grid
+    category: steady-state
+    labels: ["python"]
+    github_id: BDonnot/lightsim2grid/
+    pypi_id: LightSim2Grid
+    dockerhub_id: bdonnot/lightsim2grid
+    homepage: https://l2rpn.chalearn.org/
+    docs_url: https://lightsim2grid.readthedocs.io/en/latest/
+    license: MPL-2.0
+    description: A fast backend for the Grid2Op
 
 # --- Interface ---
+# --- Interface: OpenDSS ---
+  - name: PyDSS
+    category: intf
+    labels: ["python"]
+    github_id: NREL/PyDSS
+    pypi_id: pydss
+    # conda_id:
+    # dockerhub_id: 
+    homepage: https://www.nrel.gov/grid/pydss.html
+    docs_url: https://nrel.github.io/PyDSS/index.html
+    license: BSD-3
+    description: A Python wrapper for OpenDSS
+  - name: OpenDSSDirect.py
+    category: intf
+    labels: ["python"]
+    github_id: dss-extensions/OpenDSSDirect.py
+    pypi_id: OpenDSSDirect.py
+    conda_id: opendssdirect.py
+    # dockerhub_id: 
+    homepage: https://www.epri.com/pages/sa/opendss
+    docs_url: https://dss-extensions.org/OpenDSSDirect.py/
+    license: MIT
+    description: A "direct" library interface to OpenDSS
   - name: py-dss-interface
     category: intf
     labels: ["python"]
     github_id: PauloRadatz/py_dss_interface
     pypi_id: py-dss-interface
-#     dockerhub_id: 
-#     homepage:
+    # dockerhub_id: 
+    # homepage:
     docs_url: https://py-dss-interface.readthedocs.io/en/latest/
     license: MIT
-    description: Python interface to OpenDSS
+    description: A package for access to direct dll version of OpenDSS
+# --- Interface: PowerWorld ---
   - name: Easy SimAuto
     category: intf
     labels: ["python"]
     github_id: mzy2240/ESA
     pypi_id: esa
-#     dockerhub_id: 
-#     homepage:
+    # dockerhub_id: 
+    # homepage:
     docs_url: https://mzy2240.github.io/ESA/html/index.html
     license: Apache-2.0
     description: Python interface to PowerWorld
@@ -271,7 +321,7 @@ projects:
     github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: ipopt
-#     homepage:
+    # homepage:
     docs_url: https://coin-or.github.io/Ipopt/
     license: EPL-2.0
     description: COIN-OR Interior Point Optimizer
@@ -280,11 +330,34 @@ projects:
     labels: ["python"]
     category: ops
     pypi_id: scikit-highs
-#     conda_id:
+    # conda_id:
     homepage: https://highs.dev/
     docs_url: https://ergo-code.github.io/HiGHS/
     license: MIT
-    description: High performance serial and parallel solver for large scale sparse linear optimization problems
+    description: Large-scale Sparse Linear Problem Optimizer 
+
+# --- Optimization Language ---
+  - name: Pyomo
+    github_id: Pyomo/pyomo
+    labels: ["python", "jupyter"]
+    category: opl
+    pypi_id: Pyomo
+    conda_id: pyomo
+    homepage: https://www.pyomo.org
+    docs_url: https://pyomo.readthedocs.io/en/stable/
+    license: BSD-3
+    description: Python-based Optimization Modeling Language
+  - name: JuMP
+    github_id: jump-dev/JuMP.jl
+    labels: ["julia", "jupyter"]
+    category: opl
+    # pypi_id:
+    # conda_id:
+    homepage: https://jump.dev
+    docs_url: https://jump.dev/JuMP.jl/stable/
+    license: MPL-2.0
+    description: Julia-based Optimization Modeling Language
+
 
 # --- Data Source ---
   - name: powerplantmatching
@@ -293,22 +366,22 @@ projects:
     github_id: PyPSA/powerplantmatching
     pypi_id: powerplantmatching
     conda_id: powerplantmatching
-    # dockerhub_id: PyPSA/PyPSA
+    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
-    description: Set of tools to combine multiple power plant databases
+    description: Tools to combine multiple power plant databases
   - name: Atlite
     category: data
     labels: ["python"]
     github_id: PyPSA/atlite
     pypi_id: atlite
     conda_id: atlite
-    # dockerhub_id: PyPSA/PyPSA
+    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
-    description: Calculating Renewable Power Potentials and Time Series
+    description: Calculating Renewable Power Potentials
   - name: Data on Energy
     category: data
     labels: ["python"]
@@ -323,7 +396,7 @@ projects:
     resource: True
     github_id: tamu-engineering-research/COVID-EMDA
     license: MIT
-    description: Cross-Domain Data Hub with Electricity Market, Coronavirus Case, Mobility and Satellite Data in USA
+    description: Cross-Domain Data Hub with Data in USA
 
 # --- Machine/Reinforcement Learning ---
   - name: Grid2Op
@@ -331,34 +404,44 @@ projects:
     labels: ["python", "jupyter"]
     category: mrl
     pypi_id: Grid2Op
-#     conda_id:
+    # conda_id:
     dockerhub_id: bdonnot/grid2op
     homepage: https://l2rpn.chalearn.org/
     docs_url: https://grid2op.readthedocs.io/en/latest/
     license: MPL-2.0
-    description: A testbed platform to model sequential decision making in power systems
+    description: Modeling sequential decision making in power systems
   - name: andes_gym
     category: mrl
     labels: ["python", "curent"]
     github_id: cuihantao/andes_gym
     pypi_id: andes
     conda_id: andes
-#     homepage:
-#     docs_url:
+    # homepage:
+    # docs_url:
     license: GPL-3
     description: ANDES RL Environment for OpenAI Gym
+  - name: RLGC
+    category: mrl
+    labels: ["python", "jupyter"]
+    github_id: RLGC-Project/RLGC
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: BSD
+    description: RL for Grid Control (RLGC)
 
 # --- CoSim for PS ---
   - name: Large-scale Testbed (LTB)
     category: cosimps
     labels: ["python", "ltb", "curent"]
     github_id: CURENT/ltb2
-#     pypi_id:
-#     conda_id:
-#     homepage:
-#     docs_url:
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    # docs_url:
     license: GPL-3.0
-    description: Large-scale Testbed, with SELF-DEVELOPED Engine
+    description: CURENT Large-scale Testbed, with Self-Developed Engine
 
 # --- CoSim Framework ---
   - name: HELICS
@@ -368,22 +451,24 @@ projects:
     pypi_id: helics
     conda_id: helics
     homepage: https://helics.org/tools/
-    description: Framework to Integrate Simulators Designed for Separate TDC Domains
+    description: Framework to Integrate Simulators
     license: BSD-3
+
+# --- CoSim Environment ---
   - name: OpenModelica
-    category: cosimf
-#     labels:
+    category: cosime
+    # labels:
     github_id: OpenModelica/OpenModelica
-#     pypi_id: pyprecice
-#     conda_id: pyprecice
+    # pypi_id:
+    # conda_id:
     dockerhub_id: openmodelica/openmodelica
     homepage: https://openmodelica.org
     docs_url: https://openmodelica.org/useresresources/userdocumentation
     license: https://modelica.org/licenses/ModelicaLicense2/
-    description: Modelica-based modeling and simulation environment
+    description: Modelica-based environment for modeling and simulation
   - name: precice
-    category: cosimf
-#     labels:
+    category: cosime
+    # labels:
     github_id: precice/precice
     pypi_id: pyprecice
     conda_id: pyprecice
@@ -391,7 +476,7 @@ projects:
     homepage: https://precice.org/
     docs_url: https://precice.org/docs.html
     license: LGPL-3.0
-    description: Partitioned multi-physics simulations
+    description: Precise Code Interaction Coupling Environment
 
 # --- Gas Network ---
   - name: pandapipes
@@ -402,38 +487,99 @@ projects:
     homepage: https://www.pandapipes.org/
     docs_url: https://jkpandapipes.readthedocs.io/en/latest/
     license: BSD-3
-    description: A pipeflow calculation tool
+    description: Pipeflow Calculation Tool
+  - name: GasModels.jl
+    category: gasnet
+    labels: ["julia"]
+    github_id: lanl-ansi/GasModels.jl
+    # pypi_id:
+    # homepage:
+    docs_url: https://lanl-ansi.github.io/GasModels.jl/latest/
+    license: BSD-3
+    description: Gas Network Optimization
 
 # --- MSG ---
   - name: LTB DiME
     category: msg
     labels: ["ltb", "curent"]
     github_id: CURENT/dime
-#     pypi_id:
-#     conda_id:
-#     homepage:
+    # pypi_id:
+    # conda_id:
+    # homepage:
     docs_url: https://ltbdime.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: Distributed Messaging Environment for LTB; Part of CURENT LTB
+    description: Distributed Messaging Environment; Part of CURENT LTB
 
 # --- VIS ---
   - name: LTB AGVis
     category: vis
     labels: ["ltb", "curent"]
     github_id: CURENT/agvis
-#     pypi_id:
-#     conda_id:
-#     homepage:
+    # pypi_id:
+    # conda_id:
+    # homepage:
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: Geographical Visualization of Power Grid; Part of CURENT LTB
+    description: Geographical Visualization for Power Grid; Part of CURENT LTB
   - name: PowerGraphics
     category: vis
     labels: ["julia"]
     github_id: nrel-siip/powergraphics.jl
-#     pypi_id:
-#     conda_id:
+    # pypi_id:
+    # conda_id:
     homepage: https://www.nrel.gov/analysis/siip.html
     docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
     license: BSD-3
-    description: Visualization Program for PowerSimulations; Part of the SIIP at NREL
+    description: Visualization for PowerSimulations; Part of the SIIP at NREL
+
+# --- Power Electronics ---
+  - name: skidl
+    category: pe
+    labels: ["python"]
+    github_id: devbisme/skidl
+    pypi_id: skidl
+    conda_id: skidl
+    # homepage:
+    docs_url: https://devbisme.github.io/skidl/
+    license: MIT
+    description: Module to Design Electronic Circuits
+  - name: PySpice
+    category: pe
+    labels: ["python"]
+    github_id: PySpice-org/PySpice
+    pypi_id: PySpice
+    conda_id: pyspice
+    # homepage:
+    docs_url: https://pyspice.fabrice-salvaire.fr/releases/v1.5/
+    license: GPL-3.0
+    description: Interface Python to Ngspice and Xyce
+  - name: NGSPICE
+    category: pe
+    # labels:
+    github_id: ngspice/ngspice
+    # pypi_id:
+    # conda_id:
+    homepage: http://ngspice.sourceforge.net
+    docs_url: https://ngspice.sourceforge.io/docs.html
+    license: BSD
+    description: Electric and Electronic Circuits Simulator
+  - name: Xyce
+    category: pe
+    # labels:
+    github_id: Xyce/Xyce
+    # pypi_id:
+    # conda_id:
+    homepage: https://xyce.sandia.gov
+    docs_url: https://xyce.sandia.gov/documentation-tutorials/
+    license: GPL-3.0
+    description: Analog Circuit Simulator
+  - name: GSEIM
+    category: pe
+    labels: ["python"]
+    github_id: gseim/gseim
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    docs_url: https://gseim.github.io/build/html/index.html
+    license: GPL-3.0
+    description: Interface Python to Ngspice and Xyce
