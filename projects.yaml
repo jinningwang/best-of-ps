@@ -533,46 +533,6 @@ projects:
     description: Visualization for PowerSimulations; Part of the SIIP at NREL
 
 # --- Power Electronics ---
-  - name: skidl
-    category: pe
-    labels: ["python"]
-    github_id: devbisme/skidl
-    pypi_id: skidl
-    conda_id: skidl
-    # homepage:
-    docs_url: https://devbisme.github.io/skidl/
-    license: MIT
-    description: Module to Design Electronic Circuits
-  - name: PySpice
-    category: pe
-    labels: ["python"]
-    github_id: PySpice-org/PySpice
-    pypi_id: PySpice
-    conda_id: pyspice
-    # homepage:
-    docs_url: https://pyspice.fabrice-salvaire.fr/releases/v1.5/
-    license: GPL-3.0
-    description: Interface Python to Ngspice and Xyce
-  - name: NGSPICE
-    category: pe
-    # labels:
-    github_id: ngspice/ngspice
-    # pypi_id:
-    # conda_id:
-    homepage: http://ngspice.sourceforge.net
-    docs_url: https://ngspice.sourceforge.io/docs.html
-    license: BSD
-    description: Electric and Electronic Circuits Simulator
-  - name: Xyce
-    category: pe
-    # labels:
-    github_id: Xyce/Xyce
-    # pypi_id:
-    # conda_id:
-    homepage: https://xyce.sandia.gov
-    docs_url: https://xyce.sandia.gov/documentation-tutorials/
-    license: GPL-3.0
-    description: Analog Circuit Simulator
   - name: GSEIM
     category: pe
     labels: ["python"]
