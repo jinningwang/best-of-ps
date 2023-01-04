@@ -313,6 +313,16 @@ projects:
     docs_url: https://mzy2240.github.io/ESA/html/index.html
     license: Apache-2.0
     description: Python interface to PowerWorld
+  - name: EasySimauto.jl
+    category: intf
+    labels: ["julia"]
+    github_id: mzy2240/EasySimauto.jl
+    # pypi_id:
+    # dockerhub_id: 
+    # homepage:
+    # docs_url:
+    license: Apache-2.0
+    description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
   - name: Ipopt
