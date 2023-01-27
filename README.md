@@ -66,12 +66,12 @@ _Power System Dynamic Simulation._
 
 <details><summary><b><a href="https://github.com/cuihantao/andes">LTB andes</a></b> (🥇19 ·  ⭐ 140) - Transient Stability Simulator; Part of CURENT LTB. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/cuihantao/andes) (👨‍💻 18 · 🔀 66 · 📦 7 · 📋 44 - 6% open · ⏱️ 22.12.2022):
+- [GitHub](https://github.com/cuihantao/andes) (👨‍💻 18 · 🔀 68 · 📦 7 · 📋 44 - 6% open · ⏱️ 22.12.2022):
 
 	```
 	git clone https://github.com/cuihantao/andes
 	```
-- [PyPi](https://pypi.org/project/andes) (📥 440 / month):
+- [PyPi](https://pypi.org/project/andes) (📥 380 / month):
 	```
 	pip install andes
 	```
@@ -86,7 +86,7 @@ _Power System Dynamic Simulation._
 </details>
 <details><summary><b><a href="https://github.com/OpenIPSL/OpenIPSL">OpenIPSL</a></b> (🥈18 ·  ⭐ 55) - A library of power system models written with Modelica. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/OpenIPSL/OpenIPSL) (👨‍💻 30 · 🔀 41 · 📥 480 · 📋 110 - 11% open · ⏱️ 13.01.2023):
+- [GitHub](https://github.com/OpenIPSL/OpenIPSL) (👨‍💻 30 · 🔀 42 · 📥 480 · 📋 110 - 10% open · ⏱️ 23.01.2023):
 
 	```
 	git clone https://github.com/OpenIPSL/OpenIPSL
@@ -130,7 +130,7 @@ _Power System Steady State Simulation_
 
 <details><summary><b><a href="https://www.pandapower.org/">pandapower</a></b> (🥇32 ·  ⭐ 580) - Convenient Power System Modelling and Analysis. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/e2nIEE/pandapower) (👨‍💻 100 · 🔀 390 · 📦 190 · 📋 790 - 18% open · ⏱️ 17.01.2023):
+- [GitHub](https://github.com/e2nIEE/pandapower) (👨‍💻 100 · 🔀 390 · 📦 190 · 📋 790 - 18% open · ⏱️ 26.01.2023):
 
 	```
 	git clone https://github.com/e2nIEE/pandapower
@@ -148,14 +148,14 @@ _Power System Steady State Simulation_
 	docker pull pauldepraz/pandapowerapi
 	```
 </details>
-<details><summary><b><a href="https://pypsa.org">PyPSA</a></b> (🥇29 ·  ⭐ 770 · 📉) - Simulating and optimising power and energy systems. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://pypsa.org">PyPSA</a></b> (🥇29 ·  ⭐ 770) - Simulating and optimising power and energy systems. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/PyPSA/PyPSA) (👨‍💻 56 · 🔀 320 · 📦 83 · 📋 230 - 24% open · ⏱️ 17.01.2023):
+- [GitHub](https://github.com/PyPSA/PyPSA) (👨‍💻 56 · 🔀 320 · 📦 83 · 📋 230 - 24% open · ⏱️ 24.01.2023):
 
 	```
 	git clone https://github.com/PyPSA/PyPSA
 	```
-- [PyPi](https://pypi.org/project/pypsa) (📥 2.1K / month):
+- [PyPi](https://pypi.org/project/pypsa) (📥 2.3K / month):
 	```
 	pip install pypsa
 	```
@@ -164,52 +164,52 @@ _Power System Steady State Simulation_
 	conda install -c anaconda pypsa
 	```
 </details>
+<details><summary><b><a href="https://www.advancedgridinsights.com/gridcal">GridCal</a></b> (🥈23 ·  ⭐ 310 · 📈) - Cross-platform power systems software. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/SanPen/GridCal) (👨‍💻 28 · 🔀 73 · 📥 23 · 📦 3 · ⏱️ 24.01.2023):
+
+	```
+	git clone https://github.com/SanPen/GridCal
+	```
+- [PyPi](https://pypi.org/project/GridCal) (📥 1.4K / month):
+	```
+	pip install GridCal
+	```
+</details>
 <details><summary><b><a href="https://github.com/alliander-opensource/power-grid-model">Power Grid Model</a></b> (🥈22 ·  ⭐ 60) - Steady-state distribution power system analysis. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/alliander-opensource/power-grid-model) (👨‍💻 12 · 🔀 10 · 📥 1.1K · 📋 65 - 47% open · ⏱️ 19.01.2023):
+- [GitHub](https://github.com/alliander-opensource/power-grid-model) (👨‍💻 12 · 🔀 10 · 📥 1.1K · 📋 65 - 47% open · ⏱️ 23.01.2023):
 
 	```
 	git clone https://github.com/alliander-opensource/power-grid-model
 	```
-- [PyPi](https://pypi.org/project/power-grid-model) (📥 19K / month):
+- [PyPi](https://pypi.org/project/power-grid-model) (📥 16K / month):
 	```
 	pip install power-grid-model
 	```
 </details>
 <details><summary><b><a href="https://matpower.org/">matpower</a></b> (🥈21 ·  ⭐ 290) - Steady state power flow simulation. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/MATPOWER/matpower) (👨‍💻 12 · 🔀 130 · 📥 150K · 📋 120 - 8% open · ⏱️ 09.01.2023):
+- [GitHub](https://github.com/MATPOWER/matpower) (👨‍💻 12 · 🔀 130 · 📥 160K · 📋 120 - 8% open · ⏱️ 09.01.2023):
 
 	```
 	git clone https://github.com/MATPOWER/matpower
 	```
-- [PyPi](https://pypi.org/project/matpower) (📥 92 / month):
+- [PyPi](https://pypi.org/project/matpower) (📥 74 / month):
 	```
 	pip install matpower
 	```
-- [Docker Hub](https://hub.docker.com/r/matpower/matpower) (📥 450 · ⏱️ 23.12.2022):
+- [Docker Hub](https://hub.docker.com/r/matpower/matpower) (📥 460 · ⏱️ 23.12.2022):
 	```
 	docker pull matpower/matpower
 	```
 </details>
 <details><summary><b><a href="https://www.nrel.gov/analysis/siip.html">PowerSimulations.jl</a></b> (🥈21 ·  ⭐ 200) - Optimization of Power Systems; Part of the SIIP at.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/NREL-SIIP/PowerSimulations.jl) (👨‍💻 29 · 🔀 44 · 📋 240 - 8% open · ⏱️ 11.01.2023):
+- [GitHub](https://github.com/NREL-SIIP/PowerSimulations.jl) (👨‍💻 29 · 🔀 44 · 📋 240 - 7% open · ⏱️ 23.01.2023):
 
 	```
 	git clone https://github.com/nrel-siip/powersimulations.jl
-	```
-</details>
-<details><summary><b><a href="https://www.advancedgridinsights.com/gridcal">GridCal</a></b> (🥉20 ·  ⭐ 310) - Cross-platform power systems software. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/SanPen/GridCal) (👨‍💻 27 · 🔀 73 · 📥 23 · 📦 3 · ⏱️ 12.12.2022):
-
-	```
-	git clone https://github.com/SanPen/GridCal
-	```
-- [PyPi](https://pypi.org/project/GridCal) (📥 1K / month):
-	```
-	pip install GridCal
 	```
 </details>
 <details><summary><b><a href="rwl.github.io/PYPOWER/api/">PYPOWER</a></b> (🥉20 ·  ⭐ 250 · 💤) - Port of MATPOWER to Python. <code><a href="https://tldrlegal.com/search?q=BSD">❗️BSD</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
@@ -219,7 +219,7 @@ _Power System Steady State Simulation_
 	```
 	git clone https://github.com/rwl/PYPOWER
 	```
-- [PyPi](https://pypi.org/project/PYPOWER) (📥 2.4K / month):
+- [PyPi](https://pypi.org/project/PYPOWER) (📥 2K / month):
 	```
 	pip install PYPOWER
 	```
@@ -234,7 +234,7 @@ _Power System Steady State Simulation_
 </details>
 <details><summary><b><a href="https://pypsa.org">PyPSA-Eur</a></b> (🥉19 ·  ⭐ 170) - Optimisation Model of the European Transmission System. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/PyPSA/pypsa-eur) (👨‍💻 34 · 🔀 110 · 📋 170 - 30% open · ⏱️ 28.12.2022):
+- [GitHub](https://github.com/PyPSA/pypsa-eur) (👨‍💻 34 · 🔀 110 · 📋 180 - 32% open · ⏱️ 24.01.2023):
 
 	```
 	git clone https://github.com/PyPSA/pypsa-eur
@@ -246,10 +246,18 @@ _Power System Steady State Simulation_
 </details>
 <details><summary><b><a href="https://github.com/lanl-ansi/PowerModels.jl">PowerModels.jl</a></b> (🥉18 ·  ⭐ 300) - Power Network Optimization. <code><a href="https://tldrlegal.com/search?q=BSD">❗️BSD</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/lanl-ansi/PowerModels.jl) (👨‍💻 26 · 🔀 110 · 📋 440 - 22% open · ⏱️ 07.01.2023):
+- [GitHub](https://github.com/lanl-ansi/PowerModels.jl) (👨‍💻 26 · 🔀 110 · 📋 440 - 21% open · ⏱️ 07.01.2023):
 
 	```
 	git clone https://github.com/lanl-ansi/PowerModels.jl
+	```
+</details>
+<details><summary><b><a href="https://www.gridpath.io/">GridPath</a></b> (🥉18 ·  ⭐ 64 · 📈) - Power system planning and operations. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/blue-marble/gridpath) (👨‍💻 7 · 🔀 27 · 📥 420 · 📋 300 - 19% open · ⏱️ 24.01.2023):
+
+	```
+	git clone https://github.com/blue-marble/gridpath
 	```
 </details>
 <details><summary><b><a href="https://l2rpn.chalearn.org/">LightSim2Grid</a></b> (🥉18 ·  ⭐ 31) - A fast backend for the Grid2Op. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
@@ -259,7 +267,7 @@ _Power System Steady State Simulation_
 	```
 	git clone https://github.com/BDonnot/lightsim2grid/
 	```
-- [PyPi](https://pypi.org/project/LightSim2Grid) (📥 2.1K / month):
+- [PyPi](https://pypi.org/project/LightSim2Grid) (📥 2K / month):
 	```
 	pip install LightSim2Grid
 	```
@@ -270,18 +278,10 @@ _Power System Steady State Simulation_
 </details>
 <details><summary><b><a href="https://pypsa.org">PyPSA-Eur-Sec</a></b> (🥉16 ·  ⭐ 69) - Sector-Coupled Optimisation Model of the European Energy System. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/PyPSA/pypsa-eur-sec) (👨‍💻 20 · 🔀 41 · 📋 120 - 49% open · ⏱️ 13.01.2023):
+- [GitHub](https://github.com/PyPSA/pypsa-eur-sec) (👨‍💻 20 · 🔀 41 · 📋 120 - 50% open · ⏱️ 13.01.2023):
 
 	```
 	git clone https://github.com/PyPSA/pypsa-eur-sec
-	```
-</details>
-<details><summary><b><a href="https://www.gridpath.io/">GridPath</a></b> (🥉16 ·  ⭐ 64 · 💤) - Power system planning and operations. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/blue-marble/gridpath) (👨‍💻 7 · 🔀 25 · 📥 420 · 📋 300 - 21% open · ⏱️ 21.06.2022):
-
-	```
-	git clone https://github.com/blue-marble/gridpath
 	```
 </details>
 <details><summary><b><a href="https://github.com/grid-parity-exchange/Egret">EGRET</a></b> (🥉15 ·  ⭐ 99) - Tools for Power Systems Optimization Modeling. <code><a href="https://tldrlegal.com/search?q=BSD">❗️BSD</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
@@ -318,12 +318,12 @@ _Co-Simulation Framework to Integrate Multiple Simulators_
 
 <details><summary><b><a href="https://helics.org/tools/">HELICS</a></b> (🥇22 ·  ⭐ 85) - Framework to Integrate Simulators. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/GMLC-TDC/HELICS) (👨‍💻 37 · 🔀 33 · 📥 17K · 📋 600 - 10% open · ⏱️ 02.12.2022):
+- [GitHub](https://github.com/GMLC-TDC/HELICS) (👨‍💻 38 · 🔀 33 · 📥 17K · 📋 600 - 10% open · ⏱️ 20.01.2023):
 
 	```
 	git clone https://github.com/GMLC-TDC/HELICS
 	```
-- [PyPi](https://pypi.org/project/helics) (📥 2.2K / month):
+- [PyPi](https://pypi.org/project/helics) (📥 3.7K / month):
 	```
 	pip install helics
 	```
@@ -340,14 +340,14 @@ _Co-Simulation Framework to Integrate Multiple Simulators_
 
 _Interface to other tools_
 
-<details><summary><b><a href="https://github.com/mzy2240/ESA">Easy SimAuto</a></b> (🥇18 ·  ⭐ 34 · 📉) - Python interface to PowerWorld. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/mzy2240/ESA">Easy SimAuto</a></b> (🥇18 ·  ⭐ 34) - Python interface to PowerWorld. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/mzy2240/ESA) (👨‍💻 10 · 🔀 7 · 📦 3 · 📋 83 - 9% open · ⏱️ 10.12.2022):
 
 	```
 	git clone https://github.com/mzy2240/ESA
 	```
-- [PyPi](https://pypi.org/project/esa) (📥 950 / month):
+- [PyPi](https://pypi.org/project/esa) (📥 1.1K / month):
 	```
 	pip install esa
 	```
@@ -359,7 +359,7 @@ _Interface to other tools_
 	```
 	git clone https://github.com/PauloRadatz/py_dss_interface
 	```
-- [PyPi](https://pypi.org/project/py-dss-interface) (📥 160 / month):
+- [PyPi](https://pypi.org/project/py-dss-interface) (📥 190 / month):
 	```
 	pip install py-dss-interface
 	```
@@ -371,7 +371,7 @@ _Interface to other tools_
 	```
 	git clone https://github.com/dss-extensions/OpenDSSDirect.py
 	```
-- [PyPi](https://pypi.org/project/OpenDSSDirect.py) (📥 1.7K / month):
+- [PyPi](https://pypi.org/project/OpenDSSDirect.py) (📥 1.9K / month):
 	```
 	pip install OpenDSSDirect.py
 	```
@@ -380,14 +380,14 @@ _Interface to other tools_
 	conda install -c anaconda opendssdirect.py
 	```
 </details>
-<details><summary><b><a href="https://www.nrel.gov/grid/pydss.html">PyDSS</a></b> (🥉13 ·  ⭐ 24) - A Python wrapper for OpenDSS. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://www.nrel.gov/grid/pydss.html">PyDSS</a></b> (🥉14 ·  ⭐ 24 · 📈) - A Python wrapper for OpenDSS. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/NREL/PyDSS) (👨‍💻 23 · 🔀 15 · 📦 2 · 📋 23 - 60% open · ⏱️ 05.01.2023):
+- [GitHub](https://github.com/NREL/PyDSS) (👨‍💻 23 · 🔀 15 · 📦 2 · 📋 23 - 60% open · ⏱️ 24.01.2023):
 
 	```
 	git clone https://github.com/NREL/PyDSS
 	```
-- [PyPi](https://pypi.org/project/pydss) (📥 12 / month):
+- [PyPi](https://pypi.org/project/pydss) (📥 10 / month):
 	```
 	pip install pydss
 	```
@@ -406,26 +406,26 @@ _Interface to other tools_
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://highs.dev/">HiGHS</a></b> (🥇25 ·  ⭐ 460) - Large-scale Sparse Linear Problem Optimizer. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://highs.dev/">HiGHS</a></b> (🥇24 ·  ⭐ 470 · 📉) - Large-scale Sparse Linear Problem Optimizer. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/ERGO-Code/HiGHS) (👨‍💻 45 · 🔀 93 · 📦 5 · 📋 370 - 16% open · ⏱️ 18.01.2023):
+- [GitHub](https://github.com/ERGO-Code/HiGHS) (👨‍💻 45 · 🔀 95 · 📦 5 · 📋 370 - 15% open · ⏱️ 18.01.2023):
 
 	```
 	git clone https://github.com/ERGO-Code/HiGHS
 	```
-- [PyPi](https://pypi.org/project/scikit-highs) (📥 100 / month):
+- [PyPi](https://pypi.org/project/scikit-highs) (📥 59 / month):
 	```
 	pip install scikit-highs
 	```
 </details>
-<details><summary><b><a href="https://github.com/coin-or/Ipopt">Ipopt</a></b> (🥉22 ·  ⭐ 950 · 📉) - COIN-OR Interior Point Optimizer. <code><a href="http://bit.ly/2M0xmjV">EPL-2.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/coin-or/Ipopt">Ipopt</a></b> (🥉23 ·  ⭐ 960 · 📈) - COIN-OR Interior Point Optimizer. <code><a href="http://bit.ly/2M0xmjV">EPL-2.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/coin-or/Ipopt) (👨‍💻 22 · 🔀 210 · 📥 6.2K · 📋 510 - 0% open · ⏱️ 22.11.2022):
+- [GitHub](https://github.com/coin-or/Ipopt) (👨‍💻 22 · 🔀 210 · 📥 6.2K · 📋 510 - 0% open · ⏱️ 25.01.2023):
 
 	```
 	git clone https://github.com/coin-or/Ipopt
 	```
-- [PyPi](https://pypi.org/project/ipopt) (📥 2.2K / month):
+- [PyPi](https://pypi.org/project/ipopt) (📥 2.1K / month):
 	```
 	pip install ipopt
 	```
@@ -442,12 +442,12 @@ _Interface to other tools_
 
 <details><summary><b><a href="https://www.pyomo.org">Pyomo</a></b> (🥇36 ·  ⭐ 1.4K) - Python-based Optimization Modeling Language. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/Pyomo/pyomo) (👨‍💻 120 · 🔀 400 · 📥 630 · 📦 1.1K · 📋 1.1K - 26% open · ⏱️ 19.01.2023):
+- [GitHub](https://github.com/Pyomo/pyomo) (👨‍💻 120 · 🔀 400 · 📥 640 · 📦 1.2K · 📋 1.1K - 26% open · ⏱️ 24.01.2023):
 
 	```
 	git clone https://github.com/Pyomo/pyomo
 	```
-- [PyPi](https://pypi.org/project/Pyomo) (📥 98K / month):
+- [PyPi](https://pypi.org/project/Pyomo) (📥 97K / month):
 	```
 	pip install Pyomo
 	```
@@ -458,7 +458,7 @@ _Interface to other tools_
 </details>
 <details><summary><b><a href="https://jump.dev">JuMP</a></b> (🥉25 ·  ⭐ 1.9K) - Julia-based Optimization Modeling Language. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/jump-dev/JuMP.jl) (👨‍💻 140 · 🔀 360 · 📋 1.3K - 0% open · ⏱️ 17.01.2023):
+- [GitHub](https://github.com/jump-dev/JuMP.jl) (👨‍💻 140 · 🔀 360 · 📋 1.3K - 0% open · ⏱️ 26.01.2023):
 
 	```
 	git clone https://github.com/jump-dev/JuMP.jl
@@ -472,18 +472,18 @@ _Interface to other tools_
 
 _AI Power Grid Agent_
 
-<details><summary><b><a href="https://l2rpn.chalearn.org/">Grid2Op</a></b> (🥇23 ·  ⭐ 200) - Modeling sequential decision making in power systems. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://l2rpn.chalearn.org/">Grid2Op</a></b> (🥇24 ·  ⭐ 200 · 📈) - Modeling sequential decision making in power systems. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code> <code><img src="https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/rte-france/Grid2Op) (👨‍💻 22 · 🔀 84 · 📋 240 - 14% open · ⏱️ 11.01.2023):
 
 	```
 	git clone https://github.com/rte-france/Grid2Op
 	```
-- [PyPi](https://pypi.org/project/Grid2Op) (📥 750 / month):
+- [PyPi](https://pypi.org/project/Grid2Op) (📥 900 / month):
 	```
 	pip install Grid2Op
 	```
-- [Docker Hub](https://hub.docker.com/r/bdonnot/grid2op) (📥 8.3K · ⭐ 1 · ⏱️ 05.07.2022):
+- [Docker Hub](https://hub.docker.com/r/bdonnot/grid2op) (📥 8.4K · ⭐ 1 · ⏱️ 05.07.2022):
 	```
 	docker pull bdonnot/grid2op
 	```
@@ -503,7 +503,7 @@ _AI Power Grid Agent_
 	```
 	git clone https://github.com/cuihantao/andes_gym
 	```
-- [PyPi](https://pypi.org/project/andes) (📥 440 / month):
+- [PyPi](https://pypi.org/project/andes) (📥 380 / month):
 	```
 	pip install andes
 	```
@@ -522,24 +522,24 @@ _Co-Simulation Environment for Modeling and Simulation_
 
 <details><summary><b><a href="https://openmodelica.org">OpenModelica</a></b> (🥇27 ·  ⭐ 570) - Modelica-based environment for modeling and simulation. <code><a href="https://modelica.org/licenses/ModelicaLicense2/">❗️Custom</a></code></summary>
 
-- [GitHub](https://github.com/OpenModelica/OpenModelica) (👨‍💻 180 · 🔀 230 · 📥 340 · 📋 6.7K - 23% open · ⏱️ 19.01.2023):
+- [GitHub](https://github.com/OpenModelica/OpenModelica) (👨‍💻 180 · 🔀 230 · 📥 340 · 📋 6.7K - 23% open · ⏱️ 26.01.2023):
 
 	```
 	git clone https://github.com/OpenModelica/OpenModelica
 	```
-- [Docker Hub](https://hub.docker.com/r/openmodelica/openmodelica) (📥 18K · ⭐ 5 · ⏱️ 01.08.2022):
+- [Docker Hub](https://hub.docker.com/r/openmodelica/openmodelica) (📥 18K · ⭐ 5 · ⏱️ 26.01.2023):
 	```
 	docker pull openmodelica/openmodelica
 	```
 </details>
 <details><summary><b><a href="https://precice.org/">precice</a></b> (🥉23 ·  ⭐ 500) - Precise Code Interaction Coupling Environment. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
-- [GitHub](https://github.com/precice/precice) (👨‍💻 48 · 🔀 130 · 📥 13K · 📋 640 - 24% open · ⏱️ 19.01.2023):
+- [GitHub](https://github.com/precice/precice) (👨‍💻 48 · 🔀 130 · 📥 13K · 📋 640 - 24% open · ⏱️ 24.01.2023):
 
 	```
 	git clone https://github.com/precice/precice
 	```
-- [PyPi](https://pypi.org/project/pyprecice) (📥 180 / month):
+- [PyPi](https://pypi.org/project/pyprecice) (📥 200 / month):
 	```
 	pip install pyprecice
 	```
@@ -562,12 +562,12 @@ _Gas Network Simulation_
 
 <details><summary><b><a href="https://www.pandapipes.org/">pandapipes</a></b> (🥇23 ·  ⭐ 72) - Pipeflow Calculation Tool. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/e2nIEE/pandapipes) (👨‍💻 16 · 🔀 34 · 📦 6 · 📋 92 - 47% open · ⏱️ 12.01.2023):
+- [GitHub](https://github.com/e2nIEE/pandapipes) (👨‍💻 16 · 🔀 35 · 📦 6 · 📋 93 - 48% open · ⏱️ 26.01.2023):
 
 	```
 	git clone https://github.com/e2nIEE/pandapipes
 	```
-- [PyPi](https://pypi.org/project/pandapipes) (📥 1.5K / month):
+- [PyPi](https://pypi.org/project/pandapipes) (📥 1.7K / month):
 	```
 	pip install pandapipes
 	```
@@ -634,12 +634,12 @@ _Power System Data Resources and Tools_
 
 <details><summary><b><a href="https://pypsa.org">Atlite</a></b> (🥇22 ·  ⭐ 170) - Calculating Renewable Power Potentials. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/PyPSA/atlite) (👨‍💻 22 · 🔀 51 · 📦 17 · 📋 97 - 25% open · ⏱️ 13.01.2023):
+- [GitHub](https://github.com/PyPSA/atlite) (👨‍💻 22 · 🔀 51 · 📦 17 · 📋 97 - 25% open · ⏱️ 24.01.2023):
 
 	```
 	git clone https://github.com/PyPSA/atlite
 	```
-- [PyPi](https://pypi.org/project/atlite) (📥 650 / month):
+- [PyPi](https://pypi.org/project/atlite) (📥 600 / month):
 	```
 	pip install atlite
 	```
@@ -648,14 +648,14 @@ _Power System Data Resources and Tools_
 	conda install -c anaconda atlite
 	```
 </details>
-<details><summary><b><a href="https://pypsa.org">powerplantmatching</a></b> (🥉21 ·  ⭐ 97) - Tools to combine multiple power plant databases. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://pypsa.org">powerplantmatching</a></b> (🥉20 ·  ⭐ 98 · 📉) - Tools to combine multiple power plant databases. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/PyPSA/powerplantmatching) (👨‍💻 16 · 🔀 37 · 📥 36 · 📦 14 · 📋 56 - 21% open · ⏱️ 16.01.2023):
+- [GitHub](https://github.com/PyPSA/powerplantmatching) (👨‍💻 16 · 🔀 38 · 📥 36 · 📦 14 · 📋 58 - 22% open · ⏱️ 26.01.2023):
 
 	```
 	git clone https://github.com/PyPSA/powerplantmatching
 	```
-- [PyPi](https://pypi.org/project/powerplantmatching) (📥 240 / month):
+- [PyPi](https://pypi.org/project/powerplantmatching) (📥 130 / month):
 	```
 	pip install powerplantmatching
 	```
