@@ -129,6 +129,16 @@ projects:
     docs_url: https://github.com/changgang/steps/wiki/
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
+  - name: PowerSAS.m
+    category: dynamic
+    # labels:
+    github_id: ANL-CEEESA/powersas.m
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: BSD-3
+    description: Power grid analysis framework based on semi-analytical solutions
 
 # --- Steady State ---
 # --- SS: PyPSA series ---
