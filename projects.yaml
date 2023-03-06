@@ -298,7 +298,7 @@ projects:
     pypi_id: OpenDSSDirect.py
     conda_id: opendssdirect.py
     # dockerhub_id: 
-    homepage: https://www.epri.com/pages/sa/opendss
+    homepage: https://dss-extensions.org/
     docs_url: https://dss-extensions.org/OpenDSSDirect.py/
     license: MIT
     description: A "direct" library interface to OpenDSS
