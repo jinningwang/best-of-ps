@@ -313,6 +313,14 @@ projects:
     license: MIT
     description: A package for access to direct dll version of OpenDSS
 # --- Interface: PowerWorld ---
+  - name: DSSData
+    category: Interface
+    labels: ["python"]
+    github_id: felipemarkson/dssdata
+    pypi_id: dssdata
+    docs_url: https://felipemarkson.github.io/dssdata/
+    license: MIT
+    description: A micro-framework for simulation and data analysis of distribution systems modeled on OpenDSS
   - name: Easy SimAuto
     category: intf
     labels: ["python"]
