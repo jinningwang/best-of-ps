@@ -314,7 +314,7 @@ projects:
     description: A package for access to direct dll version of OpenDSS
 # --- Interface: PowerWorld ---
   - name: DSSData
-    category: Interface
+    category: intf
     labels: ["python"]
     github_id: felipemarkson/dssdata
     pypi_id: dssdata
