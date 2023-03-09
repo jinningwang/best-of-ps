@@ -60,10 +60,10 @@ labels:
     description: "Jupyter related project"
 # --- Project Series ---
   - label: "ltb"
-    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/LTB.ico"
+    image: "https://github.com/CURENT/ltb/blob/master/images/icon/LTB.ico"
     description: "CURENT Large-scale Testbed projects"
   - label: "curent"
-    image: "https://github.com/CURENT/ltb2/blob/main/images/icon/CURENT_Logo_Transparent.ico"
+    image: "https://github.com/CURENT/ltb/blob/master/images/icon/CURENT_Logo_Transparent.ico"
     description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
 
 projects:
@@ -71,12 +71,12 @@ projects:
   - name: LTB andes
     category: dynamic
     labels: ["python", "jupyter", "ltb", "curent"]
-    github_id: cuihantao/andes
+    github_id: CURENT/andes
     pypi_id: andes
     conda_id: andes
     dockerhub_id: cuihantao/andes
-    # homepage:
-    docs_url: https://docs.andes.app/en/stable/
+    homepage: https://curent.github.io/
+    docs_url: https://docs.andes.app/en/latest/
     license: GPL-3
     description: Transient Stability Simulator; Part of CURENT LTB
   - name: OpenIPSL
@@ -314,7 +314,7 @@ projects:
     description: A package for access to direct dll version of OpenDSS
 # --- Interface: PowerWorld ---
   - name: DSSData
-    category: Interface
+    category: intf
     labels: ["python"]
     github_id: felipemarkson/dssdata
     pypi_id: dssdata
@@ -463,13 +463,13 @@ projects:
   - name: Large-scale Testbed (LTB)
     category: cosimps
     labels: ["python", "ltb", "curent"]
-    github_id: CURENT/ltb2
+    github_id: CURENT/ltb
     # pypi_id:
     # conda_id:
-    # homepage:
-    # docs_url:
+    homepage: https://curent.github.io/
+    docs_url: https://ltb.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: CURENT Large-scale Testbed, with Self-Developed Engine
+    description: CURENT Large-scale Testbed
 
 # --- CoSim Framework ---
   - name: HELICS
@@ -533,7 +533,7 @@ projects:
     github_id: CURENT/dime
     # pypi_id:
     # conda_id:
-    # homepage:
+    homepage: https://curent.github.io/
     docs_url: https://ltbdime.readthedocs.io/en/latest/
     license: GPL-3.0
     description: Distributed Messaging Environment; Part of CURENT LTB
@@ -545,7 +545,7 @@ projects:
     github_id: CURENT/agvis
     # pypi_id:
     # conda_id:
-    # homepage:
+    homepage: https://curent.github.io/
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
     description: Geographical Visualization for Power Grid; Part of CURENT LTB
