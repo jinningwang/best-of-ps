@@ -357,7 +357,7 @@ projects:
     github_id: ERGO-Code/HiGHS
     labels: ["python"]
     category: ops
-    pypi_id: scikit-highs
+    pypi_id: highspy
     # conda_id:
     homepage: https://highs.dev/
     docs_url: https://ergo-code.github.io/HiGHS/
