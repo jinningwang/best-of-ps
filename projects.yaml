@@ -373,6 +373,16 @@ projects:
     docs_url: https://ergo-code.github.io/HiGHS/
     license: MIT
     description: Large-scale Sparse Linear Problem Optimizer 
+- name: PySCIPOpt
+  category: ops
+  labels: ["python"]
+  github_id: scipopt/PySCIPOpt
+  pypi_id: PySCIPOpt
+  conda_id: pyscipopt
+  homepage: https://www.scipopt.org/
+  docs_url: https://scipopt.github.io/PySCIPOpt/docs/html/
+  license: MIT
+  description: Python interface for SCIP
 
 # --- Optimization Language ---
   - name: CVXOPT
