@@ -343,6 +343,16 @@ projects:
     description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
+- name: AMPLPY
+  category: ops
+  labels: ["python"]
+  github_id: ampl/amplpy
+  pypi_id: amplpy
+  conda_id: amplpy
+  homepage: https://ampl.com/
+  docs_url: https://amplpy.readthedocs.io/en/latest/
+  license: BSD-3
+  description: Python API for AMPL
   - name: Ipopt
     category: ops
     labels: ["python"]
@@ -357,14 +367,34 @@ projects:
     github_id: ERGO-Code/HiGHS
     labels: ["python"]
     category: ops
-    pypi_id: scikit-highs
+    pypi_id: highspy
     # conda_id:
     homepage: https://highs.dev/
     docs_url: https://ergo-code.github.io/HiGHS/
     license: MIT
     description: Large-scale Sparse Linear Problem Optimizer 
+- name: PySCIPOpt
+  category: ops
+  labels: ["python"]
+  github_id: scipopt/PySCIPOpt
+  pypi_id: PySCIPOpt
+  conda_id: pyscipopt
+  homepage: https://www.scipopt.org/
+  docs_url: https://scipopt.github.io/PySCIPOpt/docs/html/
+  license: MIT
+  description: Python interface for SCIP
 
 # --- Optimization Language ---
+  - name: CVXOPT
+    github_id: cvxopt/cvxopt
+    labels: ["python"]
+    category: opl
+    pypi_id: cvxopt
+    conda_id: cvxopt
+    homepage: https://cvxopt.org/
+    docs_url: http://cvxopt.org/userguide/
+    license: GPL-3
+    description: Python Software for Convex Optimization
   - name: Pyomo
     github_id: Pyomo/pyomo
     labels: ["python", "jupyter"]
