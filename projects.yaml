@@ -54,7 +54,7 @@ labels:
     description: "Power system analysis projects written in Python"
   - label: "julia"
     image: "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico"
-    description: "Power system analysis projects written in Python"
+    description: "Power system analysis projects written in Julia"
   - label: "jupyter"
     image: "https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico"
     description: "Jupyter related project"
