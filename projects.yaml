@@ -75,7 +75,7 @@ projects:
     pypi_id: andes
     conda_id: andes
     dockerhub_id: cuihantao/andes
-    homepage: https://curent.github.io/
+    homepage: https://ltb.curent.org/
     docs_url: https://docs.andes.app/en/latest/
     license: GPL-3
     description: Transient Stability Simulator; Part of CURENT LTB
@@ -496,7 +496,7 @@ projects:
     github_id: CURENT/ltb
     # pypi_id:
     # conda_id:
-    homepage: https://curent.github.io/
+    homepage: https://ltb.curent.org/
     docs_url: https://ltb.readthedocs.io/en/latest/
     license: GPL-3.0
     description: CURENT Large-scale Testbed
@@ -563,7 +563,7 @@ projects:
     github_id: CURENT/dime
     # pypi_id:
     # conda_id:
-    homepage: https://curent.github.io/
+    homepage: https://ltb.curent.org/
     docs_url: https://ltbdime.readthedocs.io/en/latest/
     license: GPL-3.0
     description: Distributed Messaging Environment; Part of CURENT LTB
@@ -575,7 +575,7 @@ projects:
     github_id: CURENT/agvis
     # pypi_id:
     # conda_id:
-    homepage: https://curent.github.io/
+    homepage: https://ltb.curent.org/
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
     description: Geographical Visualization for Power Grid; Part of CURENT LTB
