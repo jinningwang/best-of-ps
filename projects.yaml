@@ -373,10 +373,10 @@ projects:
   - name: PIQP
     category: ops
     labels: ["python"]
-    github_id: ampl/amplpy
+    github_id: PREDICT-EPFL/piqp
     pypi_id: piqp
     conda_id: piqp
-    homepage:
+    # homepage:
     docs_url: https://predict-epfl.github.io/piqp/
     license: BSD-2
     description: Proximal Interior Point Quadratic Programming solver
