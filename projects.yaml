@@ -12,6 +12,9 @@ categories:
   - category: "phasor"
     title: "Phasor"
     subtitle: "Power System Phasor Simulation."
+  - category: "emt"
+    title: "EMT"
+    subtitle: "Power System EMT Simulation."
   - category: "steady-state"
     title: "Steady State"
     subtitle: "Power System Steady State Simulation"
@@ -57,7 +60,19 @@ labels:
     description: "Jupyter related project"
 
 projects:
-# --- Dynamic ---
+# --- EMT ---
+  - name: ParaEMT
+    category: emt
+    labels: ["python"]
+    github_id: NREL/ParaEMT_public
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage:
+    docs_url:
+    license: BSD-3
+    description: Parallel EMT simulation
+# --- Phasor ---
   - name: LTB ANDES
     category: phasor
     labels: ["python", "jupyter"]
