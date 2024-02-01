@@ -12,7 +12,7 @@ on:
 
 env:
   BRANCH_PREFIX: "update/"
-  DEFAULT_BRANCH: "main"
+  DEFAULT_BRANCH: "master"
 
 jobs:
   update-best-of-list:
