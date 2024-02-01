@@ -78,3 +78,6 @@ jobs:
           body_path: "latest-changes.md"
           draft: true
           prerelease: false
+        run: |
+          echo "RELEASE_TAG_NAME=${{ env.VERSION }}" >> $GITHUB_ENV
+          echo "RELEASE_NAME=Update: ${{ env.VERSION }}" >> $GITHUB_ENV
