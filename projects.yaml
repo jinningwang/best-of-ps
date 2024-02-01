@@ -68,8 +68,8 @@ projects:
     # pypi_id:
     # conda_id:
     # dockerhub_id:
-    homepage:
-    docs_url:
+    # homepage:
+    # docs_url:
     license: BSD-3
     description: Parallel EMT simulation
 # --- Phasor ---
