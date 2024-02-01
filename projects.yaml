@@ -9,9 +9,9 @@ configuration:
 
 
 categories:
-  - category: "dynamic"
-    title: "Dynamic"
-    subtitle: "Power System Dynamic Simulation."
+  - category: "phasor"
+    title: "Phasor"
+    subtitle: "Power System Phasor Simulation."
   - category: "steady-state"
     title: "Steady State"
     subtitle: "Power System Steady State Simulation"
@@ -59,7 +59,7 @@ labels:
 projects:
 # --- Dynamic ---
   - name: LTB ANDES
-    category: dynamic
+    category: phasor
     labels: ["python", "jupyter"]
     github_id: CURENT/andes
     pypi_id: andes
@@ -70,7 +70,7 @@ projects:
     license: GPL-3
     description: Transient Stability Simulator; Part of CURENT LTB
   - name: OpenIPSL
-    category: dynamic
+    category: phasor
     # labels:
     github_id: OpenIPSL/OpenIPSL
     pypi_id:
@@ -81,7 +81,7 @@ projects:
     license: BSD-3
     description: A library of power system models written with Modelica
   - name: PowerSystems
-    category: dynamic
+    category: phasor
     # labels:
     github_id: modelica-3rdparty/PowerSystems
     # pypi_id:
@@ -92,7 +92,7 @@ projects:
     license: https://modelica.org/licenses/ModelicaLicense2/
     description: Modelica 3rd party library for electrical power systems
   - name: OpenHybridSim
-    category: dynamic
+    category: phasor
 #     labels:
     github_id: OpenHybridSim/OpenHybridSim-code
 #     pypi_id:
@@ -102,7 +102,7 @@ projects:
     license: BSD-3
     description: Power system EMT-TS hybrid simulation
   - name: PowerSimulationsDynamics.jl
-    category: dynamic
+    category: phasor
     labels: ["julia"]
     github_id: NREL-Sienna/PowerSimulationsDynamics.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
@@ -110,7 +110,7 @@ projects:
     license: BSD-3
     description: Dynamic Power System simulations; Part of the Sienna at NREL
   - name: STEPS
-    category: dynamic
+    category: phasor
     # labels:
     github_id: changgang/steps
     # pypi_id:
@@ -120,7 +120,7 @@ projects:
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
   - name: PowerSAS.m
-    category: dynamic
+    category: phasor
     # labels:
     github_id: ANL-CEEESA/powersas.m
     # pypi_id:
