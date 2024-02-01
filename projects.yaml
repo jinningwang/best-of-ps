@@ -4,6 +4,9 @@ configuration:
   allowed_licenses: ["all"]
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  project_inactive_months: 12
+  project_dead_months: 1200
+
 
 categories:
   - category: "dynamic"
