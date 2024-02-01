@@ -370,6 +370,26 @@ projects:
     description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
+  - name: Clarabel.jl
+    category: ops
+    labels: ["julia"]
+    github_id: oxfordcontrol/Clarabel.jl
+    # pypi_id:
+    conda_id: clarabel
+    # homepage:
+    docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
+    license: Apache-2.0
+    description: Interior-point solver for convex conic optimisation in Julia
+  - name: Clarabel.rs
+    category: ops
+    labels: ["python"]
+    github_id: oxfordcontrol/Clarabel.rs
+    pypi_id: clarabel
+    conda_id: clarabel
+    # homepage:
+    docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
+    license: Apache-2.0
+    description: Interior-point solver for convex conic optimisation
   - name: CBC
     category: ops
     labels: ["python", "julia"]
