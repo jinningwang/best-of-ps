@@ -18,9 +18,6 @@ categories:
   - category: "cosimps"
     title: "Power System Co-Simulation"
     subtitle: "Power System Co-Simulation Platform with Integrated Engines"
-  - category: "cosimf"
-    title: "Co-Simulation Framework"
-    subtitle: "Co-Simulation Framework to Integrate Multiple Simulators"
   - category: "intf"
     title: "Interface"
     subtitle: "Interface to other tools"
@@ -61,19 +58,12 @@ labels:
   - label: "jupyter"
     image: "https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico"
     description: "Jupyter related project"
-# --- Project Series ---
-  - label: "ltb"
-    image: "https://github.com/CURENT/ltb/blob/master/images/icon/LTB.ico"
-    description: "CURENT Large-scale Testbed projects"
-  - label: "curent"
-    image: "https://github.com/CURENT/ltb/blob/master/images/icon/CURENT_Logo_Transparent.ico"
-    description: "CURENT, Center for Ultra-Wide-Area Resilient Electric Energy Transmission Networks"
 
 projects:
 # --- Dynamic ---
   - name: LTB andes
     category: dynamic
-    labels: ["python", "jupyter", "ltb", "curent"]
+    labels: ["python", "jupyter"]
     github_id: CURENT/andes
     pypi_id: andes
     conda_id: andes
@@ -495,7 +485,7 @@ projects:
 # --- CoSim for PS ---
   - name: Large-scale Testbed (LTB)
     category: cosimps
-    labels: ["python", "ltb", "curent"]
+    labels: ["python"]
     github_id: CURENT/ltb
     # pypi_id:
     # conda_id:
@@ -503,17 +493,6 @@ projects:
     docs_url: https://ltb.readthedocs.io/en/latest/
     license: GPL-3.0
     description: CURENT Large-scale Testbed
-
-# --- CoSim Framework ---
-  - name: HELICS
-    github_id: GMLC-TDC/HELICS
-    labels: ["python", "julia"]
-    category: cosimf
-    pypi_id: helics
-    conda_id: helics
-    homepage: https://helics.org/tools/
-    description: Framework to Integrate Simulators
-    license: BSD-3
 
 # --- CoSim Environment ---
   - name: OpenModelica
@@ -560,9 +539,18 @@ projects:
     description: Gas Network Optimization
 
 # --- MSG ---
+  - name: HELICS
+    github_id: GMLC-TDC/HELICS
+    labels: ["python", "julia"]
+    category: msg
+    pypi_id: helics
+    conda_id: helics
+    homepage: https://helics.org/tools/
+    description: Data exchange among diverse simulators across platforms.
+    license: BSD-3
   - name: LTB DiME
     category: msg
-    labels: ["ltb", "curent"]
+    # labels: []
     github_id: CURENT/dime
     # pypi_id:
     # conda_id:
@@ -574,7 +562,7 @@ projects:
 # --- VIS ---
   - name: LTB AGVis
     category: vis
-    labels: ["ltb", "curent"]
+    labels: ["python"]
     github_id: CURENT/agvis
     # pypi_id:
     # conda_id:
