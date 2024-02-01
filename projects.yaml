@@ -370,6 +370,16 @@ projects:
     description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
+  - name: ECOS
+    category: ops
+    labels: ["python", "julia"]
+    github_id: embotech/ecos
+    pypi_id: ecos
+    conda_id: ecos
+    # homepage:
+    docs_url: https://github.com/embotech/ecos/wiki
+    license: GPL-3
+    description: Conic solver for second-order cone programming
   - name: OSQP
     category: ops
     labels: ["python"]
