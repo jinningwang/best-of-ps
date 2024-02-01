@@ -12,7 +12,7 @@ on:
 
 env:
   BRANCH_PREFIX: "update/"
-  DEFAULT_BRANCH: "main"
+  DEFAULT_BRANCH: "master"
 
 jobs:
   update-best-of-list:
@@ -69,12 +69,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: create-release
-        uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.VERSION  }}
-          release_name: "Update: ${{ env.VERSION  }}"
-          body_path: "latest-changes.md"
-          draft: true
-          prerelease: false
+          TAG_NAME: ${{ env.VERSION  }}
+          RELEASE_NAME: "Update: ${{ env.VERSION  }}"
+        run: |
+          echo "TAG_NAME=${TAG_NAME}" >> $GITHUB_ENV
+          echo "RELEASE_NAME=${RELEASE_NAME}" >> $GITHUB_ENV
+          echo "::group::Creating Release"
+          echo "::endgroup::"
