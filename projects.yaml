@@ -15,9 +15,6 @@ categories:
   - category: "steady-state"
     title: "Steady State"
     subtitle: "Power System Steady State Simulation"
-  - category: "cosimps"
-    title: "Power System Co-Simulation"
-    subtitle: "Power System Co-Simulation Platform with Integrated Engines"
   - category: "intf"
     title: "Interface"
     subtitle: "Interface to other tools"
@@ -595,18 +592,6 @@ projects:
     # docs_url:
     license: BSD
     description: RL for Grid Control (RLGC)
-
-# --- CoSim for PS ---
-  - name: Large-scale Testbed (LTB)
-    category: cosimps
-    labels: ["python"]
-    github_id: CURENT/ltb
-    # pypi_id:
-    # conda_id:
-    homepage: https://ltb.curent.org/
-    docs_url: https://ltb.readthedocs.io/en/latest/
-    license: GPL-3.0
-    description: CURENT Large-scale Testbed
 
 # --- CoSim Environment ---
   - name: OpenModelica
