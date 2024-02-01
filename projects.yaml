@@ -370,6 +370,16 @@ projects:
     description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
+  - name: SCS
+    category: ops
+    labels: ["python"]
+    github_id: cvxgrp/scs
+    pypi_id: scs
+    conda_id: scs
+    # homepage:
+    docs_url: https://www.cvxgrp.org/scs/
+    license: MIT
+    description: Splitting Conic Solver
   - name: ECOS
     category: ops
     labels: ["python", "julia"]
