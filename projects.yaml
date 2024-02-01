@@ -58,12 +58,12 @@ labels:
 
 projects:
 # --- Dynamic ---
-  - name: LTB andes
+  - name: LTB ANDES
     category: dynamic
     labels: ["python", "jupyter"]
     github_id: CURENT/andes
     pypi_id: andes
-    conda_id: andes
+    conda_id: conda-forge/andes
     dockerhub_id: cuihantao/andes
     homepage: https://ltb.curent.org/
     docs_url: https://docs.andes.app/en/latest/
@@ -132,7 +132,7 @@ projects:
 
 # --- Steady State ---
 # --- SS: LTB series ---
-  - name: LTB ams
+  - name: LTB AMS
     category: steady-state
     labels: ["python", "jupyter"]
     github_id: CURENT/ams
@@ -159,7 +159,7 @@ projects:
     labels: ["python"]
     github_id: PyPSA/PyPSA
     pypi_id: pypsa
-    conda_id: pypsa
+    conda_id: conda-forge/pypsa
     # dockerhub_id: PyPSA/PyPSA
     homepage: https://pypsa.org
     docs_url: https://pypsa.readthedocs.io/en/latest/
@@ -204,7 +204,7 @@ projects:
     labels: ["python"]
     github_id: e2nIEE/pandapower
     pypi_id: pandapower
-    conda_id: pandapower
+    conda_id: conda-forge/pandapower 
     dockerhub_id: pauldepraz/pandapowerapi
     homepage: https://www.pandapower.org/
     docs_url: https://pandapower.readthedocs.io/en/latest/
@@ -215,7 +215,7 @@ projects:
     labels: ["python"]
     github_id: rwl/PYPOWER
     pypi_id: PYPOWER
-    conda_id: pypower
+    conda_id: invenia/pypower
     dockerhub_id: hwanghust/pypower
     homepage: rwl.github.io/PYPOWER/api/
     docs_url: http://rwl.github.io/PYPOWER/index.html
@@ -237,14 +237,6 @@ projects:
     docs_url: https://lanl-ansi.github.io/PowerModels.jl/stable/
     license: BSD
     description: Power Network Optimization
-  - name: PowerSimulations.jl
-    category: steady-state
-    labels: ["julia"]
-    github_id: nrel-siip/powersimulations.jl
-    homepage: https://www.nrel.gov/analysis/siip.html
-    docs_url: https://nrel-siip.github.io/PowerSimulations.jl/latest/
-    license: BSD-3
-    description: Optimization of Power Systems; Part of the SIIP at NREL
   - name: GridCal
     category: steady-state
     labels: ["python"]
@@ -267,11 +259,11 @@ projects:
     description: Power system planning and operations
 
 # --- SS: planning ---
-  - name: Power Grid Model
+  - name: GenX
     category: steady-state
     labels: ["python"]
     github_id: GenXProject/GenX
-    pypi_id: power-grid-model
+    # pypi_id:
     # dockerhub_id: 
     homepage: https://energy.mit.edu/genx/
     docs_url: https://genxproject.github.io/GenX/dev/
@@ -294,7 +286,7 @@ projects:
   - name: LightSim2Grid
     category: steady-state
     labels: ["python"]
-    github_id: BDonnot/lightsim2grid/
+    github_id: BDonnot/lightsim2grid
     pypi_id: LightSim2Grid
     dockerhub_id: bdonnot/lightsim2grid
     homepage: https://l2rpn.chalearn.org/
@@ -320,7 +312,7 @@ projects:
     labels: ["python"]
     github_id: dss-extensions/OpenDSSDirect.py
     pypi_id: OpenDSSDirect.py
-    conda_id: opendssdirect.py
+    # conda_id:
     # dockerhub_id: 
     homepage: https://dss-extensions.org/
     docs_url: https://dss-extensions.org/OpenDSSDirect.py/
@@ -372,7 +364,7 @@ projects:
     labels: ["julia"]
     github_id: oxfordcontrol/Clarabel.jl
     # pypi_id:
-    conda_id: clarabel
+    # conda_id:
     # homepage:
     docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
     license: Apache-2.0
@@ -382,7 +374,7 @@ projects:
     labels: ["python"]
     github_id: oxfordcontrol/Clarabel.rs
     pypi_id: clarabel
-    conda_id: clarabel
+    conda_id: conda-forge/clarabel
     # homepage:
     docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
     license: Apache-2.0
@@ -432,7 +424,7 @@ projects:
     labels: ["python"]
     github_id: PREDICT-EPFL/piqp
     pypi_id: piqp
-    conda_id: piqp
+    conda_id: conda-forge/piqp
     # homepage:
     docs_url: https://predict-epfl.github.io/piqp/
     license: BSD-2
@@ -442,7 +434,7 @@ projects:
     labels: ["python"]
     github_id: ampl/amplpy
     pypi_id: amplpy
-    conda_id: amplpy
+    conda_id: conda-forge/amplpy
     homepage: https://ampl.com/
     docs_url: https://amplpy.readthedocs.io/en/latest/
     license: BSD-3
@@ -452,7 +444,7 @@ projects:
     labels: ["python"]
     github_id: coin-or/Ipopt
     pypi_id: ipopt
-    conda_id: ipopt
+    conda_id: conda-forge/ipopt
     # homepage:
     docs_url: https://coin-or.github.io/Ipopt/
     license: EPL-2.0
@@ -462,7 +454,7 @@ projects:
     labels: ["python"]
     category: ops
     pypi_id: highspy
-    # conda_id:
+    conda_id: conda-forge/highs
     homepage: https://highs.dev/
     docs_url: https://ergo-code.github.io/HiGHS/
     license: MIT
@@ -472,7 +464,7 @@ projects:
     labels: ["python"]
     github_id: scipopt/PySCIPOpt
     pypi_id: PySCIPOpt
-    conda_id: pyscipopt
+    conda_id: conda-forge/pyscipopt
     homepage: https://www.scipopt.org/
     docs_url: https://scipopt.github.io/PySCIPOpt/docs/html/
     license: MIT
@@ -484,7 +476,7 @@ projects:
     labels: ["python"]
     category: opl
     pypi_id: cvxpy
-    conda_id: cvxpy
+    conda_id: conda-forge/cvxpy
     # homepage:
     docs_url: http://www.cvxpy.org/
     license: Apache-2
@@ -504,7 +496,7 @@ projects:
     labels: ["python", "jupyter"]
     category: opl
     pypi_id: Pyomo
-    conda_id: pyomo
+    conda_id: conda-forge/pyomo
     homepage: https://www.pyomo.org
     docs_url: https://pyomo.readthedocs.io/en/stable/
     license: BSD-3
@@ -527,7 +519,7 @@ projects:
     labels: ["python"]
     github_id: PyPSA/powerplantmatching
     pypi_id: powerplantmatching
-    conda_id: powerplantmatching
+    conda_id: conda-forge/powerplantmatching
     # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
@@ -538,7 +530,7 @@ projects:
     labels: ["python"]
     github_id: PyPSA/atlite
     pypi_id: atlite
-    conda_id: atlite
+    conda_id: conda-forge/atlite
     # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
@@ -610,7 +602,7 @@ projects:
     # labels:
     github_id: precice/precice
     pypi_id: pyprecice
-    conda_id: pyprecice
+    conda_id: conda-forge/pyprecice
     dockerhub_id: precice/precice
     homepage: https://precice.org/
     docs_url: https://precice.org/docs.html
@@ -643,7 +635,7 @@ projects:
     labels: ["python", "julia"]
     category: msg
     pypi_id: helics
-    conda_id: helics
+    conda_id: conda-forge/helics
     homepage: https://helics.org/tools/
     description: Data exchange among diverse simulators across platforms.
     license: BSD-3
@@ -672,7 +664,7 @@ projects:
   - name: PowerGraphics
     category: vis
     labels: ["julia"]
-    github_id: nrel-siip/powergraphics.jl
+    github_id: NREL-Sienna/powergraphics.jl
     # pypi_id:
     # conda_id:
     homepage: https://www.nrel.gov/analysis/siip.html
