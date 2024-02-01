@@ -289,8 +289,9 @@ projects:
   - name: Power Grid Model
     category: steady-state
     labels: ["python"]
-    github_id: alliander-opensource/power-grid-model
+    github_id: PowerGridModel/power-grid-model
     pypi_id: power-grid-model
+    conda_id: conda-forge/power-grid-model
     # dockerhub_id: 
     # homepage:
     docs_url: https://power-grid-model.readthedocs.io/en/stable/
