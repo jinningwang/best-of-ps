@@ -269,6 +269,18 @@ projects:
     license: Apache-2
     description: Power system planning and operations
 
+# --- SS: planning ---
+  - name: Power Grid Model
+    category: steady-state
+    labels: ["python"]
+    github_id: GenXProject/GenX
+    pypi_id: power-grid-model
+    # dockerhub_id: 
+    homepage: https://energy.mit.edu/genx/
+    docs_url: https://genxproject.github.io/GenX/dev/
+    license: GPL-2.0
+    description: Steady-state distribution power system analysis
+
 # --- SS: distribution ---
   - name: Power Grid Model
     category: steady-state
@@ -358,6 +370,16 @@ projects:
     description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
+  - name: PIQP
+    category: ops
+    labels: ["python"]
+    github_id: ampl/amplpy
+    pypi_id: piqp
+    conda_id: piqp
+    homepage:
+    docs_url: https://predict-epfl.github.io/piqp/
+    license: BSD-2
+    description: Proximal Interior Point Quadratic Programming solver
   - name: AMPLPY
     category: ops
     labels: ["python"]
@@ -400,6 +422,16 @@ projects:
     description: Python interface for SCIP
 
 # --- Optimization Language ---
+  - name: CVXPY
+    github_id: cvxpy/cvxpy
+    labels: ["python"]
+    category: opl
+    pypi_id: cvxpy
+    conda_id: cvxpy
+    # homepage:
+    docs_url: http://www.cvxpy.org/
+    license: Apache-2
+    description: Convex optimization modeling language
   - name: CVXOPT
     github_id: cvxopt/cvxopt
     labels: ["python"]
