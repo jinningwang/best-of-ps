@@ -370,6 +370,16 @@ projects:
     description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
+  - name: OSQP
+    category: ops
+    labels: ["python"]
+    github_id: osqp/osqp
+    pypi_id: osqp
+    conda_id: osqp
+    # homepage:
+    docs_url: https://osqp.org/
+    license: Apache-2
+    description: Operator Splitting QP Solver
   - name: PIQP
     category: ops
     labels: ["python"]
