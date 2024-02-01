@@ -107,11 +107,11 @@ projects:
   - name: PowerSimulationsDynamics.jl
     category: dynamic
     labels: ["julia"]
-    github_id: NREL-SIIP/PowerSimulationsDynamics.jl
-    homepage: https://www.nrel.gov/analysis/siip.html
-    docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
+    github_id: NREL-Sienna/PowerSimulationsDynamics.jl
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
     license: BSD-3
-    description: Dynamic Power System simulations; Part of the SIIP at NREL
+    description: Dynamic Power System simulations; Part of the Sienna at NREL
   - name: STEPS
     category: dynamic
     # labels:
@@ -134,6 +134,28 @@ projects:
     description: Power grid analysis framework based on semi-analytical solutions
 
 # --- Steady State ---
+# --- SS: LTB series ---
+  - name: LTB ams
+    category: steady-state
+    labels: ["python", "jupyter"]
+    github_id: CURENT/ams
+    pypi_id: ltbams
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://ltb.curent.org/
+    docs_url: https://ams.readthedocs.io/en/latest/
+    license: GPL-3
+    description: Dispatch Modeling and Simulation; Part of CURENT LTB
+# --- SS: Sienna series ---
+  - name: PowerSimulations.jl
+    category: steady-state
+    labels: ["julia"]
+    github_id: NREL-Sienna/PowerSimulations.jl
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerSimulations.jl/latest
+    license: BSD-3
+    description: Power Systems optimization simulation and modeling; Part of the Sienna at NREL
+
 # --- SS: PyPSA series ---
   - name: PyPSA
     category: steady-state
