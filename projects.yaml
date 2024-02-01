@@ -370,6 +370,16 @@ projects:
     description: Julia interface for EasySimAuto and PowerWorld
 
 # --- Optimizer ---
+  - name: CBC
+    category: ops
+    labels: ["python", "julia"]
+    github_id: coin-or/Cbc
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    docs_url: https://coin-or.github.io/Cbc/Doxygen/
+    license: EPL-2.0
+    description: COIN-OR Branch-and-Cut solver
   - name: SCS
     category: ops
     labels: ["python"]
