@@ -20,14 +20,12 @@ categories:
     subtitle: "Power System Steady State Simulation"
   - category: "intf"
     title: "Interface"
-    subtitle: "Interface to other tools"
   - category: "ops"
-    title: "Optimization Solver"
+    title: "Optimizer"
   - category: "opl"
     title: "Optimization Modeling Language"
   - category: "mrl"
-    title: "Machine/Reinforcement Learning"
-    subtitle: "AI Power Grid Agent"
+    title: "Machine/Reinforcement Learning for Power Grid"
   - category: "cosime"
     title: "Co-Simulation Environment"
     subtitle: "Co-Simulation Environment for Modeling and Simulation"
@@ -36,16 +34,12 @@ categories:
     subtitle: "Gas Network Simulation"
   - category: "vis"
     title: "Visualization"
-    subtitle: "Visualization for Power Grid"
   - category: "msg"
-    title: "Messaging"
-    subtitle: "Messaging Environment for Distributed Computation"
+    title: "Messaging Environment"
   - category: "data"
     title: "Power System Data"
-    subtitle: "Power System Data Resources and Tools"
   - category: "pe"
     title: "Power Electronics"
-    subtitle: "Power Electronics Tools"
 
 labels:
 # Langauage
@@ -84,6 +78,17 @@ projects:
     license: MPL-2.0
     description: Simulation for both EMT and phasor
 # --- Phasor ---
+  - name: dynawo/dynawo
+    category: phasor
+    # labels: []
+    github_id: dynawo/dynawo
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: http://dynawo.org
+    docs_url: https://dynawo.github.io/docs/
+    license: MPL-2.0
+    description: C++/Modelica simulation tools for power systems
   - name: LTB ANDES
     category: phasor
     labels: ["python", "jupyter"]
@@ -94,14 +99,14 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://docs.andes.app/en/latest/
     license: GPL-3
-    description: Transient Stability Simulator; Part of CURENT LTB
+    description: Transient Stability Simulator; CURENT LTB
   - name: OpenIPSL
     category: phasor
     # labels:
     github_id: OpenIPSL/OpenIPSL
     pypi_id:
     # conda_id:
-    dockerhub_id:
+    # dockerhub_id:
     # homepage:
     docs_url: https://doc.openipsl.org
     license: BSD-3
@@ -134,7 +139,7 @@ projects:
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
     license: BSD-3
-    description: Dynamic Power System simulations; Part of the Sienna at NREL
+    description: Dynamic Power System simulations; NREL Sienna
   - name: STEPS
     category: phasor
     # labels:
@@ -168,7 +173,29 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://ams.readthedocs.io/en/latest/
     license: GPL-3
-    description: Dispatch Modeling and Simulation; Part of CURENT LTB
+    description: Dispatch Modeling and Simulation; CURENT LTB
+# --- SS: PowSyBl series ---
+  - name: PowSyBl Core
+    category: steady-state
+    # labels:
+    github_id: powsybl/powsybl-core
+    # pypi_id:
+    # conda_id:
+    homepage: https://www.powsybl.org
+    docs_url: https://www.javadoc.io/doc/com.powsybl/powsybl-core/latest/
+    license: MPL-2.0
+    description: Framework to build power system software
+  - name: PyPowSyBl
+    category: steady-state
+    labels: ["python"]
+    github_id: powsybl/pypowsybl
+    pypi_id: pypowsybl
+    # conda_id:
+    homepage: https://www.powsybl.org
+    docs_url: https://pypowsybl.readthedocs.io/en/latest/
+    license: MPL-2.0
+    description: A PowSyBl and Python integration
+
 # --- SS: Sienna series ---
   - name: PowerSimulations.jl
     category: steady-state
@@ -177,7 +204,7 @@ projects:
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulations.jl/latest
     license: BSD-3
-    description: Power Systems optimization simulation and modeling; Part of the Sienna at NREL
+    description: Power Systems optimization simulation and modeling; NREL Sienna
 
 # --- SS: PyPSA series ---
   - name: PyPSA
@@ -186,7 +213,7 @@ projects:
     github_id: PyPSA/PyPSA
     pypi_id: pypsa
     conda_id: conda-forge/pypsa
-    # dockerhub_id: PyPSA/PyPSA
+    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
@@ -208,12 +235,23 @@ projects:
     github_id: PyPSA/pypsa-eur-sec
     # pypi_id:
     # conda_id:
-    # dockerhub_id: nimfetrisa/pypsa-eur
+    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://pypsa-eur-sec.readthedocs.io/en/latest/?badge=latest
     license: MIT
     description: Sector-Coupled Optimisation Model of the European Energy System
-
+# --- SS: Grid2Op series ---
+  - name: LightSim2Grid
+    category: steady-state
+    labels: ["python"]
+    github_id: BDonnot/lightsim2grid
+    pypi_id: LightSim2Grid
+    # conda_id:
+    dockerhub_id: bdonnot/lightsim2grid
+    homepage: https://l2rpn.chalearn.org/
+    docs_url: https://lightsim2grid.readthedocs.io/en/latest/
+    license: MPL-2.0
+    description: A fast backend for the Grid2Op
 # --- SS: matpower series ---
   - name: matpower
     category: steady-state
@@ -247,6 +285,7 @@ projects:
     docs_url: http://rwl.github.io/PYPOWER/index.html
     license: BSD
     description: Port of MATPOWER to Python
+# --- SS: others ---
   - name: EGRET
     category: steady-state
     labels: ["python"]
@@ -308,18 +347,6 @@ projects:
     docs_url: https://power-grid-model.readthedocs.io/en/stable/
     license: MPL-2.0
     description: Steady-state distribution power system analysis
-
-# --- SS: others ---
-  - name: LightSim2Grid
-    category: steady-state
-    labels: ["python"]
-    github_id: BDonnot/lightsim2grid
-    pypi_id: LightSim2Grid
-    dockerhub_id: bdonnot/lightsim2grid
-    homepage: https://l2rpn.chalearn.org/
-    docs_url: https://lightsim2grid.readthedocs.io/en/latest/
-    license: MPL-2.0
-    description: A fast backend for the Grid2Op
 
 # --- Interface ---
 # --- Interface: OpenDSS ---
@@ -696,9 +723,19 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://ltbdime.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: Distributed Messaging Environment; Part of CURENT LTB
+    description: Distributed Messaging Environment; CURENT LTB
 
 # --- VIS ---
+  - name: PowSyBl Diagram
+    category: vis
+    # labels:
+    github_id: powsybl/powsybl-core
+    # pypi_id:
+    # conda_id:
+    homepage: https://www.powsybl.org
+    docs_url: https://www.powsybl.org/pages/documentation/developer/api_guide/svg-writing.html
+    license: MPL-2.0
+    description: single-line substation diagrams and network graph diagrams
   - name: LTB AGVis
     category: vis
     labels: ["python"]
@@ -708,17 +745,17 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: Geographical Visualization for Power Grid; Part of CURENT LTB
-  - name: PowerGraphics
+    description: Geographical Visualization for Power Grid; CURENT LTB
+  - name: PowerGraphics.jl
     category: vis
     labels: ["julia"]
     github_id: NREL-Sienna/powergraphics.jl
     # pypi_id:
     # conda_id:
-    homepage: https://www.nrel.gov/analysis/siip.html
-    docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerGraphics.jl/stable/
     license: BSD-3
-    description: Visualization for PowerSimulations; Part of the SIIP at NREL
+    description: Visualization for PowerSimulations; NREL Sienna
 
 # --- Power Electronics ---
   - name: GSEIM
