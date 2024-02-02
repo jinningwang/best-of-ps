@@ -106,7 +106,7 @@ projects:
     github_id: OpenIPSL/OpenIPSL
     pypi_id:
     # conda_id:
-    dockerhub_id:
+    # dockerhub_id:
     # homepage:
     docs_url: https://doc.openipsl.org
     license: BSD-3
@@ -213,7 +213,7 @@ projects:
     github_id: PyPSA/PyPSA
     pypi_id: pypsa
     conda_id: conda-forge/pypsa
-    # dockerhub_id: PyPSA/PyPSA
+    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
@@ -235,7 +235,7 @@ projects:
     github_id: PyPSA/pypsa-eur-sec
     # pypi_id:
     # conda_id:
-    # dockerhub_id: nimfetrisa/pypsa-eur
+    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://pypsa-eur-sec.readthedocs.io/en/latest/?badge=latest
     license: MIT
