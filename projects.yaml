@@ -89,7 +89,7 @@ projects:
     # labels:
     github_id: OpenIPSL/OpenIPSL
     pypi_id:
-    conda_id:
+    # conda_id:
     dockerhub_id:
     # homepage:
     docs_url: https://doc.openipsl.org
@@ -400,7 +400,7 @@ projects:
     labels: ["python", "julia"]
     github_id: coin-or/Cbc
     # pypi_id:
-    # conda_id:
+    conda_id: conda-forge/coincbc
     # homepage:
     docs_url: https://coin-or.github.io/Cbc/Doxygen/
     license: EPL-2.0
@@ -410,7 +410,7 @@ projects:
     labels: ["python"]
     github_id: cvxgrp/scs
     pypi_id: scs
-    conda_id: scs
+    conda_id: conda-forge/scs
     # homepage:
     docs_url: https://www.cvxgrp.org/scs/
     license: MIT
@@ -420,7 +420,7 @@ projects:
     labels: ["python", "julia"]
     github_id: embotech/ecos
     pypi_id: ecos
-    conda_id: ecos
+    conda_id: conda-forge/ecos
     # homepage:
     docs_url: https://github.com/embotech/ecos/wiki
     license: GPL-3
@@ -430,8 +430,8 @@ projects:
     labels: ["python"]
     github_id: osqp/osqp
     pypi_id: osqp
-    conda_id: osqp
-    # homepage:
+    conda_id: conda-forge/osqp
+    homepage: https://osqp.org
     docs_url: https://osqp.org/
     license: Apache-2
     description: Operator Splitting QP Solver
@@ -512,7 +512,7 @@ projects:
     labels: ["python"]
     category: opl
     pypi_id: cvxopt
-    conda_id: cvxopt
+    conda_id: conda-forge/cvxopt
     homepage: https://cvxopt.org/
     docs_url: http://cvxopt.org/userguide/
     license: GPL-3
@@ -592,10 +592,10 @@ projects:
     description: Modeling sequential decision making in power systems
   - name: andes_gym
     category: mrl
-    labels: ["python", "curent"]
+    labels: ["python"]
     github_id: cuihantao/andes_gym
-    pypi_id: andes
-    conda_id: andes
+    # pypi_id:
+    # conda_id:
     # homepage:
     # docs_url:
     license: GPL-3
@@ -703,7 +703,7 @@ projects:
     category: pe
     labels: ["python"]
     github_id: gseim/gseim
-    # pypi_id:
+    pypi_id: GSEIM
     # conda_id:
     # homepage:
     docs_url: https://gseim.github.io/build/html/index.html
