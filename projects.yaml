@@ -72,6 +72,17 @@ projects:
     # docs_url:
     license: BSD-3
     description: Parallel EMT simulation
+  - name: DPsim
+    category: emt
+    labels: ["python"]
+    github_id: sogno-platform/dpsim
+    pypi_id: dpsim
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://dpsim.fein-aachen.org/
+    docs_url: https://dpsim.fein-aachen.org/docs/
+    license: MPL-2.0
+    description: Simulation for both EMT and phasor
 # --- Phasor ---
   - name: LTB ANDES
     category: phasor
@@ -89,7 +100,7 @@ projects:
     # labels:
     github_id: OpenIPSL/OpenIPSL
     pypi_id:
-    conda_id:
+    # conda_id:
     dockerhub_id:
     # homepage:
     docs_url: https://doc.openipsl.org
@@ -400,7 +411,7 @@ projects:
     labels: ["python", "julia"]
     github_id: coin-or/Cbc
     # pypi_id:
-    # conda_id:
+    conda_id: conda-forge/coincbc
     # homepage:
     docs_url: https://coin-or.github.io/Cbc/Doxygen/
     license: EPL-2.0
@@ -410,7 +421,7 @@ projects:
     labels: ["python"]
     github_id: cvxgrp/scs
     pypi_id: scs
-    conda_id: scs
+    conda_id: conda-forge/scs
     # homepage:
     docs_url: https://www.cvxgrp.org/scs/
     license: MIT
@@ -420,7 +431,7 @@ projects:
     labels: ["python", "julia"]
     github_id: embotech/ecos
     pypi_id: ecos
-    conda_id: ecos
+    conda_id: conda-forge/ecos
     # homepage:
     docs_url: https://github.com/embotech/ecos/wiki
     license: GPL-3
@@ -430,8 +441,8 @@ projects:
     labels: ["python"]
     github_id: osqp/osqp
     pypi_id: osqp
-    conda_id: osqp
-    # homepage:
+    conda_id: conda-forge/osqp
+    homepage: https://osqp.org
     docs_url: https://osqp.org/
     license: Apache-2
     description: Operator Splitting QP Solver
@@ -497,12 +508,22 @@ projects:
     docs_url: http://www.cvxpy.org/
     license: Apache-2
     description: Convex optimization modeling language
+  - name: KVXOPT
+    github_id: sanurielf/kvxopt
+    labels: ["python"]
+    category: opl
+    pypi_id: kvxopt
+    conda_id: conda-forge/kvxopt
+    # homepage:
+    docs_url: https://sanurielf.github.io/kvxopt/userguide/
+    license: GPL-3
+    description: CVXOPT with more wrappers suite-sparse.
   - name: CVXOPT
     github_id: cvxopt/cvxopt
     labels: ["python"]
     category: opl
     pypi_id: cvxopt
-    conda_id: cvxopt
+    conda_id: conda-forge/cvxopt
     homepage: https://cvxopt.org/
     docs_url: http://cvxopt.org/userguide/
     license: GPL-3
@@ -530,6 +551,17 @@ projects:
 
 
 # --- Data Source ---
+  - name: GridStatus
+    category: data
+    labels: ["python"]
+    github_id: kmax12/gridstatus
+    pypi_id: gridstatus
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.gridstatus.io
+    docs_url: https://docs.gridstatus.io/en/latest/
+    license: BSD-3
+    description: Extract data from ISOs and other sources
   - name: powerplantmatching
     category: data
     labels: ["python"]
@@ -582,10 +614,10 @@ projects:
     description: Modeling sequential decision making in power systems
   - name: andes_gym
     category: mrl
-    labels: ["python", "curent"]
+    labels: ["python"]
     github_id: cuihantao/andes_gym
-    pypi_id: andes
-    conda_id: andes
+    # pypi_id:
+    # conda_id:
     # homepage:
     # docs_url:
     license: GPL-3
@@ -693,7 +725,7 @@ projects:
     category: pe
     labels: ["python"]
     github_id: gseim/gseim
-    # pypi_id:
+    pypi_id: GSEIM
     # conda_id:
     # homepage:
     docs_url: https://gseim.github.io/build/html/index.html
