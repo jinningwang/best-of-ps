@@ -169,6 +169,28 @@ projects:
     docs_url: https://ams.readthedocs.io/en/latest/
     license: GPL-3
     description: Dispatch Modeling and Simulation; Part of CURENT LTB
+# --- SS: PowSyBl series ---
+  - name: PowSyBl Core
+    category: steady-state
+    # labels:
+    github_id: powsybl/powsybl-core
+    # pypi_id:
+    # conda_id:
+    homepage: https://www.powsybl.org
+    docs_url: https://www.javadoc.io/doc/com.powsybl/powsybl-core/latest/
+    license: MPL-2.0
+    description: Framework to build power system software
+  - name: PyPowSyBl
+    category: steady-state
+    labels: ["python"]
+    github_id: powsybl/pypowsybl
+    pypi_id: pypowsybl
+    # conda_id:
+    homepage: https://www.powsybl.org
+    docs_url: https://pypowsybl.readthedocs.io/en/latest/
+    license: MPL-2.0
+    description: A PowSyBl and Python integration
+
 # --- SS: Sienna series ---
   - name: PowerSimulations.jl
     category: steady-state
@@ -699,6 +721,16 @@ projects:
     description: Distributed Messaging Environment; Part of CURENT LTB
 
 # --- VIS ---
+  - name: PowSyBl Diagram
+    category: vis
+    # labels:
+    github_id: powsybl/powsybl-core
+    # pypi_id:
+    # conda_id:
+    homepage: https://www.powsybl.org
+    docs_url: https://www.powsybl.org/pages/documentation/developer/api_guide/svg-writing.html
+    license: MPL-2.0
+    description: single-line substation diagrams and network graph diagrams
   - name: LTB AGVis
     category: vis
     labels: ["python"]
