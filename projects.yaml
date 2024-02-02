@@ -94,7 +94,7 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://docs.andes.app/en/latest/
     license: GPL-3
-    description: Transient Stability Simulator; Part of CURENT LTB
+    description: Transient Stability Simulator; CURENT LTB
   - name: OpenIPSL
     category: phasor
     # labels:
@@ -134,7 +134,7 @@ projects:
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
     license: BSD-3
-    description: Dynamic Power System simulations; Part of the Sienna at NREL
+    description: Dynamic Power System simulations; NREL Sienna
   - name: STEPS
     category: phasor
     # labels:
@@ -168,7 +168,7 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://ams.readthedocs.io/en/latest/
     license: GPL-3
-    description: Dispatch Modeling and Simulation; Part of CURENT LTB
+    description: Dispatch Modeling and Simulation; CURENT LTB
 # --- SS: PowSyBl series ---
   - name: PowSyBl Core
     category: steady-state
@@ -199,7 +199,7 @@ projects:
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulations.jl/latest
     license: BSD-3
-    description: Power Systems optimization simulation and modeling; Part of the Sienna at NREL
+    description: Power Systems optimization simulation and modeling; NREL Sienna
 
 # --- SS: PyPSA series ---
   - name: PyPSA
@@ -718,7 +718,7 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://ltbdime.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: Distributed Messaging Environment; Part of CURENT LTB
+    description: Distributed Messaging Environment; CURENT LTB
 
 # --- VIS ---
   - name: PowSyBl Diagram
@@ -740,17 +740,17 @@ projects:
     homepage: https://ltb.curent.org/
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
-    description: Geographical Visualization for Power Grid; Part of CURENT LTB
-  - name: PowerGraphics
+    description: Geographical Visualization for Power Grid; CURENT LTB
+  - name: PowerGraphics.jl
     category: vis
     labels: ["julia"]
     github_id: NREL-Sienna/powergraphics.jl
     # pypi_id:
     # conda_id:
-    homepage: https://www.nrel.gov/analysis/siip.html
-    docs_url: https://nrel-siip.github.io/PowerSimulationsDynamics.jl/stable/
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerGraphics.jl/stable/
     license: BSD-3
-    description: Visualization for PowerSimulations; Part of the SIIP at NREL
+    description: Visualization for PowerSimulations; NREL Sienna
 
 # --- Power Electronics ---
   - name: GSEIM
