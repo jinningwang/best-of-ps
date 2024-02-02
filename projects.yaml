@@ -78,6 +78,17 @@ projects:
     license: MPL-2.0
     description: Simulation for both EMT and phasor
 # --- Phasor ---
+  - name: dynawo/dynawo
+    category: phasor
+    # labels: []
+    github_id: dynawo/dynawo
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: http://dynawo.org
+    docs_url: https://dynawo.github.io/docs/
+    license: MPL-2.0
+    description: C++/Modelica simulation tools for power systems
   - name: LTB ANDES
     category: phasor
     labels: ["python", "jupyter"]
