@@ -72,6 +72,17 @@ projects:
     # docs_url:
     license: BSD-3
     description: Parallel EMT simulation
+  - name: DPsim
+    category: emt
+    labels: ["python"]
+    github_id: sogno-platform/dpsim
+    pypi_id: dpsim
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://dpsim.fein-aachen.org/
+    docs_url: https://dpsim.fein-aachen.org/docs/
+    license: MPL-2.0
+    description: Simulation for both EMT and phasor
 # --- Phasor ---
   - name: LTB ANDES
     category: phasor
