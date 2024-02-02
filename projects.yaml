@@ -213,7 +213,18 @@ projects:
     docs_url: https://pypsa-eur-sec.readthedocs.io/en/latest/?badge=latest
     license: MIT
     description: Sector-Coupled Optimisation Model of the European Energy System
-
+# --- SS: Grid2Op series ---
+  - name: LightSim2Grid
+    category: steady-state
+    labels: ["python"]
+    github_id: BDonnot/lightsim2grid
+    pypi_id: LightSim2Grid
+    # conda_id:
+    dockerhub_id: bdonnot/lightsim2grid
+    homepage: https://l2rpn.chalearn.org/
+    docs_url: https://lightsim2grid.readthedocs.io/en/latest/
+    license: MPL-2.0
+    description: A fast backend for the Grid2Op
 # --- SS: matpower series ---
   - name: matpower
     category: steady-state
@@ -247,6 +258,7 @@ projects:
     docs_url: http://rwl.github.io/PYPOWER/index.html
     license: BSD
     description: Port of MATPOWER to Python
+# --- SS: others ---
   - name: EGRET
     category: steady-state
     labels: ["python"]
@@ -308,18 +320,6 @@ projects:
     docs_url: https://power-grid-model.readthedocs.io/en/stable/
     license: MPL-2.0
     description: Steady-state distribution power system analysis
-
-# --- SS: others ---
-  - name: LightSim2Grid
-    category: steady-state
-    labels: ["python"]
-    github_id: BDonnot/lightsim2grid
-    pypi_id: LightSim2Grid
-    dockerhub_id: bdonnot/lightsim2grid
-    homepage: https://l2rpn.chalearn.org/
-    docs_url: https://lightsim2grid.readthedocs.io/en/latest/
-    license: MPL-2.0
-    description: A fast backend for the Grid2Op
 
 # --- Interface ---
 # --- Interface: OpenDSS ---
