@@ -324,6 +324,16 @@ projects:
     description: Power system planning and operations
 
 # --- SS: planning ---
+  - name: ReEDS-2.0
+    category: steady-state
+    labels: ["python"]
+    github_id: NREL/ReEDS-2.0
+    # pypi_id:
+    # dockerhub_id: 
+    homepage: https://www.nrel.gov/analysis/reeds/
+    docs_url: https://www.nrel.gov/docs/fy21osti/78195.pdf
+    license: GPL-3.0
+    description: Capacity planning and dispatch model
   - name: GenX
     category: steady-state
     labels: ["python"]
@@ -333,7 +343,7 @@ projects:
     homepage: https://energy.mit.edu/genx/
     docs_url: https://genxproject.github.io/GenX/dev/
     license: GPL-2.0
-    description: Steady-state distribution power system analysis
+    description: Configurable capacity expansion model
 
 # --- SS: distribution ---
   - name: Power Grid Model
