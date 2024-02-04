@@ -588,6 +588,17 @@ projects:
 
 
 # --- Data Source ---
+  - name: WECC-and-NPCC-Electricity-Economic-Data
+    category: data
+    labels: ["python"]
+    github_id: enliten/ENLITEN-Grid-Econ-Data
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    # docs_url:
+    license: GPL-3
+    description: Economic data on WECC and NPCC
   - name: GridStatus
     category: data
     labels: ["python"]
