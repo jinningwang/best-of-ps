@@ -89,7 +89,7 @@ projects:
     docs_url:
     license: LGPL-2.1
     description: Distribution power system simulator
-  - name: dynawo/dynawo
+  - name: Dynaωo
     category: phasor
     # labels: []
     github_id: dynawo/dynawo
