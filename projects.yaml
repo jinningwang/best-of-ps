@@ -275,7 +275,7 @@ projects:
     docs_url: https://github.com/MATPOWER/most/blob/master/docs/MOST-manual.pdf
     license: BSD-3
     description: MATPOWER Optimal Scheduling Tool
-  - name: matpower
+  - name: MATPOWER
     category: steady-state
     # labels:
     github_id: MATPOWER/matpower
