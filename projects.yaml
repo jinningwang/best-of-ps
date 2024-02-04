@@ -264,6 +264,17 @@ projects:
     license: MPL-2.0
     description: A fast backend for the Grid2Op
 # --- SS: matpower series ---
+  - name: MOST
+    category: steady-state
+    # labels:
+    github_id: MATPOWER/most
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://matpower.org/
+    docs_url: https://github.com/MATPOWER/most/blob/master/docs/MOST-manual.pdf
+    license: BSD-3
+    description: MATPOWER Optimal Scheduling Tool
   - name: matpower
     category: steady-state
     # labels:
