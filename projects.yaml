@@ -78,6 +78,17 @@ projects:
     license: MPL-2.0
     description: Simulation for both EMT and phasor
 # --- Phasor ---
+  - name: GridLAB-D
+    category: phasor
+    # labels: []
+    github_id: gridlab-d/gridlab-d
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage:
+    docs_url:
+    license: LGPL-2.1
+    description: Distribution power system simulator
   - name: dynawo/dynawo
     category: phasor
     # labels: []
