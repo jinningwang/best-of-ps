@@ -78,7 +78,18 @@ projects:
     license: MPL-2.0
     description: Simulation for both EMT and phasor
 # --- Phasor ---
-  - name: dynawo/dynawo
+  - name: GridLAB-D
+    category: phasor
+    # labels: []
+    github_id: gridlab-d/gridlab-d
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage:
+    docs_url:
+    license: LGPL-2.1
+    description: Distribution power system simulator
+  - name: Dynaωo
     category: phasor
     # labels: []
     github_id: dynawo/dynawo
@@ -253,16 +264,50 @@ projects:
     license: MPL-2.0
     description: A fast backend for the Grid2Op
 # --- SS: matpower series ---
-  - name: matpower
+  - name: MOST
+    category: steady-state
+    # labels:
+    github_id: MATPOWER/most
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://matpower.org/
+    docs_url: https://github.com/MATPOWER/most/blob/master/docs/MOST-manual.pdf
+    license: BSD-3
+    description: MATPOWER Optimal Scheduling Tool
+  - name: MATPOWER
     category: steady-state
     # labels:
     github_id: MATPOWER/matpower
-    pypi_id: matpower
+    # pypi_id:
+    # conda_id:
     dockerhub_id: matpower/matpower
     homepage: https://matpower.org/
     docs_url: https://matpower.org/doc/
     license: BSD-3
     description: Steady state power flow simulation
+  - name: matpower-pip
+    category: steady-state
+    labels: ["python"]
+    github_id: yasirroni/matpower-pip
+    pypi_id: matpower
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://matpower.org/
+    docs_url: https://matpower.org/doc/
+    license: MIT
+    description: Easy Python Access to MATPOWER
+  - name: mypower
+    category: steady-state
+    labels: ["python"]
+    github_id: yasirroni/mypower
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    # docs_url:
+    license: MIT
+    description: Supplementary function of MATPOWER in Python
   - name: pandapower
     category: steady-state
     labels: ["python"]
@@ -535,6 +580,16 @@ projects:
     description: Python interface for SCIP
 
 # --- Optimization Language ---
+  - name: RSOME
+    github_id: XiongPengNUS/rsome
+    labels: ["python"]
+    category: opl
+    pypi_id: rsome
+    # conda_id:
+    # homepage:
+    docs_url: https://xiongpengnus.github.io/rsome/
+    license: GPL-3
+    description: Robust Stochastic Optimization Made Easy
   - name: CVXPY
     github_id: cvxpy/cvxpy
     labels: ["python"]
@@ -588,6 +643,39 @@ projects:
 
 
 # --- Data Source ---
+  - name: PowerGenome
+    category: steady-state
+    labels: ["python"]
+    github_id: PowerGenome/PowerGenome
+    pypi_id: PowerGenome
+    conda_id: conda-forge/powergenome
+    # dockerhub_id:
+    homepage: https://groups.io/g/powergenome
+    docs_url: https://github.com/PowerGenome/PowerGenome/wiki
+    license: MIT
+    description: Create inputs for power systems models
+  - name: DeepSolar
+    category: data
+    labels: ["python"]
+    github_id: wangzhecheng/DeepSolar
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://deepsolar.web.app
+    # docs_url:
+    license: MIT
+    description: Houseshold-level solar panel identification with deep learning
+  - name: WECC-and-NPCC-Electricity-Economic-Data
+    category: data
+    labels: ["python"]
+    github_id: enliten/ENLITEN-Grid-Econ-Data
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    # docs_url:
+    license: GPL-3
+    description: Economic data on WECC and NPCC
   - name: GridStatus
     category: data
     labels: ["python"]
