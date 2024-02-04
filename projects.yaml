@@ -588,6 +588,17 @@ projects:
 
 
 # --- Data Source ---
+  - name: DeepSolar
+    category: data
+    labels: ["python"]
+    github_id: wangzhecheng/DeepSolar
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://deepsolar.web.app
+    # docs_url:
+    license: MIT
+    description: Houseshold-level solar panel identification with deep learning
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
     labels: ["python"]
