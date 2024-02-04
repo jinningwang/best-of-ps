@@ -609,6 +609,17 @@ projects:
 
 
 # --- Data Source ---
+  - name: PowerGenome
+    category: steady-state
+    labels: ["python"]
+    github_id: PowerGenome/PowerGenome
+    pypi_id: PowerGenome
+    conda_id: conda-forge/powergenome
+    # dockerhub_id:
+    homepage: https://groups.io/g/powergenome
+    docs_url: https://github.com/PowerGenome/PowerGenome/wiki
+    license: MIT
+    description: Create inputs for power systems models
   - name: DeepSolar
     category: data
     labels: ["python"]
