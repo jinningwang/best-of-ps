@@ -288,7 +288,7 @@ projects:
     description: Steady state power flow simulation
   - name: matpower-pip
     category: steady-state
-    # labels:
+    labels: ["python"]
     github_id: yasirroni/matpower-pip
     pypi_id: matpower
     # conda_id:
@@ -297,6 +297,17 @@ projects:
     docs_url: https://matpower.org/doc/
     license: MIT
     description: Easy Python Access to MATPOWER
+  - name: mypower
+    category: steady-state
+    labels: ["python"]
+    github_id: yasirroni/mypower
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    # docs_url:
+    license: MIT
+    description: Supplementary function of MATPOWER in Python
   - name: pandapower
     category: steady-state
     labels: ["python"]
