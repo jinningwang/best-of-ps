@@ -535,6 +535,16 @@ projects:
     description: Python interface for SCIP
 
 # --- Optimization Language ---
+  - name: RSOME
+    github_id: XiongPengNUS/rsome
+    labels: ["python"]
+    category: opl
+    pypi_id: rsome
+    # conda_id:
+    # homepage:
+    docs_url: https://xiongpengnus.github.io/rsome/
+    license: GPL-3
+    description: Robust Stochastic Optimization Made Easy
   - name: CVXPY
     github_id: cvxpy/cvxpy
     labels: ["python"]
