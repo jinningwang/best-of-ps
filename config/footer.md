@@ -31,7 +31,9 @@ The data collection can be deficient for the projects that are not majorly hoste
 
 ## Related Resources
 
-- [**Papers With Code**](https://paperswithcode.com): Discover ML papers, code, and evaluation tables.
+- [G-PST Tools Portal](https://g-pst.github.io/tools/): An open tools portal with a classification approach
+- [Open Source Software (OSS) for Electricity Market Research, Teaching, and Training](https://www2.econ.iastate.edu/tesfatsi/ElectricOSS.htm)
+- [Papers With Code](https://paperswithcode.com): Discover ML papers, code, and evaluation tables.
 
 ## Contribution
 
