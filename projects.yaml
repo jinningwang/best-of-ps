@@ -78,6 +78,29 @@ projects:
     license: MPL-2.0
     description: Simulation for both EMT and phasor
 # --- Phasor ---
+# --- EPRI series ---
+  - name: OpenDSS
+    category: phasor
+    # labels: []
+    # github_id:
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.epri.com/pages/sa/opendss
+    docs_url: https://opendss.epri.com/opendss_documentation.html
+    license: BSD
+    description: Distribution system simulator
+  - name: OpenDER
+    category: phasor
+    labels: ["python"]
+    github_id: epri-dev/OpenDER
+    pypi_id: opender
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.epri.com/OpenDER
+    # docs_url:
+    license: BSD-3
+    description: Inverter-based DER simulation
   - name: GridLAB-D
     category: phasor
     # labels: []
@@ -404,6 +427,18 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+# --- Interface: EPRI ---
+  - name: OpenDER interface
+    category: intf
+    labels: ["python", "jupyter"]
+    github_id: epri-dev/OpenDER_interface
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id: 
+    homepage: https://www.epri.com/OpenDER
+    # docs_url:
+    license: BSD-3
+    description: Interface for OpenDER
 # --- Interface: OpenDSS ---
   - name: PyDSS
     category: intf
