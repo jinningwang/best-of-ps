@@ -78,6 +78,18 @@ projects:
     license: MPL-2.0
     description: Simulation for both EMT and phasor
 # --- Phasor ---
+# --- EPRI series ---
+  - name: OpenDER
+    category: phasor
+    labels: ["python"]
+    github_id: epri-dev/OpenDER
+    pypi_id: opender
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.epri.com/OpenDER
+    # docs_url:
+    license: BSD-3
+    description: Inverter-based DER simulation
   - name: GridLAB-D
     category: phasor
     # labels: []
