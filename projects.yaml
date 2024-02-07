@@ -416,6 +416,18 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+# --- Interface: EPRI ---
+  - name: OpenDER interface
+    category: intf
+    labels: ["python", "jupyter"]
+    github_id: epri-dev/OpenDER_interface
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id: 
+    homepage: https://www.epri.com/OpenDER
+    # docs_url:
+    license: BSD-3
+    description: Interface for OpenDER
 # --- Interface: OpenDSS ---
   - name: PyDSS
     category: intf
