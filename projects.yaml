@@ -862,7 +862,7 @@ projects:
   - name: PowSyBl Diagram
     category: vis
     # labels:
-    github_id: powsybl/powsybl-core
+    github_id: powsybl/powsybl-diagram
     # pypi_id:
     # conda_id:
     homepage: https://www.powsybl.org
