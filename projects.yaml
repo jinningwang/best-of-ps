@@ -700,6 +700,42 @@ projects:
     # docs_url:
     license: MIT
     description: Houseshold-level solar panel identification with deep learning
+  - name: Power Grid Lib - Optimal Power Flow
+    category: data
+    # labels: []
+    resource: True
+    github_id: power-grid-lib/pglib-opf
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://power-grid-lib.github.io
+    docs_url: https://arxiv.org/abs/1908.02788
+    license: CC-BY-4.0
+    description: Benchmarks for OPF
+  - name: Power Grid Lib - Unit Commitment
+    category: data
+    # labels: []
+    resource: True
+    github_id: power-grid-lib/pglib-uc
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://power-grid-lib.github.io
+    # docs_url:
+    license: CC-BY-4.0
+    description: Benchmarks for UC
+  - name: Power Grid Lib - Optimal Power Flow with HVDC Lines
+    category: data
+    # labels: []
+    resource: True
+    github_id: power-grid-lib/pglib-opf-hvdc
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://power-grid-lib.github.io
+    docs_url: https://ieeexplore.ieee.org/document/8636236
+    license: CC-BY-4.0
+    description: Benchmarks for OPF with HVDC
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
     labels: ["python"]
