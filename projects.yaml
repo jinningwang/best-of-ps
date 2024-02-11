@@ -703,6 +703,7 @@ projects:
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
     labels: ["python"]
+    resource: True
     github_id: enliten/ENLITEN-Grid-Econ-Data
     # pypi_id:
     # conda_id:
