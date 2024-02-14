@@ -427,6 +427,16 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+  - name: Andes.jl
+    category: intf
+    labels: ["julia"]
+    github_id: cuihantao/Andes.jl
+    # pypi_id:
+    # dockerhub_id: 
+    homepage: https://ltb.curent.org
+    # docs_url:
+    license: MIT
+    description: Julia interface for ANDES
 # --- Interface: EPRI ---
   - name: OpenDER interface
     category: intf
