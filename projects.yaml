@@ -427,6 +427,16 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+  - name: Andes.jl
+    category: intf
+    labels: ["julia"]
+    github_id: cuihantao/Andes.jl
+    # pypi_id:
+    # dockerhub_id: 
+    homepage: https://ltb.curent.org
+    # docs_url:
+    license: MIT
+    description: Julia interface for ANDES
 # --- Interface: EPRI ---
   - name: OpenDER interface
     category: intf
@@ -781,6 +791,15 @@ projects:
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
     description: Calculating Renewable Power Potentials
+  - name: OpenDataElia
+    category: data
+    # labels: []
+    resource: True
+    # github_id:
+    homepage: https://opendata.elia.be/pages/home/
+    docs_url: https://help.opendatasoft.com/en/home
+    license: CC-BY-4.0
+    description: Data by opendatasoft
   - name: Data on Energy
     category: data
     labels: ["python"]
@@ -882,7 +901,8 @@ projects:
     pypi_id: helics
     conda_id: conda-forge/helics
     homepage: https://helics.org/tools/
-    description: Data exchange among diverse simulators across platforms.
+    docs_url: https://docs.helics.org/en/latest/
+    description: Co-simulation framework
     license: BSD-3
   - name: LTB DiME
     category: msg
