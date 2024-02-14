@@ -791,6 +791,15 @@ projects:
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
     description: Calculating Renewable Power Potentials
+  - name: OpenDataElia
+    category: data
+    # labels: []
+    resource: True
+    # github_id:
+    homepage: https://opendata.elia.be/pages/home/
+    docs_url: https://help.opendatasoft.com/en/home
+    license: CC-BY-4.0
+    description: Data by opendatasoft
   - name: Data on Energy
     category: data
     labels: ["python"]
