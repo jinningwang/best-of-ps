@@ -901,7 +901,8 @@ projects:
     pypi_id: helics
     conda_id: conda-forge/helics
     homepage: https://helics.org/tools/
-    description: Data exchange among diverse simulators across platforms.
+    docs_url: https://docs.helics.org/en/latest/
+    description: Co-simulation framework
     license: BSD-3
   - name: LTB DiME
     category: msg
