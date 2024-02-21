@@ -196,6 +196,30 @@ projects:
     description: Power grid analysis framework based on semi-analytical solutions
 
 # --- Steady State ---
+# --- SS: AMES serise ---
+  - name: AMES - Version 5.0
+    category: steady-state
+    # labels: []
+    github_id: ames-market/AMES-V5.0
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www2.econ.iastate.edu/tesfatsi/AMESMarketHome.htm
+    docs_url: https://www2.econ.iastate.edu/tesfatsi/AMESMarketProjectSetUpInfo.pdf
+    license: https://github.com/ames-market/AMES-V5.0/blob/master/LICENSE.rst
+    description: Wholesale Power Market Test Bed
+  - name: AMES (V4.0)
+    category: steady-state
+    # labels: []
+    github_id: ames-market/AMES-v4.0
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www2.econ.iastate.edu/tesfatsi/AMESMarketHome.htm
+    docs_url: https://github.com/ames-market/AMES-v4.0/blob/master/USAGE.md
+    license: GPL-2
+    description: Agent based Modeling of Electricity Systems
+
 # --- SS: LTB series ---
   - name: LTB AMS
     category: steady-state
