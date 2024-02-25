@@ -226,7 +226,7 @@ projects:
     labels: ["python", "jupyter"]
     github_id: CURENT/ams
     pypi_id: ltbams
-    # conda_id:
+    conda_id: conda-forge/ltbams
     # dockerhub_id:
     homepage: https://ltb.curent.org/
     docs_url: https://ams.readthedocs.io/en/latest/
