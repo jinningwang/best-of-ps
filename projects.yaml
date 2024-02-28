@@ -701,7 +701,7 @@ projects:
 # --- Optimization Language ---
   - name: RSOME
     github_id: XiongPengNUS/rsome
-    labels: ["python"]
+    labels: ["gha", "python", "pypi", "jupyter"]
     category: opl
     pypi_id: rsome
     # conda_id:
@@ -711,7 +711,7 @@ projects:
     description: Robust Stochastic Optimization Made Easy
   - name: CVXPY
     github_id: cvxpy/cvxpy
-    labels: ["python"]
+    labels: ["python", "gha", "pypi", "conda"]
     category: opl
     pypi_id: cvxpy
     conda_id: conda-forge/cvxpy
@@ -721,7 +721,7 @@ projects:
     description: Convex optimization modeling language
   - name: KVXOPT
     github_id: sanurielf/kvxopt
-    labels: ["python"]
+    labels: ["gha", "python", "pypi", "conda"]
     category: opl
     pypi_id: kvxopt
     conda_id: conda-forge/kvxopt
@@ -731,7 +731,7 @@ projects:
     description: CVXOPT with more wrappers suite-sparse.
   - name: CVXOPT
     github_id: cvxopt/cvxopt
-    labels: ["python"]
+    labels: ["gha", "python", "pypi", "conda", "octave", "julia"]
     category: opl
     pypi_id: cvxopt
     conda_id: conda-forge/cvxopt
@@ -741,7 +741,7 @@ projects:
     description: Python Software for Convex Optimization
   - name: Pyomo
     github_id: Pyomo/pyomo
-    labels: ["python", "jupyter"]
+    labels: ["gha", "python", "jupyter"]
     category: opl
     pypi_id: Pyomo
     conda_id: conda-forge/pyomo
@@ -751,7 +751,7 @@ projects:
     description: Python-based Optimization Modeling Language
   - name: JuMP
     github_id: jump-dev/JuMP.jl
-    labels: ["julia", "jupyter"]
+    labels: ["gha", "julia", "jupyter"]
     category: opl
     # pypi_id:
     # conda_id:
