@@ -192,14 +192,14 @@ projects:
     description: Modelica 3rd party library for electrical power systems
   - name: OpenHybridSim
     category: phasor
-#     labels:
+    labels: ["java"]
     github_id: OpenHybridSim/OpenHybridSim-code
 #     pypi_id:
 #     conda_id:
 #     homepage:
 #     docs_url:
     license: BSD-3
-    description: Power system EMT-TS hybrid simulation
+    description: EMT-TS hybrid simulation
   - name: PowerSimulationsDynamics.jl
     category: phasor
     labels: ["julia"]
