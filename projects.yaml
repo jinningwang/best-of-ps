@@ -950,7 +950,7 @@ projects:
 # --- Gas Network ---
   - name: pandapipes
     category: gasnet
-    labels: ["python"]
+    labels: ["python", "gha", "pypi", "jupyter"]
     github_id: e2nIEE/pandapipes
     pypi_id: pandapipes
     homepage: https://www.pandapipes.org/
@@ -959,7 +959,7 @@ projects:
     description: Pipeflow Calculation Tool
   - name: GasModels.jl
     category: gasnet
-    labels: ["julia"]
+    labels: ["julia", "gha"]
     github_id: lanl-ansi/GasModels.jl
     # pypi_id:
     # homepage:
@@ -970,7 +970,7 @@ projects:
 # --- MSG ---
   - name: HELICS
     github_id: GMLC-TDC/HELICS
-    labels: ["python", "julia"]
+    labels: ["gha", "c", "python", "julia", "octave", "java"]
     category: msg
     pypi_id: helics
     conda_id: conda-forge/helics
@@ -980,7 +980,7 @@ projects:
     license: BSD-3
   - name: LTB DiME
     category: msg
-    # labels: []
+    labels: ["c", "python", "octave"]
     github_id: CURENT/dime
     # pypi_id:
     # conda_id:
