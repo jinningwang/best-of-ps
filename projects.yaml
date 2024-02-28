@@ -57,6 +57,9 @@ labels:
   - label: "c"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/c.ico"
     description: "Written in C"
+  - label: "modelica"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/modelica.ico"
+    description: "Written in Modelica"
   - label: "jupyter"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/jupyter.ico"
     description: "Shipped with Jupyter Notebook examples"
@@ -167,15 +170,15 @@ projects:
     description: Transient Stability Simulator; CURENT LTB
   - name: OpenIPSL
     category: phasor
-    # labels:
+    labels: ["modelica", "gha"]
     github_id: OpenIPSL/OpenIPSL
-    pypi_id:
+    # pypi_id:
     # conda_id:
     # dockerhub_id:
     # homepage:
     docs_url: https://doc.openipsl.org
     license: BSD-3
-    description: A library of power system models written with Modelica
+    description: A library of power system models
   - name: PowerSystems
     category: phasor
     # labels:
