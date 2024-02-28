@@ -531,7 +531,7 @@ projects:
     description: A Python wrapper for OpenDSS
   - name: OpenDSSDirect.py
     category: intf
-    labels: ["python"]
+    labels: ["python", "pypi", "gha", "juptyer"]
     github_id: dss-extensions/OpenDSSDirect.py
     pypi_id: OpenDSSDirect.py
     # conda_id:
