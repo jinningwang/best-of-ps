@@ -553,7 +553,7 @@ projects:
 # --- Interface: PowerWorld ---
   - name: DSSData
     category: intf
-    labels: ["python"]
+    labels: ["python", "pypi", "gha"]
     github_id: felipemarkson/dssdata
     pypi_id: dssdata
     docs_url: https://felipemarkson.github.io/dssdata/
