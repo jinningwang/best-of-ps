@@ -335,7 +335,7 @@ projects:
 # --- SS: Grid2Op series ---
   - name: LightSim2Grid
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha", "pypi"]
     github_id: BDonnot/lightsim2grid
     pypi_id: LightSim2Grid
     # conda_id:
