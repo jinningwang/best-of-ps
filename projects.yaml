@@ -88,7 +88,7 @@ projects:
     description: Parallel EMT simulation
   - name: DPsim
     category: emt
-    labels: ["python", "jupyter", "c", "pypi"]
+    labels: ["python", "jupyter", "c", "pypi", "gha"]
     github_id: sogno-platform/dpsim
     pypi_id: dpsim
     # conda_id:
