@@ -430,7 +430,7 @@ projects:
     description: Power Network Optimization
   - name: GridCal
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha", "pypi"]
     github_id: SanPen/GridCal
     pypi_id: GridCal
     # conda_id:
