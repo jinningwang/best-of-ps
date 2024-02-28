@@ -220,12 +220,12 @@ projects:
     description: Balanced large-scale AC-DC hybrid power system analysis
   - name: PowerSAS.m
     category: phasor
-    # labels:
+    labels: ["octave"]
     github_id: ANL-CEEESA/powersas.m
     # pypi_id:
     # conda_id:
     # homepage:
-    # docs_url:
+    docs_url: https://powersasm.readthedocs.io/en/latest/index.html
     license: BSD-3
     description: Power grid analysis framework based on semi-analytical solutions
 
