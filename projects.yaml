@@ -472,7 +472,7 @@ projects:
     description: Capacity planning and dispatch model
   - name: GenX
     category: steady-state
-    labels: ["python"]
+    labels: ["julia"]
     github_id: GenXProject/GenX
     # pypi_id:
     # dockerhub_id: 
