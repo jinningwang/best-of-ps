@@ -520,7 +520,7 @@ projects:
 # --- Interface: OpenDSS ---
   - name: PyDSS
     category: intf
-    labels: ["python"]
+    labels: ["python", "pypi", "gha"]
     github_id: NREL/PyDSS
     pypi_id: pydss
     # conda_id:
