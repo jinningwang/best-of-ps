@@ -42,16 +42,45 @@ categories:
     title: "Power Electronics"
 
 labels:
-# Langauage
   - label: "python"
-    image: "https://www.python.org/static/favicon.ico"
-    description: "Power system analysis projects written in Python"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/python.ico"
+    description: "Support Python"
   - label: "julia"
-    image: "https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/julia.ico"
-    description: "Power system analysis projects written in Julia"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/julia.ico"
+    description: "Support Julia"
+  - label: "octave"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/octave.ico"
+    description: "Support Octave"
+  - label: "java"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/java.ico"
+    description: "Support Java"
+  - label: "c"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/c.ico"
+    description: "Support C"
+  - label: "modelica"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/modelica.ico"
+    description: "Support Modelica"
+  - label: "rust"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/rust.ico"
+    description: "Support Rust"
+  - label: "r"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/r.ico"
+    description: "Support R"
   - label: "jupyter"
-    image: "https://raw.githubusercontent.com/ml-tooling/best-of-ml-python/main/config/images/jupyter.ico"
-    description: "Jupyter related project"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/jupyter.ico"
+    description: "Shipped with Jupyter Notebook examples"
+  - label: "gha"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/github.ico"
+    description: "CI via GitHub Actions"
+  - label: "azure"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/azure.ico"
+    description: "CI via Azure Pipelines"
+  - label: "pypi"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/pypi.ico"
+    description: "Available on PyPI"
+  - label: "conda"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/anaconda.ico"
+    description: "Available on Conda"  
 
 projects:
 # --- EMT ---
@@ -68,7 +97,7 @@ projects:
     description: Parallel EMT simulation
   - name: DPsim
     category: emt
-    labels: ["python"]
+    labels: ["gha", "pypi", "jupyter", "python", "c"]
     github_id: sogno-platform/dpsim
     pypi_id: dpsim
     # conda_id:
@@ -92,7 +121,7 @@ projects:
     description: Distribution system simulator
   - name: OpenDER
     category: phasor
-    labels: ["python"]
+    labels: ["pypi", "jupyter", "python"]
     github_id: epri-dev/OpenDER
     pypi_id: opender
     # conda_id:
@@ -114,7 +143,7 @@ projects:
     description: High-Performance Electric Grid Simulation
   - name: GridLAB-D
     category: phasor
-    # labels: []
+    labels: ["c"]
     github_id: gridlab-d/gridlab-d
     # pypi_id:
     # conda_id:
@@ -125,7 +154,7 @@ projects:
     description: Distribution power system simulator
   - name: Dynaωo
     category: phasor
-    # labels: []
+    labels: ["gha"]
     github_id: dynawo/dynawo
     # pypi_id:
     # conda_id:
@@ -136,7 +165,7 @@ projects:
     description: C++/Modelica simulation tools for power systems
   - name: LTB ANDES
     category: phasor
-    labels: ["python", "jupyter"]
+    labels: ["gha", "azure", "pypi", "conda", "jupyter", "python"]
     github_id: CURENT/andes
     pypi_id: andes
     conda_id: conda-forge/andes
@@ -147,18 +176,18 @@ projects:
     description: Transient Stability Simulator; CURENT LTB
   - name: OpenIPSL
     category: phasor
-    # labels:
+    labels: ["gha", "modelica"]
     github_id: OpenIPSL/OpenIPSL
-    pypi_id:
+    # pypi_id:
     # conda_id:
     # dockerhub_id:
     # homepage:
     docs_url: https://doc.openipsl.org
     license: BSD-3
-    description: A library of power system models written with Modelica
+    description: A library of power system models
   - name: PowerSystems
     category: phasor
-    # labels:
+    labels: ["modelica"]
     github_id: modelica-3rdparty/PowerSystems
     # pypi_id:
     # conda_id:
@@ -169,17 +198,17 @@ projects:
     description: Modelica 3rd party library for electrical power systems
   - name: OpenHybridSim
     category: phasor
-#     labels:
+    labels: ["java"]
     github_id: OpenHybridSim/OpenHybridSim-code
 #     pypi_id:
 #     conda_id:
 #     homepage:
 #     docs_url:
     license: BSD-3
-    description: Power system EMT-TS hybrid simulation
+    description: EMT-TS hybrid simulation
   - name: PowerSimulationsDynamics.jl
     category: phasor
-    labels: ["julia"]
+    labels: ["gha", "julia"]
     github_id: NREL-Sienna/PowerSimulationsDynamics.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
@@ -187,7 +216,7 @@ projects:
     description: Dynamic Power System simulations; NREL Sienna
   - name: STEPS
     category: phasor
-    # labels:
+    labels: ["c"]
     github_id: changgang/steps
     # pypi_id:
     # conda_id:
@@ -197,12 +226,12 @@ projects:
     description: Balanced large-scale AC-DC hybrid power system analysis
   - name: PowerSAS.m
     category: phasor
-    # labels:
+    labels: ["octave"]
     github_id: ANL-CEEESA/powersas.m
     # pypi_id:
     # conda_id:
     # homepage:
-    # docs_url:
+    docs_url: https://powersasm.readthedocs.io/en/latest/index.html
     license: BSD-3
     description: Power grid analysis framework based on semi-analytical solutions
 
@@ -210,7 +239,7 @@ projects:
 # --- SS: AMES serise ---
   - name: AMES - Version 5.0
     category: steady-state
-    # labels: []
+    labels: ["java"]
     github_id: ames-market/AMES-V5.0
     # pypi_id:
     # conda_id:
@@ -221,7 +250,7 @@ projects:
     description: Wholesale Power Market Test Bed
   - name: AMES (V4.0)
     category: steady-state
-    # labels: []
+    labels: ["java"]
     github_id: ames-market/AMES-v4.0
     # pypi_id:
     # conda_id:
@@ -234,7 +263,7 @@ projects:
 # --- SS: LTB series ---
   - name: LTB AMS
     category: steady-state
-    labels: ["python", "jupyter"]
+    labels: ["gha", "azure", "pypi", "conda", "jupyter", "python"]
     github_id: CURENT/ams
     pypi_id: ltbams
     conda_id: conda-forge/ltbams
@@ -246,7 +275,7 @@ projects:
 # --- SS: PowSyBl series ---
   - name: PowSyBl Core
     category: steady-state
-    # labels:
+    labels: ["gha", "java"]
     github_id: powsybl/powsybl-core
     # pypi_id:
     # conda_id:
@@ -256,7 +285,7 @@ projects:
     description: Framework to build power system software
   - name: PyPowSyBl
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "python", "java"]
     github_id: powsybl/pypowsybl
     pypi_id: pypowsybl
     # conda_id:
@@ -268,7 +297,7 @@ projects:
 # --- SS: Sienna series ---
   - name: PowerSimulations.jl
     category: steady-state
-    labels: ["julia"]
+    labels: ["gha", "julia"]
     github_id: NREL-Sienna/PowerSimulations.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulations.jl/latest
@@ -278,7 +307,7 @@ projects:
 # --- SS: PyPSA series ---
   - name: PyPSA
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python", "julia"]
     github_id: PyPSA/PyPSA
     pypi_id: pypsa
     conda_id: conda-forge/pypsa
@@ -286,10 +315,21 @@ projects:
     homepage: https://pypsa.org
     docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
-    description: Simulating and optimising power and energy systems
-  - name: PyPSA-Eur
+    description: Python for Power System Analysis
+  - name: PyPSA-USA
     category: steady-state
     labels: ["python"]
+    github_id: PyPSA/pypsa-usa
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://pypsa.org
+    docs_url: https://pypsa-usa.readthedocs.io/
+    license: MIT
+    description: Power System Model for the United States
+  - name: PyPSA-Eur
+    category: steady-state
+    labels: ["gha", "python"]
     github_id: PyPSA/pypsa-eur
     # pypi_id:
     # conda_id:
@@ -297,22 +337,11 @@ projects:
     homepage: https://pypsa.org
     docs_url: https://pypsa-eur.readthedocs.io/en/latest/?badge=latest
     license: MIT
-    description: Optimisation Model of the European Transmission System
-  - name: PyPSA-Eur-Sec
-    category: steady-state
-    labels: ["python"]
-    github_id: PyPSA/pypsa-eur-sec
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    homepage: https://pypsa.org
-    docs_url: https://pypsa-eur-sec.readthedocs.io/en/latest/?badge=latest
-    license: MIT
     description: Sector-Coupled Optimisation Model of the European Energy System
 # --- SS: Grid2Op series ---
   - name: LightSim2Grid
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "python"]
     github_id: BDonnot/lightsim2grid
     pypi_id: LightSim2Grid
     # conda_id:
@@ -324,7 +353,7 @@ projects:
 # --- SS: matpower series ---
   - name: MOST
     category: steady-state
-    # labels:
+    labels: ["gha", "octave"]
     github_id: MATPOWER/most
     # pypi_id:
     # conda_id:
@@ -335,7 +364,7 @@ projects:
     description: MATPOWER Optimal Scheduling Tool
   - name: MATPOWER
     category: steady-state
-    # labels:
+    labels: ["gha", "octave"]
     github_id: MATPOWER/matpower
     # pypi_id:
     # conda_id:
@@ -346,7 +375,7 @@ projects:
     description: Steady state power flow simulation
   - name: matpower-pip
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "python"]
     github_id: yasirroni/matpower-pip
     pypi_id: matpower
     # conda_id:
@@ -368,7 +397,7 @@ projects:
     description: Supplementary function of MATPOWER in Python
   - name: pandapower
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python"]
     github_id: e2nIEE/pandapower
     pypi_id: pandapower
     conda_id: conda-forge/pandapower 
@@ -379,7 +408,7 @@ projects:
     description: Convenient Power System Modelling and Analysis
   - name: PYPOWER
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python"]
     github_id: rwl/PYPOWER
     pypi_id: PYPOWER
     conda_id: invenia/pypower
@@ -391,7 +420,7 @@ projects:
 # --- SS: others ---
   - name: EGRET
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "python"]
     github_id: grid-parity-exchange/Egret
     # homepage:
     # docs_url:
@@ -399,7 +428,7 @@ projects:
     description: Tools for Power Systems Optimization Modeling
   - name: PowerModels.jl
     category: steady-state
-    labels: ["julia"]
+    labels: ["gha", "julia"]
     github_id: lanl-ansi/PowerModels.jl
     # homepage:
     docs_url: https://lanl-ansi.github.io/PowerModels.jl/stable/
@@ -407,7 +436,7 @@ projects:
     description: Power Network Optimization
   - name: GridCal
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "python"]
     github_id: SanPen/GridCal
     pypi_id: GridCal
     # conda_id:
@@ -417,9 +446,9 @@ projects:
     description: Cross-platform power systems software
   - name: GridPath
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "python"]
     github_id: blue-marble/gridpath
-    # pypi_id:
+    pypi_id: GridPath
     # conda_id:
     homepage: https://www.gridpath.io/
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
@@ -427,7 +456,7 @@ projects:
     description: Power system planning and operations
   - name: ExaGO
     category: steady-state
-    # labels: []
+    labels: ["gha", "jupyter", "c"]
     github_id: pnnl/ExaGO
     # pypi_id:
     # conda_id:
@@ -449,7 +478,7 @@ projects:
     description: Capacity planning and dispatch model
   - name: GenX
     category: steady-state
-    labels: ["python"]
+    labels: ["julia"]
     github_id: GenXProject/GenX
     # pypi_id:
     # dockerhub_id: 
@@ -461,7 +490,7 @@ projects:
 # --- SS: distribution ---
   - name: Power Grid Model
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python", "c"]
     github_id: PowerGridModel/power-grid-model
     pypi_id: power-grid-model
     conda_id: conda-forge/power-grid-model
@@ -497,7 +526,7 @@ projects:
 # --- Interface: OpenDSS ---
   - name: PyDSS
     category: intf
-    labels: ["python"]
+    labels: ["gha", "pypi", "python"]
     github_id: NREL/PyDSS
     pypi_id: pydss
     # conda_id:
@@ -508,7 +537,7 @@ projects:
     description: A Python wrapper for OpenDSS
   - name: OpenDSSDirect.py
     category: intf
-    labels: ["python"]
+    labels: ["gha", "pypi", "python", "jupyter"]
     github_id: dss-extensions/OpenDSSDirect.py
     pypi_id: OpenDSSDirect.py
     # conda_id:
@@ -519,7 +548,7 @@ projects:
     description: A "direct" library interface to OpenDSS
   - name: py-dss-interface
     category: intf
-    labels: ["python"]
+    labels: ["gha", "pypi", "python", "jupyter"]
     github_id: PauloRadatz/py_dss_interface
     pypi_id: py-dss-interface
     # dockerhub_id: 
@@ -530,7 +559,7 @@ projects:
 # --- Interface: PowerWorld ---
   - name: DSSData
     category: intf
-    labels: ["python"]
+    labels: ["gha", "pypi", "python"]
     github_id: felipemarkson/dssdata
     pypi_id: dssdata
     docs_url: https://felipemarkson.github.io/dssdata/
@@ -538,7 +567,7 @@ projects:
     description: A micro-framework for simulation and data analysis of distribution systems modeled on OpenDSS
   - name: Easy SimAuto
     category: intf
-    labels: ["python"]
+    labels: ["pypi", "python"]
     github_id: mzy2240/ESA
     pypi_id: esa
     # dockerhub_id: 
@@ -560,7 +589,7 @@ projects:
 # --- Optimizer ---
   - name: Clarabel.jl
     category: ops
-    labels: ["julia"]
+    labels: ["gha", "julia"]
     github_id: oxfordcontrol/Clarabel.jl
     # pypi_id:
     # conda_id:
@@ -570,17 +599,17 @@ projects:
     description: Interior-point solver for convex conic optimisation in Julia
   - name: Clarabel.rs
     category: ops
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python", "rust"]
     github_id: oxfordcontrol/Clarabel.rs
     pypi_id: clarabel
     conda_id: conda-forge/clarabel
     # homepage:
     docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
     license: Apache-2.0
-    description: Interior-point solver for convex conic optimisation
+    description: Interior-point solver for convex conic optimisation in Rust
   - name: CBC
     category: ops
-    labels: ["python", "julia"]
+    labels: ["gha", "conda", "python", "julia", "c"]
     github_id: coin-or/Cbc
     # pypi_id:
     conda_id: conda-forge/coincbc
@@ -590,7 +619,7 @@ projects:
     description: COIN-OR Branch-and-Cut solver
   - name: SCS
     category: ops
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python", "octave", "julia", "r", "c"]
     github_id: cvxgrp/scs
     pypi_id: scs
     conda_id: conda-forge/scs
@@ -600,7 +629,7 @@ projects:
     description: Splitting Conic Solver
   - name: ECOS
     category: ops
-    labels: ["python", "julia"]
+    labels: ["python", "julia", "c", "octave", "r"]
     github_id: embotech/ecos
     pypi_id: ecos
     conda_id: conda-forge/ecos
@@ -610,17 +639,17 @@ projects:
     description: Conic solver for second-order cone programming
   - name: OSQP
     category: ops
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python", "c", "julia", "octave", "r"]
     github_id: osqp/osqp
     pypi_id: osqp
     conda_id: conda-forge/osqp
     homepage: https://osqp.org
-    docs_url: https://osqp.org/
+    docs_url: https://osqp.org/docs/get_started/
     license: Apache-2
     description: Operator Splitting QP Solver
   - name: PIQP
     category: ops
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python", "c", "octave", "r"]
     github_id: PREDICT-EPFL/piqp
     pypi_id: piqp
     conda_id: conda-forge/piqp
@@ -630,7 +659,7 @@ projects:
     description: Proximal Interior Point Quadratic Programming solver
   - name: AMPLPY
     category: ops
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python"]
     github_id: ampl/amplpy
     pypi_id: amplpy
     conda_id: conda-forge/amplpy
@@ -640,7 +669,7 @@ projects:
     description: Python API for AMPL
   - name: Ipopt
     category: ops
-    labels: ["python"]
+    labels: ["pypi", "conda", "python"]
     github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: conda-forge/ipopt
@@ -650,7 +679,7 @@ projects:
     description: COIN-OR Interior Point Optimizer
   - name: HiGHS
     github_id: ERGO-Code/HiGHS
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python", "c"]
     category: ops
     pypi_id: highspy
     conda_id: conda-forge/highs
@@ -660,7 +689,7 @@ projects:
     description: Large-scale Sparse Linear Problem Optimizer 
   - name: PySCIPOpt
     category: ops
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python"]
     github_id: scipopt/PySCIPOpt
     pypi_id: PySCIPOpt
     conda_id: conda-forge/pyscipopt
@@ -672,7 +701,7 @@ projects:
 # --- Optimization Language ---
   - name: RSOME
     github_id: XiongPengNUS/rsome
-    labels: ["python"]
+    labels: ["gha", "pypi", "jupyter", "python"]
     category: opl
     pypi_id: rsome
     # conda_id:
@@ -682,7 +711,7 @@ projects:
     description: Robust Stochastic Optimization Made Easy
   - name: CVXPY
     github_id: cvxpy/cvxpy
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python"]
     category: opl
     pypi_id: cvxpy
     conda_id: conda-forge/cvxpy
@@ -692,7 +721,7 @@ projects:
     description: Convex optimization modeling language
   - name: KVXOPT
     github_id: sanurielf/kvxopt
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python"]
     category: opl
     pypi_id: kvxopt
     conda_id: conda-forge/kvxopt
@@ -702,7 +731,7 @@ projects:
     description: CVXOPT with more wrappers suite-sparse.
   - name: CVXOPT
     github_id: cvxopt/cvxopt
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python", "octave", "julia"]
     category: opl
     pypi_id: cvxopt
     conda_id: conda-forge/cvxopt
@@ -712,7 +741,7 @@ projects:
     description: Python Software for Convex Optimization
   - name: Pyomo
     github_id: Pyomo/pyomo
-    labels: ["python", "jupyter"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python"]
     category: opl
     pypi_id: Pyomo
     conda_id: conda-forge/pyomo
@@ -722,7 +751,7 @@ projects:
     description: Python-based Optimization Modeling Language
   - name: JuMP
     github_id: jump-dev/JuMP.jl
-    labels: ["julia", "jupyter"]
+    labels: ["gha", "jupyter", "julia"]
     category: opl
     # pypi_id:
     # conda_id:
@@ -735,7 +764,7 @@ projects:
 # --- Data Source ---
   - name: PowerGenome
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python"]
     github_id: PowerGenome/PowerGenome
     pypi_id: PowerGenome
     conda_id: conda-forge/powergenome
@@ -793,7 +822,7 @@ projects:
     description: Benchmarks for OPF with HVDC
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
-    labels: ["python"]
+    # labels:
     resource: True
     github_id: enliten/ENLITEN-Grid-Econ-Data
     # pypi_id:
@@ -805,7 +834,7 @@ projects:
     description: Economic data on WECC and NPCC
   - name: GridStatus
     category: data
-    labels: ["python"]
+    labels: ["gha", "pypi", "python"]
     github_id: kmax12/gridstatus
     pypi_id: gridstatus
     # conda_id:
@@ -816,7 +845,7 @@ projects:
     description: Extract data from ISOs and other sources
   - name: powerplantmatching
     category: data
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "python"]
     github_id: PyPSA/powerplantmatching
     pypi_id: powerplantmatching
     conda_id: conda-forge/powerplantmatching
@@ -827,7 +856,7 @@ projects:
     description: Tools to combine multiple power plant databases
   - name: Atlite
     category: data
-    labels: ["python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python"]
     github_id: PyPSA/atlite
     pypi_id: atlite
     conda_id: conda-forge/atlite
@@ -847,7 +876,7 @@ projects:
     description: Data by opendatasoft
   - name: Data on Energy
     category: data
-    labels: ["python"]
+    # labels: []
     resource: True
     github_id: owid/energy-data
     homepage: https://ourworldindata.org/energy
@@ -855,7 +884,7 @@ projects:
     description: Data on energy by Our World in Data
   - name: COVID-EMDA
     category: data
-    labels: ["python"]
+    # labels:
     resource: True
     github_id: tamu-engineering-research/COVID-EMDA
     license: MIT
@@ -864,7 +893,7 @@ projects:
 # --- Machine/Reinforcement Learning ---
   - name: Grid2Op
     github_id: rte-france/Grid2Op
-    labels: ["python", "jupyter"]
+    labels: ["gha", "pypi", "jupyter", "python"]
     category: mrl
     pypi_id: Grid2Op
     # conda_id:
@@ -875,7 +904,7 @@ projects:
     description: Modeling sequential decision making in power systems
   - name: andes_gym
     category: mrl
-    labels: ["python"]
+    labels: ["python", "jupyter"]
     github_id: cuihantao/andes_gym
     # pypi_id:
     # conda_id:
@@ -897,7 +926,7 @@ projects:
 # --- CoSim Environment ---
   - name: OpenModelica
     category: cosime
-    # labels:
+    labels: ["modelica"]
     github_id: OpenModelica/OpenModelica
     # pypi_id:
     # conda_id:
@@ -908,7 +937,7 @@ projects:
     description: Modelica-based environment for modeling and simulation
   - name: precice
     category: cosime
-    # labels:
+    labels: ["gha", "c"]
     github_id: precice/precice
     pypi_id: pyprecice
     conda_id: conda-forge/pyprecice
@@ -921,7 +950,7 @@ projects:
 # --- Gas Network ---
   - name: pandapipes
     category: gasnet
-    labels: ["python"]
+    labels: ["gha", "pypi", "jupyter", "python"]
     github_id: e2nIEE/pandapipes
     pypi_id: pandapipes
     homepage: https://www.pandapipes.org/
@@ -930,7 +959,7 @@ projects:
     description: Pipeflow Calculation Tool
   - name: GasModels.jl
     category: gasnet
-    labels: ["julia"]
+    labels: ["gha", "julia"]
     github_id: lanl-ansi/GasModels.jl
     # pypi_id:
     # homepage:
@@ -941,7 +970,7 @@ projects:
 # --- MSG ---
   - name: HELICS
     github_id: GMLC-TDC/HELICS
-    labels: ["python", "julia"]
+    labels: ["gha", "pypi", "conda", "python", "julia", "octave", "java", "c"]
     category: msg
     pypi_id: helics
     conda_id: conda-forge/helics
@@ -951,7 +980,7 @@ projects:
     license: BSD-3
   - name: LTB DiME
     category: msg
-    # labels: []
+    labels: ["c", "python", "octave"]
     github_id: CURENT/dime
     # pypi_id:
     # conda_id:
@@ -963,7 +992,7 @@ projects:
 # --- VIS ---
   - name: PowSyBl Diagram
     category: vis
-    # labels:
+    labels: ["gha", "java"]
     github_id: powsybl/powsybl-diagram
     # pypi_id:
     # conda_id:
@@ -973,9 +1002,9 @@ projects:
     description: single-line substation diagrams and network graph diagrams
   - name: LTB AGVis
     category: vis
-    labels: ["python"]
+    labels: ["pypi", "python"]
     github_id: CURENT/agvis
-    # pypi_id:
+    pypi_id: agvis
     # conda_id:
     homepage: https://ltb.curent.org/
     docs_url: https://agvis.readthedocs.io/en/latest/
@@ -983,7 +1012,7 @@ projects:
     description: Geographical Visualization for Power Grid; CURENT LTB
   - name: PowerGraphics.jl
     category: vis
-    labels: ["julia"]
+    labels: ["gha", "julia", "jupyter"]
     github_id: NREL-Sienna/powergraphics.jl
     # pypi_id:
     # conda_id:
@@ -995,7 +1024,7 @@ projects:
 # --- Power Electronics ---
   - name: GSEIM
     category: pe
-    labels: ["python"]
+    labels: ["gha", "pypi", "python"]
     github_id: gseim/gseim
     pypi_id: GSEIM
     # conda_id:
