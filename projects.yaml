@@ -257,7 +257,7 @@ projects:
 # --- SS: LTB series ---
   - name: LTB AMS
     category: steady-state
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "pypi", "gha", "azure", "conda"]
     github_id: CURENT/ams
     pypi_id: ltbams
     conda_id: conda-forge/ltbams
