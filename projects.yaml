@@ -101,6 +101,17 @@ projects:
     # docs_url:
     license: BSD-3
     description: Inverter-based DER simulation
+  - name: GridPACK
+    category: phasor
+    # labels: []
+    github_id: GridOPTICS/GridPACK
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.gridpack.org/
+    docs_url: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/user_manual/GridPACK.pdf
+    license: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/markdown/LICENSE.md
+    description: High-Performance Electric Grid Simulation
   - name: GridLAB-D
     category: phasor
     # labels: []
@@ -108,9 +119,9 @@ projects:
     # pypi_id:
     # conda_id:
     # dockerhub_id:
-    homepage:
-    docs_url:
-    license: LGPL-2.1
+    homepage: https://www.gridlabd.org/
+    docs_url: https://gridlab-d.shoutwiki.com/wiki/Source_documentation
+    license: https://github.com/gridlab-d/gridlab-d/blob/master/LICENSE
     description: Distribution power system simulator
   - name: Dynaωo
     category: phasor
@@ -414,6 +425,16 @@ projects:
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
     license: Apache-2
     description: Power system planning and operations
+  - name: ExaGO
+    category: steady-state
+    # labels: []
+    github_id: pnnl/ExaGO
+    # pypi_id:
+    # conda_id:
+    homepage: https://www.gridpath.io/
+    docs_url: https://github.com/pnnl/ExaGO/blob/develop/docs/manual/manual.pdf
+    license: BSD-3
+    description: Large-scale power grid optimization
 
 # --- SS: planning ---
   - name: ReEDS-2.0
