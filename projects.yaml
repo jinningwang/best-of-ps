@@ -134,7 +134,7 @@ projects:
     description: High-Performance Electric Grid Simulation
   - name: GridLAB-D
     category: phasor
-    # labels: []
+    labels: ["c"]
     github_id: gridlab-d/gridlab-d
     # pypi_id:
     # conda_id:
