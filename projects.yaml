@@ -484,7 +484,7 @@ projects:
 # --- SS: distribution ---
   - name: Power Grid Model
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "pypi", "conda", "c", "gha"]
     github_id: PowerGridModel/power-grid-model
     pypi_id: power-grid-model
     conda_id: conda-forge/power-grid-model
