@@ -450,7 +450,7 @@ projects:
     description: Power system planning and operations
   - name: ExaGO
     category: steady-state
-    # labels: []
+    labels: ["gha"]
     github_id: pnnl/ExaGO
     # pypi_id:
     # conda_id:
