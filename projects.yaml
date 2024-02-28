@@ -414,7 +414,7 @@ projects:
 # --- SS: others ---
   - name: EGRET
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha"]
     github_id: grid-parity-exchange/Egret
     # homepage:
     # docs_url:
