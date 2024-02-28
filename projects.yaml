@@ -269,7 +269,7 @@ projects:
 # --- SS: PowSyBl series ---
   - name: PowSyBl Core
     category: steady-state
-    # labels:
+    labels: ["java", "gha"]
     github_id: powsybl/powsybl-core
     # pypi_id:
     # conda_id:
@@ -279,7 +279,7 @@ projects:
     description: Framework to build power system software
   - name: PyPowSyBl
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha", "java", "pypi"]
     github_id: powsybl/pypowsybl
     pypi_id: pypowsybl
     # conda_id:
