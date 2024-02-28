@@ -992,7 +992,7 @@ projects:
 # --- VIS ---
   - name: PowSyBl Diagram
     category: vis
-    # labels:
+    labels: ["java", "gha"]
     github_id: powsybl/powsybl-diagram
     # pypi_id:
     # conda_id:
@@ -1002,9 +1002,9 @@ projects:
     description: single-line substation diagrams and network graph diagrams
   - name: LTB AGVis
     category: vis
-    labels: ["python"]
+    labels: ["python", "pypi"]
     github_id: CURENT/agvis
-    # pypi_id:
+    pypi_id: agvis
     # conda_id:
     homepage: https://ltb.curent.org/
     docs_url: https://agvis.readthedocs.io/en/latest/
@@ -1012,7 +1012,7 @@ projects:
     description: Geographical Visualization for Power Grid; CURENT LTB
   - name: PowerGraphics.jl
     category: vis
-    labels: ["julia"]
+    labels: ["gha", "julia", "jupyter"]
     github_id: NREL-Sienna/powergraphics.jl
     # pypi_id:
     # conda_id:
