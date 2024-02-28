@@ -741,7 +741,7 @@ projects:
     description: Python Software for Convex Optimization
   - name: Pyomo
     github_id: Pyomo/pyomo
-    labels: ["gha", "python", "jupyter"]
+    labels: ["gha", "python", "jupyter", "pypi", "conda"]
     category: opl
     pypi_id: Pyomo
     conda_id: conda-forge/pyomo
@@ -764,7 +764,7 @@ projects:
 # --- Data Source ---
   - name: PowerGenome
     category: steady-state
-    labels: ["python"]
+    labels: ["gha", "python", "pypi", "conda"]
     github_id: PowerGenome/PowerGenome
     pypi_id: PowerGenome
     conda_id: conda-forge/powergenome
@@ -822,7 +822,7 @@ projects:
     description: Benchmarks for OPF with HVDC
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
-    labels: ["python"]
+    # labels:
     resource: True
     github_id: enliten/ENLITEN-Grid-Econ-Data
     # pypi_id:
@@ -834,7 +834,7 @@ projects:
     description: Economic data on WECC and NPCC
   - name: GridStatus
     category: data
-    labels: ["python"]
+    labels: ["gha", "python", "pypi"]
     github_id: kmax12/gridstatus
     pypi_id: gridstatus
     # conda_id:
@@ -845,7 +845,7 @@ projects:
     description: Extract data from ISOs and other sources
   - name: powerplantmatching
     category: data
-    labels: ["python"]
+    labels: ["gha", "python", "pypi", "conda"]
     github_id: PyPSA/powerplantmatching
     pypi_id: powerplantmatching
     conda_id: conda-forge/powerplantmatching
@@ -856,7 +856,7 @@ projects:
     description: Tools to combine multiple power plant databases
   - name: Atlite
     category: data
-    labels: ["python"]
+    labels: ["gha", "python", "pypi", "conda", "jupyter"]
     github_id: PyPSA/atlite
     pypi_id: atlite
     conda_id: conda-forge/atlite
@@ -876,7 +876,7 @@ projects:
     description: Data by opendatasoft
   - name: Data on Energy
     category: data
-    labels: ["python"]
+    # labels: []
     resource: True
     github_id: owid/energy-data
     homepage: https://ourworldindata.org/energy
