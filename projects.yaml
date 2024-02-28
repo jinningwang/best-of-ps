@@ -440,9 +440,9 @@ projects:
     description: Cross-platform power systems software
   - name: GridPath
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha"]
     github_id: blue-marble/gridpath
-    # pypi_id:
+    pypi_id: GridPath
     # conda_id:
     homepage: https://www.gridpath.io/
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
