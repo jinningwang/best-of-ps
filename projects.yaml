@@ -542,7 +542,7 @@ projects:
     description: A "direct" library interface to OpenDSS
   - name: py-dss-interface
     category: intf
-    labels: ["python"]
+    labels: ["python", "pypi", "gha", "jupyter"]
     github_id: PauloRadatz/py_dss_interface
     pypi_id: py-dss-interface
     # dockerhub_id: 
