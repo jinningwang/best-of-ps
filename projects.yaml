@@ -101,6 +101,17 @@ projects:
     # docs_url:
     license: BSD-3
     description: Inverter-based DER simulation
+  - name: GridPACK
+    category: phasor
+    # labels: []
+    github_id: GridOPTICS/GridPACK
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.gridpack.org/
+    docs_url: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/user_manual/GridPACK.pdf
+    license: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/markdown/LICENSE.md
+    description: High-Performance Electric Grid Simulation
   - name: GridLAB-D
     category: phasor
     # labels: []
