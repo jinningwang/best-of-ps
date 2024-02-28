@@ -893,7 +893,7 @@ projects:
 # --- Machine/Reinforcement Learning ---
   - name: Grid2Op
     github_id: rte-france/Grid2Op
-    labels: ["python", "jupyter"]
+    labels: ["gha", "python", "jupyter", "pypi"]
     category: mrl
     pypi_id: Grid2Op
     # conda_id:
@@ -904,7 +904,7 @@ projects:
     description: Modeling sequential decision making in power systems
   - name: andes_gym
     category: mrl
-    labels: ["python"]
+    labels: ["python", "jupyter"]
     github_id: cuihantao/andes_gym
     # pypi_id:
     # conda_id:
