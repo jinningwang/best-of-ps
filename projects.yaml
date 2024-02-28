@@ -425,6 +425,16 @@ projects:
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
     license: Apache-2
     description: Power system planning and operations
+  - name: ExaGO
+    category: steady-state
+    # labels: []
+    github_id: pnnl/ExaGO
+    # pypi_id:
+    # conda_id:
+    homepage: https://www.gridpath.io/
+    docs_url: https://github.com/pnnl/ExaGO/blob/develop/docs/manual/manual.pdf
+    license: BSD-3
+    description: Large-scale power grid optimization
 
 # --- SS: planning ---
   - name: ReEDS-2.0
