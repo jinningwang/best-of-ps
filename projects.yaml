@@ -310,26 +310,26 @@ projects:
     docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
     description: Python for Power System Analysis
-  - name: PyPSA-Eur
+  - name: PyPSA-USA
     category: steady-state
     labels: ["python"]
+    github_id: PyPSA/pypsa-usa
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://pypsa.org
+    docs_url: https://pypsa-usa.readthedocs.io/
+    license: MIT
+    description: Power System Model for the United States
+  - name: PyPSA-Eur
+    category: steady-state
+    labels: ["python", "gha"]
     github_id: PyPSA/pypsa-eur
     # pypi_id:
     # conda_id:
     dockerhub_id: nimfetrisa/pypsa-eur
     homepage: https://pypsa.org
     docs_url: https://pypsa-eur.readthedocs.io/en/latest/?badge=latest
-    license: MIT
-    description: Optimisation Model of the European Transmission System
-  - name: PyPSA-Eur-Sec
-    category: steady-state
-    labels: ["python"]
-    github_id: PyPSA/pypsa-eur-sec
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    homepage: https://pypsa.org
-    docs_url: https://pypsa-eur-sec.readthedocs.io/en/latest/?badge=latest
     license: MIT
     description: Sector-Coupled Optimisation Model of the European Energy System
 # --- SS: Grid2Op series ---
