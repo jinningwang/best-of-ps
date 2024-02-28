@@ -301,7 +301,7 @@ projects:
 # --- SS: PyPSA series ---
   - name: PyPSA
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "julia", "gha", "pypi", "conda"]
     github_id: PyPSA/PyPSA
     pypi_id: pypsa
     conda_id: conda-forge/pypsa
@@ -309,7 +309,7 @@ projects:
     homepage: https://pypsa.org
     docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
-    description: Simulating and optimising power and energy systems
+    description: Python for Power System Analysis
   - name: PyPSA-Eur
     category: steady-state
     labels: ["python"]
