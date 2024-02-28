@@ -145,7 +145,7 @@ projects:
     description: Distribution power system simulator
   - name: Dynaωo
     category: phasor
-    # labels: []
+    labels: ["gha"]
     github_id: dynawo/dynawo
     # pypi_id:
     # conda_id:
