@@ -108,9 +108,9 @@ projects:
     # pypi_id:
     # conda_id:
     # dockerhub_id:
-    homepage:
-    docs_url:
-    license: LGPL-2.1
+    homepage: https://www.gridlabd.org/
+    docs_url: https://gridlab-d.shoutwiki.com/wiki/Source_documentation
+    license: https://github.com/gridlab-d/gridlab-d/blob/master/LICENSE
     description: Distribution power system simulator
   - name: Dynaωo
     category: phasor
