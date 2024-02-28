@@ -583,7 +583,7 @@ projects:
 # --- Optimizer ---
   - name: Clarabel.jl
     category: ops
-    labels: ["julia"]
+    labels: ["julia", "gha", ]
     github_id: oxfordcontrol/Clarabel.jl
     # pypi_id:
     # conda_id:
