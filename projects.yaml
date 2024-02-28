@@ -422,7 +422,7 @@ projects:
     description: Tools for Power Systems Optimization Modeling
   - name: PowerModels.jl
     category: steady-state
-    labels: ["julia"]
+    labels: ["julia", "gha"]
     github_id: lanl-ansi/PowerModels.jl
     # homepage:
     docs_url: https://lanl-ansi.github.io/PowerModels.jl/stable/
