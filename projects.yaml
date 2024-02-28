@@ -156,7 +156,7 @@ projects:
     description: C++/Modelica simulation tools for power systems
   - name: LTB ANDES
     category: phasor
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "pypi", "gha", "azure", "conda"]
     github_id: CURENT/andes
     pypi_id: andes
     conda_id: conda-forge/andes
