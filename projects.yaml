@@ -210,7 +210,7 @@ projects:
     description: Dynamic Power System simulations; NREL Sienna
   - name: STEPS
     category: phasor
-    # labels:
+    labels: ["c"]
     github_id: changgang/steps
     # pypi_id:
     # conda_id:
