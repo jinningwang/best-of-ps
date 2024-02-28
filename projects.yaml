@@ -561,7 +561,7 @@ projects:
     description: A micro-framework for simulation and data analysis of distribution systems modeled on OpenDSS
   - name: Easy SimAuto
     category: intf
-    labels: ["python"]
+    labels: ["python", "pypi"]
     github_id: mzy2240/ESA
     pypi_id: esa
     # dockerhub_id: 
