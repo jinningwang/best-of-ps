@@ -347,7 +347,7 @@ projects:
 # --- SS: matpower series ---
   - name: MOST
     category: steady-state
-    # labels:
+    labels: ["gha", "octave"]
     github_id: MATPOWER/most
     # pypi_id:
     # conda_id:
@@ -358,7 +358,7 @@ projects:
     description: MATPOWER Optimal Scheduling Tool
   - name: MATPOWER
     category: steady-state
-    # labels:
+    labels: ["gha", "octave"]
     github_id: MATPOWER/matpower
     # pypi_id:
     # conda_id:
@@ -369,7 +369,7 @@ projects:
     description: Steady state power flow simulation
   - name: matpower-pip
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha", "pypi"]
     github_id: yasirroni/matpower-pip
     pypi_id: matpower
     # conda_id:
@@ -391,7 +391,7 @@ projects:
     description: Supplementary function of MATPOWER in Python
   - name: pandapower
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha", "pypi", "conda", "jupyter"]
     github_id: e2nIEE/pandapower
     pypi_id: pandapower
     conda_id: conda-forge/pandapower 
@@ -402,7 +402,7 @@ projects:
     description: Convenient Power System Modelling and Analysis
   - name: PYPOWER
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha", "pypi", "conda"]
     github_id: rwl/PYPOWER
     pypi_id: PYPOWER
     conda_id: invenia/pypower
