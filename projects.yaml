@@ -1024,7 +1024,7 @@ projects:
 # --- Power Electronics ---
   - name: GSEIM
     category: pe
-    labels: ["python"]
+    labels: ["gha", "python"]
     github_id: gseim/gseim
     pypi_id: GSEIM
     # conda_id:
