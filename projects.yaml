@@ -202,7 +202,7 @@ projects:
     description: EMT-TS hybrid simulation
   - name: PowerSimulationsDynamics.jl
     category: phasor
-    labels: ["julia"]
+    labels: ["julia", "gha"]
     github_id: NREL-Sienna/PowerSimulationsDynamics.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
