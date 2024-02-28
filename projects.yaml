@@ -926,7 +926,7 @@ projects:
 # --- CoSim Environment ---
   - name: OpenModelica
     category: cosime
-    # labels:
+    labels: ["modelica"]
     github_id: OpenModelica/OpenModelica
     # pypi_id:
     # conda_id:
@@ -937,7 +937,7 @@ projects:
     description: Modelica-based environment for modeling and simulation
   - name: precice
     category: cosime
-    # labels:
+    labels: ["gha", "c"]
     github_id: precice/precice
     pypi_id: pyprecice
     conda_id: conda-forge/pyprecice
