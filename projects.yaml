@@ -291,7 +291,7 @@ projects:
 # --- SS: Sienna series ---
   - name: PowerSimulations.jl
     category: steady-state
-    labels: ["julia"]
+    labels: ["julia", "gha"]
     github_id: NREL-Sienna/PowerSimulations.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerSimulations.jl/latest
