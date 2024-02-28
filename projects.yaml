@@ -44,22 +44,28 @@ categories:
 labels:
   - label: "python"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/python.ico"
-    description: "Written in Python"
+    description: "Support Python"
   - label: "julia"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/julia.ico"
-    description: "Written in Julia"
+    description: "Support Julia"
   - label: "octave"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/octave.ico"
-    description: "Written in Octave"
+    description: "Support Octave"
   - label: "java"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/java.ico"
-    description: "Written in Java"
+    description: "Support Java"
   - label: "c"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/c.ico"
-    description: "Written in C"
+    description: "Support C"
   - label: "modelica"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/modelica.ico"
-    description: "Written in Modelica"
+    description: "Support Modelica"
+  - label: "rust"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/rust.ico"
+    description: "Support Rust"
+  - label: "r"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/r.ico"
+    description: "Support R"
   - label: "jupyter"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/jupyter.ico"
     description: "Shipped with Jupyter Notebook examples"
@@ -583,7 +589,7 @@ projects:
 # --- Optimizer ---
   - name: Clarabel.jl
     category: ops
-    labels: ["julia", "gha", ]
+    labels: ["julia", "gha"]
     github_id: oxfordcontrol/Clarabel.jl
     # pypi_id:
     # conda_id:
@@ -593,17 +599,17 @@ projects:
     description: Interior-point solver for convex conic optimisation in Julia
   - name: Clarabel.rs
     category: ops
-    labels: ["python"]
+    labels: ["gha", "rust", "pypi", "conda", "python"]
     github_id: oxfordcontrol/Clarabel.rs
     pypi_id: clarabel
     conda_id: conda-forge/clarabel
     # homepage:
     docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
     license: Apache-2.0
-    description: Interior-point solver for convex conic optimisation
+    description: Interior-point solver for convex conic optimisation in Rust
   - name: CBC
     category: ops
-    labels: ["python", "julia"]
+    labels: ["python", "julia", "gha", "c", "conda"]
     github_id: coin-or/Cbc
     # pypi_id:
     conda_id: conda-forge/coincbc
@@ -613,7 +619,7 @@ projects:
     description: COIN-OR Branch-and-Cut solver
   - name: SCS
     category: ops
-    labels: ["python"]
+    labels: ["c", "python", "octave", "julia", "r", "gha", "pypi", "conda"]
     github_id: cvxgrp/scs
     pypi_id: scs
     conda_id: conda-forge/scs
@@ -623,7 +629,7 @@ projects:
     description: Splitting Conic Solver
   - name: ECOS
     category: ops
-    labels: ["python", "julia"]
+    labels: ["python", "julia", "c", "octave", "r"]
     github_id: embotech/ecos
     pypi_id: ecos
     conda_id: conda-forge/ecos
@@ -633,17 +639,17 @@ projects:
     description: Conic solver for second-order cone programming
   - name: OSQP
     category: ops
-    labels: ["python"]
+    labels: ["gha", "python", "c", "julia", "octave", "r"]
     github_id: osqp/osqp
     pypi_id: osqp
     conda_id: conda-forge/osqp
     homepage: https://osqp.org
-    docs_url: https://osqp.org/
+    docs_url: https://osqp.org/docs/get_started/
     license: Apache-2
     description: Operator Splitting QP Solver
   - name: PIQP
     category: ops
-    labels: ["python"]
+    labels: ["python", "c", "python", "octave", "r", "pypi", "conda", "gha"]
     github_id: PREDICT-EPFL/piqp
     pypi_id: piqp
     conda_id: conda-forge/piqp
@@ -653,7 +659,7 @@ projects:
     description: Proximal Interior Point Quadratic Programming solver
   - name: AMPLPY
     category: ops
-    labels: ["python"]
+    labels: ["python", "gha", "conda", "pypi", "jupyter"]
     github_id: ampl/amplpy
     pypi_id: amplpy
     conda_id: conda-forge/amplpy
@@ -663,7 +669,7 @@ projects:
     description: Python API for AMPL
   - name: Ipopt
     category: ops
-    labels: ["python"]
+    labels: ["python", "pypi", "conda"]
     github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: conda-forge/ipopt
@@ -673,7 +679,7 @@ projects:
     description: COIN-OR Interior Point Optimizer
   - name: HiGHS
     github_id: ERGO-Code/HiGHS
-    labels: ["python"]
+    labels: ["gha", "python", "c", "pypi", "conda", "jupyter"]
     category: ops
     pypi_id: highspy
     conda_id: conda-forge/highs
@@ -683,7 +689,7 @@ projects:
     description: Large-scale Sparse Linear Problem Optimizer 
   - name: PySCIPOpt
     category: ops
-    labels: ["python"]
+    labels: ["python", "gha", "pypi", "conda"]
     github_id: scipopt/PySCIPOpt
     pypi_id: PySCIPOpt
     conda_id: conda-forge/pyscipopt
