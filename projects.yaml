@@ -181,7 +181,7 @@ projects:
     description: A library of power system models
   - name: PowerSystems
     category: phasor
-    # labels:
+    labels: ["modelica"]
     github_id: modelica-3rdparty/PowerSystems
     # pypi_id:
     # conda_id:
