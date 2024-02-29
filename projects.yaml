@@ -869,4 +869,4 @@ projects:
     pypi_id: GSEIM
     docs_url: https://gseim.github.io/build/html/index.html
     license: GPL-3.0
-    description: Interface Python to Ngspice and Xyce
+    description: Simulation of electrical circuits
