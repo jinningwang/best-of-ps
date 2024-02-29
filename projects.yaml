@@ -307,7 +307,7 @@ projects:
 # --- SS: PyPSA series ---
   - name: PyPSA
     category: steady-state
-    labels: ["gha", "pypi", "conda", "python", "julia"]
+    labels: ["gha", "pypi", "conda", "python", "jupyter"]
     github_id: PyPSA/PyPSA
     pypi_id: pypsa
     conda_id: conda-forge/pypsa
