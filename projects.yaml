@@ -414,6 +414,14 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+  - name: grg-pssedata
+    category: phasor
+    labels: ["pypi", "python"]
+    github_id: lanl-ansi/grg-pssedata
+    pypi_id: grg-pssedata
+    docs_url: https://grg-pssedata.readthedocs.io/en/stable/
+    license: BSD-3
+    description: Python tools for working with PSSE v33 data files
   - name: Andes.jl
     category: intf
     labels: ["julia"]
