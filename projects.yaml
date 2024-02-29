@@ -230,7 +230,7 @@ projects:
     description: Framework to build power system software
   - name: PyPowSyBl
     category: steady-state
-    labels: ["gha", "pypi", "python", "java"]
+    labels: ["gha", "pypi", "python", "java", "jupyter"]
     github_id: powsybl/pypowsybl
     pypi_id: pypowsybl
     homepage: https://www.powsybl.org
@@ -837,7 +837,7 @@ projects:
 # --- VIS ---
   - name: PowSyBl Diagram
     category: vis
-    labels: ["gha", "java"]
+    labels: ["gha", "java", "jupyter"]
     github_id: powsybl/powsybl-diagram
     homepage: https://www.powsybl.org
     docs_url: https://www.powsybl.org/pages/documentation/developer/api_guide/svg-writing.html
