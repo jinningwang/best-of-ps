@@ -414,6 +414,12 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+  - name: PSSE RAW
+    category: phasor
+    labels: ["pypi", "python"]
+    github_id: anderson-optimization/em-psse
+    license: MIT
+    description: PSSE RAW parser
   - name: grg-pssedata
     category: phasor
     labels: ["pypi", "python"]
