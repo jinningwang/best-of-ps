@@ -10,13 +10,12 @@ configuration:
 
 categories:
   - category: "phasor"
-    title: "Phasor"
-    subtitle: "Power System Phasor Simulation."
+    title: "Phasor Simulation"
   - category: "emt"
-    title: "EMT"
+    title: "EMT Simulation"
     subtitle: "Power System EMT Simulation."
   - category: "steady-state"
-    title: "Steady State"
+    title: "Steady State Simulation"
     subtitle: "Power System Steady State Simulation"
   - category: "intf"
     title: "Interface"
@@ -28,10 +27,8 @@ categories:
     title: "Machine/Reinforcement Learning for Power Grid"
   - category: "cosime"
     title: "Co-Simulation Environment"
-    subtitle: "Co-Simulation Environment for Modeling and Simulation"
   - category: "gasnet"
-    title: "Gas"
-    subtitle: "Gas Network Simulation"
+    title: "Gas Simulation"
   - category: "vis"
     title: "Visualization"
   - category: "msg"
@@ -88,11 +85,6 @@ projects:
     category: emt
     labels: ["python"]
     github_id: NREL/ParaEMT_public
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    # homepage:
-    # docs_url:
     license: BSD-3
     description: Parallel EMT simulation
   - name: DPsim
@@ -100,8 +92,6 @@ projects:
     labels: ["gha", "pypi", "jupyter", "python", "c"]
     github_id: sogno-platform/dpsim
     pypi_id: dpsim
-    # conda_id:
-    # dockerhub_id:
     homepage: https://dpsim.fein-aachen.org/
     docs_url: https://dpsim.fein-aachen.org/docs/
     license: MPL-2.0
@@ -110,11 +100,6 @@ projects:
 # --- EPRI series ---
   - name: OpenDSS
     category: phasor
-    # labels: []
-    # github_id:
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://www.epri.com/pages/sa/opendss
     docs_url: https://opendss.epri.com/opendss_documentation.html
     license: BSD
@@ -124,19 +109,12 @@ projects:
     labels: ["pypi", "jupyter", "python"]
     github_id: epri-dev/OpenDER
     pypi_id: opender
-    # conda_id:
-    # dockerhub_id:
     homepage: https://www.epri.com/OpenDER
-    # docs_url:
     license: BSD-3
     description: Inverter-based DER simulation
   - name: GridPACK
     category: phasor
-    # labels: []
     github_id: GridOPTICS/GridPACK
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://www.gridpack.org/
     docs_url: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/user_manual/GridPACK.pdf
     license: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/markdown/LICENSE.md
@@ -145,9 +123,6 @@ projects:
     category: phasor
     labels: ["c"]
     github_id: gridlab-d/gridlab-d
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://www.gridlabd.org/
     docs_url: https://gridlab-d.shoutwiki.com/wiki/Source_documentation
     license: https://github.com/gridlab-d/gridlab-d/blob/master/LICENSE
@@ -156,9 +131,6 @@ projects:
     category: phasor
     labels: ["gha"]
     github_id: dynawo/dynawo
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: http://dynawo.org
     docs_url: https://dynawo.github.io/docs/
     license: MPL-2.0
@@ -178,10 +150,6 @@ projects:
     category: phasor
     labels: ["gha", "modelica"]
     github_id: OpenIPSL/OpenIPSL
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    # homepage:
     docs_url: https://doc.openipsl.org
     license: BSD-3
     description: A library of power system models
@@ -189,10 +157,6 @@ projects:
     category: phasor
     labels: ["modelica"]
     github_id: modelica-3rdparty/PowerSystems
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    # homepage:
     docs_url: https://build.openmodelica.org/Documentation/PowerSystems.html
     license: https://modelica.org/licenses/ModelicaLicense2/
     description: Modelica 3rd party library for electrical power systems
@@ -200,10 +164,6 @@ projects:
     category: phasor
     labels: ["java"]
     github_id: OpenHybridSim/OpenHybridSim-code
-#     pypi_id:
-#     conda_id:
-#     homepage:
-#     docs_url:
     license: BSD-3
     description: EMT-TS hybrid simulation
   - name: PowerSimulationsDynamics.jl
@@ -218,9 +178,6 @@ projects:
     category: phasor
     labels: ["c"]
     github_id: changgang/steps
-    # pypi_id:
-    # conda_id:
-    # homepage:
     docs_url: https://github.com/changgang/steps/wiki/
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
@@ -228,9 +185,6 @@ projects:
     category: phasor
     labels: ["octave"]
     github_id: ANL-CEEESA/powersas.m
-    # pypi_id:
-    # conda_id:
-    # homepage:
     docs_url: https://powersasm.readthedocs.io/en/latest/index.html
     license: BSD-3
     description: Power grid analysis framework based on semi-analytical solutions
@@ -241,9 +195,6 @@ projects:
     category: steady-state
     labels: ["java"]
     github_id: ames-market/AMES-V5.0
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://www2.econ.iastate.edu/tesfatsi/AMESMarketHome.htm
     docs_url: https://www2.econ.iastate.edu/tesfatsi/AMESMarketProjectSetUpInfo.pdf
     license: https://github.com/ames-market/AMES-V5.0/blob/master/LICENSE.rst
@@ -252,9 +203,6 @@ projects:
     category: steady-state
     labels: ["java"]
     github_id: ames-market/AMES-v4.0
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://www2.econ.iastate.edu/tesfatsi/AMESMarketHome.htm
     docs_url: https://github.com/ames-market/AMES-v4.0/blob/master/USAGE.md
     license: GPL-2
@@ -267,7 +215,6 @@ projects:
     github_id: CURENT/ams
     pypi_id: ltbams
     conda_id: conda-forge/ltbams
-    # dockerhub_id:
     homepage: https://ltb.curent.org/
     docs_url: https://ams.readthedocs.io/en/latest/
     license: GPL-3
@@ -277,18 +224,15 @@ projects:
     category: steady-state
     labels: ["gha", "java"]
     github_id: powsybl/powsybl-core
-    # pypi_id:
-    # conda_id:
     homepage: https://www.powsybl.org
     docs_url: https://www.javadoc.io/doc/com.powsybl/powsybl-core/latest/
     license: MPL-2.0
     description: Framework to build power system software
   - name: PyPowSyBl
     category: steady-state
-    labels: ["gha", "pypi", "python", "java"]
+    labels: ["gha", "pypi", "python", "java", "jupyter"]
     github_id: powsybl/pypowsybl
     pypi_id: pypowsybl
-    # conda_id:
     homepage: https://www.powsybl.org
     docs_url: https://pypowsybl.readthedocs.io/en/latest/
     license: MPL-2.0
@@ -307,11 +251,10 @@ projects:
 # --- SS: PyPSA series ---
   - name: PyPSA
     category: steady-state
-    labels: ["gha", "pypi", "conda", "python", "julia"]
+    labels: ["gha", "pypi", "conda", "python", "jupyter"]
     github_id: PyPSA/PyPSA
     pypi_id: pypsa
     conda_id: conda-forge/pypsa
-    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://pypsa.readthedocs.io/en/latest/
     license: MIT
@@ -320,9 +263,6 @@ projects:
     category: steady-state
     labels: ["python"]
     github_id: PyPSA/pypsa-usa
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://pypsa-usa.readthedocs.io/
     license: MIT
@@ -331,8 +271,6 @@ projects:
     category: steady-state
     labels: ["gha", "python"]
     github_id: PyPSA/pypsa-eur
-    # pypi_id:
-    # conda_id:
     dockerhub_id: nimfetrisa/pypsa-eur
     homepage: https://pypsa.org
     docs_url: https://pypsa-eur.readthedocs.io/en/latest/?badge=latest
@@ -344,7 +282,6 @@ projects:
     labels: ["gha", "pypi", "python"]
     github_id: BDonnot/lightsim2grid
     pypi_id: LightSim2Grid
-    # conda_id:
     dockerhub_id: bdonnot/lightsim2grid
     homepage: https://l2rpn.chalearn.org/
     docs_url: https://lightsim2grid.readthedocs.io/en/latest/
@@ -355,9 +292,6 @@ projects:
     category: steady-state
     labels: ["gha", "octave"]
     github_id: MATPOWER/most
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://matpower.org/
     docs_url: https://github.com/MATPOWER/most/blob/master/docs/MOST-manual.pdf
     license: BSD-3
@@ -366,8 +300,6 @@ projects:
     category: steady-state
     labels: ["gha", "octave"]
     github_id: MATPOWER/matpower
-    # pypi_id:
-    # conda_id:
     dockerhub_id: matpower/matpower
     homepage: https://matpower.org/
     docs_url: https://matpower.org/doc/
@@ -378,8 +310,6 @@ projects:
     labels: ["gha", "pypi", "python"]
     github_id: yasirroni/matpower-pip
     pypi_id: matpower
-    # conda_id:
-    # dockerhub_id:
     homepage: https://matpower.org/
     docs_url: https://matpower.org/doc/
     license: MIT
@@ -388,11 +318,6 @@ projects:
     category: steady-state
     labels: ["python"]
     github_id: yasirroni/mypower
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    # homepage:
-    # docs_url:
     license: MIT
     description: Supplementary function of MATPOWER in Python
   - name: pandapower
@@ -422,8 +347,6 @@ projects:
     category: steady-state
     labels: ["gha", "python"]
     github_id: grid-parity-exchange/Egret
-    # homepage:
-    # docs_url:
     license: BSD
     description: Tools for Power Systems Optimization Modeling
   - name: PowerModels.jl
@@ -439,7 +362,6 @@ projects:
     labels: ["gha", "pypi", "python"]
     github_id: SanPen/GridCal
     pypi_id: GridCal
-    # conda_id:
     homepage: https://www.advancedgridinsights.com/gridcal
     docs_url: https://gridcal.readthedocs.io/en/latest/?badge=latest
     license: LGPL-3
@@ -449,7 +371,6 @@ projects:
     labels: ["gha", "python"]
     github_id: blue-marble/gridpath
     pypi_id: GridPath
-    # conda_id:
     homepage: https://www.gridpath.io/
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
     license: Apache-2
@@ -458,8 +379,6 @@ projects:
     category: steady-state
     labels: ["gha", "jupyter", "c"]
     github_id: pnnl/ExaGO
-    # pypi_id:
-    # conda_id:
     homepage: https://www.gridpath.io/
     docs_url: https://github.com/pnnl/ExaGO/blob/develop/docs/manual/manual.pdf
     license: BSD-3
@@ -470,8 +389,6 @@ projects:
     category: steady-state
     labels: ["python"]
     github_id: NREL/ReEDS-2.0
-    # pypi_id:
-    # dockerhub_id: 
     homepage: https://www.nrel.gov/analysis/reeds/
     docs_url: https://www.nrel.gov/docs/fy21osti/78195.pdf
     license: GPL-3.0
@@ -480,8 +397,6 @@ projects:
     category: steady-state
     labels: ["julia"]
     github_id: GenXProject/GenX
-    # pypi_id:
-    # dockerhub_id: 
     homepage: https://energy.mit.edu/genx/
     docs_url: https://genxproject.github.io/GenX/dev/
     license: GPL-2.0
@@ -494,21 +409,37 @@ projects:
     github_id: PowerGridModel/power-grid-model
     pypi_id: power-grid-model
     conda_id: conda-forge/power-grid-model
-    # dockerhub_id: 
-    # homepage:
     docs_url: https://power-grid-model.readthedocs.io/en/stable/
     license: MPL-2.0
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+  - name: CIMpy
+    category: intf
+    labels: ["gha", "python"]
+    github_id: sogno-platform/cimpy
+    docs_url: https://sogno.energy/cimpy/
+    license: MPL-2.0
+    description: CIM files to the XML/RDF format
+  - name: PSSE RAW
+    category: intf
+    labels: ["pypi", "python"]
+    github_id: anderson-optimization/em-psse
+    license: MIT
+    description: PSSE RAW parser
+  - name: grg-pssedata
+    category: intf
+    labels: ["pypi", "python"]
+    github_id: lanl-ansi/grg-pssedata
+    pypi_id: grg-pssedata
+    docs_url: https://grg-pssedata.readthedocs.io/en/stable/
+    license: BSD-3
+    description: Python tools for working with PSSE v33 data files
   - name: Andes.jl
     category: intf
     labels: ["julia"]
     github_id: cuihantao/Andes.jl
-    # pypi_id:
-    # dockerhub_id: 
     homepage: https://ltb.curent.org
-    # docs_url:
     license: MIT
     description: Julia interface for ANDES
 # --- Interface: EPRI ---
@@ -516,11 +447,7 @@ projects:
     category: intf
     labels: ["python", "jupyter"]
     github_id: epri-dev/OpenDER_interface
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id: 
     homepage: https://www.epri.com/OpenDER
-    # docs_url:
     license: BSD-3
     description: Interface for OpenDER
 # --- Interface: OpenDSS ---
@@ -529,8 +456,6 @@ projects:
     labels: ["gha", "pypi", "python"]
     github_id: NREL/PyDSS
     pypi_id: pydss
-    # conda_id:
-    # dockerhub_id: 
     homepage: https://www.nrel.gov/grid/pydss.html
     docs_url: https://nrel.github.io/PyDSS/index.html
     license: BSD-3
@@ -540,8 +465,6 @@ projects:
     labels: ["gha", "pypi", "python", "jupyter"]
     github_id: dss-extensions/OpenDSSDirect.py
     pypi_id: OpenDSSDirect.py
-    # conda_id:
-    # dockerhub_id: 
     homepage: https://dss-extensions.org/
     docs_url: https://dss-extensions.org/OpenDSSDirect.py/
     license: MIT
@@ -551,8 +474,6 @@ projects:
     labels: ["gha", "pypi", "python", "jupyter"]
     github_id: PauloRadatz/py_dss_interface
     pypi_id: py-dss-interface
-    # dockerhub_id: 
-    # homepage:
     docs_url: https://py-dss-interface.readthedocs.io/en/latest/
     license: MIT
     description: A package for access to direct dll version of OpenDSS
@@ -570,8 +491,6 @@ projects:
     labels: ["pypi", "python"]
     github_id: mzy2240/ESA
     pypi_id: esa
-    # dockerhub_id: 
-    # homepage:
     docs_url: https://mzy2240.github.io/ESA/html/index.html
     license: Apache-2.0
     description: Python interface to PowerWorld
@@ -579,10 +498,6 @@ projects:
     category: intf
     labels: ["julia"]
     github_id: mzy2240/EasySimauto.jl
-    # pypi_id:
-    # dockerhub_id: 
-    # homepage:
-    # docs_url:
     license: Apache-2.0
     description: Julia interface for EasySimAuto and PowerWorld
 
@@ -591,9 +506,6 @@ projects:
     category: ops
     labels: ["gha", "julia"]
     github_id: oxfordcontrol/Clarabel.jl
-    # pypi_id:
-    # conda_id:
-    # homepage:
     docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
     license: Apache-2.0
     description: Interior-point solver for convex conic optimisation in Julia
@@ -603,7 +515,6 @@ projects:
     github_id: oxfordcontrol/Clarabel.rs
     pypi_id: clarabel
     conda_id: conda-forge/clarabel
-    # homepage:
     docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
     license: Apache-2.0
     description: Interior-point solver for convex conic optimisation in Rust
@@ -611,9 +522,7 @@ projects:
     category: ops
     labels: ["gha", "conda", "python", "julia", "c"]
     github_id: coin-or/Cbc
-    # pypi_id:
     conda_id: conda-forge/coincbc
-    # homepage:
     docs_url: https://coin-or.github.io/Cbc/Doxygen/
     license: EPL-2.0
     description: COIN-OR Branch-and-Cut solver
@@ -623,7 +532,6 @@ projects:
     github_id: cvxgrp/scs
     pypi_id: scs
     conda_id: conda-forge/scs
-    # homepage:
     docs_url: https://www.cvxgrp.org/scs/
     license: MIT
     description: Splitting Conic Solver
@@ -633,7 +541,6 @@ projects:
     github_id: embotech/ecos
     pypi_id: ecos
     conda_id: conda-forge/ecos
-    # homepage:
     docs_url: https://github.com/embotech/ecos/wiki
     license: GPL-3
     description: Conic solver for second-order cone programming
@@ -653,7 +560,6 @@ projects:
     github_id: PREDICT-EPFL/piqp
     pypi_id: piqp
     conda_id: conda-forge/piqp
-    # homepage:
     docs_url: https://predict-epfl.github.io/piqp/
     license: BSD-2
     description: Proximal Interior Point Quadratic Programming solver
@@ -673,7 +579,6 @@ projects:
     github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: conda-forge/ipopt
-    # homepage:
     docs_url: https://coin-or.github.io/Ipopt/
     license: EPL-2.0
     description: COIN-OR Interior Point Optimizer
@@ -704,8 +609,6 @@ projects:
     labels: ["gha", "pypi", "jupyter", "python"]
     category: opl
     pypi_id: rsome
-    # conda_id:
-    # homepage:
     docs_url: https://xiongpengnus.github.io/rsome/
     license: GPL-3
     description: Robust Stochastic Optimization Made Easy
@@ -715,7 +618,6 @@ projects:
     category: opl
     pypi_id: cvxpy
     conda_id: conda-forge/cvxpy
-    # homepage:
     docs_url: http://www.cvxpy.org/
     license: Apache-2
     description: Convex optimization modeling language
@@ -725,7 +627,6 @@ projects:
     category: opl
     pypi_id: kvxopt
     conda_id: conda-forge/kvxopt
-    # homepage:
     docs_url: https://sanurielf.github.io/kvxopt/userguide/
     license: GPL-3
     description: CVXOPT with more wrappers suite-sparse.
@@ -753,8 +654,6 @@ projects:
     github_id: jump-dev/JuMP.jl
     labels: ["gha", "jupyter", "julia"]
     category: opl
-    # pypi_id:
-    # conda_id:
     homepage: https://jump.dev
     docs_url: https://jump.dev/JuMP.jl/stable/
     license: MPL-2.0
@@ -768,7 +667,6 @@ projects:
     github_id: PowerGenome/PowerGenome
     pypi_id: PowerGenome
     conda_id: conda-forge/powergenome
-    # dockerhub_id:
     homepage: https://groups.io/g/powergenome
     docs_url: https://github.com/PowerGenome/PowerGenome/wiki
     license: MIT
@@ -777,59 +675,36 @@ projects:
     category: data
     labels: ["python"]
     github_id: wangzhecheng/DeepSolar
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://deepsolar.web.app
-    # docs_url:
     license: MIT
     description: Houseshold-level solar panel identification with deep learning
   - name: Power Grid Lib - Optimal Power Flow
     category: data
-    # labels: []
     resource: True
     github_id: power-grid-lib/pglib-opf
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://power-grid-lib.github.io
     docs_url: https://arxiv.org/abs/1908.02788
     license: CC-BY-4.0
     description: Benchmarks for OPF
   - name: Power Grid Lib - Unit Commitment
     category: data
-    # labels: []
     resource: True
     github_id: power-grid-lib/pglib-uc
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://power-grid-lib.github.io
-    # docs_url:
     license: CC-BY-4.0
     description: Benchmarks for UC
   - name: Power Grid Lib - Optimal Power Flow with HVDC Lines
     category: data
-    # labels: []
     resource: True
     github_id: power-grid-lib/pglib-opf-hvdc
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
     homepage: https://power-grid-lib.github.io
     docs_url: https://ieeexplore.ieee.org/document/8636236
     license: CC-BY-4.0
     description: Benchmarks for OPF with HVDC
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
-    # labels:
     resource: True
     github_id: enliten/ENLITEN-Grid-Econ-Data
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    # homepage:
-    # docs_url:
     license: GPL-3
     description: Economic data on WECC and NPCC
   - name: GridStatus
@@ -837,8 +712,6 @@ projects:
     labels: ["gha", "pypi", "python"]
     github_id: kmax12/gridstatus
     pypi_id: gridstatus
-    # conda_id:
-    # dockerhub_id:
     homepage: https://www.gridstatus.io
     docs_url: https://docs.gridstatus.io/en/latest/
     license: BSD-3
@@ -849,7 +722,6 @@ projects:
     github_id: PyPSA/powerplantmatching
     pypi_id: powerplantmatching
     conda_id: conda-forge/powerplantmatching
-    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
@@ -860,23 +732,19 @@ projects:
     github_id: PyPSA/atlite
     pypi_id: atlite
     conda_id: conda-forge/atlite
-    # dockerhub_id:
     homepage: https://pypsa.org
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
     description: Calculating Renewable Power Potentials
   - name: OpenDataElia
     category: data
-    # labels: []
     resource: True
-    # github_id:
     homepage: https://opendata.elia.be/pages/home/
     docs_url: https://help.opendatasoft.com/en/home
     license: CC-BY-4.0
     description: Data by opendatasoft
   - name: Data on Energy
     category: data
-    # labels: []
     resource: True
     github_id: owid/energy-data
     homepage: https://ourworldindata.org/energy
@@ -884,7 +752,6 @@ projects:
     description: Data on energy by Our World in Data
   - name: COVID-EMDA
     category: data
-    # labels:
     resource: True
     github_id: tamu-engineering-research/COVID-EMDA
     license: MIT
@@ -896,7 +763,6 @@ projects:
     labels: ["gha", "pypi", "jupyter", "python"]
     category: mrl
     pypi_id: Grid2Op
-    # conda_id:
     dockerhub_id: bdonnot/grid2op
     homepage: https://l2rpn.chalearn.org/
     docs_url: https://grid2op.readthedocs.io/en/latest/
@@ -906,20 +772,12 @@ projects:
     category: mrl
     labels: ["python", "jupyter"]
     github_id: cuihantao/andes_gym
-    # pypi_id:
-    # conda_id:
-    # homepage:
-    # docs_url:
     license: GPL-3
     description: ANDES RL Environment for OpenAI Gym
   - name: RLGC
     category: mrl
     labels: ["python", "jupyter"]
     github_id: RLGC-Project/RLGC
-    # pypi_id:
-    # conda_id:
-    # homepage:
-    # docs_url:
     license: BSD
     description: RL for Grid Control (RLGC)
 
@@ -928,8 +786,6 @@ projects:
     category: cosime
     labels: ["modelica"]
     github_id: OpenModelica/OpenModelica
-    # pypi_id:
-    # conda_id:
     dockerhub_id: openmodelica/openmodelica
     homepage: https://openmodelica.org
     docs_url: https://openmodelica.org/useresresources/userdocumentation
@@ -961,8 +817,6 @@ projects:
     category: gasnet
     labels: ["gha", "julia"]
     github_id: lanl-ansi/GasModels.jl
-    # pypi_id:
-    # homepage:
     docs_url: https://lanl-ansi.github.io/GasModels.jl/latest/
     license: BSD-3
     description: Gas Network Optimization
@@ -982,8 +836,6 @@ projects:
     category: msg
     labels: ["c", "python", "octave"]
     github_id: CURENT/dime
-    # pypi_id:
-    # conda_id:
     homepage: https://ltb.curent.org/
     docs_url: https://ltbdime.readthedocs.io/en/latest/
     license: GPL-3.0
@@ -992,10 +844,8 @@ projects:
 # --- VIS ---
   - name: PowSyBl Diagram
     category: vis
-    labels: ["gha", "java"]
+    labels: ["gha", "java", "jupyter"]
     github_id: powsybl/powsybl-diagram
-    # pypi_id:
-    # conda_id:
     homepage: https://www.powsybl.org
     docs_url: https://www.powsybl.org/pages/documentation/developer/api_guide/svg-writing.html
     license: MPL-2.0
@@ -1005,7 +855,6 @@ projects:
     labels: ["pypi", "python"]
     github_id: CURENT/agvis
     pypi_id: agvis
-    # conda_id:
     homepage: https://ltb.curent.org/
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
@@ -1014,8 +863,6 @@ projects:
     category: vis
     labels: ["gha", "julia", "jupyter"]
     github_id: NREL-Sienna/powergraphics.jl
-    # pypi_id:
-    # conda_id:
     homepage: https://www.nrel.gov/analysis/sienna.html
     docs_url: https://nrel-sienna.github.io/PowerGraphics.jl/stable/
     license: BSD-3
@@ -1027,8 +874,6 @@ projects:
     labels: ["gha", "pypi", "python"]
     github_id: gseim/gseim
     pypi_id: GSEIM
-    # conda_id:
-    # homepage:
     docs_url: https://gseim.github.io/build/html/index.html
     license: GPL-3.0
-    description: Interface Python to Ngspice and Xyce
+    description: Simulation of electrical circuits
