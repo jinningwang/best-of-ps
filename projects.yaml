@@ -414,14 +414,21 @@ projects:
     description: Steady-state distribution power system analysis
 
 # --- Interface ---
+  - name: CIMpy
+    category: intf
+    labels: ["gha", "python"]
+    github_id: sogno-platform/cimpy
+    docs_url: https://sogno.energy/cimpy/
+    license: MPL-2.0
+    description: CIM files to the XML/RDF format
   - name: PSSE RAW
-    category: phasor
+    category: intf
     labels: ["pypi", "python"]
     github_id: anderson-optimization/em-psse
     license: MIT
     description: PSSE RAW parser
   - name: grg-pssedata
-    category: phasor
+    category: intf
     labels: ["pypi", "python"]
     github_id: lanl-ansi/grg-pssedata
     pypi_id: grg-pssedata
