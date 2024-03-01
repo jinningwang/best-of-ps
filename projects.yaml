@@ -255,7 +255,14 @@ projects:
     docs_url: https://nrel-sienna.github.io/PowerSystemsInvestments.jl/stable
     license: BSD-3
     description: Power Systems investment models; NREL Sienna
-
+  - name: PowerSystemsInvestmentsPortfolios.jl
+    category: steady-state
+    labels: ["gha", "julia"]
+    github_id: NREL-Sienna/PowerSystemsInvestmentsPortfolios.jl
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerSystemsInvestmentsPortfolios.jl/stable
+    license: BSD-3
+    description: Data models for Power Systems investment models; NREL Sienna
 
 # --- SS: PyPSA series ---
   - name: PyPSA
