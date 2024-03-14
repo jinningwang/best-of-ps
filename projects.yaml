@@ -820,6 +820,14 @@ projects:
     description: Precise Code Interaction Coupling Environment
 
 # --- Gas Network ---
+  - name: MPNG
+    category: gasnet
+    labels: ["octave"]
+    github_id: MATPOWER/mpng
+    homepage: https://matpower.org/
+    docs_url: https://github.com/MATPOWER/mpng/blob/master/MPNG_User's_Manual/MPNG_Manual_V0.99a.pdf
+    license: BSD-3
+    description: Simulator for Optimal Power and Natural Gas Flow
   - name: pandapipes
     category: gasnet
     labels: ["gha", "pypi", "jupyter", "python"]
