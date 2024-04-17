@@ -925,3 +925,11 @@ projects:
     github_id: Power-Systems-Textbook/TextbookSimulations
     license: CC0-1.0
     description: Examples and problems accompanying Daniel Kirschen's Power Systems Textbook
+  - name: UTK ECE 522 - Power System Analysis II
+    category: book
+    resource: True
+    labels: ["python", "juptyer"]
+    github_id: CURENT/ece522
+    homepage: https://ltb.curent.org/
+    license: MIT
+    description: Hands-on Project for Power System Analysis II (UTK ECE 522)
