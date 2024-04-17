@@ -703,6 +703,12 @@ projects:
     homepage: https://deepsolar.web.app
     license: MIT
     description: Houseshold-level solar panel identification with deep learning
+  - name: Australian MV-LV Networks
+    category: data
+    resource: True
+    github_id: Team-Nando/MV-LV-Networks
+    license: BSD-3
+    description: Large-scale three-phase Australian MV distribution networks with pseudo LV networks
   - name: Power Grid Lib - Optimal Power Flow
     category: data
     resource: True
