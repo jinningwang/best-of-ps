@@ -247,7 +247,7 @@ projects:
     github_id: NREL-Sienna/PowerNetworkMatrices.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
     license: BSD-3
-    description: Methods to generate matrix representations of power systems matrices
+    description: Power systems matrices; NREL Sienna
   - name: PowerSimulations.jl
     category: steady-state
     labels: ["gha", "julia"]
