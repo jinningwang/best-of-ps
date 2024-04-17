@@ -37,6 +37,8 @@ categories:
     title: "Power System Data"
   - category: "pe"
     title: "Power Electronics"
+  - category: "book"
+    title: "Textbook"
 
 labels:
   - label: "python"
@@ -239,6 +241,13 @@ projects:
     description: A PowSyBl and Python integration
 
 # --- SS: Sienna series ---
+  - name: PowerNetworkMatrices.jl
+    category: steady-state
+    labels: ["gha", "julia"]
+    github_id: NREL-Sienna/PowerNetworkMatrices.jl
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    license: BSD-3
+    description: Power systems matrices; NREL Sienna
   - name: PowerSimulations.jl
     category: steady-state
     labels: ["gha", "julia"]
@@ -694,6 +703,12 @@ projects:
     homepage: https://deepsolar.web.app
     license: MIT
     description: Houseshold-level solar panel identification with deep learning
+  - name: Australian MV-LV Networks
+    category: data
+    resource: True
+    github_id: Team-Nando/MV-LV-Networks
+    license: BSD-3
+    description: Large-scale three-phase Australian MV distribution networks with pseudo LV networks
   - name: Power Grid Lib - Optimal Power Flow
     category: data
     resource: True
@@ -901,3 +916,20 @@ projects:
     docs_url: https://gseim.github.io/build/html/index.html
     license: GPL-3.0
     description: Simulation of electrical circuits
+
+# --- Textbook ---
+  - name: TextbookSimulations
+    category: book
+    resource: True
+    labels: ["julia", "juptyer"]
+    github_id: Power-Systems-Textbook/TextbookSimulations
+    license: CC0-1.0
+    description: Examples and problems accompanying Daniel Kirschen's Power Systems Textbook
+  - name: UTK ECE 522 - Power System Analysis II
+    category: book
+    resource: True
+    labels: ["python", "juptyer"]
+    github_id: CURENT/ece522
+    homepage: https://ltb.curent.org/
+    license: MIT
+    description: Hands-on Project for Power System Analysis II (UTK ECE 522)
