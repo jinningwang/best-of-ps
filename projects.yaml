@@ -37,6 +37,8 @@ categories:
     title: "Power System Data"
   - category: "pe"
     title: "Power Electronics"
+  - category: "book"
+    title: "Textbook"
 
 labels:
   - label: "python"
@@ -901,3 +903,12 @@ projects:
     docs_url: https://gseim.github.io/build/html/index.html
     license: GPL-3.0
     description: Simulation of electrical circuits
+
+# --- Textbook ---
+  - name: TextbookSimulations
+    category: book
+    resource: True
+    labels: ["julia", "juptyer"]
+    github_id: Power-Systems-Textbook/TextbookSimulations
+    license: CC0-1.0
+    description: Examples and problems accompanying Daniel Kirschen's Power Systems Textbook
