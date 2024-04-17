@@ -241,6 +241,13 @@ projects:
     description: A PowSyBl and Python integration
 
 # --- SS: Sienna series ---
+  - name: PowerNetworkMatrices.jl
+    category: steady-state
+    labels: ["gha", "julia"]
+    github_id: NREL-Sienna/PowerNetworkMatrices.jl
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    license: BSD-3
+    description: Methods to generate matrix representations of power systems matrices
   - name: PowerSimulations.jl
     category: steady-state
     labels: ["gha", "julia"]
