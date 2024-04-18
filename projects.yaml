@@ -190,6 +190,13 @@ projects:
     docs_url: https://powersasm.readthedocs.io/en/latest/index.html
     license: BSD-3
     description: Power grid analysis framework based on semi-analytical solutions
+  - name: PSAT
+    category: phasor
+    labels: ["octave"]
+    homepage: http://faraday1.ucd.ie/psat.html
+    docs_url: https://www.amazon.com/dp/B08P3QTQDV?ref_=pe_3052080_397514860
+    license: GPL
+    description: A Matlab toolbox for electric power system analysis and simulation
 
 # --- Steady State ---
 # --- SS: AMES serise ---
