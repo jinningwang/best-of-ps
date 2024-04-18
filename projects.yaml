@@ -254,6 +254,7 @@ projects:
     labels: ["gha", "julia"]
     github_id: NREL-Sienna/PowerFlows.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerFlows.jl/dev/
     license: BSD-3
     description: Collection of Power Flow solution; NREL Sienna
   - name: PowerNetworkMatrices.jl
@@ -261,6 +262,7 @@ projects:
     labels: ["gha", "julia"]
     github_id: NREL-Sienna/PowerNetworkMatrices.jl
     homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerNetworkMatrices.jl/stable/
     license: BSD-3
     description: Power systems matrices; NREL Sienna
   - name: PowerSimulations.jl
