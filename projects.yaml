@@ -239,6 +239,14 @@ projects:
     docs_url: https://pypowsybl.readthedocs.io/en/latest/
     license: MPL-2.0
     description: A PowSyBl and Python integration
+  - name: Open RAO
+    category: steady-state
+    labels: ["gha", "java"]
+    github_id: powsybl/powsybl-open-rao
+    homepage: https://www.powsybl.org
+    docs_url: https://powsybl.readthedocs.io/projects/openrao/en/stable/?badge=stable
+    license: MPL-2.0
+    description: Power systems coordinated capacity calculation and security analysis
 
 # --- SS: Sienna series ---
   - name: PowerFlows.jl
