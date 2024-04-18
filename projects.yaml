@@ -241,6 +241,13 @@ projects:
     description: A PowSyBl and Python integration
 
 # --- SS: Sienna series ---
+  - name: PowerFlows.jl
+    category: steady-state
+    labels: ["gha", "julia"]
+    github_id: NREL-Sienna/PowerFlows.jl
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    license: BSD-3
+    description: Collection of Power Flow solution; NREL Sienna
   - name: PowerNetworkMatrices.jl
     category: steady-state
     labels: ["gha", "julia"]
