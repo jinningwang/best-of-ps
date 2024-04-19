@@ -653,6 +653,14 @@ projects:
     description: Python interface for SCIP
 
 # --- Optimization Language ---
+  - name: PyOptInterface
+    github_id: metab0t/PyOptInterface
+    labels: ["gha", "pypi", "jupyter", "python"]
+    category: opl
+    pypi_id: pyoptinterface
+    docs_url: https://metab0t.github.io/PyOptInterface/
+    license: MPL-2.0
+    description: Efficient modeling interface for optimization in Python
   - name: RSOME
     github_id: XiongPengNUS/rsome
     labels: ["gha", "pypi", "jupyter", "python"]
