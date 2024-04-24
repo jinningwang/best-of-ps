@@ -460,6 +460,15 @@ projects:
     license: MPL-2.0
     description: Steady-state distribution power system analysis
 
+# --- SS: DER extension ---
+  - name: EV-EcoSim
+    category: steady-state
+    labels: ["gha", "python"]
+    github_id: ebalogun01/EV-EcoSim/
+    docs_url: https://ebalogun01.github.io/EV-EcoSim/
+    license: MIT
+    description: A grid-aware co-simulation platform for the design and optimization of EV Charging Infrastructure
+
 # --- Interface ---
   - name: CIMpy
     category: intf
