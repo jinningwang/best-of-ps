@@ -13,10 +13,8 @@ categories:
     title: "Phasor Simulation"
   - category: "emt"
     title: "EMT Simulation"
-    subtitle: "Power System EMT Simulation."
   - category: "steady-state"
     title: "Steady State Simulation"
-    subtitle: "Power System Steady State Simulation"
   - category: "intf"
     title: "Interface"
   - category: "ops"
@@ -461,6 +459,15 @@ projects:
     docs_url: https://power-grid-model.readthedocs.io/en/stable/
     license: MPL-2.0
     description: Steady-state distribution power system analysis
+
+# --- SS: DER extension ---
+  - name: EV-EcoSim
+    category: steady-state
+    labels: ["gha", "python"]
+    github_id: ebalogun01/EV-EcoSim/
+    docs_url: https://ebalogun01.github.io/EV-EcoSim/
+    license: MIT
+    description: A grid-aware co-simulation platform for the design and optimization of EV Charging Infrastructure
 
 # --- Interface ---
   - name: CIMpy
