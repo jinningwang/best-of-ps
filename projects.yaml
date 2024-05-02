@@ -199,6 +199,17 @@ projects:
     description: A Matlab toolbox for electric power system analysis and simulation
 
 # --- Steady State ---
+  - name: REopt
+    category: steady-state
+    labels: ["gha", "python", "julia"]
+    github_id: NREL/REopt_API
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.nrel.gov/reopt/
+    # docs_url:
+    license: BSD-3
+    description: Renewable Energy Integration & Optimization
   - name: DOPER
     category: steady-state
     labels: ["gha", "python", "jupyter"]
