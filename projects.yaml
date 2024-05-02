@@ -981,3 +981,16 @@ projects:
     github_id: bcornelusse/ELEC0447-analysis-power-systems
     license: BSD-2.0
     description: Master's course of power systems analysis at ULiège.
+
+# --- Database Management ---
+  - name: dsgrid
+    category: dataman
+    labels: ["gha", "python"]
+    github_id: dsgrid/dsgrid
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    docs_url: https://dsgrid.github.io/dsgrid
+    license: BSD-3
+    description: Demand-side grid projects, datasets and queries
