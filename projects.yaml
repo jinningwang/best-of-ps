@@ -199,6 +199,17 @@ projects:
     description: A Matlab toolbox for electric power system analysis and simulation
 
 # --- Steady State ---
+  - name: DER-CAM
+    category: steady-state
+    # labels: []
+    # github_id:
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://dercam-app.lbl.gov
+    # docs_url:
+    # license:
+    description: DER investment planning
 # --- SS: AMES serise ---
   - name: AMES - Version 5.0
     category: steady-state
