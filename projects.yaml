@@ -994,3 +994,14 @@ projects:
     docs_url: https://dsgrid.github.io/dsgrid
     license: BSD-3
     description: Demand-side grid projects, datasets and queries
+  - name: dGen
+    category: dataman
+    labels: ["python", "jupyter"]
+    github_id: NREL/dgen
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    docs_url: https://nrel.github.io/dgen/
+    license: BSD-3
+    description: The Distributed Generation Market Demand (dGen) model
