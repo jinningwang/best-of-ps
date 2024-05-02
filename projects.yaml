@@ -35,6 +35,8 @@ categories:
     title: "Power System Data"
   - category: "pe"
     title: "Power Electronics"
+  - category: "dataman"
+    title: "Database Management"
   - category: "book"
     title: "Textbook"
 
