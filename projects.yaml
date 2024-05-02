@@ -199,6 +199,17 @@ projects:
     description: A Matlab toolbox for electric power system analysis and simulation
 
 # --- Steady State ---
+  - name: DOPER
+    category: steady-state
+    labels: ["gha", "python", "jupyter"]
+    github_id: LBNL-ETA/DOPER
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    # docs_url:
+    license: BSD-3
+    description: Distributed Optimal and Predictive Energy Resources
   - name: DER-CAM
     category: steady-state
     # labels: []
