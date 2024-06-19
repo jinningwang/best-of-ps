@@ -826,6 +826,13 @@ projects:
     github_id: tamu-engineering-research/COVID-EMDA
     license: MIT
     description: Cross-Domain Data Hub with Data in USA
+  - name: SimBench
+    category: data
+    github_id:  e2nIEE/simbench 
+    license: Open Database License
+    description: Benchmark dataset of German LV/MV/HV grids including 15min time series for 1 year
+    homepage: https://simbench.de/en/
+
 
 # --- Machine/Reinforcement Learning ---
   - name: Grid2Op
