@@ -505,6 +505,14 @@ projects:
     description: A grid-aware co-simulation platform for the design and optimization of EV Charging Infrastructure
 
 # --- Interface ---
+  - name: cimpyorm
+    category: intf
+    labels: ["gha", "python", "pypi"]
+    github_id: RWTH-IAEW/cimpyorm
+    pypi_id: grg-cimpyorm
+    # docs_url:
+    license: BSD-3.0
+    description: Python ORM middleware for IEC CIM and CGMES datasets
   - name: CIMpy
     category: intf
     labels: ["gha", "python"]
