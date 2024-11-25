@@ -17,16 +17,16 @@ categories:
     title: "Steady State Simulation"
   - category: "intf"
     title: "Interface"
-  - category: "ops"
-    title: "Optimizer"
-  - category: "opl"
-    title: "Optimization Modeling Language"
-  - category: "mrl"
-    title: "Machine/Reinforcement Learning for Power Grid"
-  - category: "cosime"
-    title: "Co-Simulation Environment"
   - category: "gasnet"
     title: "Gas Simulation"
+  - category: "cosime"
+    title: "Co-Simulation Environment"
+  - category: "opl"
+    title: "Optimization Modeling Language"
+  - category: "ops"
+    title: "Optimizer"
+  - category: "mrl"
+    title: "Machine/Reinforcement Learning for Power Grid"
   - category: "vis"
     title: "Visualization"
   - category: "msg"
@@ -35,6 +35,8 @@ categories:
     title: "Power System Data"
   - category: "pe"
     title: "Power Electronics"
+  - category: "dataman"
+    title: "Database Management"
   - category: "book"
     title: "Textbook"
 
@@ -197,6 +199,39 @@ projects:
     description: A Matlab toolbox for electric power system analysis and simulation
 
 # --- Steady State ---
+  - name: REopt
+    category: steady-state
+    labels: ["gha", "python", "julia"]
+    github_id: NREL/REopt_API
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://www.nrel.gov/reopt/
+    # docs_url:
+    license: BSD-3
+    description: Renewable Energy Integration & Optimization
+  - name: DOPER
+    category: steady-state
+    labels: ["gha", "python", "jupyter"]
+    github_id: LBNL-ETA/DOPER
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    # docs_url:
+    license: BSD-3
+    description: Distributed Optimal and Predictive Energy Resources
+  - name: DER-CAM
+    category: steady-state
+    # labels: []
+    # github_id:
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    homepage: https://dercam-app.lbl.gov
+    # docs_url:
+    # license:
+    description: DER investment planning
 # --- SS: AMES serise ---
   - name: AMES - Version 5.0
     category: steady-state
@@ -986,3 +1021,27 @@ projects:
     github_id: bcornelusse/ELEC0447-analysis-power-systems
     license: BSD-2.0
     description: Master's course of power systems analysis at ULiège.
+
+# --- Database Management ---
+  - name: dsgrid
+    category: dataman
+    labels: ["gha", "python"]
+    github_id: dsgrid/dsgrid
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    docs_url: https://dsgrid.github.io/dsgrid
+    license: BSD-3
+    description: Demand-side grid projects, datasets and queries
+  - name: dGen
+    category: dataman
+    labels: ["python", "jupyter"]
+    github_id: NREL/dgen
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    docs_url: https://nrel.github.io/dgen/
+    license: BSD-3
+    description: The Distributed Generation Market Demand (dGen) model

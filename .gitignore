@@ -89,3 +89,5 @@ hs_err_pid*
 temp/*
 .DS_Store
 
+# local test
+.secrets
