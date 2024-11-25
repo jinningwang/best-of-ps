@@ -509,7 +509,7 @@ projects:
     category: intf
     labels: ["gha", "python", "pypi"]
     github_id: RWTH-IAEW/cimpyorm
-    pypi_id: grg-cimpyorm
+    pypi_id: cimpyorm
     # docs_url:
     license: BSD-3.0
     description: Python ORM middleware for IEC CIM and CGMES datasets
