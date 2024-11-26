@@ -711,6 +711,16 @@ projects:
     docs_url: https://www.opti-verse.org/handbook/
     license: MIT
     description: A library with innovative optimization solutions
+  - name: OR-Tools
+    category: ops
+    labels: ["gha", "python", "c", "java"]
+    github_id: google/or-tools
+    pypi_id: ortools
+    conda_id: ortools-python
+    homepage: https://developers.google.com/optimization/
+    docs_url: https://developers.google.com/optimization/introduction
+    license: Apache-2
+    description: Google Optimization Tools
 
 # --- Optimization Language ---
   - name: PyOptInterface
