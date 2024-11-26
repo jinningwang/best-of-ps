@@ -1029,6 +1029,46 @@ projects:
     github_id: bcornelusse/ELEC0447-analysis-power-systems
     license: BSD-2.0
     description: Master's course of power systems analysis at ULiège.
+  - name: Tutorial on DER Hosting Capacity Part 0
+    category: book
+    resource: True
+    labels: ["jupyter"]
+    github_id: Team-Nando/Tutorial-DERHostingCapacity-0-dss_python
+    homepage: https://sites.google.com/view/luisfochoa/research/research-team
+    license: BSD-3.0
+    description: Using dss_python
+  - name: Tutorial on DER Hosting Capacity Part 1
+    category: book
+    resource: True
+    labels: ["jupyter"]
+    github_id: Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedTools_LV
+    homepage: https://sites.google.com/view/luisfochoa/research/research-team
+    license: BSD-3.0
+    description: Advanced Tools for the Analysis of Three-Phase Unbalanced LV Networks
+  - name: Tutorial on DER Hosting Capacity Part 2
+    category: book
+    resource: True
+    labels: ["jupyter"]
+    github_id: Team-Nando/Tutorial-DERHostingCapacity-2-TimeSeries_LV
+    homepage: https://sites.google.com/view/luisfochoa/research/research-team
+    license: BSD-3.0
+    description: Time-Series Analysis and PV Hosting Capacity of LV Networks
+  - name: Tutorial on DER Hosting Capacity Part 3
+    category: book
+    resource: True
+    labels: ["jupyter"]
+    github_id: Team-Nando/Tutorial-DERHostingCapacity-3-VoltWatt_LV
+    homepage: https://sites.google.com/view/luisfochoa/research/research-team
+    license: BSD-3.0
+    description: Volt-Watt Control and PV Hosting Capacity of LV Networks
+  - name: Tutorial on DER Hosting Capacity Part 4
+    category: book
+    resource: True
+    labels: ["jupyter"]
+    github_id: Team-Nando/Tutorial-DERHostingCapacity-4-MonteCarlo_MV-LV
+    homepage: https://sites.google.com/view/luisfochoa/research/research-team
+    license: BSD-3.0
+    description: Monte Carlo Assessment of PV Hosting Capacity of an Integrated MV-LV Network
 
 # --- Database Management ---
   - name: dsgrid
