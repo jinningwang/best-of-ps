@@ -622,6 +622,7 @@ projects:
     labels: ["gha", "conda", "python", "julia", "c"]
     github_id: coin-or/Cbc
     conda_id: conda-forge/coincbc
+    homepage: https://www.coin-or.org/
     docs_url: https://coin-or.github.io/Cbc/Doxygen/
     license: EPL-2.0
     description: COIN-OR Branch-and-Cut solver
@@ -687,6 +688,7 @@ projects:
     github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: conda-forge/ipopt
+    homepage: https://www.coin-or.org/
     docs_url: https://coin-or.github.io/Ipopt/
     license: EPL-2.0
     description: COIN-OR Interior Point Optimizer
