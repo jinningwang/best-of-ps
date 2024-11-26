@@ -707,8 +707,8 @@ projects:
     github_id: feyntech-opt/OptiVerse
     # pypi_id:
     # conda_id:
-    # homepage:
-    # docs_url:
+    homepage: https://www.opti-verse.org/
+    docs_url: https://www.opti-verse.org/handbook/
     license: MIT
     description: A library with innovative optimization solutions
 
