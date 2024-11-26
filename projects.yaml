@@ -885,7 +885,7 @@ projects:
   - name: Grid Event Signature Library
     category: data
     resource: True
-    github_id: openEDI/documentation
+    # github_id:
     homepage: https://gesl.ornl.gov/
     license: CC-BY
     description: An initiative spearheaded by ORNL and LLNL
