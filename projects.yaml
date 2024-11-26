@@ -721,6 +721,16 @@ projects:
     docs_url: https://developers.google.com/optimization/introduction
     license: Apache-2
     description: Google Optimization Tools
+  - name: Tulip
+    category: ops
+    labels: ["gha", "julia"]
+    github_id: google/or-tools
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    docs_url: https://ds4dm.github.io/Tulip.jl/stable/
+    license: MPL-2.0
+    description: Interior-point solver in pure Julia
 
 # --- Optimization Language ---
   - name: PyOptInterface
