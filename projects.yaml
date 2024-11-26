@@ -882,6 +882,13 @@ projects:
     homepage: https://data.openei.org/submissions/
     license: CC-BY
     description: NREL PV Rooftop Database
+  - name: Grid Event Signature Library
+    category: data
+    resource: True
+    github_id: openEDI/documentation
+    homepage: https://gesl.ornl.gov/
+    license: CC-BY
+    description: An initiative spearheaded by ORNL and LLNL
   
 
 
