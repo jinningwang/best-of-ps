@@ -33,6 +33,7 @@ The data collection can be deficient for the projects that are not majorly hoste
 
 - [G-PST Tools Portal](https://g-pst.github.io/tools/): An open tools portal with a classification approach
 - [Open Source Software (OSS) for Electricity Market Research, Teaching, and Training](https://www2.econ.iastate.edu/tesfatsi/ElectricOSS.htm)
+- [Open-Source-Power-Electronic-Tools](https://github.com/upb-lea/awesome-open-source-power-electronics)
 - [Papers With Code](https://paperswithcode.com): Discover ML papers, code, and evaluation tables.
 
 ## Contribution
