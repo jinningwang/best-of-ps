@@ -701,6 +701,16 @@ projects:
     docs_url: https://scipopt.github.io/PySCIPOpt/docs/html/
     license: MIT
     description: Python interface for SCIP
+  - name: OptiVerse
+    category: ops
+    labels: ["python"]
+    github_id: feyntech-opt/OptiVerse
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: MIT
+    description: A library with innovative optimization solutions
 
 # --- Optimization Language ---
   - name: PyOptInterface
