@@ -1079,6 +1079,13 @@ projects:
     homepage: https://dfrdb.rte-france.com/
     license: ODbL-1.0
     description: Voltage and current samples from Digital Fault Recorder
+  - name: A new power system benchmark
+    category: data
+    resource: True
+    github_id: lbl-hub/CSEE-Benchmark
+    # homepage:
+    # license:
+    description: A new type of power system calculation example by the China EPRI
   
 
 
