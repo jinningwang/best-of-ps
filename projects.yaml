@@ -731,6 +731,16 @@ projects:
     docs_url: https://ds4dm.github.io/Tulip.jl/stable/
     license: MPL-2.0
     description: Interior-point solver in pure Julia
+  - name: Xopt
+    category: ops
+    labels: ["gha", "python", "pypi", "conda"]
+    github_id: google/or-tools
+    pypi_id: xopt
+    conda_id: xopt
+    # homepage:
+    docs_url: https://xopt.xopt.org/index.html
+    license: MPL-2.0
+    description: Flexible high-level optimization in Python
 
 # --- Optimization Language ---
   - name: PyOptInterface
