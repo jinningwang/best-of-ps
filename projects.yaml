@@ -875,6 +875,14 @@ projects:
     license: Open Database License
     description: Benchmark dataset of German LV/MV/HV grids including 15min time series for 1 year
     homepage: https://simbench.de/en/
+  - name: PV Rooftop Database
+    category: data
+    resource: True
+    github_id: openEDI/documentation
+    homepage: https://data.openei.org/submissions/
+    license: CC-BY
+    description: NREL PV Rooftop Database
+  
 
 
 # --- Machine/Reinforcement Learning ---
