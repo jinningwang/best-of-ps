@@ -625,6 +625,15 @@ projects:
     docs_url: https://coin-or.github.io/Cbc/Doxygen/
     license: EPL-2.0
     description: COIN-OR Branch-and-Cut solver
+  - name: Clp
+    category: ops
+    labels: ["gha", "conda", "python", "julia", "c"]
+    github_id: coin-or/Cbc
+    conda_id: conda-forge/coin-or-clp
+    homepage: https://www.coin-or.org/
+    docs_url: https://coin-or.github.io/Clp/
+    license: EPL-2.0
+    description: COIN-OR Linear Programming Solver
   - name: SCS
     category: ops
     labels: ["gha", "pypi", "conda", "python", "octave", "julia", "r", "c"]
