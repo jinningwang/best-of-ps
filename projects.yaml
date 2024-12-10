@@ -869,6 +869,16 @@ projects:
     docs_url: https://xopt.xopt.org/index.html
     license: MPL-2.0
     description: Flexible high-level optimization in Python
+  - name: MadNLP
+    category: ops
+    labels: ["gha", "julia"]
+    github_id: MadNLP/MadNLP.jl
+    # pypi_id: ipopt
+    # conda_id: conda-forge/ipopt
+    # homepage: https://www.coin-or.org/
+    docs_url: https://madnlp.github.io/MadNLP.jl/stable/
+    license: MIT
+    description: A solver for nonlinear programming with GPU support
 
 # --- Optimization Language ---
   - name: PyOptInterface
@@ -941,6 +951,16 @@ projects:
     docs_url: https://jump.dev/JuMP.jl/stable/
     license: MPL-2.0
     description: Julia-based Optimization Modeling Language
+  - name: ExaModels
+    labels: ["gha", "julia"]
+    category: opl
+    github_id: exanauts/ExaModels.jl
+    # pypi_id:
+    # conda_id:
+    # homepage: https://jump.dev
+    docs_url: https://exanauts.github.io/ExaModels.jl/stable/
+    license: MIT
+    description: An algebraic modeling and automatic differentiation tool in Julia Language, specialized for SIMD abstraction of nonlinear programs.
 
 
 # --- Data Source ---
