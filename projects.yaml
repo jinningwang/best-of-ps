@@ -589,6 +589,26 @@ projects:
     description: A grid-aware co-simulation platform for the design and optimization of EV Charging Infrastructure
 
 # --- Interface ---
+  - name: CIMTool-Builders-Library
+    category: intf
+    labels: ["gha"]
+    github_id: CIMug-org/CIMTool-Builders-Library
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    docs_url: https://cimtool-builders.ucaiug.io/
+    license: Apache-2.0
+    description: Publically available XSLT builders
+  - name: CIMTool
+    category: intf
+    labels: ["gha", "java"]
+    github_id: CIMug-org/CIMTool
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    docs_url: http://cimtool.ucaiug.io/
+    license: LGPL-2.1
+    description: CIMug's CIMTool for the CIM.
   - name: cimpyorm
     category: intf
     labels: ["gha", "python", "pypi"]
