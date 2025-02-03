@@ -1130,6 +1130,17 @@ projects:
 
 
 # --- Machine/Reinforcement Learning ---
+  - name: Daline
+    github_id: JarvisETHZ/Daline
+    labels: ["octave"]
+    category: mrl
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    docs_url: https://www.shuo.science/daline
+    license: BSD-3
+    description: A Data-driven Power Flow Linearization Toolbox
   - name: Grid2Op
     github_id: rte-france/Grid2Op
     labels: ["gha", "pypi", "jupyter", "python"]
