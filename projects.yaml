@@ -1126,6 +1126,13 @@ projects:
     # homepage:
     # license:
     description: A new type of power system calculation example by the China EPRI
+  - name: pmuBAGE
+    category: data
+    resource: True
+    github_id: NanpengYu/pmuBAGE
+    # homepage:
+    # license:
+    description: Synthetic phasor measurement unit dataset
   
 
 
