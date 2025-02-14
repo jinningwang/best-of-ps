@@ -1313,7 +1313,6 @@ projects:
     resource: True
     labels: ["python", "jupyter"]
     github_id: CURENT/ece522
-    homepage: https://ltb.curent.org/
     license: MIT
     description: Hands-on Project for Power System Analysis II (UTK ECE 522)
   - name: ELEC0447 Analysis of Electric Power and Energy Systems
