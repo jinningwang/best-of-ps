@@ -1079,7 +1079,6 @@ projects:
     category: data
     resource: True
     github_id: owid/energy-data
-    homepage: https://ourworldindata.org/energy
     license: CC-BY
     description: Data on energy by Our World in Data
   - name: COVID-EMDA
@@ -1102,7 +1101,6 @@ projects:
     category: data
     resource: True
     github_id: openEDI/documentation
-    homepage: https://data.openei.org/submissions/
     license: CC-BY
     description: NREL PV Rooftop Database
   - name: Grid Event Signature Library
@@ -1116,7 +1114,6 @@ projects:
     category: data
     resource: True
     github_id: rte-france/digital-fault-recording-database
-    homepage: https://dfrdb.rte-france.com/
     license: ODbL-1.0
     description: Voltage and current samples from Digital Fault Recorder
   - name: A new power system benchmark
