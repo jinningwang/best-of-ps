@@ -231,6 +231,16 @@ projects:
     docs_url: https://www.amazon.com/dp/B08P3QTQDV?ref_=pe_3052080_397514860
     license: GPL
     description: A Matlab toolbox for electric power system analysis and simulation
+  - name: PST
+    category: phasor
+    labels: ["octave"]
+    github_id: cuihantao/pst
+    # pypi_id:
+    # conda_id:
+    homepage: https://sites.ecse.rpi.edu/~chowj/
+    docs_url: https://github.com/cuihantao/pst/blob/master/PSTv3/PSTMan.pdf
+    # license:
+    description: Power System Toolbox from Dr. Joe H. Chow
 
 # --- Steady State ---
   - name: REopt
