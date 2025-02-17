@@ -239,7 +239,7 @@ projects:
     # conda_id:
     homepage: https://sites.ecse.rpi.edu/~chowj/
     docs_url: https://github.com/cuihantao/pst/blob/master/PSTv3/PSTMan.pdf
-    # license:
+    license: MIT
     description: Power System Toolbox from Dr. Joe H. Chow
 
 # --- Steady State ---
