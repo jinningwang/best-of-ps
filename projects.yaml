@@ -106,7 +106,7 @@ projects:
 # --- EPRI series ---
   - name: OpenDSS
     category: phasor
-    # labels: 
+    labels: ["python", "julia"]
     # github_id:
     # pypi_id:
     # conda_id:
