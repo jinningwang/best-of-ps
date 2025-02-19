@@ -709,6 +709,16 @@ projects:
     docs_url: https://dss-extensions.org/OpenDSSDirect.jl/
     license: MIT
     description: Cross-platform Julia interface to OpenDSS
+  - name: AltDSS/DSS C-API
+    category: intf
+    labels: ["gha", "julia"]
+    github_id: dss-extensions/dss_capi
+    # pypi_id:
+    # conda_id:
+    homepage: https://dss-extensions.org/
+    docs_url: https://dss-extensions.org/dss-extensions/pascal/
+    license: BSD-3
+    description: a plain C interface to OpenDSS
   - name: py-dss-interface
     category: intf
     labels: ["gha", "pypi", "python", "jupyter"]
