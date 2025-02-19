@@ -425,6 +425,16 @@ projects:
     docs_url: https://pypsa-eur.readthedocs.io/en/latest/?badge=latest
     license: MIT
     description: Sector-Coupled Optimisation Model of the European Energy System
+  - name: PyPSA-Distribution
+    category: steady-state
+    labels: ["gha", "python"]
+    github_id: pypsa-meets-earth/pypsa-distribution
+    # pypi_id:
+    # conda_id:
+    homepage: https://pypsa-meets-earth.github.io/
+    docs_url: https://pypsa-distribution.readthedocs.io/
+    license: GPL-3
+    description: Multi-energy model for small scale applications in high spatial and temporal resolution
 # --- SS: Grid2Op series ---
   - name: LightSim2Grid
     category: steady-state
