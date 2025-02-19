@@ -729,6 +729,16 @@ projects:
     docs_url: https://dss-extensions.org/dss-extensions/pascal/
     license: BSD-3
     description: MATLAB interface to OpenDSS
+  - name: DSS Sharp
+    category: intf
+    labels: ["gha"]
+    github_id: dss-extensions/dss_sharp
+    # pypi_id:
+    # conda_id:
+    homepage: https://dss-extensions.org/
+    docs_url: https://dss-extensions.org/dss-extensions/pascal/
+    license: BSD-3
+    description: C#/.NET wrapper library for DSS C-API
   - name: py-dss-interface
     category: intf
     labels: ["gha", "pypi", "python", "jupyter"]
