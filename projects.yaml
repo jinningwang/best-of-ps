@@ -699,6 +699,16 @@ projects:
     docs_url: https://dss-extensions.org/OpenDSSDirect.py/
     license: MIT
     description: A "direct" library interface to OpenDSS
+  - name: OpenDSSDirect.jl
+    category: intf
+    labels: ["gha", "julia"]
+    github_id: dss-extensions/OpenDSSDirect.jl
+    # pypi_id:
+    # conda_id:
+    homepage: https://dss-extensions.org/
+    docs_url: https://dss-extensions.org/OpenDSSDirect.jl/
+    license: MIT
+    description: Cross-platform Julia interface to OpenDSS
   - name: py-dss-interface
     category: intf
     labels: ["gha", "pypi", "python", "jupyter"]
