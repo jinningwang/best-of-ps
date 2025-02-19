@@ -698,6 +698,16 @@ projects:
     docs_url: https://nrel.github.io/PyDSS/index.html
     license: BSD-3
     description: A Python wrapper for OpenDSS
+  - name: AltDSS-Python
+    category: intf
+    labels: ["gha", "pypi", "python", "jupyter"]
+    github_id: dss-extensions/AltDSS-Python
+    pypi_id: altdss
+    # conda_id:
+    homepage: https://dss-extensions.org/
+    docs_url: https://dss-extensions.org/AltDSS-Python/
+    license: BSD-3
+    description: Modern Python bindings for an alternative implementation of OpenDSS
   - name: OpenDSSDirect.py
     category: intf
     labels: ["gha", "pypi", "python", "jupyter"]
