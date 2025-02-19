@@ -224,13 +224,13 @@ projects:
   - name: PSAT
     category: phasor
     labels: ["octave"]
-    # github_id:
+    github_id: Sinan81/PSAT
     # pypi_id:
     # conda_id:
     homepage: http://faraday1.ucd.ie/psat.html
     docs_url: https://www.amazon.com/dp/B08P3QTQDV?ref_=pe_3052080_397514860
     license: GPL
-    description: A Matlab toolbox for electric power system analysis and simulation
+    description: Power System Analysis Toolbox by Federico Milano
   - name: PST
     category: phasor
     labels: ["octave"]
