@@ -1173,13 +1173,6 @@ projects:
     github_id: openEDI/documentation
     license: CC-BY
     description: NREL PV Rooftop Database
-  - name: Grid Event Signature Library
-    category: data
-    resource: True
-    # github_id:
-    homepage: https://gesl.ornl.gov/
-    license: CC-BY
-    description: An initiative spearheaded by ORNL and LLNL
   - name: Electrical Signals Databases
     category: data
     resource: True
@@ -1392,35 +1385,35 @@ projects:
   - name: Tutorial on DER Hosting Capacity Part 0
     category: book
     resource: True
-    labels: ["jupyter"]
+    labels: ["jupyter", "python"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-0-dss_python
     license: BSD-3.0
     description: Using dss_python
   - name: Tutorial on DER Hosting Capacity Part 1
     category: book
     resource: True
-    labels: ["jupyter"]
+    labels: ["jupyter", "python"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedTools_LV
     license: BSD-3.0
     description: Advanced Tools for the Analysis of Three-Phase Unbalanced LV Networks
   - name: Tutorial on DER Hosting Capacity Part 2
     category: book
     resource: True
-    labels: ["jupyter"]
+    labels: ["jupyter", "python"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-2-TimeSeries_LV
     license: BSD-3.0
     description: Time-Series Analysis and PV Hosting Capacity of LV Networks
   - name: Tutorial on DER Hosting Capacity Part 3
     category: book
     resource: True
-    labels: ["jupyter"]
+    labels: ["jupyter", "python"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-3-VoltWatt_LV
     license: BSD-3.0
     description: Volt-Watt Control and PV Hosting Capacity of LV Networks
   - name: Tutorial on DER Hosting Capacity Part 4
     category: book
     resource: True
-    labels: ["jupyter"]
+    labels: ["jupyter", "python"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-4-MonteCarlo_MV-LV
     license: BSD-3.0
     description: Monte Carlo Assessment of PV Hosting Capacity of an Integrated MV-LV Network
