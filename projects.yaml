@@ -435,6 +435,16 @@ projects:
     docs_url: https://pypsa-distribution.readthedocs.io/
     license: GPL-3
     description: Multi-energy model for small scale applications in high spatial and temporal resolution
+  - name: PyPSA-Earth
+    category: steady-state
+    labels: ["gha", "python"]
+    github_id: pypsa-meets-earth/pypsa-earth
+    # pypi_id:
+    # conda_id:
+    homepage: https://pypsa-meets-earth.github.io/
+    docs_url: https://pypsa-earth.readthedocs.io/
+    license: AGPL-3
+    description: Open optimisation model for study energy system futures
 # --- SS: Grid2Op series ---
   - name: LightSim2Grid
     category: steady-state
