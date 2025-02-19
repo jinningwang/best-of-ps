@@ -265,17 +265,6 @@ projects:
     # docs_url:
     license: BSD-3
     description: Distributed Optimal and Predictive Energy Resources
-  - name: DER-CAM
-    category: steady-state
-    # labels: []
-    # github_id:
-    # pypi_id:
-    # conda_id:
-    # dockerhub_id:
-    homepage: https://dercam-app.lbl.gov
-    # docs_url:
-    # license:
-    description: DER investment planning
 # --- SS: AMES serise ---
   - name: AMES - Version 5.0
     category: steady-state
