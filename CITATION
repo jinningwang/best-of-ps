@@ -3,7 +3,6 @@
 	rights = {Creative Commons Attribution Share Alike 4.0 International},
 	url = {https://zenodo.org/doi/10.5281/zenodo.14941137},
 	doi = {10.5281/ZENODO.14941137},
-	abs={This curated list contains 140 open-source projects with a total of 69K stars grouped into 15 categories. All projects are ranked by a project-popularity score, which is calculated based on various metrics automatically collected from GitHub and different package managers.},
 	version = {2025.02.27},
 	publisher = {Zenodo},
 	author = {Jinning Wang},

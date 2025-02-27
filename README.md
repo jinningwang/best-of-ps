@@ -1521,6 +1521,24 @@ The data collection can be deficient for the projects that are not majorly hoste
 - [Open Source Software (OSS) for Electricity Market Research, Teaching, and Training](https://www2.econ.iastate.edu/tesfatsi/ElectricOSS.htm)
 - [Open-Source-Power-Electronic-Tools](https://github.com/upb-lea/awesome-open-source-power-electronics)
 
+## Citation
+
+If you find this list helpful for your research, please consider citing this repository:
+
+```bibtex
+@misc{jinning_wang_popular_2025,
+	title = {Popular Open Source Libraries for Power System Analysis},
+	rights = {Creative Commons Attribution Share Alike 4.0 International},
+	url = {https://zenodo.org/doi/10.5281/zenodo.14941137},
+	doi = {10.5281/ZENODO.14941137},
+	version = {2025.02.27},
+	publisher = {Zenodo},
+	author = {Jinning Wang},
+	urldate = {2025-02-27},
+	date = {2025-02-27},
+}
+```
+
 ## Contribution
 
 Contributions are encouraged and always welcome! If you like to add or update projects, choose one of the following ways:
