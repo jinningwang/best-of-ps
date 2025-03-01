@@ -11,6 +11,7 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
+	<a href="https://doi.org/10.5281/zenodo.14941137"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.14941137.svg" alt="DOI"></a>
     <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-140-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/jinningwang/best-of-ps/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/jinningwang/best-of-ps?color=green&label=updated"></a>
@@ -1520,25 +1521,6 @@ The data collection can be deficient for the projects that are not majorly hoste
 - [G-PST Tools Portal](https://g-pst.github.io/tools/): An open tools portal with a classification approach
 - [Open Source Software (OSS) for Electricity Market Research, Teaching, and Training](https://www2.econ.iastate.edu/tesfatsi/ElectricOSS.htm)
 - [Open-Source-Power-Electronic-Tools](https://github.com/upb-lea/awesome-open-source-power-electronics)
-
-## Citation
-
-If you find this list helpful for your research, please consider citing this repository:
-
-```bibtex
-@misc{wang_popular_2022,
-	title = {Popular Open Source Libraries for Power System Analysis},
-	rights = {Creative Commons Attribution Share Alike 4.0 International},
-	url = {https://github.com/jinningwang/best-of-ps},
-	doi = {10.5281/ZENODO.14902602},
-	version = {2025.02.27},
-	publisher = {Zenodo},
-	author = {Wang, Jinning},
-	urldate = {2025-02-27},
-	date = {2022-11-30},
-	langid = {english},
-}
-```
 
 ## Contribution
 
