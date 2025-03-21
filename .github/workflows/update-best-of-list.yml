@@ -33,21 +33,21 @@ jobs:
       - name: create-update-branch
         uses: peterjgrainger/action-create-branch@v2.2.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         with:
           branch: "${{ env.BRANCH_PREFIX }}${{ env.VERSION }}"
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
           ref: ${{ env.BRANCH_PREFIX }}${{ env.VERSION }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
       - name: update-best-of-list
         uses: best-of-lists/best-of-update-action@v0.8.5
         with:
           libraries_key: ${{ secrets.LIBRARIES_KEY }}
-          github_key: ${{ secrets.GITHUB_TOKEN }}
+          github_key: ${{ secrets.PAT_TOKEN }}
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -67,11 +67,11 @@ jobs:
           bin/hub pull-request -b ${{ env.DEFAULT_BRANCH }} -h ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }} --no-edit -m "Best-of update: ${{ env.VERSION  }}" -m "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well." || true
           rm bin/hub
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
       - name: create-release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         with:
           tag_name: ${{ env.VERSION  }}
           release_name: "Update: ${{ env.VERSION  }}"
