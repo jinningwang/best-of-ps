@@ -1054,7 +1054,7 @@ projects:
 
 # --- Data Source ---
   - name: PowerGenome
-    category: steady-state
+    category: data
     labels: ["gha", "pypi", "conda", "python"]
     github_id: PowerGenome/PowerGenome
     pypi_id: PowerGenome
