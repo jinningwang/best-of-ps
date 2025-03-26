@@ -1053,6 +1053,16 @@ projects:
 
 
 # --- Data Source ---
+  - name: EnergyDataModel
+    category: data
+    labels: ["pypi", "python", "jupyter"]
+    github_id: rebase-energy/EnergyDataModel
+    pypi_id: energydatamodel
+    # conda_id:
+    homepage: https://www.energydatamodel.org/
+    docs_url: https://docs.energydatamodel.org/en/latest/
+    license: MIT
+    description: Represent energy systems as Python data classes
   - name: PowerGenome
     category: data
     labels: ["gha", "pypi", "conda", "python"]
