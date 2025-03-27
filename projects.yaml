@@ -608,6 +608,16 @@ projects:
     description: A grid-aware co-simulation platform for the design and optimization of EV Charging Infrastructure
 
 # --- Interface ---
+  - name: matpowercaseframes
+    category: intf
+    labels: ["gha", "python", "pypi", "jupyter"]
+    github_id: UGM-EPSLab/matpowercaseframes
+    pypi_id: matpowercaseframes
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: MIT
+    description: Parse MATPOWER case into pandas DataFrame.
   - name: CIMTool-Builders-Library
     category: intf
     labels: ["gha"]
