@@ -1380,6 +1380,14 @@ projects:
     description: Simulation of electrical circuits
 
 # --- Textbook ---
+  - name: PowerCyber Training
+    category: book
+    resource: True
+    labels: ["jupyter", "gha"]
+    github_id: PowerCyberTraining/powercybertraining.github.io
+    license: CC BY-NC-ND 4.0
+    description: PowerCyber Training modules source.
+    homepage: https://powercybertraining.github.io
   - name: TextbookSimulations
     category: book
     resource: True
