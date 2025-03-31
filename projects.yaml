@@ -56,6 +56,9 @@ labels:
   - label: "c"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/c.ico"
     description: "Support C"
+  - label: "cpp"
+    image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/cpp.ico"
+    description: "Support C++"
   - label: "modelica"
     image: "https://github.com/jinningwang/best-of-ps/blob/develop/config/icons/modelica.ico"
     description: "Support Modelica"
@@ -212,6 +215,15 @@ projects:
     docs_url: https://github.com/changgang/steps/wiki/
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
+  - name: GenSAS
+    category: phasor
+    labels: ["cpp"]
+    github_id: ANL-CEEESA/gensas
+    # pypi_id:
+    # conda_id:
+    # docs_url:
+    license: BSD-3
+    description: A C++ based generalized simulation tool based on semi-analytical solutions
   - name: PowerSAS.m
     category: phasor
     labels: ["octave"]
