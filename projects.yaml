@@ -255,6 +255,17 @@ projects:
     description: Power System Toolbox from Dr. Joe H. Chow
 
 # --- Steady State ---
+  - name: UnitCommitment.jl
+    category: steady-state
+    labels: ["julia", "gha"]
+    github_id: ANL-CEEESA/UnitCommitment.jl
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    docs_url: https://anl-ceeesa.github.io/UnitCommitment.jl/
+    license: BSD-3
+    description: Optimization package for the Security-Constrained Unit Commitment Problem
   - name: EGRIP.jl
     category: steady-state
     labels: ["julia", "octave"]
