@@ -78,3 +78,35 @@ jobs:
           body_path: "latest-changes.md"
           draft: true
           prerelease: false
+
+      - name: enable-auto-merge
+        uses: peter-evans/enable-pull-request-automerge@v2
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          pull-request-number: ${{ steps.create-pull-request.id }} # Ensure you capture the PR number properly
+          merge-method: squash
+
+      - name: wait-for-merge
+        run: |
+          # Wait for the pull request to be merged.
+          # Poll the GitHub API to check the merge status.
+          for i in {1..60}; do
+            PR_STATUS=$(gh pr view ${{ steps.create-pull-request.outputs.pull-request-url }} --json merged --jq '.merged')
+            if [[ "$PR_STATUS" == "true" ]]; then
+              echo "Pull request has been merged."
+              break
+            fi
+            echo "Waiting for pull request to be merged..."
+            sleep 30
+          done
+          if [[ "$PR_STATUS" != "true" ]]; then
+            echo "Timed out waiting for pull request to be merged."
+            exit 1
+          fi
+
+      - name: publish-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          # Publish the draft release after merge completes.
+          gh release edit ${{ env.VERSION }} --draft=false
