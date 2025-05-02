@@ -255,6 +255,17 @@ projects:
     description: Power System Toolbox from Dr. Joe H. Chow
 
 # --- Steady State ---
+  - name: ASSET
+    category: steady-state
+    labels: ["python"]
+    github_id: NREL/ASSET
+    # pypi_id:
+    # conda_id:
+    # dockerhub_id:
+    # homepage:
+    # docs_url:
+    license: BSD-3
+    description: Assess and analyze grid strength
   - name: UnitCommitment.jl
     category: steady-state
     labels: ["julia", "gha"]
