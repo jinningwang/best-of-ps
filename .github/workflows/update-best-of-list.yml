@@ -80,6 +80,7 @@ jobs:
           prerelease: false
 
       - name: enable-auto-merge
+        if: ${{ github.event_name == 'schedule' }}
         uses: peter-evans/enable-pull-request-automerge@v2
         with:
           token: ${{ secrets.PAT_TOKEN }}
@@ -87,6 +88,7 @@ jobs:
           merge-method: squash
 
       - name: wait-for-merge
+        if: ${{ github.event_name == 'schedule' }}
         run: |
           # Wait for the pull request to be merged.
           # Poll the GitHub API to check the merge status.
@@ -105,6 +107,7 @@ jobs:
           fi
 
       - name: publish-release
+        if: ${{ github.event_name == 'schedule' }}
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
