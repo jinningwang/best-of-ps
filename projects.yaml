@@ -39,6 +39,8 @@ categories:
     title: "Database Management"
   - category: "book"
     title: "Textbook"
+  - category: "llm"
+    title: "large Language Model"
 
 labels:
   - label: "python"
@@ -85,6 +87,18 @@ labels:
     description: "Available on Conda"  
 
 projects:
+# --- LLM ---
+  - name: PyPSA MCP
+    category: llm
+    labels: ["python"]
+    github_id: cdgaete/pypsa-mcp
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: MIT
+    description: PyPSA Energy Modeling for LLMs
+
 # --- EMT ---
   - name: ParaEMT
     category: emt
