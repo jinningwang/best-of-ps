@@ -1272,8 +1272,6 @@ projects:
     # license:
     description: Synthetic phasor measurement unit dataset
   
-
-
 # --- Machine/Reinforcement Learning ---
   - name: Daline
     github_id: JarvisETHZ/Daline
@@ -1372,7 +1370,7 @@ projects:
     license: BSD-3
     description: Gas Network Optimization
 
-# --- MSG ---
+# --- Messaging ---
   - name: HELICS
     github_id: GMLC-TDC/HELICS
     labels: ["gha", "pypi", "conda", "python", "julia", "octave", "java", "c"]
@@ -1394,7 +1392,7 @@ projects:
     license: GPL-3.0
     description: Distributed Messaging Environment; CURENT LTB
 
-# --- VIS ---
+# --- Visualization ---
   - name: PowSyBl Diagram
     category: vis
     labels: ["gha", "java", "jupyter"]
