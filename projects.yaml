@@ -87,18 +87,6 @@ labels:
     description: "Available on Conda"  
 
 projects:
-# --- LLM ---
-  - name: PyPSA MCP
-    category: llm
-    labels: ["python"]
-    github_id: cdgaete/pypsa-mcp
-    # pypi_id:
-    # conda_id:
-    # homepage:
-    # docs_url:
-    license: MIT
-    description: PyPSA Energy Modeling for LLMs
-
 # --- EMT ---
   - name: ParaEMT
     category: emt
@@ -1272,6 +1260,18 @@ projects:
     # license:
     description: Synthetic phasor measurement unit dataset
   
+# --- LLM ---
+  - name: PyPSA MCP
+    category: llm
+    labels: ["python"]
+    github_id: cdgaete/pypsa-mcp
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: MIT
+    description: PyPSA Energy Modeling for LLMs
+
 # --- Machine/Reinforcement Learning ---
   - name: Daline
     github_id: JarvisETHZ/Daline
