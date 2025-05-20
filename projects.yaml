@@ -1501,6 +1501,14 @@ projects:
     github_id: Team-Nando/Tutorial-DERHostingCapacity-4-MonteCarlo_MV-LV
     license: BSD-3.0
     description: Monte Carlo Assessment of PV Hosting Capacity of an Integrated MV-LV Network
+  - name: LTB Usage Examples
+    category: book
+    resource: True
+    labels: ["jupyter", "python"]
+    github_id: CURENT/demo
+    license: MIT
+    description: Ready-to-use LTB usage examples
+    homepage: https://ltb.curent.org
 
 # --- Database Management ---
   - name: dsgrid
