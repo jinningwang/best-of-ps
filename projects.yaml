@@ -607,6 +607,16 @@ projects:
     docs_url: https://github.com/pnnl/ExaGO/blob/develop/docs/manual/manual.pdf
     license: BSD-3
     description: Large-scale power grid optimization
+  - name: Gurobi OptiMods
+    category: steady-state
+    labels: ["gha", "python"]
+    github_id: Gurobi/gurobi-optimods
+    pypi_id: gurobi-optimods
+    # conda_id:
+    homepage: https://www.gurobi.com/features/gurobi-optimods/
+    docs_url: https://gurobi-optimods.readthedocs.io/en/stable/
+    license: Apache-2.0
+    description: Implemented optimization use cases using Gurobi
 
 # --- SS: planning ---
   - name: ReEDS-2.0
