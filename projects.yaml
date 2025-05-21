@@ -107,8 +107,9 @@ projects:
     docs_url: https://dpsim.fein-aachen.org/docs/
     license: MPL-2.0
     description: Simulation for both EMT and phasor
+
 # --- Phasor ---
-# --- EPRI series ---
+# --- Phasor: EPRI series ---
   - name: OpenDSS
     category: steady-state
     labels: ["python", "julia", "c", "octave"]
@@ -128,6 +129,7 @@ projects:
     homepage: https://www.epri.com/OpenDER
     license: BSD-3
     description: Inverter-based DER simulation
+# --- Phasor: National Lab series ---
   - name: GridPACK
     category: phasor
     labels: ["c", "python"]
@@ -148,14 +150,34 @@ projects:
     docs_url: https://gridlab-d.shoutwiki.com/wiki/Source_documentation
     license: https://github.com/gridlab-d/gridlab-d/blob/master/LICENSE
     description: Distribution power system simulator
-  - name: Dynaωo
+  - name: PowerSimulationsDynamics.jl
     category: phasor
-    labels: ["gha", "modelica"]
-    github_id: dynawo/dynawo
-    homepage: http://dynawo.org
-    docs_url: https://dynawo.github.io/docs/
-    license: MPL-2.0
-    description: C++/Modelica simulation tools for power systems
+    labels: ["gha", "julia"]
+    github_id: NREL-Sienna/PowerSimulationsDynamics.jl
+    # pypi_id:
+    # conda_id:
+    homepage: https://www.nrel.gov/analysis/sienna.html
+    docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
+    license: BSD-3
+    description: Dynamic Power System simulations; NREL Sienna- name: GenSAS
+    category: phasor
+    labels: ["cpp"]
+    github_id: ANL-CEEESA/gensas
+    # pypi_id:
+    # conda_id:
+    # docs_url:
+    license: BSD-3
+    description: A C++ based generalized simulation tool based on semi-analytical solutions
+  - name: PowerSAS.m
+    category: phasor
+    labels: ["octave"]
+    github_id: ANL-CEEESA/powersas.m
+    # pypi_id:
+    # conda_id:
+    docs_url: https://powersasm.readthedocs.io/en/latest/index.html
+    license: BSD-3
+    description: Power grid analysis framework based on semi-analytical solutions
+# --- Phasor: university ---
   - name: LTB ANDES
     category: phasor
     labels: ["gha", "azure", "pypi", "conda", "jupyter", "python", "julia"]
@@ -197,16 +219,6 @@ projects:
     # docs_url:
     license: BSD-3
     description: EMT-TS hybrid simulation
-  - name: PowerSimulationsDynamics.jl
-    category: phasor
-    labels: ["gha", "julia"]
-    github_id: NREL-Sienna/PowerSimulationsDynamics.jl
-    # pypi_id:
-    # conda_id:
-    homepage: https://www.nrel.gov/analysis/sienna.html
-    docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
-    license: BSD-3
-    description: Dynamic Power System simulations; NREL Sienna
   - name: STEPS
     category: phasor
     labels: ["c", "python"]
@@ -217,24 +229,6 @@ projects:
     docs_url: https://github.com/changgang/steps/wiki/
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
-  - name: GenSAS
-    category: phasor
-    labels: ["cpp"]
-    github_id: ANL-CEEESA/gensas
-    # pypi_id:
-    # conda_id:
-    # docs_url:
-    license: BSD-3
-    description: A C++ based generalized simulation tool based on semi-analytical solutions
-  - name: PowerSAS.m
-    category: phasor
-    labels: ["octave"]
-    github_id: ANL-CEEESA/powersas.m
-    # pypi_id:
-    # conda_id:
-    docs_url: https://powersasm.readthedocs.io/en/latest/index.html
-    license: BSD-3
-    description: Power grid analysis framework based on semi-analytical solutions
   - name: PSAT
     category: phasor
     labels: ["octave"]
@@ -244,7 +238,7 @@ projects:
     homepage: http://faraday1.ucd.ie/psat.html
     docs_url: https://www.amazon.com/dp/B08P3QTQDV?ref_=pe_3052080_397514860
     license: GPL
-    description: Power System Analysis Toolbox by Federico Milano
+    description: Unofficial repository of PSAT by Prof. Federico Milano
   - name: PST
     category: phasor
     labels: ["octave"]
@@ -254,7 +248,16 @@ projects:
     homepage: https://sites.ecse.rpi.edu/~chowj/
     docs_url: https://github.com/cuihantao/pst/blob/master/PSTv3/PSTMan.pdf
     license: MIT
-    description: Power System Toolbox from Dr. Joe H. Chow
+    description: Unofficial repository of PST by Prof. Joe Chow
+# --- Phasor: others ---
+  - name: Dynaωo
+    category: phasor
+    labels: ["gha", "modelica"]
+    github_id: dynawo/dynawo
+    homepage: http://dynawo.org
+    docs_url: https://dynawo.github.io/docs/
+    license: MPL-2.0
+    description: C++/Modelica simulation tools for power systems
 
 # --- Steady State ---
   - name: ASSET
