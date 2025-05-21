@@ -101,13 +101,13 @@ labels:
     description: "Developed mainly at national lab"
   - label: "university"
     image: "https://github.com/ps-wiki/best-of-ps/blob/develop/config/icons/university.ico"
-    description: "Developed mainly at universitie"
+    description: "Developed mainly at university"
 
 projects:
 # --- EMT ---
   - name: ParaEMT
     category: emt
-    labels: ["python"]
+    labels: ["python", "lab"]
     github_id: NREL/ParaEMT_public
     # pypi_id:
     # conda_id:
@@ -117,7 +117,7 @@ projects:
     description: Parallel EMT simulation
   - name: DPsim
     category: emt
-    labels: ["gha", "pypi", "jupyter", "python", "c"]
+    labels: ["gha", "pypi", "jupyter", "python", "c", "university"]
     github_id: sogno-platform/dpsim
     pypi_id: dpsim
     homepage: https://dpsim.fein-aachen.org/
@@ -129,7 +129,7 @@ projects:
 # --- Phasor: EPRI series ---
   - name: OpenDSS
     category: steady-state
-    labels: ["python", "julia", "c", "octave"]
+    labels: ["python", "julia", "c", "octave", "non-profit"]
     # github_id:
     # pypi_id:
     # conda_id:
@@ -139,7 +139,7 @@ projects:
     description: Distribution system simulator
   - name: OpenDER
     category: phasor
-    labels: ["pypi", "jupyter", "python"]
+    labels: ["pypi", "jupyter", "python", "c", "non-profit"]
     github_id: epri-dev/OpenDER
     pypi_id: opender
     # conda_id:
@@ -149,7 +149,7 @@ projects:
 # --- Phasor: National Lab series ---
   - name: GridPACK
     category: phasor
-    labels: ["c", "python"]
+    labels: ["c", "python", "lab"]
     github_id: GridOPTICS/GridPACK
     # pypi_id:
     # conda_id:
@@ -159,7 +159,7 @@ projects:
     description: High-Performance Electric Grid Simulation
   - name: GridLAB-D
     category: phasor
-    labels: ["c", "gha"]
+    labels: ["c", "gha", "lab"]
     github_id: gridlab-d/gridlab-d
     # pypi_id:
     # conda_id:
@@ -169,7 +169,7 @@ projects:
     description: Distribution power system simulator
   - name: PowerSimulationsDynamics.jl
     category: phasor
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "nrel"]
     github_id: NREL-Sienna/PowerSimulationsDynamics.jl
     # pypi_id:
     # conda_id:
