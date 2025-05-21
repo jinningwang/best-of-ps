@@ -249,6 +249,16 @@ projects:
     docs_url: https://github.com/cuihantao/pst/blob/master/PSTv3/PSTMan.pdf
     license: MIT
     description: Unofficial repository of PST by Prof. Joe Chow
+  - name: matmtdc
+    category: phasor
+    labels: ["octave"]
+    github_id: HuaizhiWang/matmtdc
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: undefined
+    description: Dynamic analysis of AC/DC hybrid power systems
 # --- Phasor: others ---
   - name: Dynaωo
     category: phasor
