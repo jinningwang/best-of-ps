@@ -617,6 +617,16 @@ projects:
     docs_url: https://gurobi-optimods.readthedocs.io/en/stable/
     license: Apache-2.0
     description: Implemented optimization use cases using Gurobi
+  - name: PowerFlowAnalyzer
+    category: steady-state
+    labels: ["octave", "java"]
+    github_id: power-flow-analyzer/PowerFlowAnalyzer
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    docs_url: https://power-flow-analyzer.github.io/
+    license: Apache-2.0
+    description: Toolbox for power system analysis
 
 # --- SS: planning ---
   - name: ReEDS-2.0
