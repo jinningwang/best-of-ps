@@ -280,7 +280,7 @@ projects:
     description: Dynamic analysis of AC/DC hybrid power systems
   - name: Dynaωo
     category: phasor
-    labels: ["gha", "modelica", "university"]
+    labels: ["gha", "modelica", "forprofit"]
     github_id: dynawo/dynawo
     homepage: http://dynawo.org
     docs_url: https://dynawo.github.io/docs/
@@ -512,7 +512,7 @@ projects:
 
   - name: LightSim2Grid
     category: steady-state
-    labels: ["gha", "pypi", "python"]
+    labels: ["gha", "pypi", "python", "forprofit"]
     github_id: BDonnot/lightsim2grid
     pypi_id: LightSim2Grid
     # conda_id:
@@ -543,25 +543,7 @@ projects:
     docs_url: https://matpower.org/doc/
     license: BSD-3
     description: Steady state power flow simulation
-  - name: matpower-pip
-    category: steady-state
-    labels: ["gha", "pypi", "python"]
-    github_id: yasirroni/matpower-pip
-    pypi_id: matpower
-    # conda_id:
-    homepage: https://matpower.org/
-    docs_url: https://matpower.org/doc/
-    license: MIT
-    description: Easy Python Access to MATPOWER
-  - name: mypower
-    category: steady-state
-    labels: ["python"]
-    github_id: yasirroni/mypower
-    # pypi_id:
-    # conda_id:
-    # homepage:
-    license: MIT
-    description: Supplementary function of MATPOWER in Python
+
   - name: pandapower
     category: steady-state
     labels: ["gha", "pypi", "conda", "jupyter", "python"]
@@ -703,6 +685,25 @@ projects:
     description: A grid-aware co-simulation platform for the design and optimization of EV Charging Infrastructure
 
 # --- Interface ---
+  - name: matpower-pip
+    category: intf
+    labels: ["gha", "pypi", "python"]
+    github_id: yasirroni/matpower-pip
+    pypi_id: matpower
+    # conda_id:
+    homepage: https://matpower.org/
+    docs_url: https://matpower.org/doc/
+    license: MIT
+    description: Easy Python Access to MATPOWER
+  - name: mypower
+    category: steady-state
+    labels: ["python", "intf"]
+    github_id: yasirroni/mypower
+    # pypi_id:
+    # conda_id:
+    # homepage:
+    license: MIT
+    description: Supplementary function of MATPOWER in Python
   - name: matpowercaseframes
     category: intf
     labels: ["gha", "python", "pypi", "jupyter"]
