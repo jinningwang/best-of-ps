@@ -1,7 +1,7 @@
 @misc{wang_popular_2022,
 	title = {Popular Open Source Libraries for Power System Analysis},
 	rights = {Creative Commons Attribution Share Alike 4.0 International},
-	url = {https://github.com/jinningwang/best-of-ps},
+	url = {https://github.com/ps-wiki/best-of-ps},
 	doi = {10.5281/ZENODO.14902602},
 	version = {2025.02.27},
 	publisher = {Zenodo},
