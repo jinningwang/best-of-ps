@@ -1,0 +1,29 @@
+{
+    "PowerNetworkMatrices.jl": {
+        "input": {
+            "name": "PowerNetworkMatrices.jl",
+            "category": "steady-state",
+            "labels": [
+                "gha",
+                "julia",
+                "lab"
+            ],
+            "github_id": "NREL-Sienna/PowerNetworkMatrices.jl",
+            "homepage": "https://www.nrel.gov/analysis/sienna.html",
+            "docs_url": "https://nrel-sienna.github.io/PowerNetworkMatrices.jl/stable/",
+            "license": "BSD-3",
+            "description": "Power systems matrices; NREL Sienna"
+        },
+        "ai_suggestion": {
+            "PowerNetworkMatrices.jl": {
+                "conda_id": "conda-forge/PowerNetworkMatrices",
+                "labels": [
+                    "pypi",
+                    "julia",
+                    "lab"
+                ],
+                "reasoning": "Missing Conda package. Available on PyPI. Developed at a laboratory."
+            }
+        }
+    }
+}
