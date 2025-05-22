@@ -196,7 +196,6 @@ projects:
     docs_url: https://powersasm.readthedocs.io/en/latest/index.html
     license: BSD-3
     description: Power grid analysis framework based on semi-analytical solutions
-# --- Phasor: university ---
   - name: LTB ANDES
     category: phasor
     labels: ["gha", "azure", "pypi", "conda", "jupyter", "python", "julia", "university"]
