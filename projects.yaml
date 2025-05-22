@@ -798,20 +798,19 @@ projects:
     license: MIT
     description: Julia interface for ANDES
 
-# --- Interface: EPRI ---
   - name: OpenDER interface
     category: intf
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "nonprofit"]
     github_id: epri-dev/OpenDER_interface
     # pypi_id:
     # conda_id:
     homepage: https://www.epri.com/OpenDER
     license: BSD-3
     description: Interface for OpenDER
-# --- Interface: OpenDSS ---
+
   - name: PyDSS
     category: intf
-    labels: ["gha", "pypi", "python"]
+    labels: ["gha", "pypi", "python", "lab"]
     github_id: NREL/PyDSS
     pypi_id: pydss
     # conda_id:
@@ -819,6 +818,7 @@ projects:
     docs_url: https://nrel.github.io/PyDSS/index.html
     license: BSD-3
     description: A Python wrapper for OpenDSS
+
   - name: AltDSS-Python
     category: intf
     labels: ["gha", "pypi", "python", "jupyter"]
@@ -829,9 +829,10 @@ projects:
     docs_url: https://dss-extensions.org/AltDSS-Python/
     license: BSD-3
     description: Modern Python bindings for an alternative implementation of OpenDSS
+
   - name: OpenDSSDirect.py
     category: intf
-    labels: ["gha", "pypi", "python", "jupyter"]
+    labels: ["gha", "pypi", "python", "jupyter", "volunteer"]
     github_id: dss-extensions/OpenDSSDirect.py
     pypi_id: OpenDSSDirect.py
     # conda_id:
@@ -839,9 +840,10 @@ projects:
     docs_url: https://dss-extensions.org/OpenDSSDirect.py/
     license: MIT
     description: A "direct" library interface to OpenDSS
+
   - name: OpenDSSDirect.jl
     category: intf
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "volunteer"]
     github_id: dss-extensions/OpenDSSDirect.jl
     # pypi_id:
     # conda_id:
