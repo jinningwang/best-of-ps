@@ -928,17 +928,17 @@ projects:
 # --- Optimizer ---
   - name: Clarabel.jl
     category: ops
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "university"]
     github_id: oxfordcontrol/Clarabel.jl
     # pypi_id:
     # conda_id:
     # homepage:
-    docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
+    docs_url: https://clarabel.org
     license: Apache-2.0
     description: Interior-point solver for convex conic optimisation in Julia
   - name: Clarabel.rs
     category: ops
-    labels: ["gha", "pypi", "conda", "python", "rust"]
+    labels: ["gha", "pypi", "conda", "python", "rust", "university"]
     github_id: oxfordcontrol/Clarabel.rs
     pypi_id: clarabel
     conda_id: conda-forge/clarabel
@@ -946,9 +946,10 @@ projects:
     docs_url: https://oxfordcontrol.github.io/ClarabelDocs/stable/
     license: Apache-2.0
     description: Interior-point solver for convex conic optimisation in Rust
+
   - name: CBC
     category: ops
-    labels: ["gha", "conda", "python", "julia", "c"]
+    labels: ["gha", "conda", "python", "julia", "c", "nonprofit"]
     github_id: coin-or/Cbc
     # pypi_id:
     conda_id: conda-forge/coincbc
@@ -956,9 +957,10 @@ projects:
     docs_url: https://coin-or.github.io/Cbc/Doxygen/
     license: EPL-2.0
     description: COIN-OR Branch-and-Cut solver
+
   - name: Clp
     category: ops
-    labels: ["gha", "conda", "python", "julia", "c"]
+    labels: ["gha", "conda", "python", "julia", "c", "nonprofit"]
     github_id: coin-or/Cbc
     # pypi_id:
     conda_id: conda-forge/coin-or-clp
@@ -966,9 +968,10 @@ projects:
     docs_url: https://coin-or.github.io/Clp/
     license: EPL-2.0
     description: COIN-OR Linear Programming Solver
+
   - name: SCS
     category: ops
-    labels: ["gha", "pypi", "conda", "python", "octave", "julia", "r", "c"]
+    labels: ["gha", "pypi", "conda", "python", "octave", "julia", "r", "c", "university"]
     github_id: cvxgrp/scs
     pypi_id: scs
     conda_id: conda-forge/scs
@@ -976,9 +979,10 @@ projects:
     docs_url: https://www.cvxgrp.org/scs/
     license: MIT
     description: Splitting Conic Solver
+
   - name: ECOS
     category: ops
-    labels: ["python", "julia", "c", "octave", "r"]
+    labels: ["python", "julia", "c", "octave", "r", "university"]
     github_id: embotech/ecos
     pypi_id: ecos
     conda_id: conda-forge/ecos
@@ -986,9 +990,10 @@ projects:
     docs_url: https://github.com/embotech/ecos/wiki
     license: GPL-3
     description: Conic solver for second-order cone programming
+
   - name: OSQP
     category: ops
-    labels: ["gha", "pypi", "conda", "python", "c", "julia", "octave", "r"]
+    labels: ["gha", "pypi", "conda", "python", "c", "julia", "octave", "r", "university"]
     github_id: osqp/osqp
     pypi_id: osqp
     conda_id: conda-forge/osqp
@@ -996,9 +1001,10 @@ projects:
     docs_url: https://osqp.org/docs/get_started/
     license: Apache-2
     description: Operator Splitting QP Solver
+
   - name: PIQP
     category: ops
-    labels: ["gha", "pypi", "conda", "python", "c", "octave", "r"]
+    labels: ["gha", "pypi", "conda", "python", "c", "octave", "r", "university"]
     github_id: PREDICT-EPFL/piqp
     pypi_id: piqp
     conda_id: conda-forge/piqp
@@ -1006,9 +1012,10 @@ projects:
     docs_url: https://predict-epfl.github.io/piqp/
     license: BSD-2
     description: Proximal Interior Point Quadratic Programming solver
+
   - name: AMPLPY
     category: ops
-    labels: ["gha", "pypi", "conda", "jupyter", "python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python", "forprofit"]
     github_id: ampl/amplpy
     pypi_id: amplpy
     conda_id: conda-forge/amplpy
@@ -1016,9 +1023,10 @@ projects:
     docs_url: https://amplpy.readthedocs.io/en/latest/
     license: BSD-3
     description: Python API for AMPL
+
   - name: Ipopt
     category: ops
-    labels: ["pypi", "conda", "python"]
+    labels: ["pypi", "conda", "python", "nonprofit"]
     github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: conda-forge/ipopt
@@ -1026,19 +1034,22 @@ projects:
     docs_url: https://coin-or.github.io/Ipopt/
     license: EPL-2.0
     description: COIN-OR Interior Point Optimizer
+
   - name: HiGHS
     github_id: ERGO-Code/HiGHS
-    labels: ["gha", "pypi", "conda", "jupyter", "python", "c"]
+    # TODO, double check if any other programming language is supported
+    labels: ["gha", "pypi", "conda", "jupyter", "python", "c", "julia", "rust", "r", "cpp", "university"]
     category: ops
     pypi_id: highspy
     conda_id: conda-forge/highs
     homepage: https://highs.dev/
     docs_url: https://ergo-code.github.io/HiGHS/
     license: MIT
-    description: Large-scale Sparse Linear Problem Optimizer 
+    description: Large-scale Sparse Linear Problem Optimizer
+
   - name: PySCIPOpt
     category: ops
-    labels: ["gha", "pypi", "conda", "python"]
+    labels: ["gha", "pypi", "conda", "python", "lab"]
     github_id: scipopt/PySCIPOpt
     pypi_id: PySCIPOpt
     conda_id: conda-forge/pyscipopt
@@ -1046,9 +1057,10 @@ projects:
     docs_url: https://scipopt.github.io/PySCIPOpt/docs/html/
     license: MIT
     description: Python interface for SCIP
+
   - name: OptiVerse
     category: ops
-    labels: ["python"]
+    labels: ["python", "volunteer"]
     github_id: feyntech-opt/OptiVerse
     # pypi_id:
     # conda_id:
@@ -1056,9 +1068,10 @@ projects:
     docs_url: https://www.opti-verse.org/handbook/
     license: MIT
     description: A library with innovative optimization solutions
+
   - name: OR-Tools
     category: ops
-    labels: ["gha", "python", "c", "java"]
+    labels: ["gha", "python", "cpp", "java", "forprofit"]
     github_id: google/or-tools
     pypi_id: ortools
     conda_id: conda-forge/ortools-python
@@ -1066,9 +1079,10 @@ projects:
     docs_url: https://developers.google.com/optimization/introduction
     license: Apache-2
     description: Google Optimization Tools
+
   - name: Tulip
     category: ops
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "university"]
     github_id: google/or-tools
     # pypi_id:
     # conda_id:
@@ -1076,9 +1090,10 @@ projects:
     docs_url: https://ds4dm.github.io/Tulip.jl/stable/
     license: MPL-2.0
     description: Interior-point solver in pure Julia
+
   - name: Xopt
     category: ops
-    labels: ["gha", "python", "pypi", "conda"]
+    labels: ["gha", "python", "pypi", "conda", "lab"]
     github_id: google/or-tools
     pypi_id: xopt
     conda_id: conda-forge/xopt
@@ -1086,9 +1101,10 @@ projects:
     docs_url: https://xopt.xopt.org/index.html
     license: MPL-2.0
     description: Flexible high-level optimization in Python
+
   - name: MadNLP
     category: ops
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "university"]
     github_id: MadNLP/MadNLP.jl
     # pypi_id: ipopt
     # conda_id: conda-forge/ipopt
