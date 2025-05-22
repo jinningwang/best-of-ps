@@ -706,7 +706,18 @@ projects:
     # homepage:
     docs_url: https://tesp.readthedocs.io/en/latest/
     license: BSD-3
-    description: Transactive Energy Simulation Platform (TESP) for co-simulation of energy systems using HELICS and tools like GridLAB-D, EnergyPlus, and ns-3.
+    description: Transactive Energy Simulation Platform 
+
+  - name: openTEPES
+    category: steady-state
+    labels: ["python", "jupyter", "gha", "university"]
+    github_id: IIT-EnergySystemModels/openTEPES
+    pypi_id: openTEPES
+    # conda_id:
+    # homepage:
+    docs_url: https://opentepes.readthedocs.io/en/latest/index.html
+    license: AGPL-3
+    description: Open Generation, Storage, and Transmission Operation and Expansion Planning Model
 
 # --- Interface ---
   - name: matpower-pip
