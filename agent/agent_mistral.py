@@ -131,5 +131,10 @@ if __name__ == "__main__":
         with open(filepath, "w") as f:
             f.write(json_response)
         logging.info(f"Saved JSON output to: {filepath}")
+        # Only show the "ai_raw_response" field from the JSON output
+        try:
+            ai_response = json.loads(json_response).get("ai_raw_response", "")
+        except Exception:
+            ai_response = ""
         logging.info(
-            "\n--- JSON Output ---\n%s\n-------------------\n", json_response)
+            "\n--- AI Raw Response ---\n%s\n------------------------\n", ai_response)
