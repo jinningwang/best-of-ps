@@ -689,6 +689,16 @@ projects:
     license: MIT
     description: A grid-aware co-simulation platform for the design and optimization of EV Charging Infrastructure
 
+  - name: DSSData
+    category: steady-state
+    labels: ["gha", "pypi", "python"]
+    github_id: felipemarkson/dssdata
+    pypi_id: dssdata
+    # conda_id:
+    docs_url: https://felipemarkson.github.io/dssdata/
+    license: MIT
+    description: A micro-framework for simulation and data analysis of distribution systems modeled on OpenDSS
+
 # --- Interface ---
   - name: matpower-pip
     category: intf
@@ -894,16 +904,6 @@ projects:
     docs_url: https://py-dss-interface.readthedocs.io/en/latest/
     license: MIT
     description: A package for access to direct dll version of OpenDSS
-
-  - name: DSSData
-    category: intf
-    labels: ["gha", "pypi", "python"]
-    github_id: felipemarkson/dssdata
-    pypi_id: dssdata
-    # conda_id:
-    docs_url: https://felipemarkson.github.io/dssdata/
-    license: MIT
-    description: A micro-framework for simulation and data analysis of distribution systems modeled on OpenDSS
 
   - name: Easy SimAuto
     category: intf
