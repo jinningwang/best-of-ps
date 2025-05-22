@@ -1671,7 +1671,7 @@ projects:
     description: Demand-side grid projects, datasets and queries
   - name: dGen
     category: dataman
-    labels: ["python", "jupyter", "lab"]
+    labels: ["gha", "python", "jupyter", "lab"]
     github_id: NREL/dgen
     # pypi_id:
     # conda_id:
