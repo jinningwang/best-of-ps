@@ -102,6 +102,9 @@ labels:
   - label: "university"
     image: "https://github.com/ps-wiki/best-of-ps/blob/develop/config/icons/university.ico"
     description: "Developed mainly at university"
+  - label: "volunteer"
+    image: "https://github.com/ps-wiki/best-of-ps/blob/develop/config/icons/volunteer.ico"
+    description: "Developed mainly by volunteers"
 
 projects:
 # --- EMT ---
@@ -126,7 +129,6 @@ projects:
     description: Simulation for both EMT and phasor
 
 # --- Phasor ---
-# --- Phasor: EPRI series ---
   - name: OpenDSS
     category: steady-state
     labels: ["python", "julia", "c", "octave", "non-profit"]
@@ -146,7 +148,6 @@ projects:
     homepage: https://www.epri.com/OpenDER
     license: BSD-3
     description: Inverter-based DER simulation
-# --- Phasor: National Lab series ---
   - name: GridPACK
     category: phasor
     labels: ["c", "python", "lab"]
