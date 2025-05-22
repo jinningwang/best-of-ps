@@ -1036,7 +1036,6 @@ projects:
 
   - name: HiGHS
     github_id: ERGO-Code/HiGHS
-    # TODO, double check if any other programming language is supported
     labels: ["gha", "pypi", "conda", "jupyter", "python", "c", "julia", "rust", "r", "cpp", "university"]
     category: ops
     pypi_id: highspy
@@ -1212,6 +1211,7 @@ projects:
     docs_url: https://docs.energydatamodel.org/en/latest/
     license: MIT
     description: Represent energy systems as Python data classes
+
   - name: PowerGenome
     category: data
     labels: ["gha", "pypi", "conda", "python"]
@@ -1222,6 +1222,7 @@ projects:
     docs_url: https://github.com/PowerGenome/PowerGenome/wiki
     license: MIT
     description: Create inputs for power systems models
+
   - name: DeepSolar
     category: data
     labels: ["python", "university"]
@@ -1231,6 +1232,7 @@ projects:
     homepage: https://deepsolar.web.app
     license: MIT
     description: Houseshold-level solar panel identification with deep learning
+
   - name: Australian MV-LV Networks
     category: data
     labels: ["jupyter", "python", "university"]
@@ -1238,6 +1240,7 @@ projects:
     github_id: Team-Nando/MV-LV-Networks
     license: BSD-3
     description: Large-scale three-phase Australian MV distribution networks with pseudo LV networks
+
   - name: Power Grid Lib - Optimal Power Flow
     category: data
     labels: ["nonprofit"]
@@ -1247,6 +1250,7 @@ projects:
     docs_url: https://arxiv.org/abs/1908.02788
     license: CC-BY-4.0
     description: Benchmarks for OPF
+
   - name: Power Grid Lib - Unit Commitment
     category: data
     labels: ["nonprofit"]
@@ -1255,6 +1259,7 @@ projects:
     homepage: https://power-grid-lib.github.io
     license: CC-BY-4.0
     description: Benchmarks for UC
+
   - name: Power Grid Lib - Optimal Power Flow with HVDC Lines
     category: data
     labels: ["nonprofit"]
@@ -1264,6 +1269,7 @@ projects:
     docs_url: https://ieeexplore.ieee.org/document/8636236
     license: CC-BY-4.0
     description: Benchmarks for OPF with HVDC
+
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
     labels: ["university"]
@@ -1271,6 +1277,7 @@ projects:
     github_id: enliten/ENLITEN-Grid-Econ-Data
     license: GPL-3
     description: Economic data on WECC and NPCC
+
   - name: GridStatus
     category: data
     labels: ["gha", "pypi", "python", "forprofit"]
@@ -1281,6 +1288,7 @@ projects:
     docs_url: https://docs.gridstatus.io/en/latest/
     license: BSD-3
     description: Extract data from ISOs and other sources
+
   - name: powerplantmatching
     category: data
     labels: ["gha", "pypi", "conda", "python", "university"]
@@ -1291,6 +1299,7 @@ projects:
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
     description: Tools to combine multiple power plant databases
+
   - name: Atlite
     category: data
     labels: ["gha", "pypi", "conda", "jupyter", "python", "university"]
@@ -1301,6 +1310,7 @@ projects:
     docs_url: https://atlite.readthedocs.io/en/master/?badge=master
     license: BSD-2
     description: Calculating Renewable Power Potentials
+
   - name: OpenDataElia
     category: data
     labels: ["nonprofit"]
@@ -1309,6 +1319,7 @@ projects:
     docs_url: https://help.opendatasoft.com/en/home
     license: CC-BY-4.0
     description: Data by opendatasoft
+
   - name: Data on Energy
     category: data
     labels: ["nonprofit"]
@@ -1316,6 +1327,7 @@ projects:
     github_id: owid/energy-data
     license: CC-BY
     description: Data on energy by Our World in Data
+
   - name: COVID-EMDA
     category: data
     labels: ["python", "university"]
@@ -1323,6 +1335,7 @@ projects:
     github_id: tamu-engineering-research/COVID-EMDA
     license: MIT
     description: Cross-Domain Data Hub with Data in USA
+
   - name: SimBench
     category: data
     labels: ["python", "pypi", "conda", "juptyer", "gha"]
@@ -1333,21 +1346,27 @@ projects:
     description: Benchmark dataset of German LV/MV/HV grids including 15min time series for 1 year
     homepage: https://simbench.de/en/
     docs_url: https://simbench.readthedocs.io/en/stable/?badge=stable
+
   - name: Electrical Signals Databases
     category: data
+    labels: ["forprofit"]
     resource: True
     github_id: rte-france/digital-fault-recording-database
     license: ODbL-1.0
     description: Voltage and current samples from Digital Fault Recorder
+
   - name: A new power system benchmark
     category: data
+    labels: ["lab"]
     resource: True
     github_id: lbl-hub/CSEE-Benchmark
     # homepage:
     # license:
     description: A new type of power system calculation example by the China EPRI
+
   - name: pmuBAGE
     category: data
+    labels: ["university"]
     resource: True
     github_id: NanpengYu/pmuBAGE
     # homepage:
@@ -1357,9 +1376,9 @@ projects:
 # --- LLM ---
   - name: PyPSA MCP
     category: llm
-    labels: ["python"]
+    labels: ["python", "pypi", "volunteer"]
     github_id: cdgaete/pypsa-mcp
-    # pypi_id:
+    pypi_id: pypsamcp
     # conda_id:
     # homepage:
     # docs_url:
@@ -1369,7 +1388,7 @@ projects:
 # --- Machine/Reinforcement Learning ---
   - name: Daline
     github_id: JarvisETHZ/Daline
-    labels: ["octave"]
+    labels: ["octave", "university"]
     category: mrl
     # pypi_id:
     # conda_id:
@@ -1378,9 +1397,10 @@ projects:
     docs_url: https://www.shuo.science/daline
     license: BSD-3
     description: A Data-driven Power Flow Linearization Toolbox
+
   - name: Grid2Op
     github_id: rte-france/Grid2Op
-    labels: ["gha", "pypi", "jupyter", "python"]
+    labels: ["gha", "pypi", "jupyter", "python", "forprofit"]
     category: mrl
     pypi_id: Grid2Op
     # conda_id:
@@ -1389,18 +1409,20 @@ projects:
     docs_url: https://grid2op.readthedocs.io/en/latest/
     license: MPL-2.0
     description: Modeling sequential decision making in power systems
+
   - name: andes_gym
     category: mrl
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "university"]
     github_id: cuihantao/andes_gym
     # pypi_id:
     # conda_id:
     # homepage:
     license: GPL-3
     description: ANDES RL Environment for OpenAI Gym
+
   - name: RLGC
     category: mrl
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "lab"]
     github_id: RLGC-Project/RLGC
     # pypi_id:
     # conda_id:
@@ -1411,7 +1433,7 @@ projects:
 # --- CoSim Environment ---
   - name: OpenModelica
     category: cosime
-    labels: ["modelica"]
+    labels: ["modelica", "python", "university"]
     github_id: OpenModelica/OpenModelica
     # pypi_id:
     # conda_id:
@@ -1420,9 +1442,10 @@ projects:
     docs_url: https://openmodelica.org/useresresources/userdocumentation
     license: https://modelica.org/licenses/ModelicaLicense2/
     description: Modelica-based environment for modeling and simulation
+
   - name: precice
     category: cosime
-    labels: ["gha", "c"]
+    labels: ["gha", "c", "pypi", "conda", "university"]
     github_id: precice/precice
     pypi_id: pyprecice
     conda_id: conda-forge/pyprecice
@@ -1435,7 +1458,7 @@ projects:
 # --- Gas Network ---
   - name: MPNG
     category: gasnet
-    labels: ["octave"]
+    labels: ["octave", "university"]
     github_id: MATPOWER/mpng
     # pypi_id:
     # conda_id:
@@ -1443,9 +1466,10 @@ projects:
     docs_url: https://github.com/MATPOWER/mpng/blob/master/MPNG_User's_Manual/MPNG_Manual_V0.99a.pdf
     license: BSD-3
     description: Simulator for Optimal Power and Natural Gas Flow
+
   - name: pandapipes
     category: gasnet
-    labels: ["gha", "pypi", "jupyter", "python"]
+    labels: ["gha", "pypi", "jupyter", "python", "university"]
     github_id: e2nIEE/pandapipes
     pypi_id: pandapipes
     # conda_id:
@@ -1453,9 +1477,10 @@ projects:
     docs_url: https://jkpandapipes.readthedocs.io/en/latest/
     license: BSD-3
     description: Pipeflow Calculation Tool
+
   - name: GasModels.jl
     category: gasnet
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "lab"]
     github_id: lanl-ansi/GasModels.jl
     # pypi_id:
     # conda_id:
@@ -1467,7 +1492,7 @@ projects:
 # --- Messaging ---
   - name: HELICS
     github_id: GMLC-TDC/HELICS
-    labels: ["gha", "pypi", "conda", "python", "julia", "octave", "java", "c"]
+    labels: ["gha", "pypi", "conda", "python", "julia", "octave", "java", "c", "lab"]
     category: msg
     pypi_id: helics
     conda_id: conda-forge/helics
@@ -1475,9 +1500,10 @@ projects:
     docs_url: https://docs.helics.org/en/latest/
     description: Co-simulation framework
     license: BSD-3
+
   - name: LTB DiME
     category: msg
-    labels: ["c", "python", "octave"]
+    labels: ["c", "python", "octave", "university"]
     github_id: CURENT/dime
     # pypi_id:
     # conda_id:
@@ -1489,7 +1515,7 @@ projects:
 # --- Visualization ---
   - name: PowSyBl Diagram
     category: vis
-    labels: ["gha", "java", "jupyter"]
+    labels: ["gha", "java", "jupyter", "forprofit"]
     github_id: powsybl/powsybl-diagram
     # pypi_id:
     # conda_id:
@@ -1497,9 +1523,10 @@ projects:
     docs_url: https://www.powsybl.org/pages/documentation/developer/api_guide/svg-writing.html
     license: MPL-2.0
     description: single-line substation diagrams and network graph diagrams
+
   - name: LTB AGVis
     category: vis
-    labels: ["pypi", "python"]
+    labels: ["pypi", "python", "university"]
     github_id: CURENT/agvis
     pypi_id: agvis
     # conda_id:
@@ -1507,9 +1534,10 @@ projects:
     docs_url: https://agvis.readthedocs.io/en/latest/
     license: GPL-3.0
     description: Geographical Visualization for Power Grid; CURENT LTB
+
   - name: PowerGraphics.jl
     category: vis
-    labels: ["gha", "julia", "jupyter"]
+    labels: ["gha", "julia", "jupyter", "lab"]
     github_id: NREL-Sienna/powergraphics.jl
     # pypi_id:
     # conda_id:
@@ -1521,7 +1549,7 @@ projects:
 # --- Power Electronics ---
   - name: GSEIM
     category: pe
-    labels: ["gha", "pypi", "python"]
+    labels: ["gha", "pypi", "python", "volunteer"]
     github_id: gseim/gseim
     pypi_id: GSEIM
     # conda_id:
@@ -1534,71 +1562,75 @@ projects:
   - name: PowerCyber Training
     category: book
     resource: True
-    labels: ["jupyter", "gha"]
+    labels: ["jupyter", "gha", "python", "university"]
     github_id: PowerCyberTraining/powercybertraining.github.io
     license: CC BY-NC-ND 4.0
     description: PowerCyber Training modules source.
     homepage: https://powercybertraining.github.io
+
   - name: TextbookSimulations
     category: book
     resource: True
-    labels: ["julia", "jupyter"]
+    labels: ["julia", "jupyter", "university"]
     github_id: Power-Systems-Textbook/TextbookSimulations
     license: CC0-1.0
     description: Examples and problems accompanying Daniel Kirschen's Power Systems Textbook
+
   - name: UTK ECE 522 - Power System Analysis II
     category: book
     resource: True
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "university"]
     github_id: CURENT/ece522
     license: MIT
     description: Hands-on Project for Power System Analysis II (UTK ECE 522)
+
   - name: ELEC0447 Analysis of Electric Power and Energy Systems
     category: book
     resource: True
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "university"]
     github_id: bcornelusse/ELEC0447-analysis-power-systems
     license: BSD-2.0
     description: Master's course of power systems analysis at ULiège.
+
   - name: Tutorial on DER Hosting Capacity Part 0
     category: book
     resource: True
-    labels: ["jupyter", "python"]
+    labels: ["jupyter", "python", "university"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-0-dss_python
     license: BSD-3.0
     description: Using dss_python
   - name: Tutorial on DER Hosting Capacity Part 1
     category: book
     resource: True
-    labels: ["jupyter", "python"]
+    labels: ["jupyter", "python", "university"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedTools_LV
     license: BSD-3.0
     description: Advanced Tools for the Analysis of Three-Phase Unbalanced LV Networks
   - name: Tutorial on DER Hosting Capacity Part 2
     category: book
     resource: True
-    labels: ["jupyter", "python"]
+    labels: ["jupyter", "python", "university"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-2-TimeSeries_LV
     license: BSD-3.0
     description: Time-Series Analysis and PV Hosting Capacity of LV Networks
   - name: Tutorial on DER Hosting Capacity Part 3
     category: book
     resource: True
-    labels: ["jupyter", "python"]
+    labels: ["jupyter", "python", "university"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-3-VoltWatt_LV
     license: BSD-3.0
     description: Volt-Watt Control and PV Hosting Capacity of LV Networks
   - name: Tutorial on DER Hosting Capacity Part 4
     category: book
     resource: True
-    labels: ["jupyter", "python"]
+    labels: ["jupyter", "python", "university"]
     github_id: Team-Nando/Tutorial-DERHostingCapacity-4-MonteCarlo_MV-LV
     license: BSD-3.0
     description: Monte Carlo Assessment of PV Hosting Capacity of an Integrated MV-LV Network
   - name: LTB Usage Examples
     category: book
     resource: True
-    labels: ["jupyter", "python"]
+    labels: ["jupyter", "python", "university"]
     github_id: CURENT/demo
     license: MIT
     description: Ready-to-use LTB usage examples
@@ -1607,9 +1639,9 @@ projects:
 # --- Database Management ---
   - name: dsgrid
     category: dataman
-    labels: ["gha", "python"]
+    labels: ["gha", "python", "pypi", "lab"]
     github_id: dsgrid/dsgrid
-    # pypi_id:
+    pypi_id: dsgrid
     # conda_id:
     # dockerhub_id:
     # homepage:
@@ -1618,7 +1650,7 @@ projects:
     description: Demand-side grid projects, datasets and queries
   - name: dGen
     category: dataman
-    labels: ["python", "jupyter"]
+    labels: ["python", "jupyter", "lab"]
     github_id: NREL/dgen
     # pypi_id:
     # conda_id:
