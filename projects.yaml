@@ -907,7 +907,7 @@ projects:
 
   - name: Easy SimAuto
     category: intf
-    labels: ["pypi", "python"]
+    labels: ["pypi", "python", "university"]
     github_id: mzy2240/ESA
     pypi_id: esa
     # conda_id:
@@ -916,7 +916,7 @@ projects:
     description: Python interface to PowerWorld
   - name: EasySimauto.jl
     category: intf
-    labels: ["julia"]
+    labels: ["julia", "university"]
     github_id: mzy2240/EasySimauto.jl
     # pypi_id:
     # conda_id:
