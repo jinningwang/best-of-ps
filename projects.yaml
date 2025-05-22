@@ -1204,7 +1204,7 @@ projects:
 # --- Data Source ---
   - name: EnergyDataModel
     category: data
-    labels: ["pypi", "python", "jupyter"]
+    labels: ["pypi", "python", "jupyter", "gha", "forprofit"]
     github_id: rebase-energy/EnergyDataModel
     pypi_id: energydatamodel
     # conda_id:
@@ -1224,7 +1224,7 @@ projects:
     description: Create inputs for power systems models
   - name: DeepSolar
     category: data
-    labels: ["python"]
+    labels: ["python", "university"]
     github_id: wangzhecheng/DeepSolar
     # pypi_id:
     # conda_id:
@@ -1233,12 +1233,14 @@ projects:
     description: Houseshold-level solar panel identification with deep learning
   - name: Australian MV-LV Networks
     category: data
+    labels: ["jupyter", "python", "university"]
     resource: True
     github_id: Team-Nando/MV-LV-Networks
     license: BSD-3
     description: Large-scale three-phase Australian MV distribution networks with pseudo LV networks
   - name: Power Grid Lib - Optimal Power Flow
     category: data
+    labels: ["nonprofit"]
     resource: True
     github_id: power-grid-lib/pglib-opf
     homepage: https://power-grid-lib.github.io
@@ -1247,6 +1249,7 @@ projects:
     description: Benchmarks for OPF
   - name: Power Grid Lib - Unit Commitment
     category: data
+    labels: ["nonprofit"]
     resource: True
     github_id: power-grid-lib/pglib-uc
     homepage: https://power-grid-lib.github.io
@@ -1254,6 +1257,7 @@ projects:
     description: Benchmarks for UC
   - name: Power Grid Lib - Optimal Power Flow with HVDC Lines
     category: data
+    labels: ["nonprofit"]
     resource: True
     github_id: power-grid-lib/pglib-opf-hvdc
     homepage: https://power-grid-lib.github.io
@@ -1262,23 +1266,24 @@ projects:
     description: Benchmarks for OPF with HVDC
   - name: WECC-and-NPCC-Electricity-Economic-Data
     category: data
+    labels: ["university"]
     resource: True
     github_id: enliten/ENLITEN-Grid-Econ-Data
     license: GPL-3
     description: Economic data on WECC and NPCC
   - name: GridStatus
     category: data
-    labels: ["gha", "pypi", "python"]
+    labels: ["gha", "pypi", "python", "forprofit"]
     github_id: kmax12/gridstatus
     pypi_id: gridstatus
-    # conda_id:
+    conda_id: services/gridstatus
     homepage: https://www.gridstatus.io
     docs_url: https://docs.gridstatus.io/en/latest/
     license: BSD-3
     description: Extract data from ISOs and other sources
   - name: powerplantmatching
     category: data
-    labels: ["gha", "pypi", "conda", "python"]
+    labels: ["gha", "pypi", "conda", "python", "university"]
     github_id: PyPSA/powerplantmatching
     pypi_id: powerplantmatching
     conda_id: conda-forge/powerplantmatching
@@ -1288,7 +1293,7 @@ projects:
     description: Tools to combine multiple power plant databases
   - name: Atlite
     category: data
-    labels: ["gha", "pypi", "conda", "jupyter", "python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python", "university"]
     github_id: PyPSA/atlite
     pypi_id: atlite
     conda_id: conda-forge/atlite
@@ -1298,6 +1303,7 @@ projects:
     description: Calculating Renewable Power Potentials
   - name: OpenDataElia
     category: data
+    labels: ["nonprofit"]
     resource: True
     homepage: https://opendata.elia.be/pages/home/
     docs_url: https://help.opendatasoft.com/en/home
@@ -1305,22 +1311,24 @@ projects:
     description: Data by opendatasoft
   - name: Data on Energy
     category: data
+    labels: ["nonprofit"]
     resource: True
     github_id: owid/energy-data
     license: CC-BY
     description: Data on energy by Our World in Data
   - name: COVID-EMDA
     category: data
+    labels: ["python", "university"]
     resource: True
     github_id: tamu-engineering-research/COVID-EMDA
     license: MIT
     description: Cross-Domain Data Hub with Data in USA
   - name: SimBench
     category: data
-    labels: ["python", "pypi", "juptyer", "gha"]
+    labels: ["python", "pypi", "conda", "juptyer", "gha"]
     github_id:  e2nIEE/simbench 
     pypi_id: simbench
-    # conda_id:
+    conda_id: conda-forge/simbench
     license: odbl-1.0
     description: Benchmark dataset of German LV/MV/HV grids including 15min time series for 1 year
     homepage: https://simbench.de/en/
