@@ -692,26 +692,28 @@ projects:
 # --- Interface ---
   - name: matpower-pip
     category: intf
-    labels: ["gha", "pypi", "python"]
+    labels: ["gha", "pypi", "python", "university"]
     github_id: yasirroni/matpower-pip
     pypi_id: matpower
     # conda_id:
-    homepage: https://matpower.org/
-    docs_url: https://matpower.org/doc/
+    # homepage:
+    # docs_url:
     license: MIT
     description: Easy Python Access to MATPOWER
+
   - name: mypower
     category: steady-state
-    labels: ["python", "intf"]
+    labels: ["python", "intf", "university"]
     github_id: yasirroni/mypower
     # pypi_id:
     # conda_id:
     # homepage:
     license: MIT
     description: Supplementary function of MATPOWER in Python
+
   - name: matpowercaseframes
     category: intf
-    labels: ["gha", "python", "pypi", "jupyter"]
+    labels: ["gha", "python", "pypi", "jupyter", "university"]
     github_id: UGM-EPSLab/matpowercaseframes
     pypi_id: matpowercaseframes
     # conda_id:
@@ -719,9 +721,10 @@ projects:
     # docs_url:
     license: MIT
     description: Parse MATPOWER case into pandas DataFrame.
+
   - name: CIMTool-Builders-Library
     category: intf
-    labels: ["gha"]
+    labels: ["gha", "nonprofit"]
     github_id: CIMug-org/CIMTool-Builders-Library
     # pypi_id:
     # conda_id:
@@ -729,9 +732,10 @@ projects:
     docs_url: https://cimtool-builders.ucaiug.io/
     license: Apache-2.0
     description: Publically available XSLT builders
+
   - name: CIMTool
     category: intf
-    labels: ["gha", "java"]
+    labels: ["gha", "java", "nonprofit"]
     github_id: CIMug-org/CIMTool
     # pypi_id:
     # conda_id:
@@ -739,9 +743,10 @@ projects:
     docs_url: http://cimtool.ucaiug.io/
     license: LGPL-2.1
     description: CIMug's CIMTool for the CIM.
+
   - name: cimpyorm
     category: intf
-    labels: ["gha", "python", "pypi"]
+    labels: ["gha", "python", "pypi", "university"]
     github_id: RWTH-IAEW/cimpyorm
     pypi_id: cimpyorm
     # conda_id:
@@ -749,9 +754,10 @@ projects:
     # docs_url:
     license: BSD-3.0
     description: Python ORM middleware for IEC CIM and CGMES datasets
+
   - name: CIMpy
     category: intf
-    labels: ["gha", "python"]
+    labels: ["gha", "python", "nonprofit"]
     github_id: sogno-platform/cimpy
     pypi_id: cimpy
     # conda_id:
@@ -759,9 +765,10 @@ projects:
     docs_url: https://sogno.energy/cimpy/
     license: MPL-2.0
     description: CIM files to the XML/RDF format
+
   - name: PSSE RAW
     category: intf
-    labels: ["pypi", "python"]
+    labels: ["pypi", "python", "forprofit"]
     github_id: anderson-optimization/em-psse
     # pypi_id:
     # conda_id:
@@ -769,9 +776,10 @@ projects:
     # docs_url:
     license: MIT
     description: PSSE RAW parser
+
   - name: grg-pssedata
     category: intf
-    labels: ["pypi", "python"]
+    labels: ["pypi", "python", "lab"]
     github_id: lanl-ansi/grg-pssedata
     pypi_id: grg-pssedata
     # conda_id:
@@ -779,15 +787,17 @@ projects:
     docs_url: https://grg-pssedata.readthedocs.io/en/stable/
     license: BSD-3
     description: Python tools for working with PSSE v33 data files
+
   - name: Andes.jl
     category: intf
-    labels: ["julia"]
+    labels: ["julia", "university"]
     github_id: cuihantao/Andes.jl
     # pypi_id:
     # conda_id:
     homepage: https://ltb.curent.org
     license: MIT
     description: Julia interface for ANDES
+
 # --- Interface: EPRI ---
   - name: OpenDER interface
     category: intf
