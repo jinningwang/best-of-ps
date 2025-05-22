@@ -524,7 +524,7 @@ projects:
 
   - name: MOST
     category: steady-state
-    labels: ["gha", "octave"]
+    labels: ["gha", "octave", "university"]
     github_id: MATPOWER/most
     # pypi_id:
     # conda_id:
@@ -534,7 +534,7 @@ projects:
     description: MATPOWER Optimal Scheduling Tool
   - name: MATPOWER
     category: steady-state
-    labels: ["gha", "octave"]
+    labels: ["gha", "octave", "university"]
     github_id: MATPOWER/matpower
     # pypi_id:
     # conda_id:
@@ -546,7 +546,7 @@ projects:
 
   - name: pandapower
     category: steady-state
-    labels: ["gha", "pypi", "conda", "jupyter", "python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python", "university"]
     github_id: e2nIEE/pandapower
     pypi_id: pandapower
     conda_id: conda-forge/pandapower 
@@ -555,9 +555,10 @@ projects:
     docs_url: https://pandapower.readthedocs.io/en/latest/
     license: BSD-3
     description: Convenient Power System Modelling and Analysis
+
   - name: PYPOWER
     category: steady-state
-    labels: ["gha", "pypi", "conda", "python"]
+    labels: ["gha", "pypi", "conda", "python", "nonprofit"]
     github_id: rwl/PYPOWER
     pypi_id: PYPOWER
     conda_id: invenia/pypower
@@ -566,10 +567,10 @@ projects:
     docs_url: http://rwl.github.io/PYPOWER/index.html
     license: BSD
     description: Port of MATPOWER to Python
-# --- SS: others ---
+
   - name: EGRET
     category: steady-state
-    labels: ["gha", "python"]
+    labels: ["gha", "python", "lab"]
     github_id: grid-parity-exchange/Egret
     # pypi_id:
     # conda_id:
@@ -577,9 +578,10 @@ projects:
     # docs_url:
     license: BSD
     description: Tools for Power Systems Optimization Modeling
+
   - name: PowerModels.jl
     category: steady-state
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "lab"]
     github_id: lanl-ansi/PowerModels.jl
     # pypi_id:
     # conda_id:
@@ -587,19 +589,21 @@ projects:
     docs_url: https://lanl-ansi.github.io/PowerModels.jl/stable/
     license: BSD
     description: Power Network Optimization
+
   - name: GridCal
     category: steady-state
-    labels: ["gha", "pypi", "python"]
+    labels: ["gha", "pypi", "python", "volunteer"]
     github_id: SanPen/GridCal
     pypi_id: GridCal
     # conda_id:
-    homepage: https://www.advancedgridinsights.com/gridcal
+    homepage: https://www.eroots.tech/software
     docs_url: https://gridcal.readthedocs.io/en/latest/?badge=latest
     license: LGPL-3
     description: Cross-platform power systems software
+
   - name: GridPath
     category: steady-state
-    labels: ["gha", "python"]
+    labels: ["gha", "python", "forprofit"]
     github_id: blue-marble/gridpath
     pypi_id: GridPath
     # conda_id:
@@ -607,9 +611,10 @@ projects:
     docs_url: https://gridpath.readthedocs.io/en/latest/?badge=latest
     license: Apache-2
     description: Power system planning and operations
+
   - name: ExaGO
     category: steady-state
-    labels: ["gha", "jupyter", "c"]
+    labels: ["gha", "jupyter", "c", "python", "lab"]
     github_id: pnnl/ExaGO
     # pypi_id:
     # conda_id:
@@ -617,9 +622,10 @@ projects:
     docs_url: https://github.com/pnnl/ExaGO/blob/develop/docs/manual/manual.pdf
     license: BSD-3
     description: Large-scale power grid optimization
+
   - name: Gurobi OptiMods
     category: steady-state
-    labels: ["gha", "python"]
+    labels: ["gha", "python", "forprofit"]
     github_id: Gurobi/gurobi-optimods
     pypi_id: gurobi-optimods
     # conda_id:
@@ -627,9 +633,10 @@ projects:
     docs_url: https://gurobi-optimods.readthedocs.io/en/stable/
     license: Apache-2.0
     description: Implemented optimization use cases using Gurobi
+
   - name: PowerFlowAnalyzer
     category: steady-state
-    labels: ["octave", "java"]
+    labels: ["octave", "java", "university"]
     github_id: power-flow-analyzer/PowerFlowAnalyzer
     # pypi_id:
     # conda_id:
@@ -638,10 +645,9 @@ projects:
     license: Apache-2.0
     description: Toolbox for power system analysis
 
-# --- SS: planning ---
   - name: ReEDS-2.0
     category: steady-state
-    labels: ["python"]
+    labels: ["python", "gha", "lab"]
     github_id: NREL/ReEDS-2.0
     # pypi_id:
     # conda_id:
@@ -649,9 +655,10 @@ projects:
     docs_url: https://www.nrel.gov/docs/fy21osti/78195.pdf
     license: GPL-3.0
     description: Capacity planning and dispatch model
+
   - name: GenX
     category: steady-state
-    labels: ["julia"]
+    labels: ["julia", "gha", "university"]
     github_id: GenXProject/GenX
     # pypi_id:
     # conda_id:
@@ -660,10 +667,9 @@ projects:
     license: GPL-2.0
     description: Configurable capacity expansion model
 
-# --- SS: distribution ---
   - name: Power Grid Model
     category: steady-state
-    labels: ["gha", "pypi", "conda", "python", "c"]
+    labels: ["gha", "pypi", "conda", "python", "c", "jupyter", "nonprofit"]
     github_id: PowerGridModel/power-grid-model
     pypi_id: power-grid-model
     conda_id: conda-forge/power-grid-model
@@ -672,10 +678,9 @@ projects:
     license: MPL-2.0
     description: Steady-state distribution power system analysis
 
-# --- SS: DER extension ---
   - name: EV-EcoSim
     category: steady-state
-    labels: ["gha", "python"]
+    labels: ["gha", "python", "university"]
     github_id: ebalogun01/EV-EcoSim/
     # pypi_id:
     # conda_id:
