@@ -1116,7 +1116,7 @@ projects:
 # --- Optimization Language ---
   - name: PyOptInterface
     github_id: metab0t/PyOptInterface
-    labels: ["gha", "pypi", "jupyter", "python"]
+    labels: ["gha", "pypi", "jupyter", "python", "volunteer"]
     category: opl
     pypi_id: pyoptinterface
     # conda_id:
@@ -1124,9 +1124,10 @@ projects:
     docs_url: https://metab0t.github.io/PyOptInterface/
     license: MPL-2.0
     description: Efficient modeling interface for optimization in Python
+
   - name: RSOME
     github_id: XiongPengNUS/rsome
-    labels: ["gha", "pypi", "jupyter", "python"]
+    labels: ["gha", "pypi", "jupyter", "python", "university"]
     category: opl
     pypi_id: rsome
     # conda_id:
@@ -1134,9 +1135,10 @@ projects:
     docs_url: https://xiongpengnus.github.io/rsome/
     license: GPL-3
     description: Robust Stochastic Optimization Made Easy
+
   - name: CVXPY
     github_id: cvxpy/cvxpy
-    labels: ["gha", "pypi", "conda", "python"]
+    labels: ["gha", "pypi", "conda", "python", "university"]
     category: opl
     pypi_id: cvxpy
     conda_id: conda-forge/cvxpy
@@ -1144,9 +1146,10 @@ projects:
     docs_url: http://www.cvxpy.org/
     license: Apache-2
     description: Convex optimization modeling language
+
   - name: KVXOPT
     github_id: sanurielf/kvxopt
-    labels: ["gha", "pypi", "conda", "python"]
+    labels: ["gha", "pypi", "conda", "python", "volunteer"]
     category: opl
     pypi_id: kvxopt
     conda_id: conda-forge/kvxopt
@@ -1154,9 +1157,10 @@ projects:
     docs_url: https://sanurielf.github.io/kvxopt/userguide/
     license: GPL-3
     description: CVXOPT with more wrappers suite-sparse.
+
   - name: CVXOPT
     github_id: cvxopt/cvxopt
-    labels: ["gha", "pypi", "conda", "python", "octave", "julia"]
+    labels: ["gha", "pypi", "conda", "python", "octave", "julia", "university"]
     category: opl
     pypi_id: cvxopt
     conda_id: conda-forge/cvxopt
@@ -1164,9 +1168,10 @@ projects:
     docs_url: http://cvxopt.org/userguide/
     license: GPL-3
     description: Python Software for Convex Optimization
+
   - name: Pyomo
     github_id: Pyomo/pyomo
-    labels: ["gha", "pypi", "conda", "jupyter", "python"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python", "lab"]
     category: opl
     pypi_id: Pyomo
     conda_id: conda-forge/pyomo
@@ -1174,8 +1179,9 @@ projects:
     docs_url: https://pyomo.readthedocs.io/en/stable/
     license: BSD-3
     description: Python-based Optimization Modeling Language
+
   - name: JuMP
-    labels: ["gha", "jupyter", "julia"]
+    labels: ["gha", "jupyter", "julia", "nonprofit"]
     category: opl
     github_id: jump-dev/JuMP.jl
     # pypi_id:
@@ -1184,17 +1190,17 @@ projects:
     docs_url: https://jump.dev/JuMP.jl/stable/
     license: MPL-2.0
     description: Julia-based Optimization Modeling Language
+
   - name: ExaModels
-    labels: ["gha", "julia"]
+    labels: ["gha", "julia", "university"]
     category: opl
     github_id: exanauts/ExaModels.jl
     # pypi_id:
     # conda_id:
-    # homepage: https://jump.dev
+    # homepage:
     docs_url: https://exanauts.github.io/ExaModels.jl/stable/
     license: MIT
     description: An algebraic modeling and automatic differentiation tool in Julia Language, specialized for SIMD abstraction of nonlinear programs.
-
 
 # --- Data Source ---
   - name: EnergyDataModel
