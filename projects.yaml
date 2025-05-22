@@ -1333,12 +1333,6 @@ projects:
     description: Benchmark dataset of German LV/MV/HV grids including 15min time series for 1 year
     homepage: https://simbench.de/en/
     docs_url: https://simbench.readthedocs.io/en/stable/?badge=stable
-  - name: PV Rooftop Database
-    category: data
-    resource: True
-    github_id: openEDI/documentation
-    license: CC-BY
-    description: NREL PV Rooftop Database
   - name: Electrical Signals Databases
     category: data
     resource: True
