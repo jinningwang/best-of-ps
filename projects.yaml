@@ -851,9 +851,10 @@ projects:
     docs_url: https://dss-extensions.org/OpenDSSDirect.jl/
     license: MIT
     description: Cross-platform Julia interface to OpenDSS
+
   - name: AltDSS/DSS C-API
     category: intf
-    labels: ["gha"]
+    labels: ["gha", "volunteer"]
     github_id: dss-extensions/dss_capi
     # pypi_id:
     # conda_id:
@@ -861,9 +862,10 @@ projects:
     docs_url: https://dss-extensions.org/dss-extensions/pascal/
     license: BSD-3
     description: a plain C interface to OpenDSS
+
   - name: DSS MATLAB
     category: intf
-    labels: ["gha", "octave"]
+    labels: ["gha", "octave", "volunteer"]
     github_id: dss-extensions/dss_matlab
     # pypi_id:
     # conda_id:
@@ -871,9 +873,10 @@ projects:
     docs_url: https://dss-extensions.org/dss-extensions/pascal/
     license: BSD-3
     description: MATLAB interface to OpenDSS
+
   - name: DSS Sharp
     category: intf
-    labels: ["gha"]
+    labels: ["gha", "volunteer"]
     github_id: dss-extensions/dss_sharp
     # pypi_id:
     # conda_id:
@@ -881,16 +884,17 @@ projects:
     docs_url: https://dss-extensions.org/dss-extensions/pascal/
     license: BSD-3
     description: C#/.NET wrapper library for DSS C-API
+
   - name: py-dss-interface
     category: intf
-    labels: ["gha", "pypi", "python", "jupyter"]
+    labels: ["gha", "pypi", "python", "jupyter", "nonprofit"]
     github_id: PauloRadatz/py_dss_interface
     pypi_id: py-dss-interface
     # conda_id:
     docs_url: https://py-dss-interface.readthedocs.io/en/latest/
     license: MIT
     description: A package for access to direct dll version of OpenDSS
-# --- Interface: PowerWorld ---
+
   - name: DSSData
     category: intf
     labels: ["gha", "pypi", "python"]
@@ -900,6 +904,7 @@ projects:
     docs_url: https://felipemarkson.github.io/dssdata/
     license: MIT
     description: A micro-framework for simulation and data analysis of distribution systems modeled on OpenDSS
+
   - name: Easy SimAuto
     category: intf
     labels: ["pypi", "python"]
