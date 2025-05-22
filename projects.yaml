@@ -84,7 +84,7 @@ labels:
     description: "CI via Azure Pipelines"
 # --- Release Channels ---
   - label: "pypi"
-    image: "https://github.com/ps-wiki/best-of-ps/blob/main/config/icons/pypi.ico"
+    image: "https://github.com/ps-wiki/best-of-ps/blob/main/config/icons/pypi2.ico"
     description: "Available on PyPI"
   - label: "conda"
     image: "https://github.com/ps-wiki/best-of-ps/blob/main/config/icons/anaconda.ico"
@@ -96,13 +96,13 @@ labels:
   - label: "lab"
     image: "https://github.com/ps-wiki/best-of-ps/blob/main/config/icons/lab.ico"
     description: "Developed mainly at a national laboratory"
-  - label: "nonprofit"
+  - label: "non-profit"
     image: "https://github.com/ps-wiki/best-of-ps/blob/main/config/icons/non-profit2.ico"
-    description: "Developed mainly at a nonprofit organization that is neither a university nor a national lab"
+    description: "Developed mainly at a non-profit organization that is neither a university nor a national lab"
   - label: "volunteer"
     image: "https://github.com/ps-wiki/best-of-ps/blob/main/config/icons/volunteer.ico"
     description: "Developed mainly by volunteers"
-  - label: "forprofit"
+  - label: "for-profit"
     image: "https://github.com/ps-wiki/best-of-ps/blob/main/config/icons/for-profit.ico"
     description: "Developed mainly at a for-profit organization"
 
@@ -131,7 +131,7 @@ projects:
 # --- Phasor ---
   - name: OpenDSS
     category: steady-state
-    labels: ["python", "julia", "c", "octave", "nonprofit"]
+    labels: ["python", "julia", "c", "octave", "non-profit"]
     # github_id:
     # pypi_id:
     # conda_id:
@@ -141,7 +141,7 @@ projects:
     description: Distribution system simulator
   - name: OpenDER
     category: phasor
-    labels: ["pypi", "jupyter", "python", "c", "nonprofit"]
+    labels: ["pypi", "jupyter", "python", "c", "non-profit"]
     github_id: epri-dev/OpenDER
     pypi_id: opender
     # conda_id:
@@ -219,7 +219,7 @@ projects:
     description: A Power System Library written in the Modelica
   - name: PowerSystems
     category: phasor
-    labels: ["modelica", "nonprofit"]
+    labels: ["modelica", "non-profit"]
     github_id: modelica-3rdparty/PowerSystems
     # pypi_id:
     # conda_id:
@@ -279,7 +279,7 @@ projects:
     description: Dynamic analysis of AC/DC hybrid power systems
   - name: Dynaωo
     category: phasor
-    labels: ["gha", "modelica", "forprofit"]
+    labels: ["gha", "modelica", "for-profit"]
     github_id: dynawo/dynawo
     homepage: http://dynawo.org
     docs_url: https://dynawo.github.io/docs/
@@ -377,7 +377,7 @@ projects:
 
   - name: PowSyBl Core
     category: steady-state
-    labels: ["gha", "java", "nonprofit"]
+    labels: ["gha", "java", "non-profit"]
     github_id: powsybl/powsybl-core
     # pypi_id:
     # conda_id:
@@ -387,7 +387,7 @@ projects:
     description: Framework to build power system software
   - name: PyPowSyBl
     category: steady-state
-    labels: ["gha", "pypi", "python", "java", "jupyter", "nonprofit"]
+    labels: ["gha", "pypi", "python", "java", "jupyter", "non-profit"]
     github_id: powsybl/pypowsybl
     pypi_id: pypowsybl
     # conda_id:
@@ -397,7 +397,7 @@ projects:
     description: A PowSyBl and Python integration
   - name: Open RAO
     category: steady-state
-    labels: ["gha", "java", "nonprofit"]
+    labels: ["gha", "java", "non-profit"]
     github_id: powsybl/powsybl-open-rao
     # pypi_id:
     # conda_id:
@@ -511,7 +511,7 @@ projects:
 
   - name: LightSim2Grid
     category: steady-state
-    labels: ["gha", "pypi", "python", "forprofit"]
+    labels: ["gha", "pypi", "python", "for-profit"]
     github_id: BDonnot/lightsim2grid
     pypi_id: LightSim2Grid
     # conda_id:
@@ -557,7 +557,7 @@ projects:
 
   - name: PYPOWER
     category: steady-state
-    labels: ["gha", "pypi", "conda", "python", "nonprofit"]
+    labels: ["gha", "pypi", "conda", "python", "non-profit"]
     github_id: rwl/PYPOWER
     pypi_id: PYPOWER
     conda_id: invenia/pypower
@@ -602,7 +602,7 @@ projects:
 
   - name: GridPath
     category: steady-state
-    labels: ["gha", "python", "forprofit"]
+    labels: ["gha", "python", "for-profit"]
     github_id: blue-marble/gridpath
     pypi_id: GridPath
     # conda_id:
@@ -624,7 +624,7 @@ projects:
 
   - name: Gurobi OptiMods
     category: steady-state
-    labels: ["gha", "python", "forprofit"]
+    labels: ["gha", "python", "for-profit"]
     github_id: Gurobi/gurobi-optimods
     pypi_id: gurobi-optimods
     # conda_id:
@@ -668,7 +668,7 @@ projects:
 
   - name: Power Grid Model
     category: steady-state
-    labels: ["gha", "pypi", "conda", "python", "c", "jupyter", "nonprofit"]
+    labels: ["gha", "pypi", "conda", "python", "c", "jupyter", "non-profit"]
     github_id: PowerGridModel/power-grid-model
     pypi_id: power-grid-model
     conda_id: conda-forge/power-grid-model
@@ -754,7 +754,7 @@ projects:
 
   - name: CIMTool-Builders-Library
     category: intf
-    labels: ["gha", "nonprofit"]
+    labels: ["gha", "non-profit"]
     github_id: CIMug-org/CIMTool-Builders-Library
     # pypi_id:
     # conda_id:
@@ -765,7 +765,7 @@ projects:
 
   - name: CIMTool
     category: intf
-    labels: ["gha", "java", "nonprofit"]
+    labels: ["gha", "java", "non-profit"]
     github_id: CIMug-org/CIMTool
     # pypi_id:
     # conda_id:
@@ -787,7 +787,7 @@ projects:
 
   - name: CIMpy
     category: intf
-    labels: ["gha", "python", "nonprofit"]
+    labels: ["gha", "python", "non-profit"]
     github_id: sogno-platform/cimpy
     pypi_id: cimpy
     # conda_id:
@@ -798,7 +798,7 @@ projects:
 
   - name: PSSE RAW
     category: intf
-    labels: ["pypi", "python", "forprofit"]
+    labels: ["pypi", "python", "for-profit"]
     github_id: anderson-optimization/em-psse
     # pypi_id:
     # conda_id:
@@ -830,7 +830,7 @@ projects:
 
   - name: OpenDER interface
     category: intf
-    labels: ["python", "jupyter", "nonprofit"]
+    labels: ["python", "jupyter", "non-profit"]
     github_id: epri-dev/OpenDER_interface
     # pypi_id:
     # conda_id:
@@ -917,7 +917,7 @@ projects:
 
   - name: py-dss-interface
     category: intf
-    labels: ["gha", "pypi", "python", "jupyter", "nonprofit"]
+    labels: ["gha", "pypi", "python", "jupyter", "non-profit"]
     github_id: PauloRadatz/py_dss_interface
     pypi_id: py-dss-interface
     # conda_id:
@@ -969,7 +969,7 @@ projects:
 
   - name: CBC
     category: ops
-    labels: ["gha", "conda", "python", "julia", "c", "nonprofit"]
+    labels: ["gha", "conda", "python", "julia", "c", "non-profit"]
     github_id: coin-or/Cbc
     # pypi_id:
     conda_id: conda-forge/coincbc
@@ -980,7 +980,7 @@ projects:
 
   - name: Clp
     category: ops
-    labels: ["gha", "conda", "python", "julia", "c", "nonprofit"]
+    labels: ["gha", "conda", "python", "julia", "c", "non-profit"]
     github_id: coin-or/Cbc
     # pypi_id:
     conda_id: conda-forge/coin-or-clp
@@ -1035,7 +1035,7 @@ projects:
 
   - name: AMPLPY
     category: ops
-    labels: ["gha", "pypi", "conda", "jupyter", "python", "forprofit"]
+    labels: ["gha", "pypi", "conda", "jupyter", "python", "for-profit"]
     github_id: ampl/amplpy
     pypi_id: amplpy
     conda_id: conda-forge/amplpy
@@ -1046,7 +1046,7 @@ projects:
 
   - name: Ipopt
     category: ops
-    labels: ["pypi", "conda", "python", "nonprofit"]
+    labels: ["pypi", "conda", "python", "non-profit"]
     github_id: coin-or/Ipopt
     pypi_id: ipopt
     conda_id: conda-forge/ipopt
@@ -1090,7 +1090,7 @@ projects:
 
   - name: OR-Tools
     category: ops
-    labels: ["gha", "python", "cpp", "java", "forprofit"]
+    labels: ["gha", "python", "cpp", "java", "for-profit"]
     github_id: google/or-tools
     pypi_id: ortools
     conda_id: conda-forge/ortools-python
@@ -1200,7 +1200,7 @@ projects:
     description: Python-based Optimization Modeling Language
 
   - name: JuMP
-    labels: ["gha", "jupyter", "julia", "nonprofit"]
+    labels: ["gha", "jupyter", "julia", "non-profit"]
     category: opl
     github_id: jump-dev/JuMP.jl
     # pypi_id:
@@ -1224,7 +1224,7 @@ projects:
 # --- Data Source ---
   - name: EnergyDataModel
     category: data
-    labels: ["pypi", "python", "jupyter", "gha", "forprofit"]
+    labels: ["pypi", "python", "jupyter", "gha", "for-profit"]
     github_id: rebase-energy/EnergyDataModel
     pypi_id: energydatamodel
     # conda_id:
@@ -1264,7 +1264,7 @@ projects:
 
   - name: Power Grid Lib - Optimal Power Flow
     category: data
-    labels: ["nonprofit"]
+    labels: ["non-profit"]
     resource: True
     github_id: power-grid-lib/pglib-opf
     homepage: https://power-grid-lib.github.io
@@ -1274,7 +1274,7 @@ projects:
 
   - name: Power Grid Lib - Unit Commitment
     category: data
-    labels: ["nonprofit"]
+    labels: ["non-profit"]
     resource: True
     github_id: power-grid-lib/pglib-uc
     homepage: https://power-grid-lib.github.io
@@ -1283,7 +1283,7 @@ projects:
 
   - name: Power Grid Lib - Optimal Power Flow with HVDC Lines
     category: data
-    labels: ["nonprofit"]
+    labels: ["non-profit"]
     resource: True
     github_id: power-grid-lib/pglib-opf-hvdc
     homepage: https://power-grid-lib.github.io
@@ -1301,7 +1301,7 @@ projects:
 
   - name: GridStatus
     category: data
-    labels: ["gha", "pypi", "python", "forprofit"]
+    labels: ["gha", "pypi", "python", "for-profit"]
     github_id: kmax12/gridstatus
     pypi_id: gridstatus
     conda_id: services/gridstatus
@@ -1334,7 +1334,7 @@ projects:
 
   - name: OpenDataElia
     category: data
-    labels: ["nonprofit"]
+    labels: ["non-profit"]
     resource: True
     homepage: https://opendata.elia.be/pages/home/
     docs_url: https://help.opendatasoft.com/en/home
@@ -1343,7 +1343,7 @@ projects:
 
   - name: Data on Energy
     category: data
-    labels: ["nonprofit"]
+    labels: ["non-profit"]
     resource: True
     github_id: owid/energy-data
     license: CC-BY
@@ -1370,7 +1370,7 @@ projects:
 
   - name: Electrical Signals Databases
     category: data
-    labels: ["forprofit"]
+    labels: ["for-profit"]
     resource: True
     github_id: rte-france/digital-fault-recording-database
     license: ODbL-1.0
@@ -1421,7 +1421,7 @@ projects:
 
   - name: Grid2Op
     github_id: rte-france/Grid2Op
-    labels: ["gha", "pypi", "jupyter", "python", "forprofit"]
+    labels: ["gha", "pypi", "jupyter", "python", "for-profit"]
     category: mrl
     pypi_id: Grid2Op
     # conda_id:
@@ -1536,7 +1536,7 @@ projects:
 # --- Visualization ---
   - name: PowSyBl Diagram
     category: vis
-    labels: ["gha", "java", "jupyter", "forprofit"]
+    labels: ["gha", "java", "jupyter", "for-profit"]
     github_id: powsybl/powsybl-diagram
     # pypi_id:
     # conda_id:
