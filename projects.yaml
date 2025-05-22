@@ -40,7 +40,7 @@ categories:
   - category: "book"
     title: "Textbook"
   - category: "llm"
-    title: "large Language Model"
+    title: "Large Language Model"
 
 labels:
 # --- Language ---
