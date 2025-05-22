@@ -94,7 +94,7 @@ labels:
     image: "https://github.com/ps-wiki/best-of-ps/blob/develop/config/icons/for-profit.ico"
     description: "Developed mainly at for-profit organization"
   - label: "nonprofit"
-    image: "https://github.com/ps-wiki/best-of-ps/blob/develop/config/icons/non-profit.ico"
+    image: "https://github.com/ps-wiki/best-of-ps/blob/develop/config/icons/non-profit2.ico"
     description: "Developed mainly at non-profit organization"
   - label: "lab"
     image: "https://github.com/ps-wiki/best-of-ps/blob/develop/config/icons/lab.ico"
