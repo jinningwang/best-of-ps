@@ -976,6 +976,16 @@ projects:
     license: Apache-2.0
     description: Julia interface for EasySimAuto and PowerWorld
 
+  - name: mhi-pscad
+    category: intf
+    labels: ["pypi", "python", "for-profit"]
+    # github_id:
+    pypi_id: mhi-pscad
+    # conda_id:
+    docs_url: https://www.pscad.com/webhelp-v501-al/index.html
+    license: BSD-3
+    description: Python interface to PowerWorld
+
 # --- Optimizer ---
   - name: Clarabel.jl
     category: ops
