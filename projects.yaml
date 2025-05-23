@@ -118,6 +118,7 @@ projects:
     # docs_url:
     license: BSD-3
     description: Parallel EMT simulation
+
   - name: DPsim
     category: emt
     labels: ["gha", "pypi", "jupyter", "python", "c", "university"]
@@ -139,6 +140,7 @@ projects:
     docs_url: https://opendss.epri.com/opendss_documentation.html
     license: BSD
     description: Distribution system simulator
+
   - name: OpenDER
     category: phasor
     labels: ["pypi", "jupyter", "python", "c", "non-profit"]
@@ -148,6 +150,7 @@ projects:
     homepage: https://www.epri.com/OpenDER
     license: BSD-3
     description: Inverter-based DER simulation
+
   - name: GridPACK
     category: phasor
     labels: ["c", "python", "lab"]
@@ -158,6 +161,7 @@ projects:
     docs_url: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/user_manual/GridPACK.pdf
     license: https://github.com/GridOPTICS/GridPACK/blob/develop/docs/markdown/LICENSE.md
     description: High-Performance Electric Grid Simulation
+
   - name: GridLAB-D
     category: phasor
     labels: ["c", "gha", "lab"]
@@ -168,6 +172,7 @@ projects:
     docs_url: https://gridlab-d.shoutwiki.com/wiki/Source_documentation
     license: https://github.com/gridlab-d/gridlab-d/blob/master/LICENSE
     description: Distribution power system simulator
+
   - name: PowerSimulationsDynamics.jl
     category: phasor
     labels: ["gha", "julia", "nrel", "lab"]
@@ -178,6 +183,7 @@ projects:
     docs_url: https://nrel-sienna.github.io/PowerSimulationsDynamics.jl/stable
     license: BSD-3
     description: Dynamic Power System simulations; NREL Sienna
+
   - name: GenSAS
     category: phasor
     labels: ["cpp", "gha", "lab"]
@@ -196,6 +202,7 @@ projects:
     docs_url: https://powersasm.readthedocs.io/en/latest/index.html
     license: BSD-3
     description: Power grid analysis framework based on semi-analytical solutions
+
   - name: LTB ANDES
     category: phasor
     labels: ["gha", "azure", "pypi", "conda", "jupyter", "python", "julia", "university"]
@@ -207,6 +214,7 @@ projects:
     docs_url: https://docs.andes.app/en/latest/
     license: GPL-3
     description: Transient Stability Simulator; CURENT LTB
+
   - name: OpenIPSL
     category: phasor
     labels: ["gha", "modelica", "university"]
@@ -217,6 +225,7 @@ projects:
     docs_url: https://doc.openipsl.org
     license: BSD-3
     description: A Power System Library written in the Modelica
+
   - name: PowerSystems
     category: phasor
     labels: ["modelica", "non-profit"]
@@ -227,6 +236,7 @@ projects:
     docs_url: https://build.openmodelica.org/Documentation/PowerSystems.html
     license: https://modelica.org/licenses/ModelicaLicense2/
     description: Modelica 3rd party library for electrical power systems
+
   - name: OpenHybridSim
     category: phasor
     labels: ["java", "university"]
@@ -237,6 +247,7 @@ projects:
     # docs_url:
     license: BSD-3
     description: EMT-TS hybrid simulation
+
   - name: STEPS
     category: phasor
     labels: ["c", "python", "university"]
@@ -247,6 +258,7 @@ projects:
     docs_url: https://github.com/changgang/steps/wiki/
     license: MIT
     description: Balanced large-scale AC-DC hybrid power system analysis
+
   - name: PSAT
     category: phasor
     labels: ["octave", "university"]
@@ -257,6 +269,7 @@ projects:
     docs_url: https://www.amazon.com/dp/B08P3QTQDV?ref_=pe_3052080_397514860
     license: GPL
     description: Unofficial repository of PSAT by Prof. Federico Milano
+
   - name: PST
     category: phasor
     labels: ["octave", "university"]
@@ -267,6 +280,7 @@ projects:
     docs_url: https://github.com/cuihantao/pst/blob/master/PSTv3/PSTMan.pdf
     license: MIT
     description: Unofficial repository of PST by Prof. Joe Chow
+
   - name: matmtdc
     category: phasor
     labels: ["octave", "university"]
@@ -277,6 +291,7 @@ projects:
     # docs_url:
     license: undefined
     description: Dynamic analysis of AC/DC hybrid power systems
+
   - name: Dynaωo
     category: phasor
     labels: ["gha", "modelica", "for-profit"]
@@ -298,6 +313,7 @@ projects:
     # docs_url:
     license: BSD-3
     description: Assess and analyze grid strength
+
   - name: UnitCommitment.jl
     category: steady-state
     labels: ["julia", "gha", "lab"]
@@ -309,6 +325,7 @@ projects:
     docs_url: https://anl-ceeesa.github.io/UnitCommitment.jl/
     license: BSD-3
     description: Optimization package for the Security-Constrained Unit Commitment Problem
+
   - name: EGRIP.jl
     category: steady-state
     labels: ["julia", "octave", "gha", "lab"]
@@ -320,6 +337,7 @@ projects:
     docs_url: https://anl-ceeesa.github.io/EGRIP.jl/stable/
     license: BSD 3
     description: Julia/MATALB package for power system restoration planning and verification
+
   - name: REopt
     category: steady-state
     labels: ["gha", "python", "julia", "lab"]
@@ -331,6 +349,7 @@ projects:
     docs_url: https://github.com/NREL/REopt_API/wiki
     license: BSD-3
     description: Renewable Energy Integration & Optimization
+
   - name: DOPER
     category: steady-state
     labels: ["gha", "python", "jupyter", "lab"]
@@ -395,6 +414,7 @@ projects:
     docs_url: https://pypowsybl.readthedocs.io/en/latest/
     license: MPL-2.0
     description: A PowSyBl and Python integration
+
   - name: Open RAO
     category: steady-state
     labels: ["gha", "java", "non-profit"]
@@ -762,7 +782,6 @@ projects:
     docs_url: https://cimtool-builders.ucaiug.io/
     license: Apache-2.0
     description: Publically available XSLT builders
-
   - name: CIMTool
     category: intf
     labels: ["gha", "java", "non-profit"]
