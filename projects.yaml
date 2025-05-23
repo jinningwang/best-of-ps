@@ -301,6 +301,18 @@ projects:
     license: MPL-2.0
     description: C++/Modelica simulation tools for power systems
 
+  - name: Xyce
+    category: phasor
+    labels: ["pypi", "conda", "jupyter", "python", "lab"]
+    github_id: Xyce/Xyce
+    pypi_id: xyce
+    conda_id: vlsida-eda/xyce
+    # dockerhub_id:
+    homepage: https://xyce.sandia.gov/
+    docs_url: https://xyce.sandia.gov/documentation-tutorials/
+    license: GPL-3
+    description: The Xyce™ Parallel Electronic Simulator
+
 # --- Steady State ---
   - name: ASSET
     category: steady-state
