@@ -982,9 +982,10 @@ projects:
     # github_id:
     pypi_id: mhi-pscad
     # conda_id:
+    homepage: https://www.pscad.com/
     docs_url: https://www.pscad.com/webhelp-v501-al/index.html
     license: BSD-3
-    description: Python interface to PowerWorld
+    description: PSCAD Automation library
 
 # --- Optimizer ---
   - name: Clarabel.jl
