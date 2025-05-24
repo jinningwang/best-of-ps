@@ -1690,7 +1690,7 @@ projects:
     github_id: Team-Nando/Tutorial-DERHostingCapacity-4-MonteCarlo_MV-LV
     license: BSD-3.0
     description: Monte Carlo Assessment of PV Hosting Capacity of an Integrated MV-LV Network
-  - name: LTB Usage Examples
+  - name: LTB Demo
     category: book
     resource: True
     labels: ["jupyter", "python", "university"]
