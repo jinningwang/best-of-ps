@@ -175,7 +175,7 @@ projects:
 
   - name: PowerSimulationsDynamics.jl
     category: phasor
-    labels: ["gha", "julia", "nrel", "lab"]
+    labels: ["gha", "julia", "lab"]
     github_id: NREL-Sienna/PowerSimulationsDynamics.jl
     # pypi_id:
     # conda_id:
