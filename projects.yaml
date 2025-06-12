@@ -1698,6 +1698,14 @@ projects:
     license: MIT
     description: Ready-to-use LTB usage examples
     homepage: https://ltb.curent.org
+  - name: COLIB
+    category: book
+    resource: False
+    labels: ["gha", "volunteer"]
+    github_id: CRESYM/colib0.github.io
+    license: CC-BY-4.0
+    description: Collaborative dynamic library
+    homepage: https://colib.net/
 
 # --- Database Management ---
   - name: dsgrid
