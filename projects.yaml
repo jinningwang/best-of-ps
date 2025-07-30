@@ -1470,6 +1470,17 @@ projects:
     license: MIT
     description: Using LLMs in Power-Voltage Curves for Voltage Stability analysis.
 
+  - name: PowerMCP
+    category: llm
+    labels: ["python", "university"]
+    github_id: Power-Agent/PowerMCP
+    # pypi_id:
+    # conda_id:
+    homepage: https://power-agent.github.io
+    # docs_url:
+    license: MIT
+    description: Collection of MCP servers for power system software
+
 # --- Machine/Reinforcement Learning ---
   - name: Daline
     github_id: JarvisETHZ/Daline
