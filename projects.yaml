@@ -1483,7 +1483,7 @@ projects:
 
   - name: PowerFM
     category: llm
-    labels: ["python", "university"]
+    labels: ["university"]
     github_id: Power-Agent/PowerFM
     # pypi_id:
     # conda_id:
