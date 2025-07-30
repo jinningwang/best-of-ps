@@ -989,7 +989,7 @@ projects:
 
   - name: powerfactory-tools
     category: intf
-    labels: ["pypi", "python", "university"]
+    labels: ["pypi", "python", "university", "jupyter", "gha"]
     github_id: ieeh-tu-dresden/powerfactory-tools
     pypi_id: ieeh-powerfactory-tools
     # conda_id:
