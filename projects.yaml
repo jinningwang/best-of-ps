@@ -1459,6 +1459,17 @@ projects:
     license: MIT
     description: PyPSA Energy Modeling for LLMs
 
+  - name: P-V Curve LLM
+    category: llm
+    labels: ["python", "university"]
+    github_id: CURENT/pv-curve-llm
+    # pypi_id:
+    # conda_id:
+    homepage: https://ltb.curent.org/
+    # docs_url:
+    license: MIT
+    description: Using LLMs in Power-Voltage Curves for Voltage Stability analysis.
+
 # --- Machine/Reinforcement Learning ---
   - name: Daline
     github_id: JarvisETHZ/Daline
