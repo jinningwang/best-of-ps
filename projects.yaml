@@ -1492,6 +1492,17 @@ projects:
     license: MIT
     description: Foundation models in the power and energy domain
 
+  - name: PowerWorkflow
+    category: llm
+    labels: ["python", "university"]
+    github_id: Power-Agent/PowerWF
+    # pypi_id:
+    # conda_id:
+    homepage: https://power-agent.github.io
+    # docs_url:
+    license: MIT
+    description: Collection of agentic workflows for power system applications
+
 # --- Machine/Reinforcement Learning ---
   - name: Daline
     github_id: JarvisETHZ/Daline
