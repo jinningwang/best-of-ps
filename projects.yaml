@@ -987,6 +987,17 @@ projects:
     license: BSD-3
     description: PSCAD Automation library
 
+  - name: powerfactory-tools
+    category: intf
+    labels: ["pypi", "python", "university", "jupyter", "gha"]
+    github_id: ieeh-tu-dresden/powerfactory-tools
+    pypi_id: ieeh-powerfactory-tools
+    # conda_id:
+    # homepage:
+    # docs_url:
+    license: BSD-3
+    description: Python toolbox for control of DIgSILENT PowerFactory.
+
 # --- Optimizer ---
   - name: Clarabel.jl
     category: ops
