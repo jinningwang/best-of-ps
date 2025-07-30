@@ -1480,7 +1480,6 @@ projects:
     # docs_url:
     license: MIT
     description: Collection of MCP servers for power system software
-
   - name: PowerFM
     category: llm
     labels: ["university"]
@@ -1491,7 +1490,6 @@ projects:
     # docs_url:
     license: MIT
     description: Foundation models in the power and energy domain
-
   - name: PowerWorkflow
     category: llm
     labels: ["python", "university"]
