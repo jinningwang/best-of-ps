@@ -345,7 +345,7 @@ projects:
     # pypi_id:
     # conda_id:
     # dockerhub_id:
-    homepage: https://www.nrel.gov/reopt/
+    # homepage:
     docs_url: https://anl-ceeesa.github.io/EGRIP.jl/stable/
     license: BSD 3
     description: Julia/MATALB package for power system restoration planning and verification
